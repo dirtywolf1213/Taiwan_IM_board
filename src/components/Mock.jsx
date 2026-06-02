@@ -5,7 +5,6 @@ import { shuffle, fmtTime } from '../lib/util.js'
 
 export default function Mock({ questions, onAnswer, onExit }) {
   const [phase, setPhase] = useState('setup') // setup | exam | result
-  const [count, setCount] = useState(20)
   const [list, setList] = useState([])
   const [answers, setAnswers] = useState({})
   const [i, setI] = useState(0)
@@ -14,8 +13,10 @@ export default function Mock({ questions, onAnswer, onExit }) {
 
   useEffect(() => () => clearInterval(timer.current), [])
 
-  const start = (n) => {
-    const picked = shuffle(questions).slice(0, Math.min(n, questions.length))
+  // 可考的年份(新到舊)
+  const examYears = [...new Set(questions.map((q) => q.year))].sort((a, b) => b - a)
+
+  const begin = (picked) => {
     setList(picked)
     setAnswers({})
     setI(0)
@@ -23,6 +24,12 @@ export default function Mock({ questions, onAnswer, onExit }) {
     setPhase('exam')
     timer.current = setInterval(() => setSec((s) => s + 1), 1000)
   }
+
+  // 隨機抽 n 題
+  const start = (n) => begin(shuffle(questions).slice(0, Math.min(n, questions.length)))
+  // 某一年整份原卷(照題號順序)
+  const startYear = (y) =>
+    begin(questions.filter((q) => q.year === y).sort((a, b) => a.num - b.num))
 
   const submit = () => {
     clearInterval(timer.current)
@@ -56,6 +63,17 @@ export default function Mock({ questions, onAnswer, onExit }) {
             {opts.map((n, idx) => (
               <button key={idx} className="mode-btn" onClick={() => start(n)}>
                 {label(n)}
+              </button>
+            ))}
+          </div>
+
+          <p className="q-stem" style={{ marginTop: 20 }}>
+            依年份考整份(原卷題號順序,共 160 題):
+          </p>
+          <div className="count-picker">
+            {examYears.map((y) => (
+              <button key={y} className="mode-btn" onClick={() => startYear(y)}>
+                {y} 年整份
               </button>
             ))}
           </div>
