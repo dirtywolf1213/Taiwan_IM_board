@@ -1,4 +1,4 @@
-export default function Home({ questions, progress, onStart, onReset }) {
+export default function Home({ questions, progress, onStart, onReset, onOpenDisclaimer }) {
   const total = questions.length
   const results = progress.results
   const answered = Object.keys(results).length
@@ -43,7 +43,14 @@ export default function Home({ questions, progress, onStart, onReset }) {
         <button className="link-btn" onClick={onReset}>清除所有作答紀錄</button>
       )}
 
-      <footer className="foot">進度只存在這台裝置的瀏覽器</footer>
+      <footer className="foot">
+        <p>製作人:dirtywolf1213</p>
+        <p>進度只存在這台裝置的瀏覽器</p>
+        <p className="foot-disc">
+          本服務為非官方、個人非營利學習工具,題目與答案來自醫學會公開資料,著作權歸原權利人所有。
+          <button className="link-inline" onClick={onOpenDisclaimer}>閱讀完整免責聲明</button>
+        </p>
+      </footer>
     </div>
   )
 }

@@ -4,13 +4,31 @@ import { loadProgress, saveProgress } from './lib/storage.js'
 import Home from './components/Home.jsx'
 import Practice from './components/Practice.jsx'
 import Mock from './components/Mock.jsx'
+import Disclaimer from './components/Disclaimer.jsx'
+
+const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
 export default function App() {
   const [view, setView] = useState('home') // home | practice | mock
   const [mode, setMode] = useState('sequential')
   const [progress, setProgress] = useState(loadProgress)
+  // 首次進入需閱讀同意免責聲明
+  const [agreed, setAgreed] = useState(() => {
+    try { return localStorage.getItem(DISCLAIMER_KEY) === '1' } catch { return false }
+  })
+  const [showDisclaimer, setShowDisclaimer] = useState(false)
 
   useEffect(() => saveProgress(progress), [progress])
+
+  const agree = () => {
+    try { localStorage.setItem(DISCLAIMER_KEY, '1') } catch { /* ignore */ }
+    setAgreed(true)
+  }
+
+  // 尚未同意 → 顯示閘門,擋住所有功能
+  if (!agreed) {
+    return <Disclaimer onAgree={agree} />
+  }
 
   const recordAnswer = (id, chosen, correct) => {
     setProgress((p) => ({
@@ -57,6 +75,15 @@ export default function App() {
   }
 
   return (
-    <Home questions={questions} progress={progress} onStart={start} onReset={reset} />
+    <>
+      <Home
+        questions={questions}
+        progress={progress}
+        onStart={start}
+        onReset={reset}
+        onOpenDisclaimer={() => setShowDisclaimer(true)}
+      />
+      {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
+    </>
   )
 }
