@@ -90,9 +90,40 @@
 
 ---
 
+## 開發與執行
+
+```bash
+npm install        # 安裝相依套件
+npm run dev        # 本機開發(http://localhost:5173)
+npm run build      # 打包到 dist/
+npm run preview    # 預覽打包結果
+```
+
+部署到 GitHub Pages 等子路徑時,設定 `BASE_PATH` 環境變數,例如：
+`BASE_PATH=/Taiwan_IM_board/ npm run build`
+
+### 重新產生題庫 JSON
+
+把 PDF 放進 `source-pdfs/` 後執行轉檔工具：
+
+```bash
+python3 tools/parse_pdf.py source-pdfs/考題_114.pdf --year 114 --out src/data/questions.114.json
+```
+
+`src/data/questions.js` 會自動載入 `questions.*.json`,新增年份只要再跑一次轉檔即可。
+
 ## 現況
 
 - [x] 需求與架構規劃
-- [ ] 取得第一份真實題目 + 答案 PDF（Phase 0 素材）
-- [ ] 建立 PDF → JSON 轉檔工具
-- [ ] 建立刷題前端
+- [x] 取得第一份真實 PDF（114 年,160 題,答案內嵌於題目）
+- [x] PDF → JSON 轉檔工具（`tools/parse_pdf.py`）
+- [x] 刷題前端 MVP：順序/隨機練習、錯題複習、模擬考計時計分、PWA 可安裝
+- [ ] 接上 14 題附圖（圖在另一份檔案,待上傳）
+- [ ] 題目科目分類（Cardiology、Nephrology…）
+- [ ] 部署上線取得共用網址
+
+### 待補圖的題目（114 年,共 14 題）
+
+圖在另一份檔案,上傳後將圖片放入 `public/images/`,並在對應題目的 `image` 欄位填入路徑：
+
+> 9, 26, 27, 34, 36, 44, 54, 68, 130, 131, 157, 158, 159, 160

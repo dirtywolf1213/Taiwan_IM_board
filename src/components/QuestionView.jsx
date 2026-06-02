@@ -1,0 +1,67 @@
+import { letter } from '../lib/util.js'
+
+// 顯示一題:題幹、(附圖)、選項。
+// props:
+//   q          題目物件
+//   chosen     已選的選項 index(null 表示未作答)
+//   revealed   是否顯示正解與詳解(練習模式作答後 / 模擬考檢討時)
+//   onChoose   選擇選項的 callback(index)
+//   index/total 進度顯示
+export default function QuestionView({ q, chosen, revealed, onChoose, index, total }) {
+  return (
+    <div className="card">
+      <div className="q-meta">
+        <span>{q.year} 年・第 {q.num} 題</span>
+        <span>{index + 1} / {total}</span>
+      </div>
+
+      <p className="q-stem">{q.question}</p>
+
+      {q.needsImage && (
+        q.image ? (
+          <img className="q-image" src={q.image} alt={`第 ${q.num} 題附圖`} />
+        ) : (
+          <div className="q-image-missing">📷 此題有附圖,圖片尚未匯入(之後補上)</div>
+        )
+      )}
+
+      <ul className="options">
+        {q.options.map((opt, i) => {
+          const isChosen = chosen === i
+          const isAnswer = q.answer === i
+          let cls = 'option'
+          if (revealed) {
+            if (isAnswer) cls += ' correct'
+            else if (isChosen) cls += ' wrong'
+          } else if (isChosen) {
+            cls += ' selected'
+          }
+          return (
+            <li key={i}>
+              <button
+                className={cls}
+                onClick={() => onChoose(i)}
+                disabled={revealed}
+              >
+                <span className="opt-letter">{letter(i)}</span>
+                <span className="opt-text">{opt}</span>
+              </button>
+            </li>
+          )
+        })}
+      </ul>
+
+      {revealed && (
+        <div className="answer-box">
+          正解:<strong>{q.answerLetter}</strong>
+          {chosen != null && (
+            <span className={chosen === q.answer ? 'tag ok' : 'tag ng'}>
+              {chosen === q.answer ? '答對' : '答錯'}
+            </span>
+          )}
+          {q.explanation && <p className="explanation">{q.explanation}</p>}
+        </div>
+      )}
+    </div>
+  )
+}
