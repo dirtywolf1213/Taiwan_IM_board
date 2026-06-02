@@ -1,4 +1,4 @@
-import { SUBJECT_ORDER } from '../lib/util.js'
+import { SUBJECT_ORDER, subjectColor } from '../lib/util.js'
 
 // 依科目選擇練習。顯示各科題數,點選後開始該科練習(跨所有年份)。
 export default function SubjectPicker({ questions, onPick, onExit }) {
@@ -14,12 +14,20 @@ export default function SubjectPicker({ questions, onPick, onExit }) {
         <span />
       </div>
       <div className="subject-grid">
-        {subjects.map((s) => (
-          <button key={s} className="subject-btn" onClick={() => onPick(s)}>
-            <span className="subject-name">{s}</span>
-            <span className="subject-count">{counts[s]} 題</span>
-          </button>
-        ))}
+        {subjects.map((s) => {
+          const c = subjectColor(s)
+          return (
+            <button
+              key={s}
+              className="subject-btn"
+              onClick={() => onPick(s)}
+              style={{ borderLeft: `6px solid ${c}`, background: `${c}12` }}
+            >
+              <span className="subject-name" style={{ color: c }}>{s}</span>
+              <span className="subject-count">{counts[s]} 題</span>
+            </button>
+          )
+        })}
       </div>
     </div>
   )

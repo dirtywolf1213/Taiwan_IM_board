@@ -170,9 +170,15 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 14px 16px; color: var(--text);
 }
-.subject-name { font-size: 1.05rem; font-weight: 600; }
+.subject-name { font-size: 1.05rem; font-weight: 700; }
 .subject-count { font-size: 0.78rem; color: var(--muted); }
 .subject-btn:active { transform: scale(0.99); }
+
+/* 題卡上的科目標籤 */
+.subject-chip {
+  display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px;
+  font-size: 0.72rem; font-weight: 700;
+}
 
 /* ---------- 頁尾免責 ---------- */
 .foot p { margin: 4px 0; }

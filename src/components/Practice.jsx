@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
-import { shuffle } from '../lib/util.js'
+import { shuffle, subjectColor } from '../lib/util.js'
 
 const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習' }
 
@@ -50,7 +50,12 @@ export default function Practice({ mode, subject, questions, progress, onAnswer,
     <div className="screen">
       <div className="topbar">
         <button className="back" onClick={onExit}>← 首頁</button>
-        <span className="topbar-title">{mode === 'subject' ? subject : TITLES[mode]}</span>
+        <span
+          className="topbar-title"
+          style={mode === 'subject' ? { color: subjectColor(subject) } : undefined}
+        >
+          {mode === 'subject' ? subject : TITLES[mode]}
+        </span>
         <span className="topbar-score">{correctCount}/{answeredCount}</span>
       </div>
 

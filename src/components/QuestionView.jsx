@@ -1,4 +1,4 @@
-import { letter } from '../lib/util.js'
+import { letter, subjectColor } from '../lib/util.js'
 
 // 顯示一題:題幹、(附圖)、選項。
 // props:
@@ -11,7 +11,17 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
   return (
     <div className="card">
       <div className="q-meta">
-        <span>{q.year} 年・第 {q.num} 題{q.subject ? `・${q.subject}` : ''}</span>
+        <span>
+          {q.year} 年・第 {q.num} 題
+          {q.subject && (
+            <span
+              className="subject-chip"
+              style={{ color: subjectColor(q.subject), background: `${subjectColor(q.subject)}1f` }}
+            >
+              {q.subject}
+            </span>
+          )}
+        </span>
         <span>{index + 1} / {total}</span>
       </div>
 
