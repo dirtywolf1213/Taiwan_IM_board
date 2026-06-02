@@ -8,10 +8,13 @@
     python tools/extract_figures.py --year 114
 """
 import argparse
+import io
 import json
+from collections import OrderedDict
 from pathlib import Path
 
 import fitz  # PyMuPDF
+from PIL import Image  # 多區塊(可跨頁)垂直拼接
 
 # year -> [(pdf 檔名, 頁碼0起, 題號, x0, y0, x1, y1), ...]
 # 座標為 PDF point(612x792),已對照渲染畫面核對。
@@ -60,6 +63,39 @@ LAYOUT = {
         ('圖_112-2.pdf', 0, 160, 303, 87, 539, 330),
         ('圖_112-2.pdf', 0, 159, 57, 372, 538, 569),
     ],
+    111: [
+        ('圖_111-1.pdf', 0, 4,  20, 84, 415, 742),
+        ('圖_111-1.pdf', 1, 6,  15, 88, 522, 739),
+        ('圖_111-1.pdf', 2, 9,  20, 85, 553, 731),
+        ('圖_111-1.pdf', 3, 32, 20, 100, 264, 293),
+        ('圖_111-1.pdf', 3, 41, 20, 330, 555, 560),
+        ('圖_111-1.pdf', 4, 46, 20, 84, 494, 279),
+        ('圖_111-1.pdf', 4, 49, 20, 305, 400, 675),
+        ('圖_111-1.pdf', 4, 50, 390, 503, 576, 655),
+        ('圖_111-1.pdf', 5, 71, 20, 84, 474, 387),
+        ('圖_111-2.pdf', 0, 156, 20, 90, 294, 274),
+        ('圖_111-2.pdf', 0, 157, 296, 89, 414, 275),
+        ('圖_111-2.pdf', 0, 158, 20, 306, 484, 546),
+        ('圖_111-2.pdf', 0, 159, 20, 572, 200, 749),
+        ('圖_111-2.pdf', 0, 160, 204, 574, 577, 747),
+    ],
+    110: [
+        ('圖_110-1.pdf', 0, 4,  20, 91, 501, 291),
+        ('圖_110-1.pdf', 0, 8,  20, 338, 435, 541),   # Q8 跨頁:區塊1
+        ('圖_110-1.pdf', 1, 8,  20, 89, 573, 620),    # Q8 跨頁:區塊2
+        ('圖_110-1.pdf', 2, 9,  20, 97, 562, 761),    # Q9 跨頁:區塊1
+        ('圖_110-1.pdf', 3, 9,  20, 102, 575, 352),   # Q9 跨頁:區塊2
+        ('圖_110-1.pdf', 4, 16, 20, 90, 418, 472),
+        ('圖_110-1.pdf', 4, 48, 20, 532, 288, 761),
+        ('圖_110-1.pdf', 4, 50, 303, 537, 572, 756),  # Q50 圖一(跨頁區塊1)
+        ('圖_110-1.pdf', 5, 50, 20, 102, 290, 308),   # Q50 圖二(跨頁區塊2)
+        ('圖_110-1.pdf', 5, 53, 303, 102, 555, 308),
+        ('圖_110-1.pdf', 6, 73, 20, 85, 380, 565),
+        ('圖_110-2.pdf', 0, 156, 20, 119, 529, 237),
+        ('圖_110-2.pdf', 0, 157, 20, 272, 473, 390),
+        ('圖_110-2.pdf', 0, 158, 20, 426, 473, 583),
+        ('圖_110-2.pdf', 0, 159, 20, 615, 495, 758),
+    ],
 }
 
 PAD = 6      # 裁切框留白(point)
@@ -81,17 +117,38 @@ def main():
     json_path = Path(args.json or f'src/data/questions.{year}.json')
 
     docs = {}
-    paths = {}  # num -> 相對於 public 的路徑
-    for pdf, page, num, x0, y0, x1, y1 in LAYOUT[year]:
+
+    def render(pdf, page, x0, y0, x1, y1):
         if pdf not in docs:
             docs[pdf] = fitz.open(src_dir / pdf)
         p = docs[pdf][page]
         clip = fitz.Rect(x0 - PAD, y0 - PAD, x1 + PAD, y1 + PAD) & p.rect
         pix = p.get_pixmap(clip=clip, matrix=fitz.Matrix(DPI / 72, DPI / 72))
+        return Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
+
+    # 一題可有多個區塊(可跨頁),依序垂直拼接成一張
+    grouped = OrderedDict()
+    for pdf, page, num, x0, y0, x1, y1 in LAYOUT[year]:
+        grouped.setdefault(num, []).append((pdf, page, x0, y0, x1, y1))
+
+    paths = {}  # num -> 相對於 public 的路徑
+    for num, regions in grouped.items():
+        imgs = [render(*r) for r in regions]
+        if len(imgs) == 1:
+            out = imgs[0]
+        else:
+            w = max(im.width for im in imgs)
+            gap = 12
+            h = sum(im.height for im in imgs) + gap * (len(imgs) - 1)
+            out = Image.new('RGB', (w, h), 'white')
+            y = 0
+            for im in imgs:
+                out.paste(im, (0, y))
+                y += im.height + gap
         fn = out_dir / f'{num}.png'
-        pix.save(fn)
+        out.save(fn)
         paths[num] = f'images/{year}/{num}.png'
-        print(f'  Q{num}: {fn} ({pix.width}x{pix.height})')
+        print(f'  Q{num}: {fn} ({out.width}x{out.height}, {len(imgs)} 區塊)')
 
     # 回填 JSON
     qs = json.loads(json_path.read_text(encoding='utf-8'))
