@@ -140,5 +140,5 @@ python3 tools/extract_figures.py --year 114
 - [x] 刷題前端 MVP：順序/隨機練習、錯題複習、模擬考計時計分、PWA 可安裝
 - [x] 接上 114 年 14 題附圖（`tools/extract_figures.py`）
 - [x] 113 年題庫（160 題，含 8 題附圖）
-- [x] 題目科目分類（11 科，`tools/classify.py`）+ 依科目練習
+- [x] 題目科目分類（11 科，`tools/classify.py`，規律與判斷題清單見 [docs/題目分類說明.md](./docs/題目分類說明.md)）+ 依科目練習
 - [x] 部署上線（GitHub Pages，push 自動部署）
