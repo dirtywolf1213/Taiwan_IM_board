@@ -27,6 +27,9 @@ export default function Home({ questions, progress, onStart, onReset, onOpenDisc
         <button className="mode-btn" onClick={() => onStart('random')}>
           隨機練習<small>打亂題序</small>
         </button>
+        <button className="mode-btn" onClick={() => onStart('subject')}>
+          依科目練習<small>心臟、胸腔、消化…分科練習</small>
+        </button>
         <button
           className="mode-btn"
           onClick={() => onStart('wrong')}

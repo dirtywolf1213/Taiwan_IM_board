@@ -11,7 +11,7 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
   return (
     <div className="card">
       <div className="q-meta">
-        <span>{q.year} 年・第 {q.num} 題</span>
+        <span>{q.year} 年・第 {q.num} 題{q.subject ? `・${q.subject}` : ''}</span>
         <span>{index + 1} / {total}</span>
       </div>
 

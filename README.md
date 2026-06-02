@@ -139,5 +139,6 @@ python3 tools/extract_figures.py --year 114
 - [x] PDF → JSON 轉檔工具（`tools/parse_pdf.py`）
 - [x] 刷題前端 MVP：順序/隨機練習、錯題複習、模擬考計時計分、PWA 可安裝
 - [x] 接上 114 年 14 題附圖（`tools/extract_figures.py`）
-- [ ] 題目科目分類（Cardiology、Nephrology…）
-- [ ] 部署上線取得共用網址
+- [x] 113 年題庫（160 題，含 8 題附圖）
+- [x] 題目科目分類（11 科，`tools/classify.py`）+ 依科目練習
+- [x] 部署上線（GitHub Pages，push 自動部署）

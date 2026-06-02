@@ -163,6 +163,17 @@ button { font-family: inherit; cursor: pointer; }
 
 .empty { text-align: center; color: var(--muted); margin: 40px 0; }
 
+/* ---------- 科目選擇 ---------- */
+.subject-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.subject-btn {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 2px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px; color: var(--text);
+}
+.subject-name { font-size: 1.05rem; font-weight: 600; }
+.subject-count { font-size: 0.78rem; color: var(--muted); }
+.subject-btn:active { transform: scale(0.99); }
+
 /* ---------- 頁尾免責 ---------- */
 .foot p { margin: 4px 0; }
 .foot-disc { max-width: 560px; margin: 8px auto 0; line-height: 1.5; }

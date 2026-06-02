@@ -5,12 +5,14 @@ import Home from './components/Home.jsx'
 import Practice from './components/Practice.jsx'
 import Mock from './components/Mock.jsx'
 import Disclaimer from './components/Disclaimer.jsx'
+import SubjectPicker from './components/SubjectPicker.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
 export default function App() {
-  const [view, setView] = useState('home') // home | practice | mock
+  const [view, setView] = useState('home') // home | practice | mock | subjects
   const [mode, setMode] = useState('sequential')
+  const [subject, setSubject] = useState(null)
   const [progress, setProgress] = useState(loadProgress)
   // 首次進入需閱讀同意免責聲明
   const [agreed, setAgreed] = useState(() => {
@@ -40,10 +42,18 @@ export default function App() {
   const start = (m) => {
     if (m === 'mock') {
       setView('mock')
+    } else if (m === 'subject') {
+      setView('subjects')
     } else {
       setMode(m)
       setView('practice')
     }
+  }
+
+  const pickSubject = (s) => {
+    setSubject(s)
+    setMode('subject')
+    setView('practice')
   }
 
   const reset = () => {
@@ -52,10 +62,21 @@ export default function App() {
     }
   }
 
+  if (view === 'subjects') {
+    return (
+      <SubjectPicker
+        questions={questions}
+        onPick={pickSubject}
+        onExit={() => setView('home')}
+      />
+    )
+  }
+
   if (view === 'practice') {
     return (
       <Practice
         mode={mode}
+        subject={subject}
         questions={questions}
         progress={progress}
         onAnswer={recordAnswer}

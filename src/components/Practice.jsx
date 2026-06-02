@@ -4,7 +4,7 @@ import { shuffle } from '../lib/util.js'
 
 const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習' }
 
-export default function Practice({ mode, questions, progress, onAnswer, onExit }) {
+export default function Practice({ mode, subject, questions, progress, onAnswer, onExit }) {
   // 依模式決定題目順序(只在進入時計算一次)
   const list = useMemo(() => {
     if (mode === 'random') return shuffle(questions)
@@ -14,9 +14,10 @@ export default function Practice({ mode, questions, progress, onAnswer, onExit }
       )
       return questions.filter((q) => wrong.has(q.id))
     }
+    if (mode === 'subject') return questions.filter((q) => q.subject === subject)
     return questions
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mode])
+  }, [mode, subject])
 
   const [i, setI] = useState(0)
   const [answers, setAnswers] = useState({}) // 本次 session: { id: chosenIndex }
@@ -49,7 +50,7 @@ export default function Practice({ mode, questions, progress, onAnswer, onExit }
     <div className="screen">
       <div className="topbar">
         <button className="back" onClick={onExit}>← 首頁</button>
-        <span className="topbar-title">{TITLES[mode]}</span>
+        <span className="topbar-title">{mode === 'subject' ? subject : TITLES[mode]}</span>
         <span className="topbar-score">{correctCount}/{answeredCount}</span>
       </div>
 
