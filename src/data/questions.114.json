@@ -167,7 +167,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/9.png",
     "explanation": ""
   },
   {
@@ -490,7 +490,7 @@
     "answer": 4,
     "answerLetter": "E",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/26.png",
     "explanation": ""
   },
   {
@@ -509,7 +509,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/27.png",
     "explanation": ""
   },
   {
@@ -642,7 +642,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/34.png",
     "explanation": ""
   },
   {
@@ -680,7 +680,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/36.png",
     "explanation": ""
   },
   {
@@ -832,7 +832,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/44.png",
     "explanation": ""
   },
   {
@@ -1022,7 +1022,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/54.png",
     "explanation": ""
   },
   {
@@ -1288,7 +1288,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/68.png",
     "explanation": ""
   },
   {
@@ -2466,7 +2466,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/130.png",
     "explanation": ""
   },
   {
@@ -2485,7 +2485,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/131.png",
     "explanation": ""
   },
   {
@@ -2979,7 +2979,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/157.png",
     "explanation": ""
   },
   {
@@ -2998,7 +2998,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/158.png",
     "explanation": ""
   },
   {
@@ -3017,7 +3017,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/159.png",
     "explanation": ""
   },
   {
@@ -3036,7 +3036,7 @@
     "answer": 4,
     "answerLetter": "E",
     "needsImage": true,
-    "image": "",
+    "image": "images/114/160.png",
     "explanation": ""
   }
 ]

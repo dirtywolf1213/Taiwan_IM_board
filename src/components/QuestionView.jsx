@@ -19,7 +19,7 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
 
       {q.needsImage && (
         q.image ? (
-          <img className="q-image" src={q.image} alt={`第 ${q.num} 題附圖`} />
+          <img className="q-image" src={import.meta.env.BASE_URL + q.image} alt={`第 ${q.num} 題附圖`} />
         ) : (
           <div className="q-image-missing">📷 此題有附圖,圖片尚未匯入(之後補上)</div>
         )

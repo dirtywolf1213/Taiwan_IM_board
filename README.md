@@ -82,9 +82,17 @@
 
 採**半自動流程**：程式抽取文字 + 圖片 → 產生草稿 JSON → 人工 / AI 校對 → 正式題庫。
 
-## 如何提供題目
+## 題目與圖檔的存放慣例
 
-請將醫學會的**題目 PDF** 與**答案 PDF** 放進 [`source-pdfs/`](./source-pdfs/) 資料夾（見該資料夾內的說明）。
+每個年度一個資料夾,放在 `source-pdfs/<年>/`：
+
+```
+source-pdfs/
+└── 114/
+    ├── 考題_114.pdf     # 題目(答案內嵌於題首 [X])
+    ├── 圖_114-1.pdf     # 附圖,以「第 N 題」標記
+    └── 圖_114-2.pdf
+```
 
 > 注意：本 repo 為私有、不公開。放入前仍請留意醫學會題庫的使用條款是否限制再散布。
 
@@ -112,18 +120,22 @@ python3 tools/parse_pdf.py source-pdfs/考題_114.pdf --year 114 --out src/data/
 
 `src/data/questions.js` 會自動載入 `questions.*.json`,新增年份只要再跑一次轉檔即可。
 
+### 裁切並接上附圖
+
+附圖 PDF 以「第 N 題」標記。各題的裁切框已在 `tools/extract_figures.py` 的 `LAYOUT`
+表中對照核對(新增年份時依該年版面新增一組座標),執行後會把圖切成 PNG 存到
+`public/images/<年>/<題號>.png`,並自動回填對應題目的 `image` 欄位：
+
+```bash
+python3 tools/extract_figures.py --year 114
+```
+
 ## 現況
 
 - [x] 需求與架構規劃
 - [x] 取得第一份真實 PDF（114 年,160 題,答案內嵌於題目）
 - [x] PDF → JSON 轉檔工具（`tools/parse_pdf.py`）
 - [x] 刷題前端 MVP：順序/隨機練習、錯題複習、模擬考計時計分、PWA 可安裝
-- [ ] 接上 14 題附圖（圖在另一份檔案,待上傳）
+- [x] 接上 114 年 14 題附圖（`tools/extract_figures.py`）
 - [ ] 題目科目分類（Cardiology、Nephrology…）
 - [ ] 部署上線取得共用網址
-
-### 待補圖的題目（114 年,共 14 題）
-
-圖在另一份檔案,上傳後將圖片放入 `public/images/`,並在對應題目的 `image` 欄位填入路徑：
-
-> 9, 26, 27, 34, 36, 44, 54, 68, 130, 131, 157, 158, 159, 160
