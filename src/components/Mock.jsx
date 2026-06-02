@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
+import SubjectStats from './SubjectStats.jsx'
 import { shuffle, fmtTime } from '../lib/util.js'
 
 export default function Mock({ questions, onAnswer, onExit }) {
@@ -37,7 +38,11 @@ export default function Mock({ questions, onAnswer, onExit }) {
   )
 
   if (phase === 'setup') {
-    const opts = [20, 40, 80, questions.length]
+    // 含 160 題(整份考卷,等同正式考試題數);最後一項為題庫全部
+    const presets = [20, 40, 80, 160].filter((n) => n < questions.length)
+    const opts = [...new Set([...presets, questions.length])]
+    const label = (n) =>
+      n === questions.length ? `全部 ${n} 題` : n === 160 ? '160 題（整份考卷）' : `${n} 題`
     return (
       <div className="screen">
         <div className="topbar">
@@ -50,7 +55,7 @@ export default function Mock({ questions, onAnswer, onExit }) {
           <div className="count-picker">
             {opts.map((n, idx) => (
               <button key={idx} className="mode-btn" onClick={() => start(n)}>
-                {n === questions.length ? `全部 ${n} 題` : `${n} 題`}
+                {label(n)}
               </button>
             ))}
           </div>
@@ -61,6 +66,12 @@ export default function Mock({ questions, onAnswer, onExit }) {
 
   if (phase === 'result') {
     const pct = Math.round((score / list.length) * 100)
+    const bySubject = {}
+    for (const q of list) {
+      const s = (bySubject[q.subject] ||= { correct: 0, total: 0 })
+      s.total++
+      if (answers[q.id] === q.answer) s.correct++
+    }
     return (
       <div className="screen">
         <div className="topbar">
@@ -72,6 +83,7 @@ export default function Mock({ questions, onAnswer, onExit }) {
           <div className="big-score">{pct}<small>分</small></div>
           <p>{list.length} 題答對 {score} 題・用時 {fmtTime(sec)}</p>
         </div>
+        <SubjectStats stats={bySubject} title="各科答對統計" />
         <p className="review-title">逐題檢討</p>
         {list.map((q, idx) => (
           <QuestionView key={q.id} q={q} chosen={answers[q.id] ?? null} revealed index={idx} total={list.length} />

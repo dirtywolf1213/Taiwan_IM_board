@@ -1,3 +1,5 @@
+import SubjectStats from './SubjectStats.jsx'
+
 export default function Home({ questions, progress, onStart, onReset, onOpenDisclaimer }) {
   const total = questions.length
   const results = progress.results
@@ -5,6 +7,16 @@ export default function Home({ questions, progress, onStart, onReset, onOpenDisc
   const correct = Object.values(results).filter((r) => r.correct).length
   const wrongIds = Object.entries(results).filter(([, r]) => !r.correct).map(([id]) => id)
   const acc = answered ? Math.round((correct / answered) * 100) : 0
+
+  // 各科作答正確率(依歷史紀錄)
+  const bySubject = {}
+  for (const q of questions) {
+    const r = results[q.id]
+    if (!r) continue
+    const s = (bySubject[q.subject] ||= { correct: 0, total: 0 })
+    s.total++
+    if (r.correct) s.correct++
+  }
 
   return (
     <div className="home">
@@ -41,6 +53,8 @@ export default function Home({ questions, progress, onStart, onReset, onOpenDisc
           模擬考<small>計時・交卷計分</small>
         </button>
       </section>
+
+      {answered > 0 && <SubjectStats stats={bySubject} title="各科正確率" />}
 
       {answered > 0 && (
         <button className="link-btn" onClick={onReset}>清除所有作答紀錄</button>
