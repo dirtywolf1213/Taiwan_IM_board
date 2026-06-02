@@ -6,13 +6,15 @@ import Practice from './components/Practice.jsx'
 import Mock from './components/Mock.jsx'
 import Disclaimer from './components/Disclaimer.jsx'
 import SubjectPicker from './components/SubjectPicker.jsx'
+import YearPicker from './components/YearPicker.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
 export default function App() {
   const [view, setView] = useState('home') // home | practice | mock | subjects
-  const [mode, setMode] = useState('sequential')
+  const [mode, setMode] = useState('random')
   const [subject, setSubject] = useState(null)
+  const [year, setYear] = useState(null)
   const [progress, setProgress] = useState(loadProgress)
   // 首次進入需閱讀同意免責聲明
   const [agreed, setAgreed] = useState(() => {
@@ -44,6 +46,8 @@ export default function App() {
       setView('mock')
     } else if (m === 'subject') {
       setView('subjects')
+    } else if (m === 'year') {
+      setView('years')
     } else {
       setMode(m)
       setView('practice')
@@ -53,6 +57,12 @@ export default function App() {
   const pickSubject = (s) => {
     setSubject(s)
     setMode('subject')
+    setView('practice')
+  }
+
+  const pickYear = (y) => {
+    setYear(y)
+    setMode('year')
     setView('practice')
   }
 
@@ -72,11 +82,22 @@ export default function App() {
     )
   }
 
+  if (view === 'years') {
+    return (
+      <YearPicker
+        questions={questions}
+        onPick={pickYear}
+        onExit={() => setView('home')}
+      />
+    )
+  }
+
   if (view === 'practice') {
     return (
       <Practice
         mode={mode}
         subject={subject}
+        year={year}
         questions={questions}
         progress={progress}
         onAnswer={recordAnswer}

@@ -33,14 +33,14 @@ export default function Home({ questions, progress, onStart, onReset, onOpenDisc
       </section>
 
       <section className="modes">
-        <button className="mode-btn primary" onClick={() => onStart('sequential')}>
-          順序練習<small>依題號 1 → {total}</small>
-        </button>
-        <button className="mode-btn" onClick={() => onStart('random')}>
-          隨機練習<small>打亂題序</small>
+        <button className="mode-btn primary" onClick={() => onStart('year')}>
+          依年份練習<small>整年原卷順序・即時對答案與詳解</small>
         </button>
         <button className="mode-btn" onClick={() => onStart('subject')}>
           依科目練習<small>心臟、胸腔、消化…分科練習</small>
+        </button>
+        <button className="mode-btn" onClick={() => onStart('random')}>
+          隨機練習<small>打亂題序</small>
         </button>
         <button
           className="mode-btn"

@@ -4,7 +4,7 @@ import { shuffle, subjectColor } from '../lib/util.js'
 
 const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習' }
 
-export default function Practice({ mode, subject, questions, progress, onAnswer, onExit }) {
+export default function Practice({ mode, subject, year, questions, progress, onAnswer, onExit }) {
   // 依模式決定題目順序(只在進入時計算一次)
   const list = useMemo(() => {
     if (mode === 'random') return shuffle(questions)
@@ -15,9 +15,12 @@ export default function Practice({ mode, subject, questions, progress, onAnswer,
       return questions.filter((q) => wrong.has(q.id))
     }
     if (mode === 'subject') return questions.filter((q) => q.subject === subject)
+    if (mode === 'year') {
+      return questions.filter((q) => q.year === year).sort((a, b) => a.num - b.num)
+    }
     return questions
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mode, subject])
+  }, [mode, subject, year])
 
   const [i, setI] = useState(0)
   const [answers, setAnswers] = useState({}) // 本次 session: { id: chosenIndex }
@@ -54,7 +57,7 @@ export default function Practice({ mode, subject, questions, progress, onAnswer,
           className="topbar-title"
           style={mode === 'subject' ? { color: subjectColor(subject) } : undefined}
         >
-          {mode === 'subject' ? subject : TITLES[mode]}
+          {mode === 'subject' ? subject : mode === 'year' ? `${year} 年練習` : TITLES[mode]}
         </span>
         <span className="topbar-score">{correctCount}/{answeredCount}</span>
       </div>

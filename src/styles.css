@@ -163,6 +163,8 @@ button { font-family: inherit; cursor: pointer; }
 
 .empty { text-align: center; color: var(--muted); margin: 40px 0; }
 
+.picker-hint { color: var(--muted); font-size: 0.85rem; margin: 0 2px 12px; }
+
 /* ---------- 科目選擇 ---------- */
 .subject-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .subject-btn {
