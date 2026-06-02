@@ -107,7 +107,19 @@ npm install        # 安裝相依套件
 npm run dev        # 本機開發(http://localhost:5173)
 npm run build      # 打包到 dist/
 npm run preview    # 預覽打包結果
+npm run validate   # 驗證題庫資料(python3 tools/validate.py)
 ```
+
+### 題庫驗證
+
+新增 / 修改題庫後,建議執行 `npm run validate`(或 `python3 tools/validate.py`)。會檢查:
+必要欄位、選項數=5、`answer`/`answerLetter` 一致、`subject` 屬 11 科、題號連續不重複、
+`image` 檔案存在等;有錯誤回傳非 0,可接入 CI / SessionStart hook。
+
+### 進度備份
+
+App 首頁提供「匯出進度 / 匯入進度」(備份碼或檔案)。作答紀錄僅存於本機 localStorage,
+換裝置 / 清快取前可自行匯出備份、之後匯入還原(非雲端同步)。
 
 部署到 GitHub Pages 等子路徑時,設定 `BASE_PATH` 環境變數,例如：
 `BASE_PATH=/Taiwan_IM_board/ npm run build`

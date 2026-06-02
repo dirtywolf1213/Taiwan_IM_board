@@ -1,6 +1,6 @@
 import SubjectStats from './SubjectStats.jsx'
 
-export default function Home({ questions, progress, onStart, onReset, onOpenDisclaimer }) {
+export default function Home({ questions, progress, onStart, onReset, onOpenDisclaimer, onBackup }) {
   const total = questions.length
   const results = progress.results
   const answered = Object.keys(results).length
@@ -56,9 +56,11 @@ export default function Home({ questions, progress, onStart, onReset, onOpenDisc
 
       {answered > 0 && <SubjectStats stats={bySubject} title="各科正確率" />}
 
-      {answered > 0 && (
-        <button className="link-btn" onClick={onReset}>清除所有作答紀錄</button>
-      )}
+      <div className="backup-links">
+        {answered > 0 && <button className="link-btn" onClick={() => onBackup('export')}>匯出進度（備份）</button>}
+        <button className="link-btn" onClick={() => onBackup('import')}>匯入進度（還原）</button>
+        {answered > 0 && <button className="link-btn danger" onClick={onReset}>清除所有作答紀錄</button>}
+      </div>
 
       <footer className="foot">
         <p>製作人:dirtywolf1213</p>
