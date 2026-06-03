@@ -1,8 +1,8 @@
 // 依年份選擇練習。列出各年題數,點選後照原卷題號順序練習(即時對答案)。
-export default function YearPicker({ questions, onPick, onExit }) {
+export default function YearPicker({ index, onPick, onExit }) {
   const counts = {}
-  for (const q of questions) counts[q.year] = (counts[q.year] || 0) + 1
-  const years = [...new Set(questions.map((q) => q.year))].sort((a, b) => b - a)
+  for (const q of index) counts[q.year] = (counts[q.year] || 0) + 1
+  const years = [...new Set(index.map((q) => q.year))].sort((a, b) => b - a)
 
   return (
     <div className="screen">

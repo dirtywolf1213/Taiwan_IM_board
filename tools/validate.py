@@ -123,6 +123,18 @@ def main():
     for e in all_err:
         print(f'  ❌ {e}')
 
+    # 索引同步檢查(src/data/index.json 必須與題庫一致)
+    idx_path = Path('src/data/index.json')
+    if idx_path.exists():
+        idx_ids = {q['id'] for q in json.loads(idx_path.read_text(encoding='utf-8'))}
+        if idx_ids != seen_ids:
+            miss = len(seen_ids - idx_ids)
+            extra = len(idx_ids - seen_ids)
+            all_err.append(f'index.json 與題庫不同步(缺 {miss}、多 {extra})→ 請重跑 tools/build_index.py')
+            print(f'  ❌ index.json 與題庫不同步;請執行 python3 tools/build_index.py')
+    else:
+        all_warn.append('尚無 src/data/index.json(請執行 tools/build_index.py)')
+
     if all_err:
         print(f'\n驗證失敗:{len(all_err)} 項錯誤')
         return 1

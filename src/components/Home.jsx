@@ -1,16 +1,16 @@
 import SubjectStats from './SubjectStats.jsx'
 
-export default function Home({ questions, progress, onStart, onReset, onOpenDisclaimer, onBackup }) {
-  const total = questions.length
+export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup }) {
+  const total = index.length
   const results = progress.results
   const answered = Object.keys(results).length
   const correct = Object.values(results).filter((r) => r.correct).length
   const wrongIds = Object.entries(results).filter(([, r]) => !r.correct).map(([id]) => id)
   const acc = answered ? Math.round((correct / answered) * 100) : 0
 
-  // 各科作答正確率(依歷史紀錄)
+  // 各科作答正確率(依歷史紀錄,用輕量索引對應科目)
   const bySubject = {}
-  for (const q of questions) {
+  for (const q of index) {
     const r = results[q.id]
     if (!r) continue
     const s = (bySubject[q.subject] ||= { correct: 0, total: 0 })

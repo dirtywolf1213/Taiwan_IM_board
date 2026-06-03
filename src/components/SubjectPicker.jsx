@@ -1,9 +1,9 @@
 import { SUBJECT_ORDER, subjectColor } from '../lib/util.js'
 
 // 依科目選擇練習。顯示各科題數,點選後開始該科練習(跨所有年份)。
-export default function SubjectPicker({ questions, onPick, onExit }) {
+export default function SubjectPicker({ index, onPick, onExit }) {
   const counts = {}
-  for (const q of questions) counts[q.subject] = (counts[q.subject] || 0) + 1
+  for (const q of index) counts[q.subject] = (counts[q.subject] || 0) + 1
   const subjects = SUBJECT_ORDER.filter((s) => counts[s])
 
   return (

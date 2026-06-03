@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import questions from './data/questions.js'
+import { index, loadAll, loadYear, loadYearsForIds } from './data/questions.js'
 import { loadProgress, saveProgress } from './lib/storage.js'
 import Home from './components/Home.jsx'
 import Practice from './components/Practice.jsx'
@@ -12,17 +12,18 @@ import BackupModal from './components/BackupModal.jsx'
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
 export default function App() {
-  const [view, setView] = useState('home') // home | practice | mock | subjects
+  const [view, setView] = useState('home') // home | subjects | years | practice | mock
   const [mode, setMode] = useState('random')
   const [subject, setSubject] = useState(null)
   const [year, setYear] = useState(null)
+  const [session, setSession] = useState([]) // 本次模式已載入的題目
+  const [loading, setLoading] = useState(false)
   const [progress, setProgress] = useState(loadProgress)
-  // 首次進入需閱讀同意免責聲明
   const [agreed, setAgreed] = useState(() => {
     try { return localStorage.getItem(DISCLAIMER_KEY) === '1' } catch { return false }
   })
   const [showDisclaimer, setShowDisclaimer] = useState(false)
-  const [backup, setBackup] = useState(null) // null | 'export' | 'import'
+  const [backup, setBackup] = useState(null)
 
   useEffect(() => saveProgress(progress), [progress])
 
@@ -31,7 +32,6 @@ export default function App() {
     setAgreed(true)
   }
 
-  // 尚未同意 → 顯示閘門,擋住所有功能
   if (!agreed) {
     return <Disclaimer onAgree={agree} />
   }
@@ -43,29 +43,45 @@ export default function App() {
     }))
   }
 
+  // 動態載入需要的年份後再進入該畫面
+  const enter = async (loader, nextView) => {
+    setLoading(true)
+    try {
+      setSession(await loader())
+      setView(nextView)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const start = (m) => {
-    if (m === 'mock') {
-      setView('mock')
-    } else if (m === 'subject') {
+    if (m === 'subject') {
       setView('subjects')
     } else if (m === 'year') {
       setView('years')
+    } else if (m === 'mock') {
+      enter(loadAll, 'mock')
+    } else if (m === 'wrong') {
+      const wrongIds = Object.entries(progress.results)
+        .filter(([, r]) => !r.correct).map(([id]) => id)
+      setMode('wrong')
+      enter(() => loadYearsForIds(wrongIds), 'practice')
     } else {
-      setMode(m)
-      setView('practice')
+      setMode('random')
+      enter(loadAll, 'practice')
     }
   }
 
   const pickSubject = (s) => {
     setSubject(s)
     setMode('subject')
-    setView('practice')
+    enter(loadAll, 'practice') // 各年皆有該科,需全部載入後篩選
   }
 
   const pickYear = (y) => {
     setYear(y)
     setMode('year')
-    setView('practice')
+    enter(() => loadYear(y), 'practice') // 只載入該年
   }
 
   const reset = () => {
@@ -74,24 +90,16 @@ export default function App() {
     }
   }
 
+  if (loading) {
+    return <div className="loading"><div className="spinner" />載入題庫中…</div>
+  }
+
   if (view === 'subjects') {
-    return (
-      <SubjectPicker
-        questions={questions}
-        onPick={pickSubject}
-        onExit={() => setView('home')}
-      />
-    )
+    return <SubjectPicker index={index} onPick={pickSubject} onExit={() => setView('home')} />
   }
 
   if (view === 'years') {
-    return (
-      <YearPicker
-        questions={questions}
-        onPick={pickYear}
-        onExit={() => setView('home')}
-      />
-    )
+    return <YearPicker index={index} onPick={pickYear} onExit={() => setView('home')} />
   }
 
   if (view === 'practice') {
@@ -100,7 +108,7 @@ export default function App() {
         mode={mode}
         subject={subject}
         year={year}
-        questions={questions}
+        questions={session}
         progress={progress}
         onAnswer={recordAnswer}
         onExit={() => setView('home')}
@@ -109,19 +117,13 @@ export default function App() {
   }
 
   if (view === 'mock') {
-    return (
-      <Mock
-        questions={questions}
-        onAnswer={recordAnswer}
-        onExit={() => setView('home')}
-      />
-    )
+    return <Mock questions={session} onAnswer={recordAnswer} onExit={() => setView('home')} />
   }
 
   return (
     <>
       <Home
-        questions={questions}
+        index={index}
         progress={progress}
         onStart={start}
         onReset={reset}
