@@ -75,7 +75,7 @@
     ],
     "answer": 3,
     "answerLetter": "D",
-    "needsImage": false,
+    "needsImage": true,
     "image": "",
     "explanation": ""
   },

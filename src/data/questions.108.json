@@ -395,7 +395,7 @@
     ],
     "answer": 1,
     "answerLetter": "B",
-    "needsImage": false,
+    "needsImage": true,
     "image": "",
     "explanation": ""
   },
