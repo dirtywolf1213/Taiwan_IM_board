@@ -159,6 +159,10 @@ button { font-family: inherit; cursor: pointer; }
 .explanation-body { color: var(--text); font-size: 0.9rem; line-height: 1.7; }
 .explanation-body :first-child { margin-top: 0; }
 .explanation-body :last-child { margin-bottom: 0; }
+.explanation-body h3 {
+  font-size: 0.92rem; color: var(--teal-dark); margin: 14px 0 4px;
+  padding-bottom: 3px; border-bottom: 1px solid var(--line);
+}
 .explanation-body p { margin: 6px 0; }
 .explanation-body ul, .explanation-body ol { margin: 6px 0; padding-left: 1.3em; }
 .explanation-body li { margin: 3px 0; }
