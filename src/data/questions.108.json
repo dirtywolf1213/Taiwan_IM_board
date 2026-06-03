@@ -76,7 +76,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/4.png",
     "explanation": ""
   },
   {
@@ -96,7 +96,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/5.png",
     "explanation": ""
   },
   {
@@ -116,7 +116,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/6.png",
     "explanation": ""
   },
   {
@@ -176,7 +176,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/9.png",
     "explanation": ""
   },
   {
@@ -296,7 +296,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/15.png",
     "explanation": ""
   },
   {
@@ -396,7 +396,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/20.png",
     "explanation": ""
   },
   {
@@ -436,7 +436,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/22.png",
     "explanation": ""
   },
   {
@@ -3296,7 +3296,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/165.png",
     "explanation": ""
   },
   {
@@ -3936,7 +3936,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/197.png",
     "explanation": ""
   },
   {
@@ -3956,7 +3956,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/198.png",
     "explanation": ""
   },
   {
@@ -3976,7 +3976,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/199.png",
     "explanation": ""
   },
   {
@@ -3996,7 +3996,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/108/200.png",
     "explanation": ""
   }
 ]

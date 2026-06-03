@@ -136,7 +136,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/7.png",
     "explanation": ""
   },
   {
@@ -196,7 +196,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/10.png",
     "explanation": ""
   },
   {
@@ -336,7 +336,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/17.png",
     "explanation": ""
   },
   {
@@ -356,7 +356,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/18.png",
     "explanation": ""
   },
   {
@@ -396,7 +396,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/20.png",
     "explanation": ""
   },
   {
@@ -416,7 +416,7 @@
     "answer": 4,
     "answerLetter": "E",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/21.png",
     "explanation": ""
   },
   {
@@ -656,7 +656,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/33.png",
     "explanation": ""
   },
   {
@@ -1116,7 +1116,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/56.png",
     "explanation": ""
   },
   {
@@ -1136,7 +1136,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/57.png",
     "explanation": ""
   },
   {
@@ -1156,7 +1156,7 @@
     "answer": 4,
     "answerLetter": "E",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/58.png",
     "explanation": ""
   },
   {
@@ -3316,7 +3316,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/166.png",
     "explanation": ""
   },
   {
@@ -3336,7 +3336,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/167.png",
     "explanation": ""
   },
   {
@@ -3876,7 +3876,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/194.png",
     "explanation": ""
   },
   {
@@ -3896,7 +3896,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/195.png",
     "explanation": ""
   },
   {
@@ -3916,7 +3916,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/196.png",
     "explanation": ""
   },
   {
@@ -3936,7 +3936,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/197.png",
     "explanation": ""
   },
   {
@@ -3956,7 +3956,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/198.png",
     "explanation": ""
   },
   {
@@ -3976,7 +3976,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/199.png",
     "explanation": ""
   },
   {
@@ -3996,7 +3996,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "",
+    "image": "images/107/200.png",
     "explanation": ""
   }
 ]
