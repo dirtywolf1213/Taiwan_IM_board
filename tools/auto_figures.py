@@ -61,9 +61,36 @@ def reading_key(x, y):
     return (round(y / ROWT), round(x))
 
 
+def cluster_rects(rects, gap):
+    """把鄰近影像碎片聚類成整張圖(回傳各聚類外框)。gap<=0 不聚類。"""
+    if gap <= 0:
+        return list(rects)
+    boxes = [[r.x0, r.y0, r.x1, r.y1] for r in rects]
+
+    def close(a, b):
+        return not (a[2] + gap < b[0] or b[2] + gap < a[0] or
+                    a[3] + gap < b[1] or b[3] + gap < a[1])
+
+    merged = True
+    while merged:
+        merged = False
+        for i in range(len(boxes)):
+            for j in range(i + 1, len(boxes)):
+                if close(boxes[i], boxes[j]):
+                    boxes[i] = [min(boxes[i][0], boxes[j][0]), min(boxes[i][1], boxes[j][1]),
+                                max(boxes[i][2], boxes[j][2]), max(boxes[i][3], boxes[j][3])]
+                    boxes.pop(j)
+                    merged = True
+                    break
+            if merged:
+                break
+    return [fitz.Rect(*b) for b in boxes]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--year', type=int, required=True)
+    ap.add_argument('--cluster-gap', type=float, default=0, help='影像碎片聚類間距(point),0=不聚類')
     args = ap.parse_args()
     year = args.year
 
@@ -73,10 +100,11 @@ def main():
     groups = OrderedDict()   # num -> [(page, rect)]
     warnings = []
     for pno, page in enumerate(doc):
-        imgs = []
+        raw = []
         for im in page.get_images(full=True):
             for r in page.get_image_rects(im[0]):
-                imgs.append(r)
+                raw.append(r)
+        imgs = cluster_rects(raw, args.cluster_gap)
         labels = page_labels(page)
         if not labels:
             if imgs:
