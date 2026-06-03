@@ -1,0 +1,3982 @@
+[
+  {
+    "id": "106-001",
+    "year": 106,
+    "num": 1,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "53歲男性病人，因胸疼及冷汗急往急診求醫。病人沒有任何既往病史，只有每天一包煙的廿五年嗜好。就診時血壓 165/109 mmHg; 心跳82/min。病史探詢時突然心跳停止，心電圖顯示如圖。您獨自在現場，請問您的第一步處置，以何者為先？",
+    "options": [
+      "Amiodarone 150 mg in 50 ml D5W 靜脈注射20分",
+      "進行CPR, 心臟壓迫每分鐘100次",
+      "緊急置放人工支氣管，維持呼吸",
+      "Intra-cardiac injection, bosmin 1 mg",
+      "啟用葉克膜支持血壓及心跳"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-002",
+    "year": 106,
+    "num": 2,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "就臨床觀察而言，心律快跳(Tachyarrhythmia)與癲癇 (Seizure)所致之暈眩(Syncope)不易鑑別診斷，唯下列數點具有強度參考價值:(1)運動中的暈眩； (2)尿失禁及咬舌； (3)病人在意識回復後，迅即回復對人、地之辨識能力； (4) 咳嗽、閉止吸氣不能釋解症狀；(5)平躺間突發暈眩。請問下列何組病史症狀偏向心律快跳致暈眩之診斷？",
+    "options": [
+      "(1)+(2)+(3)",
+      "(3)+(4)+(5)",
+      "(2)+(3)+(4)",
+      "(1)+(4)+(5)",
+      "(1)+(3)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-003",
+    "year": 106,
+    "num": 3,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "許多心電圖所見，常具有心律不整之臨床意義：(1)PR間隔 (PR interval) 延長沒有發生心房纖維顫動(Atrial fibrillation)的危險；(2)QRS duration > 0.12 mSec的右束枝傳導阻滯(Right bundle branch block)不具生理病理的意義；(3)QTc延長可發生心房纖維顫動及惡性心室性心律不整(Ventricular tachyarrhythmia)之危險；(4)反向QRS 波的J波可在低溫、高鈣血及腦部傷變發生，具高度惡性心律不整發生的危險；(5)QTc縮短可發生惡性心室性心律不整或心房纖維顫動。請問下列何組說法是正確的？",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(3)+(4)+(5)",
+      "(1)+(3)+(4)",
+      "(2)+(4)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-004",
+    "year": 106,
+    "num": 4,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "88歲男性老年主訴近三個月時有胸悶，眩昏及心悸。從去年年底起日漸不能自理生活，並有近期的失憶，不能言語及進食，逐日加重後住院。身體檢查：BP:112/53 mmHg; HR:46 bpm；RR,18/min；SpO2, 98%；意識E4M4V5; Muscle power, Normal；頸靜脈正常，甲狀腺正常；胸部有粗濁呼吸音；心臟：S1偏重，在心尖及主動脈區有 Grade 2/6 Diastolic murmur；腹部未有肝脾腫；腳沒有水 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 1/62 腫。心電圖及胸部X光如附；超音波心圖顯示主動脈瓣及三尖瓣中度閉鎖不全。請問本病人最可能診斷是：",
+    "options": [
+      "左心室衰竭",
+      "右心室衰竭",
+      "甲狀腺機能低下",
+      "毛地黃中毒",
+      "低鈉血症"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-005",
+    "year": 106,
+    "num": 5,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關擴大性心肌病(Dilated cardiomyopathy， DCM)的近年診療進展，有不少定論，請問何點是錯誤的？",
+    "options": [
+      "幾近一半(20-50%)的DCM具有家族性，其中68%是自體顯性遺傳(Autosomal dominant inheritance)。",
+      "臨床上，DCM有兩種，一以心臟衰竭表現的單純性 (Isolated)DCM, 另一是伴有心律不整或傳導阻滯，且有骨骼肌基因病變的DCM。",
+      "X-相連性DCM(X-linked DCM)有2-5%，如有血清CK升高，就有可能是Dystrophin gene 突變所致。",
+      "所有的DCM，不論先天或後天因素都不能復原，心臟移植是唯一的治療選擇。",
+      "有謂DCM, Hypertrophic cardiomyopathy, Restrictive cardiomyopathy, 或 Arrhythmogenic RV cardiomyopathy 都有共同的基因異常，因此認定心肌病是一個病因，不同的臨床典型。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-006",
+    "year": 106,
+    "num": 6,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "病人，64歲傅先生在下午3:00 PM 突然氣促(dyspnea)，到急診求醫。病人有高血壓、慢性B型肝炎及痛風病史。到院時血壓102/73mm Hg; ventricular rate 100/min;在10 L/min O2 mask 使用下SpO2 100%。在急診之身體檢查末見重大異常。其心電圖及CxR如圖。靜脈血氧氣及生化檢查如表，超音波心圖顯示右心擴大及中重度三尖瓣閉鎖不全。本病人之診斷及治療之緊急處置，以何方案最適當？",
+    "options": [
+      "敗血性休克，啟用升壓劑維持血壓，血液細菌培養至少三套後，使用Empirical antibiotics。",
+      "右心衰竭，採用容積量補充法，必要配用Dopamine infusion at the rate of 2.5-5.0 microgram/Kg/min。",
+      "肺栓塞，測定D-dimer及胸部CT，依結果使用血栓溶解療法及肝素注射。",
+      "急性下壁心肌梗塞，系列心電圖及心肌酵素檢查，按結果會診心臟科逕行percutaneous coronary intervention。",
+      "繼續觀察，維持生命症狀穩定。"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-007",
+    "year": 106,
+    "num": 7,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關預防心房纖維顫動(Atrial Fibrillation；Af)可致的腦中風的治療指引，從2014 AHA/ACC,2016 ESC 及2016 CCS。下列何者不是指引主張，用以預防Af-related stroke?",
+    "options": [
+      "Aspirin沒有預防腦中風的角色。",
+      "AF病人的CHA2DS2-VASc計分0分(男)或低於1以下 (女)，得不用抗凝血藥物。",
+      "伴有腎功能失全的AF得用Apixaban。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 2/62",
+      "Apixaban, Edoxaban, 及Dabigatran 110 mg 較多腦內出血。",
+      "正常瓣膜性或非瓣膜性(Native or non-valvular)AF都得使用Warfarin 及Non-Vitamin K antagonist oral anticoagulation (NOAC)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-008",
+    "year": 106,
+    "num": 8,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "下列有關感染性心內膜炎(Infective endocarditis，IE)的新論說法，不是正確的？",
+    "options": [
+      "近年IE多見於五十歲後的中老人，且以男性為多。",
+      "製造亂流的心臟異常結構，導致心內膜傷變，聚結血小板、纖維素形成無菌贅生物，再結合菌血症及細菌性衍生和侵透性組織變化是重要的病理生理學。",
+      "典型的Osler nodes, Janeway或 Roth spots在當今的臨床實例並不多見。",
+      "典型的陽性菌株細菌培養如Streptococcus、 Staphylococcus 或HACEK 要有二套；其他持續性菌血培養要有距時12小時二套陽性，或四套以上培養有三套陽性。",
+      "任何IE病例都應快速使用Empirical antibiotics,不必久等血液細菌培養結果；使用抗生素後三天未退燒應考慮替換抗生素。"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-009",
+    "year": 106,
+    "num": 9,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "根据2016年台灣心臟學會，以2013- 2014年登錄的1509名失償性心衰竭(Decompensated systolic heart failure, DSHF) 的分析，有下列諸多特點，何者除外?",
+    "options": [
+      "心肌缺氧、飲食及用藥遵囑性降低、感染及腎失能都是觸發心衰竭的重要原因。",
+      "高達52.3 %的心衰竭伴有中等度和嚴重二尖瓣閉鎖不全 (Moderate and severe mitral regurgitation) 。",
+      "台灣的DSHF病人遠比歐、美、日多是老人，且以女性病人為多。",
+      "台灣的DSHF病人較少有心房纖維顫動(Atrial fibrillation) 及高血壓。",
+      "臨床醫師對台灣的DSHF病人較少使用 mineralocorticoid receptor antagonists及Beta- blockers。"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-010",
+    "year": 106,
+    "num": 10,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "病人68歲男性，有多年糖尿病及高血壓，治療中。有家族冠心病。在清晨健身走路時，突然胸悶，持續三個多小時，乃急診處求醫。時T/P/R: 36/75/20;BP: 148/85 mmHg，其他身體檢查未見重大異常。其胸部X光及心電圖如圖，生化及血液檢查如表。請問本病例最可能的正確診斷: (1)STEMI；(2)NSTEMI ACS； (3)RCA occlusion；(4) LAD occlusion；(5)Inferior wall MI；(6)Postero-inferior wall MI",
+    "options": [
+      "(1)+(3)+(5)",
+      "(1)+(3)+(6)",
+      "(2)+(3)+(5)",
+      "(2)+(3)+(6) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 3/62",
+      "(2)+(4)+(6)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-011",
+    "year": 106,
+    "num": 11,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關急性主動脈症候群(Acute aortic syndrome)的描述,何者為誤?",
+    "options": [
+      "急性主動脈壁內血腫(intraluminal hematoma)成因是營養管壁的小血管(vasa vasorum)破裂所致",
+      "急性主動脈壁內血腫主要發生於升主動脈 (ascending aorta)",
+      "穿透性粥狀動脈硬化潰瘍(penetrating atherosclerotic ulcer)成因是粥狀動脈硬化斑塊侵蝕至主動脈壁中膜 (aortic media)",
+      "穿透性粥狀動脈硬化潰瘍常發生於降胸主動脈的中端與遠端部(middle and distal portions of descending thoracic aorta)",
+      "急性主動脈壁內血腫可以演變成主動脈剝離甚至破裂"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-012",
+    "year": 106,
+    "num": 12,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "一位60歲女性有肺癌病史,來到急診時,吸氣時收縮壓比呼氣時收縮壓下降超過10mmHg以上,心電圖如附圖,請問何者描述為誤?",
+    "options": [
+      "此病人臨床上應有低血壓,心音微弱,與頸靜脈怒張 (Beck's triad )",
+      "頸靜脈波形會有明顯的 y descent",
+      "身體檢查時,該病患無Kussmaul's sign",
+      "心臟超音波檢查如圖",
+      "心臟超音波檢查時會出現舒張末期右心室塌陷徵象 (right ventricular collapse sign)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-013",
+    "year": 106,
+    "num": 13,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關正常收縮分率心臟衰竭(Heart failure with preserved ejection fraction)的描述何者為誤?",
+    "options": [
+      "根據文獻[The Candesartan in Heart Failure- Assessment of Mortality and Morbidity (CHARM) Preserved study], Candesartan 可以改善正常收縮分率心臟衰竭病患之所有原因死亡率(all-cause mortality)",
+      "根據文獻[ Irbesartan in Heart Failure with Preserved Systolic Function (I-PRESERVE) trial], Irbesartan無法明顯改善正常收縮分率心臟衰竭病患之臨床預後",
+      "根據文獻[Digitalis Investigation Group (DIG) trial],毛地黃 (digoxin)在正常收縮分率心臟衰竭病患的治療上, 並無幫助.",
+      "根據文獻[Study of The Effects of Nebivolol Intervention on Outcomes and Rehospitalization in Seniors with Heart Failure (SENIORS) trial], Nebivolol[一種乙狀受體阻斷劑 (beta-blocker)] , 無法改善曾因正常收縮分率心臟衰竭住院年長病患之所有原因死亡率(all-cause mortality)",
+      "根據文獻 [the Aldosterone Receptor Blockade in Diastolic Heart Failure (ALDO-DHF) study], file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 4/62 Spironolactone 無法改善正常收縮分率心臟衰竭病患的運動量,心衰竭症狀與生活品質."
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-014",
+    "year": 106,
+    "num": 14,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關利用改善生活模式(Life Style Modification)以達成高血壓控制目的描述,何者為誤?(1)體重下降9.2公斤,約可以下降收縮壓16.3 mmHg；(2)體重下降9.2公斤,約可以降低舒張壓3.1 mmHg；(3)限制食鹽(NaCl)每日攝取量4.4~7.4 克 [75~125meq],可以下降收縮壓約3.7~4.9 mmHg；(4)限制食鹽(NaCl)每日攝取量4.4~7.4克[75~125meq],可以下降舒張壓約0.9~2.9 mmHg；(5)根據文獻「Dietary Approaches to Stop Hypertension (DASH) trial」,食用富含水果,蔬菜與高油脂類食物有助於改善輕症高血壓患者血壓控制",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(2)+(4)",
+      "(1)+(5)",
+      "(3)+(4)",
+      "(2)+(4)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-015",
+    "year": 106,
+    "num": 15,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關血壓的描述何者錯誤?",
+    "options": [
+      "腿(leg)的收縮壓通常比上臂(upper arm)的收縮壓高 20 mmHg",
+      "腿與上臂的血壓差增加常見於重度主動脈閉鎖不全 (aortic regurgitation)或嚴重下肢週邊血管疾病",
+      "嚴重主動脈閉鎖不全患者,舒張壓測量值有可能為0 毫米汞柱",
+      "兩側上臂的收縮血壓差,正常在10毫米汞柱以內",
+      "姿勢性低血壓(Orthostatic hypotension)的定義為:從臥姿(supine position)變為立姿(upright posture)三分鐘內,收縮壓下降15毫米汞柱或舒張壓下降5毫米汞柱"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-016",
+    "year": 106,
+    "num": 16,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關二尖瓣膜狹窄(mitral stenosis)的描述,何者為誤?",
+    "options": [
+      "當二尖瓣膜面積降至1~1.5平方公分時,靜止狀態下之心輸出量(cardiac output)接近正常",
+      "當二尖瓣膜面積小於1平方公分時,靜止狀態下之心輸出量便已經低於正常(subnormal)",
+      "二尖瓣膜狹窄晚期的病人,反覆性肺動脈栓塞 (recurrent pulmonary embolization)不是造成罹病與死亡 (morbidity and mortality)的重要原因之一",
+      "二尖瓣膜狹窄合併心房顫動的病人,全身性栓塞 (systemic embolization) 的發生率(incidence)為 10~20%",
+      "輕度二尖瓣膜狹窄且臨床無症狀的病人,全身性栓塞有可能是臨床出現的表徵 (presenting feature)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-017",
+    "year": 106,
+    "num": 17,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "一名30歲男性到門診求診;無心悸時門診心電圖如附圖A,心悸時心電圖如附圖B. 請問下列描述何者錯誤?(1)附圖A 心電圖呈現縮短的PR間距 (shortened PR interval)；(2)附圖A 心電圖呈現 Epsilon 波 (Epsilon wave)；(3)附圖B為心室頻 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 5/62 脈 (ventricular tachycardia)；(4)當病人心悸呈現附圖B之心律不整時,不可以施打verapamil；(5)當病人心悸呈現附圖B之心律不整時,可以施打adenosine",
+    "options": [
+      "(1)+(5)",
+      "(2)+(4)+(5)",
+      "(2)+(3)+(4)",
+      "(3)+(4)",
+      "(2)+(3)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-018",
+    "year": 106,
+    "num": 18,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "根據統合分析(meta-analysis),運動心電圖的敏感度 (sensitivity)為66%, 專一度(specificity)為84%. 有一位病患之冠心症測前機率(pretest probability)為10%; 請問根據貝氏定理 (Bayes' Rule), 當運動心電圖呈陽性結果時,該病患之測後機率(posttest probability)約為?",
+    "options": [
+      "95%",
+      "70%",
+      "50%",
+      "30%",
+      "10%"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-019",
+    "year": 106,
+    "num": 19,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關HACEK(Haemophilus species, Aggregatibacter species, Cardiobacterium hominis, Eikenella corrodens, Kingella kingae) 心內膜發炎的描述,何者為誤?",
+    "options": [
+      "這些格蘭氏陰性細菌的培養環境需要二氧化碳",
+      "最常侵犯主動脈瓣與二尖瓣(mitral valve)",
+      "與非HACEK感染之心內膜炎(Non-HACEK endocarditis)比較, HACEK心內膜炎較不容易產生栓塞 (embolization)",
+      "約有85%的HACEK心內膜炎病患做心臟超音波時,可以見到贅生物(vegetation)",
+      "隨著培養技術的改良,大部分HACEK細菌的培養,一般在第一週便會呈現陽性."
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-020",
+    "year": 106,
+    "num": 20,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "一位42歲女性病患,主訴躺臥時某特定姿勢會伴隨眼前發黑的徵兆(black out)。臨床上症狀還包括倦怠,體重減輕身體檢查時,心臟聽診於心尖部舒張中期有一低頻心音,並有輕微杵狀指 (digital clubbing)。心臟超音波檢查如附圖,A圖為心室收縮期呈像,B圖為心室舒張期呈像 [RA=右心房;RV=右心室;LV=左心室]。請問該病患最有可能的診斷為?",
+    "options": [
+      "風濕性二尖瓣膜狹窄(Rheumatic mitral stenosis)",
+      "左心室假性室壁瘤(left ventricular pseudoaneurysm)",
+      "感染性心內膜炎合併二尖瓣贅生物(mitral vegetation)",
+      "左心房黏液瘤 (left atrial myxoma)",
+      "肝細胞癌合併右心房轉移"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-021",
+    "year": 106,
+    "num": 21,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "下列哪些乙狀受體阻斷劑(beta-blocker)可以用來改善低收縮分率心臟衰竭 (heart failure with reduced ejection file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 6/62 fraction)之預後?(1)carvedilol；(2)bisoprolol； (3)metoprolol succinate；(4)xamoterol；(5)propranolol",
+    "options": [
+      "(3)+(4)+(5)",
+      "(1)+(2)+(3)",
+      "(1)+(2)+(5)",
+      "(2)+(3)+(5)",
+      "(1)+(2)+(3)+(4)+(5)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-022",
+    "year": 106,
+    "num": 22,
+    "subject": "心臟血管",
+    "sectionRaw": "心臟科",
+    "question": "有關急性心肌梗塞後心室心律不整之描述何者為誤?",
+    "options": [
+      "在急性心肌梗塞發生24小時內,病患常常無預警的發生心室頻脈(ventricular tachycardia) 或心室顫動 (ventricular fibrillation)",
+      "急性心肌梗塞發生24小時內,即使未發生心室心律不整, 仍應常規預防性給予病患lidocaine",
+      "急性心肌梗塞48小時後,如果病患因心臟衰竭而發生心室頻脈或心室顫動;其住院死亡率或長期追蹤之死亡率均增加",
+      "Torsades des pointes 這種心室頻脈,可以在急性心肌梗塞後發生",
+      "急性心肌梗塞後發生之心室頻脈或心室顫動,如果對電擊 (electroshock)無效時,給予病患amiodarone, 有可能改善心室頻脈或心室顫動對電擊治療的反應 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 7/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-023",
+    "year": 106,
+    "num": 23,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於肺部的理學檢查，下列敘述何者錯誤？",
+    "options": [
+      "Velcro crackles 可見於肺纖維化(idiopathic pulmonary fibrosis, IPF) 患者。",
+      "Pulsus paradoxus 出現在阻塞性肺病(obstructive lung disease)患者時，是一個不好的徵象，可能是瀕臨呼吸衰竭 (impending respiratory failure)的徵兆。",
+      "Egophony是指病人發出\"AH\"的聲音，經由實質化區域的異常傳導，醫師在聽診時聽到 \"EEE\"的聲音，可見於肺炎 (pneumonia)患者。",
+      "Wheezes 常見於氣喘( asthma)患者，但在鬱血性心衰竭 (congestive heart failure)的患者也可見到。",
+      "stridor是吸氣時高頻的聲音，常為upper airway obstruction的表現。"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-024",
+    "year": 106,
+    "num": 24,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於呼吸功能方面的檢查，以下何者錯誤？",
+    "options": [
+      "一氧化碳肺擴散力檢查(DLCO，diffusion capacity of CO in lung)在肺氣腫 (emphysema)的患者會下降，在有左至右心內分流(left-to-right intracardiac shunt)的患者會上升。",
+      "肺量計支氣管擴張劑試驗 (spirometry with bronchodilator reversibility test)是在吸入支氣管擴張劑(如:albuterol或ipratropium)的前後，進行肺量計 (spirometry)的測試。前後肺功能的變化程度，由於重現性不佳，無法良好地預測支氣管擴張劑治療的長期效果。",
+      "呼氣中一氧化氮的濃度(fraction of exhaled nitric oxide, FeNO)是嗜伊紅性細胞呼吸道發炎(Eosinophilic Airway Inflammation) 的指標，可用於預測呼吸道阻塞對類固醇治療(corticosteroid)的反應。",
+      "測量最大呼吸壓力(maximal respiratory pressures)有助於找出肌肉無力(muscle weakness)導致的侷限性通氣障礙(restrictive ventilator impairment)病患，也容易區分肌肉無力與測試配合度不佳(poor test performance)的患者。",
+      "激發試驗(provocation test)是測量氣道過度反應 (airway hyperresponsiveness)可用methacholine或冷空氣或身體刺激(physical stimuli)。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-025",
+    "year": 106,
+    "num": 25,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於慢性阻塞性肺病(chronic obstructive pulmonary disease, COPD)，下列敘述何者錯誤？",
+    "options": [
+      "診斷COPD一定需要肺量計(spirometry)與支氣管擴張劑試驗 (bronchodilator reversibility test)。",
+      "輕度到中度的COPD患者，若有呼吸道高反應性(airway hyperresponsiveness，AHR)，可以預測肺功能會加速下降，特別是持續吸菸者。",
+      "合乎慢性支氣管炎(chronic bronchitis)定義的患者都屬於COPD。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 8/62",
+      "Centriacinar emphysema主要影響respiratory bronchiole，常見於α1-antitrypsin deficiency患者。",
+      "肺氣腫(emphysema)是病理診斷，而慢支氣管炎 (chronic bronchitis)為臨床診斷。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-026",
+    "year": 106,
+    "num": 26,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "肺功能檢查的氣流容積關係(flow-volume volume/loop)與疾病的配對(如圖)，下列何者正確：(X軸為容積，Y軸為氣流，Y軸正向為吐氣、負向為吸氣, TLC:total lung capacity, RV: residual volume)",
+    "options": [
+      "聲帶麻痺(vocal cord paralysis)，造成呼吸道阻塞 (variable extra-thoracic obstruction)。",
+      "復發性多軟骨炎(relapsing polychondritis)，造成呼吸道阻塞(variable intra-thoracic obstruction)。",
+      "慢性阻塞性肺病(chronic obstructive pulmonary disease, COPD)造成的阻塞性通氣障礙(obstructive ventilatory impairment)。",
+      "肺纖維化(pulmonary fibrosis)造成的侷限性通氣障礙 (restrictive ventilatory impairment)。",
+      "以上皆正確"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-027",
+    "year": 106,
+    "num": 27,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "病患胸部X光片與電腦斷層影像如圖，以下診斷何者最為可能:",
+    "options": [
+      "Small cell lung cancer",
+      "Septic emboli",
+      "Sarcoidosis",
+      "Bronchiolitis obliterans organizing pneumonia",
+      "Pulmonary fibrosis"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-028",
+    "year": 106,
+    "num": 28,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於慢性阻塞性肺病 (chronic obstructive pulmonary disease，COPD)的評估與治療，下列那些描述錯誤？(1) 2011-2016年修訂之GOLD (Global Initiative for Chronic Obstructive Lung Disease) COPD guideline，除了FEV1 (forced expiratory volume in one second，用力呼氣一秒量)之外，加入了前一年急性惡化(acute exacerbation)發作次數與臨床症狀，將病患分為ABCD四類。此分類方式比 FEV1更能預測病患的死亡率與急性惡化的風險；(2) GOLD 2017 COPD guideline，依照病患前一年急性惡化(acute exacerbation)發作次數與臨床症狀來建議治療的藥物，不必再考慮FEV1；(3) 以吸入性用藥而言，長效型的乙型致效劑(long-acting beta2-agonist，LABA) 與吸入性類固醇 (ICS) 的組合，比LABA與長效型的毒蕈鹼拮抗劑(long- acting anti-muscarinic antagonist，LAMA)的組合更能減少惡化的風險；(4) LABA/LAMA的組合與LABA/ICS的組合，兩者肺炎併發症發生的比例有顯著差異；(5)針對C類的症狀輕但是惡化風險高的COPD病患，GOLD 2017 COPD guideline建議優先考慮使用LABA治療。",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(3)+(4)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 9/62",
+      "(1)+(3)+(5)",
+      "(1)+(4)+(5)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-029",
+    "year": 106,
+    "num": 29,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於換氣控制(ventilatory control)，下列描述何者錯誤？",
+    "options": [
+      "heyne-Stokes呼吸約佔呼吸中止症(sleep apnea)患者的5~10%，在沒有心衰竭(heart failure)患者身上，並不常見。",
+      "Hypoventilation syndrome定義為缺乏足夠的通氣量以維持正常動脈血中CO2分壓(PaCO2)。最常見的情形為嚴重的慢性阻塞性肺病 (chronic obstructive pulmonary disease，COPD)或病態肥胖(morbid obesity)。",
+      "Central congenital hypoventilation syndrome之前被稱為Ondine curse，是第四對染色體上的PHOX2B基因發生突變，造成對CO2的通氣反應不足。",
+      "女性、PaCO2基礎值較高、心房撲動(atrial flutter)都是 Cheyne-Stokes呼吸的危險因子。",
+      "90% 的obesity-hypoventilation syndrome患者合併有阻塞型睡眠呼吸中止症( obstructive sleep apnea)。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-030",
+    "year": 106,
+    "num": 30,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於阻塞型睡眠呼吸中止症 (Obstructive Sleep Apnea/Hypopnea Syndrome，OSAHS)，下列描述何者錯誤",
+    "options": [
+      "GOLD 2017 COPD guideline將OSAHS納入COPD的共病症之一。",
+      "合併有COPD與OSAHS的患者，比只有單一疾病的患者預後較差，白天也更容易發生肺高壓(pulmonary hypertension)。",
+      "2016年大型的隨機分派實驗SAVE study證實持續陽壓治療(continuous positive airway pressure，CPAP)可以預防心血管疾病的發生。",
+      "OSAHS對健康造成的不利影響是透過chronic intermittent hypoxemia 與sleep fragmentation所造成",
+      "以連續陽壓呼吸器治療(CPAP)治療overlap syndnome 可以改善COPD預後 (B 9.關於氣喘 (asthma)，下列敘述何者錯誤？ or A. 吸入methacholin或histamine會造成支氣管收縮 C) (bronchoconstriction)稱為呼吸道過度反應性(airway hyperresponsiveness，AHR)。這是氣喘(asthma)的特徵，但在很多COPD患者身上也可見到。 B. 呼氣中一氧化氮的濃度(fraction of exhaled nitric oxide, FeNO)已被2017 GINA (Global Initiative for Asthma) guideline 建議可以用來引導治療asthma (FENO-guided treatment)。 C. 對於同時有慢性鼻竇炎(chronic rhinosinusitis)的患者，治療鼻竇炎僅能改善鼻子和呼吸道的症狀，對於 asthma outcome並無幫助。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 10/62 D. Asthma with obesity是asthma的表現型(phenotype) 之一，有較明顯的呼吸道症狀，但很少嗜伊紅性呼吸道發炎(eosinophilic airway inflammation)。 E. 氣喘病人的評估中包括共病如睡眠呼吸中止症 (obstructive sleep apnea)。"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-031",
+    "year": 106,
+    "num": 31,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於氣喘 (asthma)評估與治療，下列敘述何者錯誤？",
+    "options": [
+      "症狀是否控制要評估日夜間症狀、是否需要緩解用藥 (reliever)和有沒有因為氣喘日常的活動受限。",
+      "每周白天發作兩次以上就必須要規律的controller(吸入性類固醇)治療。",
+      "氣喘控制不佳最常見的原因是用藥的compliance不好，特別是吸入性類固醇。",
+      "氣喘完全控制3個月後，可以停用controller治療。",
+      "在氣喘病人的評估應包括共病如睡眠呼吸中止症 (obstructive sleep apnea)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-032",
+    "year": 106,
+    "num": 32,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "80歲男性有慢性阻塞性肺病(chronic obstructive pulmonary disease，COPD)，呼吸困難、咳嗽有黃痰已持續一周，後來意識變差被送到急診。在急診時檢查顯示，意識E1V1M3，血壓102/62 mmHg，心跳118/min，呼吸速率12/min，肺部有明顯浸潤，KUB呈現bowel loop dilatation，尿量有減少。無腸蠕動音，無腹膜炎的徵象。在未用氧氣的狀態下，動脈氣體分析(arterial blood gas): pH =7.2, PaO2= 65 mmHg, PaCO2 =60 mmHg, HCO3= 18 mEq/L, SaO2 93%。血清中[Na+]=140 mmol/L, [K+] = 2.8 mmol/L , [Cl-] =96 mmol/L, [BUN]=36 mg/dL, [Creatinin] =1.6 mg/dL。以下哪些描述或處置是正確的： (1) 病患的狀態是代謝性酸血症(metabolic acidosis)合併呼吸酸血症 (respiratory acidosis)。 (2) 為COPD合併急性呼吸衰竭，應優先使用非侵襲性雙相陽壓呼吸器(bi-level positive airway pressure，BiPAP)。 (3) 為高陰離子間隙(Anion Gap)之酸血症，可能有敗血症合併休克在進行。 (4) 易有心室性心搏過速(ventricular tachycardia)發生。 (5) 有腸阻塞的徵象，應會診外科醫師進行急診手術。",
+    "options": [
+      "(1)+(2)+(3)",
+      "(3)+(4)+(5)",
+      "(1)+(3)+(4)",
+      "(1)+(2)+(5)",
+      "(1)+(3)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-033",
+    "year": 106,
+    "num": 33,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "70歲之男性病人，一天兩包菸。最近十年來常有痰及咳嗽，最近一年來並有運動後呼吸困難之症狀。就診時理學檢查結果如下：血壓及脈搏正常，呼吸每分鐘22次，無發紺現象，胸廓之前後徑較正常增加。叩診時呈示「過度回響」之現象。實驗室檢查之部份結果如下：pH7.36，PaO2 74mmHg，PaCO2 58mmHg。病人為什麼覺得喘?",
+    "options": [
+      "因為血液氧氣濃度不夠 (PaO2 74mmHg)",
+      "因為血液酸鹼值超過正常值 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 11/62",
+      "因為二氧化碳濃度太高 (PaCO2 58mmHg)",
+      "胸廓之前後徑增加，呼吸肌無法有效運作",
+      "咳嗽痰太多所以覺得喘"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-034",
+    "year": 106,
+    "num": 34,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "慢性阻塞性肺病(COPD簡稱肺阻塞)病人肺功能檢查FVC 3600毫升（預測值3880毫升），FEV1 2160毫升（預測值 3100毫升）目前病情無顯著變化，此時病人最不需要的治療為何?",
+    "options": [
+      "肺炎鏈球菌疫苗及流感疫苗",
+      "戒菸",
+      "吸入型氣管擴張劑",
+      "肺復原(肺復健)",
+      "口服抗生素"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-035",
+    "year": 106,
+    "num": 35,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "77歲男性老煙槍一天1至2包菸，超過50年，因為脖子摸到一顆淋巴結來到醫院。一系列的檢查發現為分化不好的肺腺癌，具有KRAS Mutation，有骨骼及皮下的轉移，病人詢問免疫治療的可能性，以下何者為是？(1)建議做生物標誌細胞程式死亡-配體1 (PD-L1)免疫組織染色，腫瘤細胞染色超過50%，可以考慮第一線使用；(2)抽菸的病人對於免疫治療效果較好；(3)KRAS Mutation 對於免疫治療效果較好；(4)免疫治療在肺腺癌的病人也有幫助，但與化療的差異，較鱗狀細胞癌不明顯；(5)肺癌的免疫治療法是將病人的 T 細胞分離出來與抗原一起培養後再注射回去。",
+    "options": [
+      "(1)+(2)+(3)+(4)+(5)",
+      "(1)+(2)+(3)+(4)",
+      "(1)+(2)+(3)",
+      "(1)+(2)+(4)",
+      "(1)+(2)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-036",
+    "year": 106,
+    "num": 36,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "下列對台灣肺癌的敘述何者為非？(1)台灣女性肺腺癌，抽菸的比例不到10%；(2)男性病人最常見的是鱗狀細胞癌； (3)與小細胞肺癌相較，鱗狀細胞癌與抽菸的關聯性更高； (4)臺灣肺癌的男女比例相較西方國家，女性肺癌比例偏高；(5)因為標靶藥物及免疫治療的發展，肺癌的預後比胃癌及腸癌好。",
+    "options": [
+      "(1+)(3)+(4)",
+      "(2)+(3)+(5)",
+      "(1)+(3)+(5)",
+      "(3)+(4)+(5)",
+      "(2)+(4)+(5)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-037",
+    "year": 106,
+    "num": 37,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "72歲女性股骨骨折開刀住院，三天後突發喘，理學檢查呈現心跳每分鐘120下，呼吸每分鐘25次，血氧濃度94% (Room air)，沒有發燒，心肺檢查無異常。心電圖顯示竇性心跳過速(sinus tachycardia)，動脈血檢查:酸鹼值 7.52，二氧化碳分壓 (PaCO2)25mmHg，下一步該做甚麼檢查或治療？ file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 12/62",
+    "options": [
+      "安慰病人喘是骨折正常病程",
+      "給予鎮定劑",
+      "安排心臟超音波",
+      "安排電腦斷層肺血管造影",
+      "給予抗生素治療氣管發炎"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-038",
+    "year": 106,
+    "num": 38,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "32歲女性被診斷為中度持續性氣喘。三個月來氣喘控制良好，短效氣管擴張劑一週使用不到一次，一個月晚上會因氣喘醒來兩次，運動時不會受到限制。目前用藥包括吸入類固醇 fluticasone 50 ug/puff 2puff一天兩次，長效氣管擴張劑salmeterol 50 ug/puff一天兩次，FEV1 目前為83% predict value，接下來該？",
+    "options": [
+      "加上白三烯拮抗劑(leukotriene antagonist) montelukast 10mg 每天一次",
+      "降低吸入性類固醇 fluticasone 到50ug/puff 1puff一天一次",
+      "停止吸入性類固醇使用",
+      "停止長效氣管擴張劑 salmeterol 使用",
+      "維持目前治療"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-039",
+    "year": 106,
+    "num": 39,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "全世界造成支氣管擴張最常見的原因？",
+    "options": [
+      "囊性纖維化 cystic fibrosis",
+      "類風濕性關節炎",
+      "肺結核",
+      "分枝桿菌感染(MAC infection)",
+      "免疫球蛋白缺乏症"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-040",
+    "year": 106,
+    "num": 40,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "肺結核的控制最重要的就是及時檢測，並提供有效的短期治療。進一步的預防是找出潛伏結核感染的群組並給予治療。下列敘述何者為是？(1)疾病管制署已在2016年推動全年齡層潛伏結核全都治計畫；(2)潛伏結核的偵測，五歲以上以結核菌皮膚測驗(TST)為主，五歲以下以丙型干擾素釋放試驗(IGRA)為主；(3)需做CXR ，排除肺部有活動性肺結核；(4)治療的處方在12歲以下可以考慮9個月的 Isoniazid 或3個月的 Isoniazid 加 Rifapentine；(5)建議以都治計畫給藥(Directly Observed Treatment Short-Course， DOTS)。",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(3)+(5)",
+      "(2)+(4)+(5)",
+      "(1)+(3)+(4)",
+      "(3)+(4)+(5)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-041",
+    "year": 106,
+    "num": 41,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "62歲男性 COPD在門診追蹤治療。在一次重感冒後，病人覺得越來越喘，咳嗽加劇，合併少許黃痰，因此來到急診。未發作時，最後一次的肺功能FEV1 42%。在急診，二氧化碳分壓 (PaCO2)78mmHg，病人呈現accessory file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 13/62 muscle use 及輕微神智不清，兩側瀰漫性喘鳴音，胸部X 光無肺炎跡象。請問下一步應該做甚麼可以降低死亡率？",
+    "options": [
+      "使用非侵襲性正壓呼吸器",
+      "插管使用呼吸器",
+      "給予廣效性抗生素",
+      "靜脈注射類固醇",
+      "增加氣管擴張劑的劑量"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-042",
+    "year": 106,
+    "num": 42,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "57歲男性，年輕時做過煤礦工十多年。最近因為喘、咳加劇來醫院求診，下列哪種疾病與他的職業無關？",
+    "options": [
+      "肺癌",
+      "肺結核",
+      "慢性肺阻塞性肺疾",
+      "塵肺症",
+      "間皮瘤(mesothelioma)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-043",
+    "year": 106,
+    "num": 43,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "阻塞性睡眠呼吸中止症候群，下列哪一個敘述為非？",
+    "options": [
+      "有些病人可能從小就有打呼的問題，而體重增加則會加速疾病進行。",
+      "主要的危險因子為女性及肥胖",
+      "隨著年紀增加，發病的機會也增加",
+      "常伴隨心血管疾病及代謝疾病",
+      "診斷需要靠過夜多導睡眠監測(overnight polysomnography) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 14/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-044",
+    "year": 106,
+    "num": 44,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "一位病人被家屬送至急診室，自訴上腹中央疼痛已有3天，平躺會更痛，伴有嘔吐現象。關於這位病人，下列敘述何者錯誤？",
+    "options": [
+      "抽血檢驗 Liapse 較具診斷性",
+      "若血中 Amylase 正常,即可排除急性胰臟炎之可能性",
+      "應注意其血中 triglyceride 是否超過1000 mg/dL",
+      "應注意其腰部是否有 Turner's sign",
+      "應詢問其目前是否有服用 Furosemide, Hydrochlorothiazide, 6- Mercaptopurine/azathioprine 等藥物"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-045",
+    "year": 106,
+    "num": 45,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "有關 Macroamylasemia之敘述，何者錯誤?",
+    "options": [
+      "這是由於 amylase multimers 無法由血中排至尿中所致",
+      "血中 amylase 濃度會異常上升",
+      "血中 Lipase 通常也會異常升高",
+      "Macroamylase 可用 chromatography 偵測出來",
+      "病人通常沒有腹痛"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-046",
+    "year": 106,
+    "num": 46,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "下列各項敘述，何者正確？",
+    "options": [
+      "急性腹瀉( < 2週) 病人若有bloody stool 或發燒 >38.5 C 時，應詳查其原因",
+      "最近服用抗生素而導致急性腹瀉，不必進一步詳查病因",
+      "Osmotic diarrhea 病人之大便量通常大於 1L/天，禁食即會停止腹瀉",
+      "Secretory diarrhea 病人之大便量通常小於 1L/天，即便禁食仍會出現腹瀉",
+      "Small intestinal bacterial overgrowth 較少發生於 intestinal motility異常(dysmotility) 之病人，如： autonomic neuropathy"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-047",
+    "year": 106,
+    "num": 47,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "有關C型肝炎之敘述，何者正確？(1)經由體液傳染；(2)急性C型肝炎多數沒症狀，不易察覺；(3)目前已有疫苗可供預防；(4)健康成年人罹患急性C型肝炎，若未治療，約 20% 會變成慢性肝炎；(5)慢性C型肝炎患者，若未治療， 20-30年後約有20-30% 會演變成肝硬化；(6)目前肝癌病人之病因為慢性C型肝炎之比例愈來愈高；(7)慢性C型肝炎患者之臨床病狀僅侷限在肝臟",
+    "options": [
+      "(1)+(2)+(3)+(4)",
+      "(2)+(4)+(5)+(7)",
+      "(3)+(5)+(6)+(7)",
+      "(1)+(2)+(5)+(6)",
+      "(4)+(5)+(6)+(7)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-048",
+    "year": 106,
+    "num": 48,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "有關慢性C型肝炎治療之敘述，何者錯誤？(1)長效型干擾素 (PEG IFN) 併用Ribavirin 目前仍是治療主流，特別是在C file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 15/62 肝病毒基因型第一型患者；(2)長效型干擾素 (PEG IFN) 併用Ribavirin之副作用包括：類似流感之症狀，白血球 (中性球) 降低、貧血；(3)長效型干擾素 (PEG IFN) 併用Ribavirin 之副作用不包括：自體免疫疾病 (尤其是甲狀腺炎)、憂鬱；(4)免干擾素全口服C肝藥物類 (Direct Acting Antiviral Agents, DAAs) 之副作用較少且輕微，包括：倦怠、頭痛、皮膚炎、睡眠障礙；(5)DAAs對C肝病毒基因型第二型患者之治癒率可達九成五以上；(6)每一種DAA皆可用於肝功能已失代償之肝硬化病人(decompensated cirrhotic patients)；(7)DAAs之使用需特別注意藥物交互作用(Drug- Drug Interactions)",
+    "options": [
+      "(7)+(6)+(5)+(3)",
+      "(1)+(3)+(4)+(7)",
+      "(1)+(3)+(5)+(6)",
+      "(2)+(4)+(6)+(7)",
+      "(3)+(4)+(6)+(7)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-049",
+    "year": 106,
+    "num": 49,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "關於急性肝炎可能病因之診斷，下列組合何者正確？(1)A型肝炎：IgG Anti-HAV；(2)B型肝炎：HBsAg, HBV DNA； (3)C型肝炎：Anti-HCV， HCV RNA；(4)Wilson's disease: ferritin, transferrin saturation；(5)Autoimmune hepatitis: Antinuclear antibody (ANA), smooth muscle antibody；(6)Primary biliary cirrhosis: Mitochondrial antibody",
+    "options": [
+      "(1)+(3)+(5)+(6)",
+      "(2)+(3)+(4)+(5)",
+      "(3)+(4)+(5)+(6)",
+      "(2)+(3)+(5)+(6)",
+      "(1)+(2)+(3)+(5)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-050",
+    "year": 106,
+    "num": 50,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "一位慢性B型肝炎女性患者，因病情所需服用 Entecavir (Baraclude) 治療已有兩年之久，其ALT及AST也一直維持在正常範圍內。但是最近一次檢驗發現ALT=100 (<41) U/L, AST=70 (< 31) U/L, HBV viral load: undetectable, Anti- HCV (+); HCV RNA: undetectable, Anti-HDV (-)。下列敘述何者錯誤？",
+    "options": [
+      "此病人體內之B型肝炎病毒對 entecavir 已產生抗藥性",
+      "此病人不是C型肝炎病毒 (HCV) superinfection",
+      "此病人不是D型肝炎病毒 (HDV) superinfection",
+      "應加驗 IgM Anti-HAV",
+      "應加驗 Antinuclear antibody (ANA)及Smooth muscle antibody"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-051",
+    "year": 106,
+    "num": 51,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "有關慢性B型肝炎特異性治療 (PEG Interferon及口服抗B肝病毒藥物) 之敘述，何者錯誤？(1)HBeAg (+) 患者，無肝硬化，ULN < ALT < 2X ULN (upper limit of normal range)，應開始接受治療；(2)HBeAg (-) 患者，若 HBV DNA ≧ 2000 IU/mL，且半年內有兩次 ALT > 2X ULN (彼此間隔3個月以上)，應開始接受治療；(3)肝硬化患者，若HBV DNA file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 16/62 ≧ 10000 IU/mL，應開始接受治療；(4)肝硬化患者，已失去代償(decompensated liver cirrhosis)，不論HBV DNA檢測結果為何，應開始接受治療；(5)年輕生育年齡之患者，優先考慮口服抗B肝病毒藥物；(6)若有急性發作病情，且 Bilirubin (T)=10.5 (< 1.0), PT=17.5 (< 11), 應儘速給予PEG Interferon治療",
+    "options": [
+      "(1)+(3)+(5)",
+      "(2)+(3)+(4)+(6)",
+      "(3)+(4)+(5)",
+      "(2)+(3)+(5)+(6)",
+      "(1)+(4)+(5)+(6)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-052",
+    "year": 106,
+    "num": 52,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "肝硬化已有多年的病人最近常因肝性腦病變住院。其肝臟殘存功能 (liver reserve) 並無明顯惡化；住院中亦查不出各種誘因 (precipitating factor)。他一直固定喝 lactulose 每天3次，每次20 ml，一天有3~4次大便；每天食用的蛋白質亦適中。加用下列何種藥物，何者有助於減少肝性腦病變發生之頻率且不會有明顯副作用？",
+    "options": [
+      "Rifaximin",
+      "Metronidazole",
+      "Neomycin",
+      "Ciprofloxain",
+      "Dulcocax"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-053",
+    "year": 106,
+    "num": 53,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "關於 Ischemic Bowel Disease 之敘述，下列何者錯誤？ (1)Ischemic colitis 通常不會侵犯rectum；(2)Ischemic colitis 常侵犯右邊大腸；(3)Systemic Lupus Erythematosis 病人可能罹患ischemic colitis； (4)Chronic mesenteric ischemia\u0013病人之腹痛通常與進食無關；(5)Chronic mesenteric ischemia 又稱intestinal angina；(6)Acute mesenteric ischemia 常發生於中老年人( > 50歲)；(7)SMA (superior mesenteric artery) embolus 導致的acute mesenteric ischemia 病人，發病期間其plain abdomen 都不會有任何異常表現。",
+    "options": [
+      "(1)+(2)+(4)",
+      "(2)+(3)+(6)",
+      "(3)+(5)+(7)",
+      "(2)+(4)+(7)",
+      "(1)+(5)+(6)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-054",
+    "year": 106,
+    "num": 54,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "關於 obscure gastrointestinal bleeding 之確診，下列敘述何者錯誤？",
+    "options": [
+      "應再以 colonoscopy及 esophagogastroduodenoscopy 排除常見的出血病灶",
+      "Technetium-99m (Tc-99m) labeled nuclear scan 用於偵測 actively bleeding lesions很有用，只要出血量達 0.1-0.5 mL/min 即可，也能判斷為何種病灶及其解剖位置。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 17/62",
+      "Angiography (celiac & mesenteric arteries) 僅能用於 active overt bleeding ( 需 > 1 mL/min) 之病人，除了診斷，也能提供arterial embolization 治療。",
+      "Small-bowel barium study with enteroclysis 現在較少被用為第一線診斷工具",
+      "Single- and Double-Balloon Enterscopy不適用於有 radiation enteritis, severe ulceration 及 recent bowel surgery 之病人"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-055",
+    "year": 106,
+    "num": 55,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "28歲男性病患因為吞嚥困難(dysphagia)接受上消化道攝影檢，結果如圖。下列敘述，何者為錯？(1)只有對固態食物會有吞嚥困難現象；(2)此病的產生可能與遺傳易感性 (genetic susceptibility)加上第一型Herpes simplex virus 感染；(3)食道檢壓測試(manometry)為此病最敏感的檢查；(4)得到食道癌的機率和一般人相同；(5)以Calcium channel blocker治療效果良好",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(3)+(4)",
+      "(1)+(4)+(5)",
+      "(2)+(3)+(4)",
+      "(2)+(4)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-056",
+    "year": 106,
+    "num": 56,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "患者因上腹悶痛接受上消化道內視鏡檢查，發現十二指腸潰瘍，胃鏡切片快速尿素�C檢查(rapid urease test)呈現陽性，病患並未服用消炎止痛劑，但對盤尼西林 (penicillin)過敏。經服用14天omeprazole、 metronidazole及clarithromycin後，接受尿素呼吸測試 (urea breath test)結果陽性，除了再度給予質子幫浦抑劑 (proton pump inhibitor)外，下列何項處方最適合此位患者？",
+    "options": [
+      "amoxicilin和levofloxacin",
+      "bismuth subsalicylate, metronidazole和tetracycline",
+      "clarithromycin和amoxicillin",
+      "clarithromycin和metronidazole",
+      "trimethoprim-sulfamethoxazole和erythromycin"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-057",
+    "year": 106,
+    "num": 57,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "有關膽酸(bile acid)敘述，何者為是？(1)膽酸主要由肝臟合成而來，膳食(diet)中並無膽酸成份；(2)次級(secodary)膽酸包括chenodeoxycholic acid和lithocholic acid兩種； (3)膽酸分泌至腸道後主要在大腸再吸收；(4)慢性肝病，如原發性膽道肝硬化(primary biliary cirrhosis)，可因為膽酸合成及分泌異常造成脂肪性腹瀉(steatorrhea)；(5)膽酸合成主要受膽固醇degradation酵素7α-hydroxylase調控",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(3)+(4)",
+      "(1)+(4)+(5)",
+      "(2)+(3)+(4)",
+      "(2)+(3)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 18/62"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-058",
+    "year": 106,
+    "num": 58,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "20歲男性，腹瀉超過1個月，大便帶黏液及血液，且出現關節疼痛現象，有皮膚病灶(如圖)，最可能的診斷為？",
+    "options": [
+      "大腸激燥症(irritable bowel syndrome)",
+      "服用抗生素引起之腸炎",
+      "慢性胰臟炎",
+      "小腸寄生蟲感染，如Giardia",
+      "克隆氏症(Crohn's disease)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-059",
+    "year": 106,
+    "num": 59,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "34歲女性因持續性上腹痛反射至背部、噁心、嘔吐5天，診斷為酒精相關胰臟炎而住院接受進一步評估。身體檢查體溫38.2℃，血壓132/84mmHg、脈搏101/min、呼吸 20/min、鞏膜無黃膽、腹部瀰漫性壓痛且腸音為 hypoactive。血液檢查WBC:15400/μL、AST:189U/L、 ALT:151U/L、Bilirubin(total):1.1mg/dL、 amylase:388U/L、lipase:924U/L。電腦斷層顯示胰臟瀰漫性水腫，且有peripancreatic fluid collection，但無壞死現象。最適合的下一步治療為何？",
+    "options": [
+      "enteral nutrition by nasojejunal feeding tube",
+      "intravenous imipenem",
+      "pancreatic debridemet",
+      "parenteral nutrition",
+      "oral metronidazole"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-060",
+    "year": 106,
+    "num": 60,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "68歲男性有酗酒病史，因間歇性腹痛合併腹瀉7個月至急診，病患並未服用任何藥物。身體檢查並無發燒， BP:108/72mmHg、脈搏:80/min、呼吸16/min，肚子並無壓痛也未有腹脹。血液檢查AST:155U/L、ALT:88U/L、 ALP:96U/L、Bilirubin(total):1.1mg/dL、 amylase:65U/L、lipase:70U/L。糞便檢查有脂肪，腹部電腦斷層如圖，下列何者為正確治療？",
+    "options": [
+      "fiber",
+      "cholestyramine",
+      "loperamide",
+      "pancreatic enzyme",
+      "ciprofloxacin"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-061",
+    "year": 106,
+    "num": 61,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "81歲婦女有3個月腹痛及背痛，合併食慾不振及體重減輕11 公斤，最近2週出現黃疸及皮膚搔癢。血液檢查 WBC:13200/μL、Bilirubin(total):12.4mg/dL、 ALP:784U/L、CA19-9:822U/L。腹部電腦斷層於胰臟頭有 3.2公分腫瘤合併胰管和膽管擴張及肝臟多顆腫瘤，內視鏡超音波合併胰臟頭部腫瘤切片之病理為腺癌 (adenocarcinoma)。下列何項處置對病患最恰當？",
+    "options": [
+      "肝臟切片",
+      "膽道支架置放",
+      "胰臟和肝臟放射治療",
+      "手術切除胰臟腫瘤",
+      "輔助性化學治療 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 19/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-062",
+    "year": 106,
+    "num": 62,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "57歲女性因急性左下腹痛、腹瀉、噁心至急診，體溫 38.1℃，BP:115/76mmHg、脈搏:98/min，左下腹有按壓痛，但無反彈痛也無腫塊。WBC:14900/μL，腹部電腦斷層顯示乙狀結腸有diverticula且有pericolic fatty infiltration 及bowel wall thickening。但無膿瘍、阻塞或廔管。下一步最適當處置為？",
+    "options": [
+      "乙狀結腸鏡檢查",
+      "全大腸鏡檢查",
+      "口服cephalexin治療",
+      "口服ciprofloxacin和metronidazole治療",
+      "外科切除"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-063",
+    "year": 106,
+    "num": 63,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "30歲男性，4年前被診斷B型肝炎，最近3週有疲倦、黃膽現象。病患偶爾喝一瓶啤酒，並無服用任何藥物。身體檢查:體溫36.1℃、血壓120/65mmHg、脈搏100/min、呼吸 16/min，右上腹有輕度壓痛。血液檢查:Bilirubin(T)/(D):3.8/1.8mg/dL、AST:1100U/L、 ALT:1450U/L、PT INR:1.2、HBsAg(+)、IgG-anti- HBc(+)、IgM-anti-HBc(-)、HBV-DNA<20U/L、anti- HCV(-)，超音波僅發現肝臟實質為heterogeneous echotexture，無其它異常。此病患最可能診斷為？",
+    "options": [
+      "急性酒精性肝炎",
+      "急性膽囊炎",
+      "肝細胞癌",
+      "B型肝炎病毒再活化(reactivated HBV infection)",
+      "D型肝炎病毒superinfection"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-064",
+    "year": 106,
+    "num": 64,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "51歲男性因半年噁心、腹脹、和腹瀉入院檢查。噁心和腹脹在飯後一小時發生且合併激烈腸子蠕動及心悸。高脂飲食並不會加重症狀產生，也沒有腹痛或體重減輕。個案9個月前因perforated peptic ulcer接受distal gastrectomy手術，術後並未服用藥物。身體檢查BMI:24，生命徵象穩定且正常，腸音為hyperactive。血液檢查包括CBC和生化均正常。上消化道內視鏡發現手術吻合處正常且暢通，切片及小腸液分析也正常。最可能的診斷為？",
+    "options": [
+      "carcinoid syndrome",
+      "chronic mesenteric ischemia",
+      "dumping syndrome",
+      "gastrinoma",
+      "irritable bowel syndrome"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-065",
+    "year": 106,
+    "num": 65,
+    "subject": "消化",
+    "sectionRaw": "消化科",
+    "question": "75歲女性一早起床有腹部絞痛、腹瀉二次，且合併解出鮮血。病患有高血壓及冠狀動脈疾病病史，服用藥物包括 aspirin, ramipril, metoprolol和simvastatin。6個月前大腸鏡檢查正常。至急診之身體檢查體溫36.8℃、血壓 130/80mmHg、脈搏70/min、呼吸14/min，左下腹有壓痛，直腸肛診有鮮血。腹部電腦斷層之乙狀結腸有局部增厚現象。下列何者為最可能的診斷？ file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 20/62",
+    "options": [
+      "Crohn's disease",
+      "ulcerative colitis",
+      "microscopic colitis",
+      "ischemic colitis",
+      "CMV colitis < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 21/62"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-066",
+    "year": 106,
+    "num": 66,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位48歲女性，患有bipolar affective disorder，長期服用鋰鹽(Lithium)近十年。最近出現: polyuria 和 polydipsia。以下敘述，何者錯誤?",
+    "options": [
+      "病人可能是 Lithium intoxication",
+      "症狀可能是 central diabetes insipidus (DI)",
+      "慢性 Lithium nephropathy可伴隨有蛋白尿",
+      "可伴隨出現 hypernatremia",
+      "Lithium 若引起慢性腎病變會有 interstitial fibrosis 和 tubular atrophy"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-067",
+    "year": 106,
+    "num": 67,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位62歲女性，因經常頭痛與關節痠痛，自行服用多種止痛藥，有aspirin, caffeine, acetaminophen及不同種類的 NSAID (non-steroid anti-inflammatory drug)等，混合著使用。最近身體檢查發現有腎功能不全與蛋白尿(2+)。以下敘述的症狀或診斷，何者最正確?",
+    "options": [
+      "病人的診斷符合 renal infarction and cortical necrosis",
+      "病人的診斷最可能是 glomerulosclerosis",
+      "其他可能伴隨出現 polyuria and metabolic alkalosis症狀",
+      "本診斷可能伴隨出現 papillary necrosis and papillary calcification",
+      "上述藥物中，最可能引起此病症的是acetaminophen"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-068",
+    "year": 106,
+    "num": 68,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位42歲男性，因發現最近數次量到血壓升高(148/88 mmHg)，而自行到醫院就診。針對初次就醫，且多次紀錄證實確有高血壓的病人，會安排優先做以下評估(initial evaluation)，以下何者最不具優先性?",
+    "options": [
+      "Urinalysis",
+      "Serum BUN and creatinine",
+      "Serum uric acid",
+      "Fasting blood glucose, total cholesterol and LDL cholesterol",
+      "Hematocrit"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-069",
+    "year": 106,
+    "num": 69,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "長期糖尿病會引起多種腎臟病變，包括: 蛋白尿、腎功能不全、感染症，或腎小管酸血症(renal tubular acidosis, 簡稱RTA)與代謝性酸血症。有關這種RTA，以下敘述何者正確?",
+    "options": [
+      "此種RTA的特點是出現hyperkalemia",
+      "最常引起的是type II RTA",
+      "此種RTA引起的酸血症，通常serum pH值會很低，需要靜脈注射補充bicarbonate",
+      "此種RTA是因為血中aldosterone濃度很高所引起",
+      "主要病變是在collecting tubule，無法排出氫離子 (hydrogen ion) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 22/62"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-070",
+    "year": 106,
+    "num": 70,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位62歲女性，長期服用amitriptyline治療憂鬱症 (depression)，最近因stroke住院。病人無吞嚥困難，飲食正常，也沒有水腫。住院一週後抽血檢查發現serum [Na] 126 mEq/L，osmolality 262 mOsm/kg。urine [Na] 40 mEq/L，urine osmolality 398 mOsm/kg。病人 hyponatremia的原因，最可能是?",
+    "options": [
+      "發生Renal sodium loss and dehydration",
+      "發生Extra-renal loss of sodium, and fluid overload",
+      "發生 lung cancer",
+      "發生 SIADH (syndrome of inappropriate anti-diuretic hormone secretion)",
+      "發生 stroke-induced central diabetes insipidus (DI)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-071",
+    "year": 106,
+    "num": 71,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位22歲女性，有三年SLE (Systemic Lupus Erythematosus)病史，但沒有規則服藥。最近一週出現喘、水腫、尿量減少，體重增加近7公斤。住院血壓154/94 mmHg，抽血檢查: BUN 98 mg/dL，creatinine 3.6 mg/dL, urine protein (4+)。因為急性腎損傷(acute kidney injury, AKI)，安排病人接受腎臟生檢(renal biopsy)，以下病理變化，何者最不可能?",
+    "options": [
+      "Focal segmental glomerulosclerosis (FSGS)",
+      "Diffuse proliferative nephritis with diffuse subendothelial deposit",
+      "Membranous glomerulonephritis with subepithelial immune complex deposit",
+      "Global endocapillary proliferation, crescent formation",
+      "Glomerular necrotizing lesion, may present with vascular lesion"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-072",
+    "year": 106,
+    "num": 72,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位48歲男性，過去有C型肝炎，定期在門診追蹤。最近一個月來，出現蛋白尿，脛前與足踝水腫，體重略增加近3公斤，血壓150/92 mmHg。抽血檢查: 有血清補體 (complement, C3與C4)偏低情形。因為不明原因腎病，安排病人接受腎臟生檢(renal biopsy)。以下病理變化，何者最可能?",
+    "options": [
+      "Membranoproliferative glomerulonephritis (MPGN)",
+      "Membranous nephropathy (MN)",
+      "IgA nephropathy",
+      "Focal segmental glomerulosclerosis (FSGS)",
+      "Henoch-Schonlein purpura (HSP)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-073",
+    "year": 106,
+    "num": 73,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位46歲男性，過去經常有鼻竇炎症狀，最近一個月來，出現胸悶、氣喘、咳嗽、喀血。住院後尿液檢查有: hematuria, 與 RBC cast。抽血檢查: antineutrophil cytoplasmic antibody (ANCA)陽性反應。病人如果接受腎臟生檢(renal biopsy)，最可能的臨床診斷與病理變化是:",
+    "options": [
+      "Goodpasture's syndrome file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 23/62",
+      "Granulomatosis with polyangiitis (Wegener's granulomatosis)",
+      "Polyarteritis nodosa (PNA)",
+      "Microscopic polyangitis (MPA)",
+      "Behcet's syndrome"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-074",
+    "year": 106,
+    "num": 74,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "尿液沉渣(cast, sediment)檢驗，有時候也可以提供重要的訊息，幫助臨床診斷。以下有關各種疾病與urine cast的敘述，何者不正確?",
+    "options": [
+      "Dysmorphic RBC與erythrocyte casts通常表示 hematuria來自於glomerulus",
+      "劇烈運動又體液不足(dehydration)後的尿液異常，可能會出現hyaline cast",
+      "Granular cast通常表示有tubular injury 或 chronic kidney disease",
+      "Allergic interstitial nephritis會出現 WBC cast 或 urine eosinophil, 但很少出現 RBC cast",
+      "糖尿病(DM)病人若合併糖尿病腎病變，經常會伴隨出現 RBC cast"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-075",
+    "year": 106,
+    "num": 75,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位64歲男性，接受冠狀動脈繞道手術後第二天，出現寡尿(oliguria)，腎功能異常。病人的以下哪一種臨床敘述，最符合手術後發生pre-renal azotemia (AKI)的臨床診斷?",
+    "options": [
+      "Hypotension or cardiogenic shock",
+      "Functional excretion of sodium is 3.5%",
+      "Urine sodium is 40 mEq/L",
+      "BUN/creatinine ratio is 10",
+      "Low urine specific gravity (< 1.015), and active urinary sediment (+)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-076",
+    "year": 106,
+    "num": 76,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "一位44歲男性，有肺結核(pulmonary tuberculosis)接受 rifampin與isoniazid治療。某日因意識模糊，呼吸急促，四肢有輕微顫抖抽搐情形，被送至急診。抽血檢查:動脈氣體分析、血清電解質如下: ABG: pH 7.26，HCO3- 11 mEg/L，PCO2 21 mmHg ; glucose 160 mg/dL, BUN 34 mg/dL, Cr 1.8 mg/dL ; Na 133 mEq/L , K 6.1 mEq/L, Cl 94mEq/L。由以上數據分析，最符合以下何種診斷? (1)Metabolic acidosis；(2)Respiratory acidosis； (3)adequate secondary (respiratory or renal) compensation；(4)inadequate secondary (respiratory or renal) compensation；(5)normal anion gap； (6)increased or high anion gap",
+    "options": [
+      "(1)+(3)+(5)",
+      "(1)+(3)+(6)",
+      "(1)+(4)+(5)",
+      "(1)+(4)+(6)",
+      "(2)+(4)+(6) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 24/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-077",
+    "year": 106,
+    "num": 77,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "某45歲男性已有高血壓5年，最近檢查有血尿RBC 10- 20/HPF、Cre 1.2 mg/dL、超音波檢查發現兩側腎臟長徑超過15公分(如圖)及各有囊腫數目超過十個；家族史為父親自60歲開始血液透析，不曾顱內出血，父親的腎臟超音波亦有雷同的發現。請問關於其腎臟疾病之敘述，下列何者為正確？(1)每年定期追蹤腎功能，即為預估日後是否需要透析治療之最敏感方法；(2)若其太太懷孕可做產前篩檢，其子女遺傳此腎臟疾病的機會為50%；(3) 以影像學檢查估算其腎臟體積，若超過600立方公分，其腎功能極可能持續逐年惡化；(4) 雖無症狀，應每年安排腦部血管Magnetic resonance angiography的檢查；(5)宜建議停止服用含女性荷爾蒙之避孕藥。",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(3)+(4)",
+      "(2)+(4)",
+      "(4)+(5)",
+      "(2)+(3)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-078",
+    "year": 106,
+    "num": 78,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "某50歲台電員工於颱風後曾至水災地區處理倒塌電線桿，約10天後出現高燒、頭痛、肌肉痠痛、咳嗽帶血、呼吸急促，住院檢查後發現：結膜下出血(如圖一)、黃疸、腎功能失常、低血鉀等。胸部X光(如圖二)請問下列敘述何者為正確？(1)此病為以動物為宿主之寄生蟲所引起；(2)必須等待病原體之血液培養結果為陽姓，方能確定診斷與開始治療；(3)發病十天後體內已產生抗體，但尿液中仍可能有病原體之存在；(4)此病即Weil's disease，有高死亡率之危險；(5)此病靠臨床診斷，須立即給予抗生素治療。",
+    "options": [
+      "(2)+(3)+(4)",
+      "(1)+(2)+(4)",
+      "(1)+(3)+(4)",
+      "(3)+(4)+(5)",
+      "(1)+(4)+(5)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-079",
+    "year": 106,
+    "num": 79,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "某70歲病人已經正在服用利尿劑及Valsartan，請問下列 NSAIDs中哪一個最不會影響這兩種降壓藥之效果？",
+    "options": [
+      "Acetaminophen",
+      "Etoricoxib",
+      "Diclofenac",
+      "Celecoxib",
+      "Nimesulide"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-080",
+    "year": 106,
+    "num": 80,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "某40歲男性無糖尿病或高血壓病史、過去常有間歇性肢體疼痛、皮膚病變(如圖)、不易流汗、尿蛋白(++)、腎功能失常(Cre 3.0 mg/dL)，其家族史為兩位兄長兄分別死於心臟衰竭及腦血管意外及血液透析。請問下列何者不正確？(1) 應為Gaucher disease；(2)宜安排眼科、心臟方面檢查； (3)其姊妹應該都不會有症狀；(4)尿液檢查可出現 \"Maltese crosses\"的沉澱物；(5) 腎臟病理多為focal segmental glomerulosclerosis(FSGS)。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 25/62",
+    "options": [
+      "(1)+(3)",
+      "(2)+(3)",
+      "(3)+(5)",
+      "(1)+(3)+(5)",
+      "(2)+(4)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-081",
+    "year": 106,
+    "num": 81,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "照顧慢性腎臟病的病人，(1)於何時期應轉介給腎臟專科醫師，(2)於何期應跟病人介紹腎臟替代治療 (血液透析、腹膜透析、腎臟移植)？ I-第一期；II:第二期；III：第三期；IV：第四期： Va : 第五期透析前",
+    "options": [
+      "(1)I； (2) III",
+      "(1) I； (2) Va",
+      "(1)III；(2) IV",
+      "(1)IV；(2) Va",
+      "(1)Va；(2)Va"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-082",
+    "year": 106,
+    "num": 82,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "關於慢性腎臟病之蛋白飲食限制，底下敘述何者為不正確？",
+    "options": [
+      "當出現尿毒症狀時，蛋白飲食限制最低為蛋白質每天 0.6公克/公斤(理想體重)及熱量每天30 kcal/公斤(理想體重)。",
+      "低蛋白飲食限制本身確實可以減緩腎功能惡化，因其可減低尿毒症狀與延緩開始透析治療之時間。",
+      "低蛋白飲食可由測量體重變化、血清白蛋白、24小時 urea nitrogen排泄量等來判斷低蛋白飲食限制是否適度。",
+      "高蛋白飲食常也會增加磷與鈉之攝取，而抵銷 angiotensin-converting enzyme inhibitor (ACEi)與 angiotensin-receptor blocker (ARB)之腎臟保護作用。",
+      "低蛋白飲食控制需補充水溶性維生素。"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-083",
+    "year": 106,
+    "num": 83,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "關於血壓之測量：請問下列何者為非？",
+    "options": [
+      "應鼓勵居家血壓監測(Home blood pressure monitoring)，每天測量與紀錄二至三回。",
+      "高血壓治療的目標：一般病患為居家血壓平均要低於 135/85 mmHg；慢性腎臟病則低於130/80 mmHg。",
+      "活動式血壓監測(Ambulatory blood pressure monitoring)的正常值：白天平均低於135/85 mmHg:；夜間平均低於130/80 mmHg。",
+      "與診間血壓測量相較，活動式血壓測量更能預測心肌梗塞或中風。",
+      "就活動式血壓監測而言，若與白天的血壓相比較，夜間高血壓會增加心血管的負擔，為心血管疾病預後之強烈因子。"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-084",
+    "year": 106,
+    "num": 84,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "關於骨髓移植腎病變(Bone marrow transplant nephropathy)，下列敘述何者為正確？",
+    "options": [
+      "常在移植後百日內發生 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 26/62",
+      "與Cyclosporine有關",
+      "與Sirolimus有關",
+      "與Radiation有關",
+      "須積極做血漿置換治療。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-085",
+    "year": 106,
+    "num": 85,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "下列哪一個免疫抑制藥物，可能引起高血壓、糖尿病、及腎臟病(Thrombotic microangiopathy) 三種疾病？",
+    "options": [
+      "Prednisolone",
+      "Cyclosporine",
+      "Tacrolimus",
+      "Sirolimus",
+      "Mycophenolate mofetil"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-086",
+    "year": 106,
+    "num": 86,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "某50歲男性有酒精成癮病史，被發現躺在旅館房間地板上而被送至急診處。血壓120/66 mmHg，心跳每分鐘100 下，呼吸每分鐘30下。抽血檢查：Serum Na 140 mEq/L，K 5.8 mEq/L，Cl 103 mEq/L，BUN 25 mg/dL， Cre 1.4 mg/dL，AC glucose 150 mg/L， pH 7.16， PaCO2 23 mmHg, HCO3- 8 mEq/L，Serum osmolarity 332 mOsm/L，血中酒精濃度為陰性。請問能為底下何者？",
+    "options": [
+      "Diabetic ketoacidosis",
+      "Starvation ketoacidosis",
+      "Alcohol ketoacidosis",
+      "Methanol intoxication",
+      "Salicylates"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-087",
+    "year": 106,
+    "num": 87,
+    "subject": "腎臟",
+    "sectionRaw": "腎臟科",
+    "question": "關於急性腎臟傷害(Acute kidney injury; AKI) 的敘述，何者為非？",
+    "options": [
+      "絕大多數急性腎臟傷害在醫院內發生，尤其在加護病房。",
+      "急性腎臟傷害中大多數為Prerenal AKI。",
+      "NSAIDs、ACEi、ARB等容易引起Prerenal AKI。",
+      "社區型急性腎臟害大部分為Prerenal AKI。",
+      "低血清白蛋白容易好發Prerenal AKI。 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 27/62"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-088",
+    "year": 106,
+    "num": 88,
+    "subject": "胸腔",
+    "sectionRaw": "考古題",
+    "question": "關於氣喘階梯式治療(stepwise therapy)的敘述,下列何者正確? (1)每周使用緩解藥物(reliever medication)大於兩次以上, 就需規律使用控制藥物(controller medication)；(2)控制藥物的首選為吸入型類固醇(inhaled corticosteroids)； (3)第一階病人僅使用吸入型短效之乙型交感神經刺激就可以；(4)吸入型類固醇的起始劑量為中劑量(相當200 μg BID/day beclomethasone dipropionate )；(5)使用控制藥物後兩個月就可評估治療效果",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(1)+(5)",
+      "(4)+(5)",
+      "(3)+(4)+(5)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-089",
+    "year": 106,
+    "num": 89,
+    "subject": "心臟血管",
+    "sectionRaw": "考古題",
+    "question": "血清Troponin I之昇高是心臟急症重要的生物標記(bio- marker), 下列何者不會發生血清Troponin I上升?",
+    "options": [
+      "Congestive heart failure",
+      "Pulmonary embolism",
+      "Acute myocardial infarction",
+      "Acute myocarditis",
+      "Pneumonia"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-090",
+    "year": 106,
+    "num": 90,
+    "subject": "感染",
+    "sectionRaw": "考古題",
+    "question": "多重抗藥性結核病(multidrug-resistant tuberculosis, MDRTB)是目前全球結核病防治的重大挑戰。下列組合何者為是？ (1)台灣的多重抗藥性結核監測發現：在結核病新病人為1%，再治病人(包含復發、治療失敗和失落)為6-8%。相較於周邊的中國大陸(分別為5.7%和25.6%)及東南亞，台灣疫情較輕微。 (2)多重抗藥性結核的實驗室檢查只能依賴傳統藥物敏感性試驗結果，目前新的分子快速診斷的方法，如：Hain test 或Xpert，仍尚在評估中。 (3)一般結核病的治療應合併多種藥物、劑量足夠、且有足夠的治療期，並勸病人加入都治(directly observed therapy) 確保服藥順從性，可減少產生多重抗藥性結核病的風險。 (4)一旦為多重抗藥性結核病人，治療需考慮合併4種以上的有效藥物，但不須延長治療超過痰陰轉18個月。 (5)多重抗藥結核病人使用的二線藥物副作用比一線抗結核藥物多，建議病人轉介給具經驗的多重抗藥病人照護團隊醫院。",
+    "options": [
+      "(1)+(3)+(5)",
+      "(2)+(4)",
+      "(2)+(3)+(4)",
+      "(1)+(2)+(5)",
+      "(1)+(4)+(5)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-091",
+    "year": 106,
+    "num": 91,
+    "subject": "血液腫瘤",
+    "sectionRaw": "考古題",
+    "question": "55歲男性最近3個月開始有潮紅、流汗、呼吸困難之發作，起初很輕微，但近1個月來覺得加重，曾因上述症狀到過急診，但經症狀治療即恢復，三星期前還因懷疑急性盲腸炎 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 28/62 開刀但症狀皆無改善，二天前內視鏡檢查發現十二指腸潰瘍、胃炎，腹超發現肝實質性疾病 ( parenchymal disease ) ，腹部電腦斷層發現右腎上腺有3.5 cm腫瘤，經內分泌檢查，cortisol、ACTH、catecholamine、aldosterone、 plasma renin activity、 DHEAS皆為正常，請問您如何處置？",
+    "options": [
+      "此為無功能性腫瘤，可採症狀治療",
+      "不論有無功能，照會開刀治療",
+      "先照會精神科排除精神方面疾病",
+      "此為男性更年期可給予雄性素治療",
+      "6個月後再做腹部電腦斷層檢查"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-092",
+    "year": 106,
+    "num": 92,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "考古題",
+    "question": "一個30歲男性主訴下背痛已半年,X光檢查並無明顯變化.但 ESR及CRP皆明顯上升.最近3個月其腳後跟(heel)也時常疼痛.驗其HLA-B27基因為陽性.其父親為僵直性脊椎炎之患者. 病人從未接受過任何藥物治療,請問最適當的處方為那一項藥物?",
+    "options": [
+      "Glucocorticoid",
+      "Etanercept",
+      "Sulfasalazine",
+      "Methotrexate",
+      "Non-steroidal anti-inflammatory drugs"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-093",
+    "year": 106,
+    "num": 93,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "考古題",
+    "question": "58歲男性，2年前因腦垂腺 1.6 公分無功能腫瘤開刀切除，此後即服用甲狀腺素治療，病人在健檢發現腰椎Bone nineral Density(BMD) -2.6、左臀BMD -2.7來診，身體檢查無特殊異常，抽血free T4 1.2 ng/dL 、hsTSH ＜0.1 μU/mL，FSH、LH皆＜1.0 mIU/mL，Testosterone 50 ng/dL，除了Vit D 及鈣之補充外，下列那一治療最恰當 ?",
+    "options": [
+      "Calcitonin",
+      "Carbergoline",
+      "Testosterone",
+      "減少甲狀腺素劑量",
+      "Bisphosphonate"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-094",
+    "year": 106,
+    "num": 94,
+    "subject": "消化",
+    "sectionRaw": "考古題",
+    "question": "對於懷疑有intestinal obstruction之患者，腹部Ｘ光照相（plain abdomen）可提供相當有用的資料。下列各項敘述，何者錯誤？",
+    "options": [
+      "Plain abdomen用來判斷nonstrangulating complete small-bowel obstruction相當可靠",
+      "Partial mechanical small-bowel obstruction與 adynamic ileus不太容易區分，但colonic distension 在adynamic ileus通常較明顯",
+      "脹大的小腸中可見air-fluid levels，常排列成 “stepladder” pattern，少見內含空氣的大腸，這些發現常見於strangulating small-bowel obstruction",
+      "若臨床症狀很像small intestine obstruction，但plain abdomen看起來正常，此時安排腹部CT檢查有助於診斷 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 29/62",
+      "喝鋇劑來幫忙判斷小腸的阻塞部位是相當安全的"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-095",
+    "year": 106,
+    "num": 95,
+    "subject": "腎臟",
+    "sectionRaw": "考古題",
+    "question": "一位68歲男性體重60公斤，身高172公分，抽血驗肌酸酐 (Cr)為1.5mg/dL，下列敘述何者正確?",
+    "options": [
+      "依Cockcroft-Gault公式，其估計腎絲球過濾率介於55- 65ml/min",
+      "依上述公式，其估計腎絲球過濾率介於45-55ml/min",
+      "依慢性腎臟病分期為第1期",
+      "依慢性腎臟病分期為第2期",
+      "依慢性腎臟病分期為第3期"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-096",
+    "year": 106,
+    "num": 96,
+    "subject": "胸腔",
+    "sectionRaw": "考古題",
+    "question": "下列有關急重症病人在加護病房之處置，何者是不正確的？",
+    "options": [
+      "呼吸衰竭病患輸注albumin，可降低死亡率20%",
+      "使用ventilator病人採用H2 blocker，常併發肺炎",
+      "如無禁忌，可用low molecular weight heparin注射，以預防deep vein thrombosis",
+      "採用靜脈注射鎮靜劑，可縮短呼吸器使用時間",
+      "使用corticosteroids可能導致多發性神經病變 (polyneuropathy)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-097",
+    "year": 106,
+    "num": 97,
+    "subject": "腎臟",
+    "sectionRaw": "考古題",
+    "question": "一位64歲男性病人有高血壓病史，現腎功能變差，腎臟超音波顯示有腎水腫(hydronephrosis)現象，腹部及骨盆腔電腦斷層顯示如圖，下列何者是最可能的病因?",
+    "options": [
+      "兩側尿路結石",
+      "攝護腺肥大",
+      "多囊腎",
+      "發炎性主動脈瘤",
+      "腎移行上皮細胞癌(Transitional cell carcinoma)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-098",
+    "year": 106,
+    "num": 98,
+    "subject": "消化",
+    "sectionRaw": "考古題",
+    "question": "關於肝硬化之併發症，下列各項敘述，何者錯誤？",
+    "options": [
+      "食道靜脈曲張破裂出血，於生命徵象穩定後應儘快施行 band ligation。",
+      "若腹部脹大且身體診察發現腹部有shifting dullness，應限制其每日納攝取量低於2 g。",
+      "若有腹痛，抽取腹水檢驗發現neutrophils > 250/μL，應立即給予抗生素治療。",
+      "若病人行為異於平時，抽血檢驗發現NH3 =100 (正常 < 37)，應優先以neomycin或metronidazole等腸道吸收甚少之抗生素給予治療。",
+      "若病人剛從肝性腦病變 (hepatic encephalopathy) 恢復，應限制其每日蛋白質攝取量，尤其是動物性蛋白質。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-099",
+    "year": 106,
+    "num": 99,
+    "subject": "血液腫瘤",
+    "sectionRaw": "考古題",
+    "question": "下列何種狀況有可能造成全血球減少？(1)嚴重 Vit B12 deficiency；(2) Myelodysplastic syndrome；(3) Liver cirrhosis；(4) Autoimmune disease",
+    "options": [
+      "(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 30/62",
+      "(2)+(4)",
+      "(2)+(3)",
+      "(2)+(3)+(4)",
+      "(1)+(2)+(3)+(4) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 31/62"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-100",
+    "year": 106,
+    "num": 100,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關Clostridium difficile感染，下列敘述何者正確？",
+    "options": [
+      "除了執行接觸隔離防護，照護C. difficile感染患者以 70%酒精進行手部衛生，可具有良好之殺菌力。",
+      "以大腸鏡檢查偽膜性腸炎(Pseudomembranous colitis)之敏感性高達90%以上，若腸鏡檢查無出現病灶則幾乎可以排除此診斷。",
+      "主要致病力和toxin A和toxin B相關，toxin A是 cytotoxin, toxin B是enterotoxin，兩者啟動造成偽膜性腸炎。",
+      "對於輕度C. difficile感染初次發作腸炎患者，首選治療靜脈注射或口服metronidazole 500 mg TID治療10到 14天。",
+      "對於C. difficile感染反覆多次發作腸炎患者，首選治療為靜脈注射vancomycin 500 mg Q6H治療10到14天。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-101",
+    "year": 106,
+    "num": 101,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "一名男子在大陸工作時因外出遭野犬咬傷腳趾，當時未就醫，一個多月後出現下半身異常癢、麻痛、嘔吐、吞嚥困難及喉嚨腫痛等症狀，並有恐水之現象，就醫後因疑似狂犬病(rabies) 而入院，關於此病，請問以下描述何者錯誤？",
+    "options": [
+      "病患恐水之現象是因咽喉部肌肉之痙攣所引起。",
+      "台灣自民國四十八年起台灣地區即不再有人的本土病例，民國五十年一月後即未再出現動物的病例。目前在台灣被本地的狗、貓咬傷，原則上不必施打人用狂犬病免疫球蛋白或疫苗。",
+      "如需前往狂犬病疫區，建議行前至少一個月，接種三劑疫苗以產生免疫保護。",
+      "在疫區被動物咬傷後，宜徹底地清洗、消毒傷口，迅速接受人用狂犬病免疫球蛋白及接種4劑疫苗。",
+      "若未治療，此病致死率約為45%。"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-102",
+    "year": 106,
+    "num": 102,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關退伍軍人症(Legionellosis)，下列何者敘述為非？",
+    "options": [
+      "典型血液檢驗結果為白血球增加、肝功能AST/ALT上升、低血鈉、低血磷、Cold agglutinin陰性。",
+      "此菌最適合於攝氏25至42度水環境生長，傳染方式是飛沫傳染，患者通常經由吸入受汙染水源而致病，潛伏期為2至10天。",
+      "免疫力低下感染病人及有慢性肺病老年人容易感染， 14天至21天第三代頭孢子素(cephalosporin)可有效治療。",
+      "移植器官患者在移植後3個月內是得到Legionella感染的高危險期，且胸部X光在移植患者易見開洞病灶 (cavitation)。",
+      "Legionella可造成肺外感染，如腹膜炎或皮膚軟組織感染。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 32/62"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-103",
+    "year": 106,
+    "num": 103,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "退伍軍人菌(Legionella)在醫院的冷卻水塔可能造成汙染，有關退伍軍人菌消毒方式下列何者為非?",
+    "options": [
+      "加熱法，提高水管水溫，維持出水管路水溫至攝氏 45~50度。",
+      "氯化消毒(chlorination)，如加入二氧化氯。",
+      "紫外線消毒(UV light)。",
+      "銅銀離子交換法(copper-silver ion exchange)。",
+      "微米孔徑之濾水器(microfiltration)。"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-104",
+    "year": 106,
+    "num": 104,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "下列那些抗生素的抑菌機轉為破壞細胞膜?(1)penicillins； (2)aminoglycosides； (3)macrolides；(4)quinolones ； (5)polymyxins ；(6)daptomycin",
+    "options": [
+      "(1)+(4)",
+      "(2)+(3)",
+      "(4)+(5)",
+      "(5)+(6)",
+      "(3)+(4)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-105",
+    "year": 106,
+    "num": 105,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "下列抗微生物藥劑與副作用之組合，何者最不適當？",
+    "options": [
+      "Macrolides ---- QTc prolongation(心電圖QTc延長)",
+      "Clindamycin ---- Pseudomembranous colitis(偽膜性腸炎)",
+      "Metronidazole ----Lipodystrophy(脂肪病變)",
+      "Sulfonamide ---- Hypersensitivity(過敏反應)",
+      "Fluoroquinolones ---- Dysglycemia(血糖異常)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-106",
+    "year": 106,
+    "num": 106,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關登革熱(Dengue fever)，以下敘述何項最不適當？ (1) 登革病毒屬於黃病毒科(Flavivirdae)所引起，為單股DNA病毒； (2)有4種型別，感染某一型登革病毒者，可對其他型別之病毒具有終身免疫；(3)屈公熱(Chikungunya)病毒也是屬於Flaviviridae(黃病毒科)，傳播媒介與登革熱相同； (4)登革出血熱若無適當治療，死亡率可達20%，早期診斷並加以適當支持性治療，死亡率可低至1%。",
+    "options": [
+      "(1)+(4)",
+      "(3)+(4)",
+      "(2)+(3)",
+      "(2)+(4)",
+      "(1)+(2)+(3)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-107",
+    "year": 106,
+    "num": 107,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "以下關於登革熱(Dengue fever)的描述，何者為最不適當？",
+    "options": [
+      "在台灣主要的病媒蚊為埃及斑蚊(Andes aegypti)及白線斑蚊(Aedes albopictus)。",
+      "常見症狀為頭痛、後眼窩痛、肌肉痛、出疹、白血球減少。",
+      "被感染登革病毒的斑蚊叮咬後，大約經過10至14天，此感染宿主會開始出現臨床登革熱病症。",
+      "四種不同血清型病毒皆可致病，屬第二類法定傳染病，需24小時內通報。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 33/62",
+      "在病人發病前1天至發病後5天稱為「病毒血症期」，此時期感染者若被斑蚊叮咬，則此斑蚊將感染登革病毒。"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-108",
+    "year": 106,
+    "num": 108,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關下列針對流行性感冒(流感)之敘述，何者為非?",
+    "options": [
+      "流感病毒可分為A、B、C三種型別，其中C型流感病毒甚少引起人類疾病。",
+      "台灣主要的季節性流感病毒為A型流感病毒H3N2與 H1N1亞型，以及B型流感病毒等3類。",
+      "流感之可傳染期，成人大約在症狀出現後3至7天，幼童可長達數十天。",
+      "預防流感最好的方法就是施打疫苗，約70%至80%健康成年人施打流感疫苗可達具有保護力之抗體。",
+      "預防流感之抗病毒藥劑，如Oseltamivir及Zanamivir 等，是凝血原(Hemagglutinin)抑制劑，可同時治療A及 B型流感病毒。"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-109",
+    "year": 106,
+    "num": 109,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關下列針對新型A型流感(Novel Influenze A)之敘述，何者為非?",
+    "options": [
+      "高病原性禽流感包括H5N1、H5N6、H7N7、H7N9病毒等。",
+      "H5N1及H7N9曾出現家庭群聚案例，故不排除有侷限性人傳人的可能，惟目前仍無證據顯示有持續性人傳人的現象。",
+      "新型A型流感的潛伏期在1至10日之間，目前採用10日作為估計潛伏期之上限。",
+      "人類感染H5N6流感的病例多為輕症，少數患者(約10%) 在感染3至8天後出現肺炎，並快速進展為急性呼吸窘迫症候群(ARDS)。",
+      "近五成的H7N9流感病例為65歲(含)以上患者，至少六成以上病例有潛在性疾病。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-110",
+    "year": 106,
+    "num": 110,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關茲卡病毒(Zika virus)的敘述，下列何者最不適當？",
+    "options": [
+      "茲卡病毒與登革熱病毒同屬於黃病毒科(Flaviviridae)，潛伏期約3至7天(最長約12日)。",
+      "茲卡病毒感染症之症狀與登革熱相似但較輕微，約有 25%的感染病例會出現臨床症狀，症狀持續約2至7天。",
+      "典型的症狀是發燒、紅疹、關節痛、非化膿性結膜炎，病例可能出現神經系統 (如Guillain-Barre Syndrome) 或免疫系統 (如Idiopathic Thrombocytopenic Purpura) 併發症。",
+      "茲卡病毒病媒傳播主要為三斑家蚊與矮小家蚊，亦可藉由性行為或輸血感染。",
+      "孕婦感染此病毒可能由母子垂直感染造成胎兒出生小頭畸型症，定義為出生24小時後測量嬰兒頭圍，頭圍小於第3個百分位。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-111",
+    "year": 106,
+    "num": 111,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "關茲卡病毒(Zika virus)的感染管制，下列何者最不適當？",
+    "options": [
+      "台灣疾病管制署公布茲卡病毒屬於第五類法定傳染病，需於24小時內通報。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 34/62",
+      "茲卡病毒感染症目前無疫苗可預防，得病後僅能症狀支持性治療，避免病媒蚊叮咬是最重要的預防方法。",
+      "個案經檢驗確定感染茲卡病毒後，則後續採檢以間隔7 日為原則，血液及尿液檢驗結果分子生物學核酸檢測均為陰性，才能停止追蹤採檢。",
+      "無論男性或女性之感染者，均應採取安全性行為至少6 個月，若男性的性伴侶為孕婦，則性行為時應戴保險套至性伴侶分娩。",
+      "接觸者及感染源的調查，需調查指標個案發病前3天至發病後7天的停留地點及接觸者。"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-112",
+    "year": 106,
+    "num": 112,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "下列有關心內膜炎何者敘述正確？(1)靜脈藥癮者之心內膜炎最常見致病菌為Staphylococcus aureus；(2)血液培養陰性之心內膜炎，其最重要治療藥物為Doxycycline；(3)一年內得過心內膜炎者，在進行呼吸道或腸胃道鏡檢查之前，必須給予預防性抗生素；(4)有半數病人可以看到Osler nodes，Janeway lesion或subungual hemorrhages；(5) 血液培養長黴菌者之內膜炎患者通常預後差。",
+    "options": [
+      "(1)+(4)",
+      "(1)+(3)",
+      "(1)+(2)+(3)",
+      "(1)+(2)+(4)",
+      "(1)+(2)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-113",
+    "year": 106,
+    "num": 113,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "為降低呼吸器相關肺炎，目前衛生福利部疾病管制署正在推動一系列組合式照護以預防呼吸器相關肺炎感染。請問下列哪些項目包括在「預防呼吸器相關肺炎感染的組合式照護」之中? (請選出所有正確選項) (1) 每日拔管評估；(2) 床頭抬高30-45度；(3)每日執行口腔抗菌照護；(4)每日中止鎮靜劑；(5)補充呼吸器管路水分。",
+    "options": [
+      "(1)+(2)+(3)+(4)+(5)",
+      "(1)+(2)+(3)+(4)",
+      "(1)+(2)+(3)+(5)",
+      "(1)+(2)+(4)+(5)",
+      "(1)+(3)+(4)+(5)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-114",
+    "year": 106,
+    "num": 114,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關2016年版Surviving Sepsis Campaign guidelines，關於敗血症及敗血性休克的臨床處理，下列敘述何者錯誤? (請選出所有選項)(1)應在最初3小時內至少給予每公斤體重 30 mL的輸液補充；(2)即使臨床狀況已改善，抗生素療程一定要10-14天才足夠；(3)建議常規使用Hydroxyethyl starches來處置敗血性休克；(4)敗血性休克的第一線升壓劑選擇為去甲基腎上腺素（Norepinephrine）；(5)建議常規使用皮質醇(hydrocortisone)來治療敗血性休克。",
+    "options": [
+      "(1)+(2)+(4)",
+      "(1)+(2)+(5)",
+      "(1)+(3)+(4)",
+      "(2)+(3)+(5)",
+      "(2)+(4)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 35/62"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-115",
+    "year": 106,
+    "num": 115,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "下列關於非結核分枝桿菌(Non-Tuberculous Mycobacteria, NTM)的敘述何者正確?(1)近年來被鑑定出來的菌株數有愈來愈多的趨勢，主要是因為容易在人群中傳播；(2)常發生在肺部結構異常或免疫缺陷病人身上；(3) 各種不同NTM菌種對藥物的感受性不同，整體而言NTM對 Clarithromycin具感受性，而對Pyrazinamide不具感受性；(4)根據美國胸腔科學會針對肺部NTM的診斷標準，臨床診斷(肺部症狀及影像學異常)以及微生物學診斷(培養結果陽性)，任一條件即可診斷；(5) NTM感染與結核病 (tuberculosis)的鑑別診斷，可採用結核菌素PPD皮內試驗。",
+    "options": [
+      "(1)+(2)",
+      "(1)+(3)",
+      "(2)+(3)",
+      "(2)+(4)",
+      "(3)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-116",
+    "year": 106,
+    "num": 116,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "19歲男性在台灣登山旅遊後開始出現發燒、頭痛、全身肌肉酸痛，於門診時發現病人右腿內側有一焦痂(eschar)，且鼠蹊淋巴腺腫大，血液檢查白血球數為3150/μL、GOT 112 IU/L、GPT 184 IU/L，對於此病例之下列敘述何者錯誤?",
+    "options": [
+      "此疾病為恙蟲病(scrub typhus)，致病菌為Orientia tsutsugamushi",
+      "此致病菌是由蝨(louse)所傳播",
+      "台灣流行此感染的地區在東部地區及離島",
+      "治療的首選藥物是doxycycline",
+      "此病之潛伏期(incubation period)約為9至18天"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-117",
+    "year": 106,
+    "num": 117,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "當你要幫一位呼吸困難的病人進行氣管內插管時，請問標準防護措施是什麼？(1)洗手、戴手套；(2)戴N95口罩；(3) 穿隔離衣；(4)戴眼罩；(5)戴外科手術口罩",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(2)+(3)+(4)",
+      "(1)+(3)+(5)",
+      "(1)+(3)+(4)+(5)",
+      "(1)+(2)+(4)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-118",
+    "year": 106,
+    "num": 118,
+    "subject": "感染",
+    "sectionRaw": "感染科",
+    "question": "有關抗結核藥物治療之描述，以下何者錯誤？",
+    "options": [
+      "Pyrazinamide (PZA) 可引起高尿酸血症，但很少造成痛風發作",
+      "Ethambutol可造成視神經炎",
+      "Rifampicin會使尿液變橘紅色",
+      "當使用抗結核藥後，肝功能超過正常5倍時，應考慮停 Isoniazid、PZA及rifampicin",
+      "通常抗結核治療前二個月要使用四種藥，稱為Intensive Phase，如若無抗藥問題，則PZA未完整使用二個月時，治療全程可六個月結束 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 36/62 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 37/62"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-119",
+    "year": 106,
+    "num": 119,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "一位53歲男性病人，其血鈣值為2.7 mmol/L (參考值 2.15~2.58 mmol/L), 副甲狀腺荷爾蒙為 45 pg/mL (參考值 12.0~65.0 pg/mL)，下列哪一項須列為鑑別診斷?(1)慢性肉芽腫病 (Chronic granulomatous disease)；(2)家族性低尿鈣高血鈣症 (familial hypocalciuric hypercalcemia)；(3) 牛奶－鹼劑症 (Milk-alkali syndrome)；(4)甲狀腺功能低下 (Hypothyroidism)；(5)庫欣氏症候群 (Cushing's syndrome)",
+    "options": [
+      "(1)+(2)+(4)",
+      "(2)+(3)+(5)",
+      "(1)+(2)+(3)",
+      "(3)+(4)+(5)",
+      "(1)+(2)+(3)+(4)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-120",
+    "year": 106,
+    "num": 120,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "有關甲狀腺髓質癌的特性，下列哪一項正確?(1)甲狀腺髓質癌(Medullary thyroid carcinoma)約佔所有甲狀腺癌的 5 ~ 10% ；(2)約20% 甲狀腺髓質癌病人有家族病史；(3)第二型多發性內分泌腫瘤(Multiple endocrine neoplasia, MEN, type 2) 病人常見有甲狀腺髓質癌、腎上腺皮質腫瘤、副甲狀腺腫瘤；(4)第二型多發性內分泌腫瘤 (MEN type2)的家人應該做基因篩檢，若有RET基因突變，應等病人成年後建議甲狀腺切除；(5)甲狀腺髓質癌可能有異位性促腎上腺皮質激素(ectopic ACTH) 分泌而導致庫欣式症候群 (Cushing's syndrome)",
+    "options": [
+      "(1)+(2)+(3)+(4)",
+      "(1)+(2)+(5)",
+      "(2)+(3)+(4)",
+      "(3)+(4)+(5)",
+      "(1)+(5)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-121",
+    "year": 106,
+    "num": 121,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "一位64歲男性病人，已有多年高血壓，最近半年來血壓不易控制，且常有陣發性心悸、頭痛、冒汗等症狀，你懷疑病人有嗜酪細胞瘤(pheochromocytoma)，請問下列哪一項正確?",
+    "options": [
+      "病人原來有使用的利尿劑(diuretics)及三環抗憂鬱藥物 (tricyclic antidepressants)對檢驗不會影響，所以不需要先暫停使用",
+      "測量血漿中的游離後腎上腺髓素(Plasma free metanephrines)具有最高的特異性，但常會有因靜脈抽血時造成的偽陽性(venipuncture-induced false- positive)結果",
+      "病人有心悸症狀，應該優先使用乙型腎上腺受體抑制劑 (β-adrenergic blockers)，以避免心跳過速，造成危險",
+      "約有10%的嗜酪細胞瘤是惡性的，除了開刀以外，可以考慮以200 mCi的131 I-MIBG 治療",
+      "大約有25-33% 的嗜酪細胞瘤病人有跟遺傳有關的基因突變，其中有SDHB基因突變的，產生惡性變化的可能 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 38/62 性最低"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-122",
+    "year": 106,
+    "num": 122,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "下列哪一項降血壓藥會使血漿醛固酮濃度 (Plasma aldosterone concentration , PAC)與血清張力素活性 (plasma renin activity, PRA)比值(Aldosterone-renin- ratio, ARR) 上升?",
+    "options": [
+      "乙型腎上腺受體抑制劑 (β-adrenergic blockers)",
+      "甲型腎上腺受體抑制劑 (α-adrenergic blockers)",
+      "血管緊張素轉換�C抑製劑 (angiotensin-converting enzyme inhibitors, ACEi)",
+      "鈣離子拮抗劑 (calcium antagonists)",
+      "利尿劑 (diuretics)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-123",
+    "year": 106,
+    "num": 123,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "有關腦下垂體功能檢查，以下哪一項描述是正確的？ (參考值: 泌乳激素（Prolactin）1.9~25 ng/mＬ；生長激素（Growth hormone, GH） < 8 ng/mL；皮質醇（cortisol） 8 am 5~25 μg/dL、4 pm 2.5~12.5 μg/dL；腎上腺皮質激素（ACTH）7.4~57.3 pg/mL; 鉀（potassium, K）3.5~5.1 mmol/L；游離型甲狀腺素 (fT4) 0.89~1.76 ng/dL；甲狀腺刺激素 (TSH) 0.4~4 μIU/mL)",
+    "options": [
+      "給予口服75克葡萄糖，GH在0分、30 分、60分別為15 ng/mL、14 ng/mL、12 ng/mL，可以排除肢端肥大症 (acromegaly)。",
+      "病人的泌乳激素值為 50 ng/mL，可以診斷為泌乳激素瘤(prolactinoma)。",
+      "病人的8 am cortisol 為30 μg/dL，晚上 11 pm 給予口服dexamethasone 1 mg 後，第二天上午 8 am 的 cortisol 值為 18 μg/dL，可以排除庫欣氏症。",
+      "病人8 am ACTH 96 pg/mL、cortisol 28 μg/dL；4 pm cortisol 25 μg/dL；Ｋ 2.7 mmol/L；須小心是否有 ectopic ACTH syndrome。",
+      "病人的 fT4 為 0.86 ng/dL、TSH 9 μIU/mL，此病人可能有甲狀腺刺激素瘤。"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-124",
+    "year": 106,
+    "num": 124,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "有關尿崩症（diabetes insipidus, DI）的診斷與治療，下列哪一項正確？",
+    "options": [
+      "尿崩症的定義為在不限水的情況下，每天每公斤體重尿量大於60 mL (例如: 70公斤重，尿量超過每天 4200 mL)且尿滲透壓小於250 mosmol/L。",
+      "病人有尿崩症，且其plasma arginine vasopressin (AVP) < 1 pg/mL，應該安排腦下垂體核磁共振檢查。",
+      "尿崩症的病人如果其腦下垂體核磁共振影像顯示其後葉有白白亮點，一定是中樞性尿崩症 (central DI)。",
+      "懷疑有尿崩症的病人在做限水測試時，尿量減少，尿滲透壓增加，此病人比較像是中樞性尿崩症 (central DI)。",
+      "腎源性尿崩症(nephrogenic DI)應該使用 desmopressin (DDAVP)治療。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 39/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-125",
+    "year": 106,
+    "num": 125,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "一位70 歲女性病人，因為休克被送至急診，其檢驗值如下: Na 125 mmol/L、glucose AC 68 mg/dL、ACTH 20 pg/mL、cortisol 10 μg/dL、fT4 0.5 ng/dL、TSH 0.1 μIU/mL，請問下列哪一項治療應該優先給予？ (參考值: 皮質醇（cortisol）8 am 5~25 μg/dL、4 pm 2.5~12.5 μg/dL；腎上腺皮質激素（ACTH）7.4~57.3 pg/mL; 鈉 (sodium, Na) 136~145 mmol/L；空腹血糖 (glucose AC) 70~100 mg/dL；游離型甲狀腺素 (fT4) 0.89~1.76 ng/dL；甲狀腺刺激素 (TSH) 0.4~4 μIU/mL)",
+    "options": [
+      "Hydrocortisone, intravenous",
+      "Thyroxine",
+      "3% NaCl",
+      "50% glucose water (G/W)",
+      "Prednisolone, per os"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-126",
+    "year": 106,
+    "num": 126,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "下列因素可能造成euthyroid hyperthyroxinemia，除了?",
+    "options": [
+      "Resistance to thyroid hormone",
+      "Pregnancy",
+      "Amiodarone",
+      "Liver cirrhosis",
+      "Malnutrition"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-127",
+    "year": 106,
+    "num": 127,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "一位25歲女性病人，因為前頸部腫痛來診，身體診察發現甲狀腺有腫塊、具壓痛，但無皮膚紅熱現象。病人兩週前有上呼吸道感染症狀。她的檢驗數值如下: fT4 2.0 ng/dL (參考值: 0.89~1.76 ng/dL)、TSH 0.3 μIU/mL (參考值 0.4~4 μIU/mL)、WBC 7800 /μL。超音波檢查顯示壓痛處有局部低迴音度變化、細針穿刺細胞學檢查顯示有多核性巨細胞 (multinucleated giant cell)，請問應該給予下列哪些處置?",
+    "options": [
+      "給予抗生素治療",
+      "給予抗甲狀腺藥物治療",
+      "給予類固醇治療",
+      "應該立即安排食道攝影 (esophagogram)",
+      "應該立即安排電腦斷層檢查"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-128",
+    "year": 106,
+    "num": 128,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "內分泌科",
+    "question": "一位43歲男性病人被診斷有甲狀腺乳突癌(thyroid papillary cancer)，其腫瘤有2.5公分，已經有局部軟組織侵犯及頸部淋巴腺轉移但無遠端轉移，下列哪一項敘述正確?",
+    "options": [
+      "此病人的癌症分期屬於第三期",
+      "此病人的五年存活率大約為70%",
+      "手術後應該給予2-5 mCi的放射性碘做掃描，確定是否有遠端轉移後再考慮是否需要給予放射性碘治療",
+      "經過手術及必要的放射性碘治療後，應該給予甲狀腺素補充，以維持病人的甲狀腺功能於正常範圍，其TSH應該越低越好 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 40/62",
+      "病人接受治療劑量的放射性碘後之掃描沒有看到有攝取放射性碘的病灶，其thyroglobulin 為 20 ng/mL，此病人可以確定沒有甲狀腺癌再發 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 41/62"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-129",
+    "year": 106,
+    "num": 129,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "陳女士，56歲，160公分，80公斤，近年來常發生飢餓感，但是吃東西即可改善飢餓之不適。兩年內體重增加15 公斤。最近三次因無意識昏倒，被送到急診就醫，在輸注 50%葡萄糖液後即甦醒。本次為第三次到急診，急診血糖紀錄為32 mg/dL，血壓為116/68 mmHg，脈搏為66 bpm，因此建議收治住院。在未注射輸液之下，空腹8小時之清晨空腹血糖為88 mg/dL，Insulin 為10.6 μIU/mL (reference range, <28.8 μIU/mL)，C-peptide為 3.6 ng/mL (reference range, 0.34-4.25 mIU/mL)。清晨8點之 ACTH 55.8 pg/mL (reference range, 6.0-76.0 pg/mL)， Cortisol 25.6 μg/dL (reference range, 5-25 μg/dL)，IGF-1 為 198 ng/mL (reference range, 81-225 ng/mL)，TSH 為 4.8 mIU/mL (reference range, 0.34-4.25 mIU/mL)。目前應先進行下列哪一項檢查?",
+    "options": [
+      "75公克葡萄糖耐受試驗 (OGTT)",
+      "腦下垂體磁振攝影 (MRI)",
+      "24小時連續心電圖檢查",
+      "72小時之 Prolonged fasting test",
+      "腹部電腦斷層檢查"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-130",
+    "year": 106,
+    "num": 130,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "Biguanides 類的藥物，Metformin是目前國際上大多數糖尿病治療指引之首選藥物建議。以下有關Metformin之敘述何者為錯誤的?",
+    "options": [
+      "乳酸中毒是罕見的Metformin藥物副作用，但是死亡率可達50%",
+      "Metformin也可能造成維他命B12 (Vitamin B12)之 malabsorption",
+      "Metfmornin之使用可以延緩糖尿病之發病病程",
+      "腎功能不佳的糖尿病患者，即使eGFR小於30 ml/min/1.73㎡，使用Metformin仍然是安全的",
+      "糖尿病之孕婦懷孕時，Metformin是安全的糖尿病用藥選擇之一"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-131",
+    "year": 106,
+    "num": 131,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "糖尿病新型用藥中，SGLT-2抑制劑 (Sodium-glucose Co- transporter 2 inhibitor)，最近兩年廣泛使用的於糖尿病之治療。下列有關SGLT-2抑制劑的敘述，何者是錯誤的?",
+    "options": [
+      "此類藥物不會刺激胰島素分泌",
+      "SGLT-2抑制劑的作用機轉，主要是抑制尿糖之再吸收，讓葡萄糖大量的從尿中排出",
+      "腎功能eGFR<45 ml/min/1.73㎡以下時，不應使用此類藥物",
+      "此類藥物增加尿糖排出，因此女性容易有泌尿道感染之可能性，但是男性則無此困擾",
+      "此類藥物在降血糖的過程中，糖尿病患者體重也會隨之減輕 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 42/62"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-132",
+    "year": 106,
+    "num": 132,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "陳先生，82歲，身高168公分，體重58公斤，糖尿病病史 20年，目前接受三餐前速效及睡前基礎胰島素治療。但經常會漏打餐前胰島素，一個月前之HbA1c為8.8 %，近一周出現感冒之症狀，沒有發燒之紀錄，但是胃口不佳。此次因意識狀況不清，送至急診就醫，急診之血糖為525 mg/dL，鈉離子為151 mEq/L，'鉀離子為3.5 mEq/L，尿素氮BUN為62 mg/dL，肌酸酐Cr為 2.6 mg/dL。到急診後之血壓為98/60 mmHg，脈搏為96 bpm。下列之輸液，何者最適於此病患輸注及監測其尿液排出量 (Urine output)?",
+    "options": [
+      "0.45% Half saline solution",
+      "Lactate Ringer solution",
+      "0.9 % Normal Saline solution",
+      "5% Glucose solution with regular insulin intravenous infusion",
+      "0.45% Half saline solution with regular insulin intravenous infusion"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-133",
+    "year": 106,
+    "num": 133,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "張先生，50歲，電腦公司副總經理，糖尿病史5年，去年因冠狀動脈疾病住院，心導管檢查後，置放支架。目前已預混型胰島素(Premix insulin) 控制血糖，高血壓藥物為每日 Valsartan 160 mg及Amlodipine 5 mg，降血脂藥物為每日 Atorvastatin 20 mg。最近HbA1c 為6.5 %，LDL cholesterol為 55 mg/dL，HDL cholesterol為 35 mg/dL， triglyceride 為 756 mg/dL，沒有微量白蛋白尿，但是已經出現背景型視網膜病變。下列之藥物，應有使用之必要?",
+    "options": [
+      "Sitagliptin",
+      "Pioglitazone",
+      "Nicotic acid",
+      "Fenofibrate",
+      "Acarbose"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-134",
+    "year": 106,
+    "num": 134,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "Thiazolidinedione (TZD) 類的藥物，屬於胰島素增敏劑 (Insulin sensitizer)，研究顯示對於心臟血管及腦中風，可能有相當預防性的意義。以Pioglitazone而言，下列何者為使用此藥時，必須留意的副作用?(1) 體重及脂肪組織增加；(2)情緒沮喪；(3)水腫；(4)骨質疏鬆；(5) 失眠。",
+    "options": [
+      "(1)+(2)+(3)",
+      "(1)+(3)+(5)",
+      "(2)+(3)+(4)",
+      "(1)+(3)+(4)",
+      "(3)+(4)+(5)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-135",
+    "year": 106,
+    "num": 135,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "低血糖是糖尿病治療過程中、非糖尿病患者相關疾病或使用特定藥物治療時常見的併發症，下列何者是發生低血糖的原因?(1) 不當使用胰島素或口服降血糖藥物；(2)肢端肥大症；(3)胃切除手術後 (Post-gastric bypass surgery)； (4)腎上腺機能不足 (Adrenal insufficiency)；(5)庫欣氏症候群 (Cushing's syndrome)",
+    "options": [
+      "(1)+(2)+(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 43/62",
+      "(2)+(3)+(4)",
+      "(1)+(3)+(4)",
+      "(1)+(2)+(5)",
+      "(1)+(3)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-136",
+    "year": 106,
+    "num": 136,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "糖尿病患者治療中，低血糖是非常需要注意的變化。下列有關糖尿病低血糖之敘述，何者為錯誤的?",
+    "options": [
+      "第一型糖尿病患者以胰島素積極控制血糖，可以有效地降低糖尿病視網膜及腎病變，但是低血糖因胰島素之積極使用，發生率也較高",
+      "第二型糖尿病最容易造成低血糖之口服藥物為硫胺類 (Sulfonylurea)藥物",
+      "新型的糖尿病藥物如DPP-4 inhibitor 及 SGLT-2 inhibitor，因其藥物機轉特殊，因此不會發生低血糖",
+      "使用多次餐前胰島素控制血糖，發生低血糖之機率，較基礎胰島素為高",
+      "糖尿病患的糖尿病史愈久，可能因自主神經病變，產生 Hypoglycemia unawareness，而無明顯自覺性的症狀"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-137",
+    "year": 106,
+    "num": 137,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "糖尿病的治療中，生活型態控制是必要的。但是藥物治療也不可或缺。下列敘述中，何者為錯誤的?(1)Metformin為糖尿病第一線用藥，eGFR < 30 ml/min/1.73㎡時，仍可安全使用；(2)台灣糖尿病治療指引建議HbA1c糖化血色素的控制目標為 7.0 %以下；(3)容易發生低血糖之患者，應考慮避免使用胰島素；(4)Glucagon-like peptide-1 (GLP-1) 類的針劑糖尿病藥物發生低血糖的機會比胰島素針劑為低；(5)SGLT-2抑制劑造成泌尿道感染的機會較高",
+    "options": [
+      "(1)+(4)",
+      "(3)+(5)",
+      "(2)+(5)",
+      "(1)+(3)",
+      "(3)+(4)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-138",
+    "year": 106,
+    "num": 138,
+    "subject": "新陳代謝與內分泌",
+    "sectionRaw": "新陳代謝科",
+    "question": "糖尿病治療藥物中，Glucagon-like peptide-1針劑藥物及 DPP-4 inhibitor均屬於腸泌素 (Incretin)類藥物，下列有關腸泌素及相關藥物的敘述，哪一個是錯誤的?",
+    "options": [
+      "人體生理學上分泌的GLP-1來自腸道的L-細胞",
+      "DPP-4 inhibitor 的研究中發現，DPP-4 ihbibitor 可能有造成病患心臟衰竭的風險",
+      "第一型糖尿病之患者也適合使用GLP-1類的針劑藥物",
+      "腸泌素類的藥物發生低血糖的機會比硫胺類 (Sulfonylurea)類藥物為低",
+      "研究顯示，第二型糖尿病患者使用GLP-1類藥物時，可以減輕病患體重 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 44/62"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-139",
+    "year": 106,
+    "num": 139,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "白細胞介素17 (Interleukin 17)扮演下列疾病重要之角色？ (1)痛風關節炎；(2)退化性關節炎；(3)乾癬性關節炎 (Psoriatic arthritis)；(4)僵直性脊椎炎(Ankylosing spondylitis)；(5)全身性硬化症(Systemic sclerosis)",
+    "options": [
+      "(1)+(2)",
+      "(2)+(3)",
+      "(3)+(4)",
+      "(4)+(5)",
+      "(5)+(1)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-140",
+    "year": 106,
+    "num": 140,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "關節液抽取檢查常在下列疾病執行？(1)痛風關節炎；(2)感染性關節炎；(3)全身性紅斑性狼瘡 (SLE)；(4)全身性硬化症 ( Systemic sclerosis)；(5)僵直性脊椎炎(Ankylosing spondylitis)",
+    "options": [
+      "(1)+(2)",
+      "(2)+(3)",
+      "(3)+(4)",
+      "(4)+(5)",
+      "(5)+(1)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-141",
+    "year": 106,
+    "num": 141,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "一位61歲男性有多年喝酒習慣，全身有痛風石結晶(如圖)，治療的目標是？",
+    "options": [
+      "外科手術去除痛風石",
+      "飲食控制",
+      "降低血中尿酸值至2 mg/dL以下",
+      "降低血中尿酸值至5 mg/dL以下",
+      "降低血中尿酸值至7 mg/dL以下"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-142",
+    "year": 106,
+    "num": 142,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "免疫球蛋白G4相關疾病(IgG4-related disease)在纖維化組織切片檢查中主要之細胞浸潤為？",
+    "options": [
+      "巨噬細胞 (Macrophage)",
+      "NK細胞",
+      "樹狀突細胞(Dendritic cell)",
+      "漿細胞(Plasma cell)",
+      "B細胞(B cell)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-143",
+    "year": 106,
+    "num": 143,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "僵直性脊椎炎(Ankylosing spondylitis)最常見的關節外症狀(extra-articular symptom)是？",
+    "options": [
+      "腸胃炎",
+      "前葡萄膜炎(Anterior uveitis)",
+      "口腔潰瘍",
+      "皮膚紅斑",
+      "肺部纖維化 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 45/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-144",
+    "year": 106,
+    "num": 144,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "治療全身性紅斑性狼瘡(SLE)之藥物中，下列是最少引起胎兒毒性之副作用？(1)塞克羅邁得Cyclophosphamide (Endoxan)；(2)環孢靈Cyclosporine；(3)必賴克廔 Hydroxychloroquine；(4)糖皮質激素Glucocorticoid；(5) 莫須瘤Rituximab",
+    "options": [
+      "(1)+(2)",
+      "(2)+(3)",
+      "(3)+(4)",
+      "(4)+(5)",
+      "(5)+(1)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-145",
+    "year": 106,
+    "num": 145,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "下列何種抗體在全身性紅斑性狼瘡(SLE)常合併憂鬱症 (depression)或精神病(psychosis)？",
+    "options": [
+      "anti-Sm",
+      "anti-RNP",
+      "anti-SS-A/Ro",
+      "anti-SS-A/La",
+      "anti-ribosomal P"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-146",
+    "year": 106,
+    "num": 146,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "一位55歲家庭主婦主訴咳嗽及呼吸困難1個月，胸部X光顯示間質性肺病(interstitial lung disease)，病人曾確診為多發性肌炎(polymyositis)。下列何種抗體為出現在此疾病最常見的抗體？",
+    "options": [
+      "anti-dsDNA",
+      "anti-histidyl-tRNA synthetase",
+      "anti-melanoma differentiation-associated gene 5",
+      "anti-DNA topoisomerase 1",
+      "anti-centromere"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-147",
+    "year": 106,
+    "num": 147,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "下列白細胞介素( interleukin)可用來診斷肺結核感染之可能？",
+    "options": [
+      "腫瘤壞死因子-α (Tumor Necrosis Factor-α, TNF-α)",
+      "白細胞介素10 (IL-10)",
+      "干擾素-α (Interferon-α)",
+      "干擾素-β (Interferon-β)",
+      "干擾素-γ (Interferon-γ)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-148",
+    "year": 106,
+    "num": 148,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "風濕科",
+    "question": "Hepcidin可以引起發炎相關之貧血，其作用機轉是影響？",
+    "options": [
+      "鐵之吸收",
+      "葉酸之吸收",
+      "維他命B12之吸收",
+      "維他命D之吸收",
+      "膽固醇 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 46/62"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-149",
+    "year": 106,
+    "num": 149,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "下列有關過敏原引發蕁痲疹致病機轉的配對中，何者最正確？",
+    "options": [
+      "Pollens－bradykinin-mediated",
+      "Radiocontrast media－mast cell-mediated",
+      "Opiate－IgE-dependent",
+      "NSAIDs－complement-mediated",
+      "Cold exposure－macrophage activation"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-150",
+    "year": 106,
+    "num": 150,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "32歲女姓患者過去有二次流產記錄。二天前右下腿突然腫脹疼痛，被懷疑為蜂窩組織炎。但經抗生素治療三天之後無顯著改善。血清學檢查發現ANA1:1280 speckled pattern, C3 57.6 mg/dL, C4 7.5 mg/dL, anti-dsDNA 473 IU/mL, 血液學檢查發現pancytopenia。請問這位患者右下腿突然腫脹的最可能原因為何？",
+    "options": [
+      "Lupus nephritis",
+      "Cellulitis",
+      "Anti-phospholipid syndrome",
+      "Lymphoedema",
+      "Sciatica"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-151",
+    "year": 106,
+    "num": 151,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "49歲女姓患者，二年前開始發現雙側手指在冬天會變白後變紫。最近三個月雙手有關節酸痛及僵硬，嘴巴張開受限及吃東西有時會嗆到。在懷疑罹患自體免疫疾病之下，請問下列的何種自體抗體檢查對疾病的診斷最有幫助？",
+    "options": [
+      "Anti-double stranded DNA",
+      "Anti-Sjogren's-syndrome-related antigen A",
+      "Anti-cyclic citrullinated peptide antibody (Anti-CCP antibody)",
+      "Anti-topoisomerase 1",
+      "Anti-phospholipid"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-152",
+    "year": 106,
+    "num": 152,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "24歲男性患者，在長途開車時會有腰酸背痛。下車活動20 分鐘之後會改善。另外，早上剛起床時全身會僵硬。請問下列的何種檢查對疾病的診斷最有幫助？",
+    "options": [
+      "HLA-B27",
+      "Whole body bone scan",
+      "Rheumatoid factors (RFs)",
+      "Anti-nuclear antibodies (ANAs)",
+      "MRI"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-153",
+    "year": 106,
+    "num": 153,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "61歲女姓發覺最近臉部及手部指節處有紅斑出現。起床時無法立即站起來，必須以雙手支撐才能站起來。抽血發現 AST 108U/L, ALT 32U/L, CK 659 U/L。請問要確定診斷，下列的何種檢查對疾病的診斷最具決定性？",
+    "options": [
+      "MRI",
+      "Electromyolography (EMG) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 47/62",
+      "Muscle biopsy",
+      "Myoglobulin",
+      "Whole body CT scan"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-154",
+    "year": 106,
+    "num": 154,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "82歲男性患者，在半夜睡覺時突然發生左膝蓋劇痛。在急診抽血發現uric acid 6.1 mg//dL, ESR 42 mm/1h, CRP 4.6 mg/dL。關節液檢查：WBC 8480/HPF,發現有 rhomboid and plate-like crystal (+),但無needle-shaped crystal.請問最有可能的疾病診斷為何？",
+    "options": [
+      "Acute gouty arthritis",
+      "Pseudo-gout",
+      "Septic arthritis",
+      "Osteoarthritis",
+      "Polymyalgia rheumatica"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-155",
+    "year": 106,
+    "num": 155,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "以xanthine oxidase inhibitor \"Allopurinol\"治療痛風時，必須事前檢測何種基因？",
+    "options": [
+      "HLA-B*5801",
+      "HLA-DR4",
+      "HLA-B*1502",
+      "HLA-B27",
+      "HLA-B51"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-156",
+    "year": 106,
+    "num": 156,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "45歲男性患者為B肝帶原者。最近五天全身有多處關節痛發生。到醫院檢查發現ESR 34 mm/1h, CRP 2.1 mg/dL, RF 84 IU/mL。被懷疑有rheumatoid arthritis。請問下列的何種檢查對疾病的鑑別診斷最有幫助？",
+    "options": [
+      "Ferritin",
+      "Bilateral hand X-ray film",
+      "Cryoglobulin",
+      "IgG RFs",
+      "Anti-CCP"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-157",
+    "year": 106,
+    "num": 157,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "下列有關血管炎症候群(vasculitis syndrome)與臨床相關的配對中，何者最正確？(1)Granulomatosis with polyangiitis－usually cANCA (+)；(2)Takayasu arteritis －difference in bilateral. brachial blood pressure； (3)Giant cell arteritis－high incidence in young age group；(4)Eosinophilic granulomatosis with polyangiitis－high incidence in old age group； (5)Henoch-Schonlein purpura－increase in serum IgA； (6)Polyarteritis nodosa－chronic pancreatitis； (7)Cryoglobulinemic vasculitis－associated with hepatitis C；(8)Behcet's disease－usually pANCA (+)； (9)Microscopic polyangiitis－usually associated with sinusitis",
+    "options": [
+      "(1)+(2)+(3)",
+      "(3)+(4)+(6) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 48/62",
+      "(1)+(5)+(7)",
+      "(2)+(7)+(8)",
+      "(1)+(3)+(9)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-158",
+    "year": 106,
+    "num": 158,
+    "subject": "風濕免疫及過敏",
+    "sectionRaw": "免疫科",
+    "question": "原發性Sjogren's syndrome 有多種唾液腺以外的症狀表現。請問下述的症狀的組合中，何者最為正確？ (1)Interstitial lung fibrosis；(2)primary biliary cirrhosis；(3)uveitis；(4)scleritis；(5) autoimmune hepatitis；(6)peripheral neuropathy；(7)acute pancreatitis；(8)renal tubular acidosis； (9)amyloidosis；(10)atopic dermatitis",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(4)+(5)",
+      "(1)+(6)+(7)",
+      "(4)+(9)+(1)",
+      "(5)+(6)+(8) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 49/62"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-159",
+    "year": 106,
+    "num": 159,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "下列疾病與目前已知有效之治療藥物的配對，何者是錯誤的？",
+    "options": [
+      "Multiple myeloma: Lenalidomide",
+      "Chronic myeloid leukemia: Dasatinib",
+      "Diffuse large B-cell lymphoma: Rituximab",
+      "Paroxysmal nocturnal hemoglobinuria: Eculizumab",
+      "Polycythemia vera: Prednisolone"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-160",
+    "year": 106,
+    "num": 160,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "一位72歲病人因為出血傾向及疲倦應診，抽血檢查顯示血紅素為8.2 g/dL，白血球24000/uL，血小板12000/uL；血液抹片如圖所示。這位病人最可能得了何種病？",
+    "options": [
+      "Chronic myeloid leukemia",
+      "Chronic myelomonocytic leukemia",
+      "Chronic lymphocytic leukemia",
+      "Acute myeloid leukemia",
+      "Acute lymphoblastic leukemia (ALL)"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-161",
+    "year": 106,
+    "num": 161,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "一位23歲病人因呼吸急促應診，血液檢查顯示血紅素為6.3 g/dL，血小板、白血球及分類正常，網狀紅血球 (reticulocyte) 3.5%，全膽紅素 (total bilirubin) 3.4 mg/dL，直接膽紅素 (direct bilirubim) 0.7 mg/dL；血液抹片如圖所示。此位病人最可能得了什麼病？",
+    "options": [
+      "Iron deficiency anemia",
+      "Autoimmune hemolytic anemia",
+      "Vit B12 deficiency anemia",
+      "Thalassemia",
+      "G6PD deficiency"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-162",
+    "year": 106,
+    "num": 162,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "標靶治療藥物Tyrosine kinase inhibitor, Imatinib, 對下列何種急性淋巴芽細胞白血病(ALL)有效？",
+    "options": [
+      "B-lineage ALL with t(9;22)",
+      "B-lineage ALL with t(4;11)",
+      "CD19 positive B-lineage ALL",
+      "CD20 positive B-lineage ALL",
+      "CD3 positive T-lineage ALL"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-163",
+    "year": 106,
+    "num": 163,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "Eltrombopag目前為健保給付治療免疫性血小板低下性紫斑症(immune thrombocytopenic purpura)的第二線用藥，它的作用機轉為何？",
+    "options": [
+      "Anabolic hormone",
+      "Corticosteroid",
+      "Immunosuppressive agent",
+      "Thrombopoietin receptor agonist",
+      "JAK inhibitor file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 50/62"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-164",
+    "year": 106,
+    "num": 164,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "一位病人因血小板低下應診，下列各項檢驗中何者為鑑別血小板低下原因幫忙最小者？",
+    "options": [
+      "H. pylori infection",
+      "Serology tests for SLE",
+      "Hepatitis C infection",
+      "HIV infection",
+      "Platelet antibodies"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-165",
+    "year": 106,
+    "num": 165,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "對於多發性骨髓瘤(multipel myeloma)的診斷及分期，下列何項檢查是最不需要者？",
+    "options": [
+      "Immunoelectrophoresis",
+      "Albumin level",
+      "Beta 2-microglobulin level",
+      "Bone scan",
+      "Plain bone radiography"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-166",
+    "year": 106,
+    "num": 166,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "一位40歲病人抱怨胃痛，內視鏡檢查發現胃竇(gastric antrum)有一腫瘤，病理切片檢查顯示為mucosa- associated lymphoid tissue lymphoma，CD20陽性及H. pylori陽性，分期檢查未發現其他異常。下列何者為此病人最適當的第一線治療？",
+    "options": [
+      "Eradication of H. pylori",
+      "Rituximab",
+      "Chemotherapy",
+      "Rituximab + Chemotherapy",
+      "Local irradiation"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-167",
+    "year": 106,
+    "num": 167,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "下列何種狀況常會出現prothrombin time (PT)正常但 activated partial thromoplostim time (aPTT)延常的現象？(1) Hepatic failure；(2) Antiphospholipid syndrome；(3) von Willebrand disease；(4) Disseminated intravascular coagulation",
+    "options": [
+      "(1)+(4)",
+      "(2)+(4)",
+      "(1)+(2)",
+      "(2)+(3)",
+      "(1)+(2)+(4)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-168",
+    "year": 106,
+    "num": 168,
+    "subject": "血液腫瘤",
+    "sectionRaw": "血液科",
+    "question": "下列何者是B細胞慢性淋巴性白血病(chronic lymphocytic leukemia)細胞的特徵，可與反應性淋巴細胞過多症做鑑別診斷？(1) Monoclonal light chain restriction；(2) CD5 expression；(3) CD10 expression",
+    "options": [
+      "(1)",
+      "(1)+(2)",
+      "(1)+(3)",
+      "(2)+(3)",
+      "(1)+(2)+(3) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 51/62 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 52/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-169",
+    "year": 106,
+    "num": 169,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "有一58歲女性，在例行性乳房X光攝影檢查發現右側乳房的上外側四分之一象限有一新的鈣化腫塊。局部乳房腫塊切除(lumpectomy)後，證實為乳腺癌，最長直徑為2.2公分，且Estrogen接受體(ER)，Progesterone接受體(PR)， HER2接受體，三者皆為陰性。前哨(sentinel)淋巴結切片顯示有2顆淋巴結有癌細胞侵犯陽性。她一般身體狀況大致良好，無已知共病(comorbidities)。完整的癌症分期影像檢查並無已知轉移病灶。放射腫瘤醫師建議安排放射線治療。你建議病人的治療計畫，下列選項何者較為合宜?",
+    "options": [
+      "Lumpectomy加上radiation therapy已足夠",
+      "需加上complete mastectomy",
+      "需加上axillary lymph node dissection, followed by tamoxifen for 5 years",
+      "需加上6 cycles of capecitabine chemotherapy",
+      "需加上4 cycles of doxorubicin + cyclophosphamide (AC), followed by paclitaxel chemotherapy"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-170",
+    "year": 106,
+    "num": 170,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一位66歲男性病人，最近被診斷罹患第四期惡性黑色素細胞癌，癌症分期檢查顯示已有多處肝臟、肺臟與骨骼轉移。他的臨床症狀包括呼吸急促、咳嗽、骨骼疼痛與體重減輕約5公斤。腫瘤檢體之基因檢測顯示BRAF基因之V600E 突變陽性。你建議選擇給予何種藥劑治療較為適宜?",
+    "options": [
+      "Gefitinib",
+      "Vemurafenib",
+      "Trametinib",
+      "Imatinib",
+      "Sorafenib"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-171",
+    "year": 106,
+    "num": 171,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一84歲女性病人在過去3週內突然有一頸部快速長大的腫塊，她呼吸急促、聲音沙啞、喉嚨疼痛。理學檢查發現她甲狀腺左葉有一10公分大小的硬腫塊，喉鏡檢查已發現腫瘤直接擴展侵犯氣管，胸部X光片顯示兩側肺野已有許許多多小於1公分的肺結節。細針抽吸細胞學檢查確診為「分化不良的甲狀腺癌」(anaplastic thyroid cancer)。回顧一個月前，她仍能大致獨立日常生活，但近3週來急速惡化，已向病人及家屬說明此癌症之臨床預後十分不良。你建議下列何種治療，相對較為適宜?",
+    "options": [
+      "Bortezomib標靶治療",
+      "Vandetanib標靶治療",
+      "Brentuximab vedotin單株抗體治療",
+      "Palliative external beam radiation therapy to the neck",
+      "Surgical en bloc resection of the thyroid, anterior tracheal wall with reconstruction, followed by chemotherapy file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 53/62"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-172",
+    "year": 106,
+    "num": 172,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "有一65歲女性病人，有70-pack-years的抽菸史，與慢性阻塞性肺病(COPD)，檢查發現在ambient air之下，氧氣飽和度仍有97%，但吐氣expiratory phase則已明顯延長。其他理學檢查大致良好(unremarkable)。她希望安排肺癌篩檢 (screening)檢查。你建議何種篩檢檢查較為適宜?",
+    "options": [
+      "Chest X-ray",
+      "18-FDG-PET-CT scan",
+      "Serum CEA (carcinoembryonic antigen)",
+      "Low-dose non-contrast CT scan of the chest",
+      "Routine screening for lung cancer should NOT be offered to her"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-173",
+    "year": 106,
+    "num": 173,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一66歲男性糖尿病病人，過去病史主要有慢性疲倦症候群 (chronic fatigue syndrome)。最近，他經診斷罹患第四期轉移性腎細胞癌(renal cell carcinoma, RCC)，合併肺臟與骨骼轉移。他主訴輕度骨骼疼痛，未開始治療前已有中度疲倦(baseline moderate fatigue)症狀。你為他選擇第一線治療藥劑，建議以下何者最為適宜?",
+    "options": [
+      "Erlotinib",
+      "Sunitinib",
+      "Pazopanib",
+      "Everolimus",
+      "Axitinib"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-174",
+    "year": 106,
+    "num": 174,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一29歲年輕女性，近3個月來右前臂與右手漸漸感覺麻木與知覺異常(paresthesia)。理學檢查發現右前臂與右手腕伸展(extension)明顯無力，她身上有多發的小小神經纖維瘤 (neurofibromas)結節，許多的咖啡牛奶像(cafe-au-lait)的皮膚斑塊，腋下與股溝有多發斑點(freckles)，右腋下有一個堅硬的(firm)腫塊。兩側乳房檢查並無異常的發現。電腦斷層(CT)掃描顯示右腋下有一個5公分直徑大小的腫塊。她接受右腋下腫塊切片，推測最可能的診斷為何?",
+    "options": [
+      "Adenocarcinoma",
+      "Squamous cell carcinoma",
+      "Malignant peripheral nerve sheath tumor",
+      "Leiomyosarcoma",
+      "Lymphoma"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-175",
+    "year": 106,
+    "num": 175,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一位31歲年輕男性病人，診斷罹患結腸癌(colon cancer)。他有已知的結腸癌家族病史，包括：他母親在23歲時曾被診斷罹患第一期子宮內膜癌(endometrial cancer)，經治療後痊癒，之後又在46歲時診斷有結腸癌。他的外祖父55歲時因結腸癌去世。他的36歲姊姊最近在大腸內視鏡檢時也發現第一期結腸癌，但並無額外的息肉(polyps)被發現。這位31歲男性結腸癌病人，最可能有以下的基因變異?",
+    "options": [
+      "ATM基因的loss of heterozygosity",
+      "p53抑癌基因的germline mutation",
+      "Rb抑癌基因的germline mutation",
+      "MSH2基因的germline mutation file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 54/62",
+      "Nucleotide excision repair相關基因的somatic mutation"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-176",
+    "year": 106,
+    "num": 176,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一65歲男性病人，體能performance status (PS)良好，且沒有明顯已知共病(comorbidities)，被確診轉移性胃腺癌，HER2陰性，病人已有肝臟與腹膜轉移。他接受第一線化學治療注射Cisplatin併用每週24小時高劑量5-FU加上活性葉酸(Cisplatin-HDFL處方)，二個月後腫瘤順利達到部分緩解(partial response)，且副作用輕微，病人耐受性良好。病人持續第一線化療共8個月後，電腦斷層(CT)掃描顯示肝臟轉移病灶開始增大惡化，符合progressive disease (PD)。此時病人體能狀況performance status (PS)仍良好 (WHO/ECOG 0-1)，且有高度意願接受第二線治療。你建議下一步的治療，何者可為合適的選項? (1) Second-line chemotherapy with irinotecan (2) Second-line chemotherapy with paclitaxel or docetaxel (3) Second- line therapy with ramucirumab (VEGFR2單株抗體) (4) Second-line therapy with ramucirumab plus paclitaxel (5) Best supportive care alone",
+    "options": [
+      "僅(5)適合",
+      "僅(1)、(2)適合",
+      "僅(1)、(2)、(3)適合",
+      "(1)、(2)、(3)、(5)均適合",
+      "(1)、(2)、(3)、(4)均適合"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-177",
+    "year": 106,
+    "num": 177,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "一56歲女性病人，過去15年陸續有intermittent diarrhea 腹瀉的症狀，均被診斷為腸躁症irritable bowel syndrome 給予症狀治療。最近一年來，她開始有腳踝水腫ankle edema，且漸有惡化趨勢，漸漸需口服利尿劑才能緩解。仔細詢問病史，她間斷有熱潮紅(hot flashes)的情形已有多年，但一直當作是停經症候群的一部分症狀。理學檢查所見病人發育與營養狀態良好，無黃疸，無周邊淋巴結腫大，hepatojugular reflux陽性，心臟聽診有明顯S3心音，肝腫大至右肋緣下約3指幅，且明顯兩側足踝水腫。你建議進一步為此病人安排以下的檢查，何者適宜? (1) 24-hour urine for 5-HIAA (5-hydroxyindoleacetic acid) (2) CT scan of the abdomen and pelvis (3) Octreoscan (4) Echocardiogram (5) 18-FDG-PET scan",
+    "options": [
+      "僅(1)適合",
+      "僅(1)+(2)適合",
+      "僅(1)+(2)+(3)適合",
+      "(1)+(2)+(3)+(4)均適合",
+      "(1)+(2)+(3)+(5)均適合"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-178",
+    "year": 106,
+    "num": 178,
+    "subject": "血液腫瘤",
+    "sectionRaw": "腫瘤科",
+    "question": "癌症的免疫節制點抑制劑(immune checkpoint inhibitors) 或標靶治療藥劑(molecular targeted agents)通常針對特定的訊息傳遞路徑或分子標靶進行抑制，以達到治療癌症的目的。治療藥劑與免疫或分子標靶的配對，下列那些為正確?(1)Afatinib與EGFR；(2)Ipilimumab與CTLA-4； file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 55/62 (3)Trastuzumab與HER-2；(4)Rituximab與CD30； (5)Nivolumab與PD-1",
+    "options": [
+      "(1)+(2)+(3)+(5)",
+      "(1)+(2)+(3)+(4)",
+      "(2)+(3)+(4)+(5)",
+      "(3)+(4)+(5)",
+      "(2)+(4)+(5) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 56/62"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-179",
+    "year": 106,
+    "num": 179,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "75歲男性，有高血壓、高血脂、冠心症，某日突然發現左眼幾乎看不見，症狀持續約10分鐘後視力逐漸恢復，應優先安排那一個檢查？",
+    "options": [
+      "經胸心臟超音波檢查",
+      "經食道心臟超音波檢查",
+      "腦部斷層掃描檢查",
+      "頸動脈超音波檢查",
+      "視野檢查"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-180",
+    "year": 106,
+    "num": 180,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "50歲女性，每晚剛睡時會有下肢很不舒服感覺，必須要動一動腳才會舒服些，睡覺時被發現會陣發性的短暫腳抖動，若需使用藥物可優先考慮哪一類藥治療？",
+    "options": [
+      "Dopamine agonist",
+      "Dopamine antagonist",
+      "Serotonin antagonist",
+      "Selective serotonin-reuptake inhibitor (SSRI)",
+      "Monoamine oxidase inhibitor (MAOI)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-181",
+    "year": 106,
+    "num": 181,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "40歲女性，2個月前接受腎臟移植，使用cyclosporine，突發頭痛、癲癇、意識不清，腦部磁振照影檢查最可能發現病灶位置為何？",
+    "options": [
+      "額葉（frontal lobe）",
+      "橋腦（pons）",
+      "顳葉（temporal lobe）",
+      "枕葉（occipital lobe）",
+      "中腦（midbrain）"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-182",
+    "year": 106,
+    "num": 182,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "對於中風的二次預防危險因子的控制，下列哪些治療所需要的個案數以降低一個中風發生（Number needed to treat, NNT），NNT由小到大，何者正確？",
+    "options": [
+      "心房顫動使用口服抗凝劑、高血壓降血壓、高血脂降血脂",
+      "高血壓降血壓、心房顫動使用口服抗凝劑、糖尿病降血糖",
+      "心房顫動使用口服抗凝劑、糖尿病降血糖、高血脂降血脂",
+      "高血壓降血壓、糖尿病降血糖、高血脂降血脂",
+      "高血脂降血脂、高血壓降血壓、糖尿病降血糖"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-183",
+    "year": 106,
+    "num": 183,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "25歲男性，近3日有漸進四肢無力、肢體末端麻木，神經學檢查顯示四肢肌力3-4分、肢體遠端較近端無力、肌腱反射消失，1週前有上呼吸道感染，脊髓液檢查結果最可能是下述何者？",
+    "options": [
+      "蛋白40 mg/dL、葡萄糖75 mg/dL、白血球5/μL、初壓 200 mmH2O file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 57/62",
+      "蛋白200 mg/dL、葡萄糖45 mg/dL、白血球100/μL、初壓 250 mmH2O",
+      "蛋白150 mg/dL、葡萄糖85 mg/dL、白血球3/μL、初壓 120 mmH2O",
+      "蛋白100 mg/dL、葡萄糖55 mg/dL、白血球20/μL、初壓 180 mmH2O",
+      "蛋白80 mg/dL、葡萄糖65 mg/dL、白血球10/μL、初壓 300 mmH2O"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-184",
+    "year": 106,
+    "num": 184,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "60歲男性因主動脈剝離併發胸脊髓梗塞，下肢感覺功能那些最可能受到影響(1)震動感(vibration)；(2)溫度感 (temperature)；(3) 針刺感(pin-prick)；(4) 關節位置感 (joint position sense)。",
+    "options": [
+      "(1)+(3)",
+      "(2)+(4)",
+      "(1)+(4)",
+      "(2)+(3)",
+      "(1)+(2)+(3)+(4)"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-185",
+    "year": 106,
+    "num": 185,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "下列疾病何者屬於小血管病變？(1)毛毛樣病(Moya-moya disease)；(2)體顯性腦動脈血管病變合併皮質下腦梗塞及腦白質病變(Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy; CADASIL)；(3)高安氏動脈炎(Takayasu's arteritis)；(4)高血壓腦出血(Hypertensive intracerebral hemorrhage)。",
+    "options": [
+      "(1)+(3)",
+      "(2)+(4)",
+      "(1)+(4)",
+      "(2)+(3)",
+      "(1)+(2)+(3)+(4) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 58/62"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-186",
+    "year": 106,
+    "num": 186,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "下列關於自殺的描述何者為非？",
+    "options": [
+      "身體疾病如冠狀動脈心臟病及慢性阻塞性肺疾患，若合併憂鬱症，會增加自殺的風險",
+      "有些慢性疾病如癲癇以及發炎性腸道疾病 (inflammatory bowel disease)，本身不需要合併精神疾病，自殺風險就增加",
+      "失眠本身是自殺獨立的危險因子，其機轉可能透過失眠增加衝動性以及認知的偏差",
+      "創傷性腦傷 (traumatic brain injury) 不會增加自殺風險",
+      "多發性硬化症也會增加自殺風險"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-187",
+    "year": 106,
+    "num": 187,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "關於benzodiazepine (BZD) 類藥物的成癮問題及戒治，下列何者為非？",
+    "options": [
+      "BZD的依賴性(dependence)可以發生在低劑量而且沒有產生耐受性(tolerance)的情況下",
+      "BZD的戒斷症狀，長效型的藥物發生在斷藥後5-10天，短效的藥物大約在2-3天",
+      "每日使用BZD當量若超過100 mg的diazepam，建議住院來戒藥",
+      "協助使用多種BZD個案戒藥時，應先將BZD種類單純化至diazepam一種",
+      "依據實證醫學回顧的共識，戒除大於30 mg diazepam 的BZD成癮，可在4-6天完成"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-188",
+    "year": 106,
+    "num": 188,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "關於憂鬱症篩檢與治療的最新建議，下列何者是正確的？ (1)孕產期婦女(pregnant and postpartum)不應該納入篩檢；(2)長期失眠也是造成老年人憂鬱的危險因子；(3)對於成人憂鬱症的治療，與安慰劑相較，目前並無研究證實抗憂鬱藥物在統計上顯著地增加自殺死亡風險；(4)認知行為治療(cognitive behavioral psychotherapy)被證實對於預產期婦女的憂鬱症沒有療效；(5)面對困難養育很難帶的嬰兒(difficult infant temperament)，也是產後憂鬱的危險因子。",
+    "options": [
+      "(2)+(3)+(5)",
+      "(1)+(4)+(5)",
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(1)+(3)+(5)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-189",
+    "year": 106,
+    "num": 189,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "關於焦慮疾患(anxiety disorders)的治療下列何者為非？",
+    "options": [
+      "目前沒有足夠證據支持要以藥物治療或心理治療，作為首選治療方式",
+      "Inderal 可以減輕社交焦慮症(social anxiety disorder) 的症狀",
+      "Benzodiazepine類藥物可以作為第一線的單獨治療 (monotherapy)選項 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 59/62",
+      "用選擇性血清素再吸收抑制劑(SSRI)治療焦慮疾患，起始劑量建議由SSRI治療憂鬱症起始劑量的一半開始",
+      "當焦慮疾患用藥物治癒後，還需要藥物做維持性治療一段時間"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-190",
+    "year": 106,
+    "num": 190,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "關於恐慌症的描述下列何者為非？",
+    "options": [
+      "是民眾尋求內科醫師診治的常見原因之一",
+      "臨床表現為反覆且不可預期的焦慮症狀發作",
+      "理學與實驗室檢查結果會發現能解釋發作症狀之原因",
+      "個案會害怕下一次發作，或因害怕發作而自我限制活動範圍",
+      "甲狀腺功能異常是鑑別診斷之一"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-191",
+    "year": 106,
+    "num": 191,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "關於強迫症(obsessive-compulsive disorder: OCD)的診斷與治療，下列何者為非？",
+    "options": [
+      "個案可能會持續懷疑(persistent doubting)大門有沒有鎖好，而反覆檢查門鎖",
+      "個案可能會害怕自己不小心造成傷害(fear of causing harm)，而重複折返剛剛開車經過的路段檢查",
+      "針對OCD使用藥物治療的療效，綜合分析呈現：需治人數(number needed to treat: NNT)大約5",
+      "針對OCD使用心理治療(psychotherapy)的療效，綜合分析呈現NNT大於10",
+      "若以clomipramine治療OCD，每日目標劑量為250 mg"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-192",
+    "year": 106,
+    "num": 192,
+    "subject": "精神",
+    "sectionRaw": "精神科",
+    "question": "關於與嚴重致命性疾病(serious and life-threatening illness)病患之間的醫病溝通策略與知能，下列何者為非？",
+    "options": [
+      "阻礙這類溝通的原因之一是病患與醫師都等待對方先開啟這類話題",
+      "醫師在預後推測(prognostication)的教育訓練充足與否，也是阻礙此類溝通的原因",
+      "照護體系分工太細缺乏協調(lack of coordination)也是影響這類溝通效能的原因之一",
+      "透過教育訓練建立知識(knowlege)、態度(attitude)與技巧(skill)的連結，有助於增進生命末期(end-of-life)的醫病溝通品質",
+      "對醫師專業而言，面對嚴重致命疾病的醫病溝通，是不會有壓力的 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 60/62"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-193",
+    "year": 106,
+    "num": 193,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "一位40歲女性，近半年來在臉部、頸部與前胸部皮膚，出現如圖之表現。關於該患者診斷與治療的描述，何者正確？(應選出全部答案) (1)皮膚病理有明顯發炎細胞浸潤，造成色素脫失; (2) 毛囊之黑色素細胞消失; (3) 表皮基底層之黑色素細胞消失; (4) 應做甲狀腺功能與抗體的檢查; (5) UVB1(311nm)窄波紫外光可促進色素回復",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(1)+(5)",
+      "(2)+(5)",
+      "(3)+(4)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-194",
+    "year": 106,
+    "num": 194,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "一70歲男性，因右眼週及右側頭部疼痛來就診。身體檢查發現vital sign都正常。在鼻尖及右眼週圍有底部紅腫的成簇小水皰。以下何者為恰當處置？(1)塗抹類固醇藥膏；(2) 做bacterial culture, 並給予cephalexin；(3)立刻做 ophthalmic consultation；(4)做腎功能檢查; (5)給予口服 valacyclovir或靜脈點滴注射acyclovir",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(1)+(5)",
+      "(2)+(5)",
+      "(3)+(4)+(5)"
+    ],
+    "answer": 4,
+    "answerLetter": "E",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-195",
+    "year": 106,
+    "num": 195,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "一位30歲男性赴東南亞旅遊，回國後四個月出現手掌腳掌及全身帶有古銅色的脫屑丘疹，此皮疹已持續2個月(如圖示)。以下何者不是必要處置? (1) 檢測measles IgM; (2)詢問性行為史; (3)檢測TPHA; (4) 檢測VDRL或RPR; (5)檢測 rubella IgM",
+    "options": [
+      "(1)+(2)+(3)",
+      "(2)+(3)+(4)",
+      "(1)+(5)",
+      "(2)+(5)",
+      "(3)+(4)+(5)"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-196",
+    "year": 106,
+    "num": 196,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "一57歲有煙癮的男性，10年前戒煙。下唇發生如圖所示之皮膚腫瘤已有3個月。最可能的診斷是？",
+    "options": [
+      "棘細胞癌 (squamous cell carcinoma)",
+      "日光性口唇炎(actinic chelitis)",
+      "單純皰疹 (herpes simplex)",
+      "惡性黑素瘤 (malignant melanoma)",
+      "膿痂疹 (impetigo)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-197",
+    "year": 106,
+    "num": 197,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "此22歲男性病患同時有嘴唇成簇小水皰，及手掌如圖所示標靶樣皮疹，最可能的感染病原是：",
+    "options": [
+      "Herpes simplex virus file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 61/62",
+      "Parvovirus B19",
+      "Streptococcus, group A",
+      "Varicella zoster virus",
+      "Staphylococcus aureus"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-198",
+    "year": 106,
+    "num": 198,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "如圖所示皮疹已有5年，以下敘述何者為非？",
+    "options": [
+      "常在頭皮發生",
+      "Anti-IL12/IL-23, anti-IL17 是有效的生物製劑",
+      "口服類固醇是首選治療",
+      "比一般人易併有心血管疾病",
+      "比一般人易併有新陳代謝症候群"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "106-199",
+    "year": 106,
+    "num": 199,
+    "subject": "皮膚",
+    "sectionRaw": "皮膚科",
+    "question": "此45歲婦女旅行居住旅館後於腹部發生如圖所示3顆頂部有小水皰的會癢皮疹，與她同行的先生並未發生同樣皮疹。應如何處置？",
+    "options": [
+      "塗抹類固醇藥膏",
+      "塗抹permethrin 藥膏",
+      "全身塗抹benzyl benzoate 藥水",
+      "口服類固醇",
+      "口服ivermectin < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 62/62"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "needsImage": true,
+    "image": "",
+    "explanation": ""
+  }
+]
