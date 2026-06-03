@@ -134,7 +134,7 @@ def main():
 
     out_dir = Path(f'public/images/{year}')
     if out_dir.exists():
-        for old in out_dir.glob('*.png'):
+        for old in list(out_dir.glob('*.png')) + list(out_dir.glob('*.jpg')):
             old.unlink()
     out_dir.mkdir(parents=True, exist_ok=True)
     paths = {}
@@ -155,8 +155,8 @@ def main():
             for i in ims:
                 out.paste(i, (0, y))
                 y += i.height + gap
-        out.save(out_dir / f'{num}.png')
-        paths[num] = f'images/{year}/{num}.png'
+        out.save(out_dir / f'{num}.jpg', 'JPEG', quality=82, optimize=True, progressive=True)
+        paths[num] = f'images/{year}/{num}.jpg'
 
     # 回填 JSON
     jp = Path(f'src/data/questions.{year}.json')
@@ -175,7 +175,7 @@ def main():
     sheet = Image.new('RGB', (cols * cw, rows * ch), 'white')
     dr = ImageDraw.Draw(sheet)
     for i, num in enumerate(nums):
-        im = Image.open(out_dir / f'{num}.png')
+        im = Image.open(out_dir / f'{num}.jpg')
         im.thumbnail((cw - 12, ch - 28))
         x = (i % cols) * cw
         y = (i // cols) * ch

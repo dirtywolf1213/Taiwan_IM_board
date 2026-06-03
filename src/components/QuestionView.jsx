@@ -1,5 +1,27 @@
+import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { letter, subjectColor } from '../lib/util.js'
+
+// 附圖:切題時用 key 強制換新元素(避免顯示上一題的舊圖),載入中顯示佔位。
+function FigureImage({ src, alt }) {
+  const [loaded, setLoaded] = useState(false)
+  useEffect(() => { setLoaded(false) }, [src])
+  return (
+    <div className="q-image-wrap">
+      {!loaded && <div className="q-image-loading"><span className="spinner" /></div>}
+      <img
+        key={src}
+        className="q-image"
+        src={src}
+        alt={alt}
+        decoding="async"
+        style={loaded ? undefined : { display: 'none' }}
+        onLoad={() => setLoaded(true)}
+        onError={() => setLoaded(true)}
+      />
+    </div>
+  )
+}
 
 // 顯示一題:題幹、(附圖)、選項。
 // props:
@@ -30,7 +52,7 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
 
       {q.needsImage && (
         q.image ? (
-          <img className="q-image" src={import.meta.env.BASE_URL + q.image} alt={`第 ${q.num} 題附圖`} />
+          <FigureImage src={import.meta.env.BASE_URL + q.image} alt={`第 ${q.num} 題附圖`} />
         ) : (
           <div className="q-image-missing">📷 此題有附圖,圖片尚未匯入(之後補上)</div>
         )

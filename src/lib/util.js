@@ -31,6 +31,13 @@ export function shuffle(arr) {
 
 export const letter = (i) => String.fromCharCode(65 + i)
 
+// 預先載入圖片(讓下一題的附圖先進瀏覽器快取)
+export function preloadImage(image) {
+  if (!image) return
+  const im = new Image()
+  im.src = import.meta.env.BASE_URL + image
+}
+
 export function fmtTime(sec) {
   const m = Math.floor(sec / 60)
   const s = sec % 60

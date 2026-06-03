@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
-import { shuffle, subjectColor } from '../lib/util.js'
+import { shuffle, subjectColor, preloadImage } from '../lib/util.js'
 
 const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習' }
 
@@ -24,6 +24,12 @@ export default function Practice({ mode, subject, year, questions, progress, onA
 
   const [i, setI] = useState(0)
   const [answers, setAnswers] = useState({}) // 本次 session: { id: chosenIndex }
+
+  // 預載接下來兩題的附圖,切題時就已在快取
+  useEffect(() => {
+    preloadImage(list[i + 1]?.image)
+    preloadImage(list[i + 2]?.image)
+  }, [i, list])
 
   if (list.length === 0) {
     return (

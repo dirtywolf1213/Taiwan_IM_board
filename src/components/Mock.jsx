@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
 import SubjectStats from './SubjectStats.jsx'
-import { shuffle, fmtTime } from '../lib/util.js'
+import { shuffle, fmtTime, preloadImage } from '../lib/util.js'
 
 export default function Mock({ questions, onAnswer, onExit }) {
   const [phase, setPhase] = useState('setup') // setup | exam | result
@@ -12,6 +12,12 @@ export default function Mock({ questions, onAnswer, onExit }) {
   const timer = useRef(null)
 
   useEffect(() => () => clearInterval(timer.current), [])
+
+  // 預載接下來兩題的附圖
+  useEffect(() => {
+    preloadImage(list[i + 1]?.image)
+    preloadImage(list[i + 2]?.image)
+  }, [i, list])
 
   // 可考的年份(新到舊)
   const examYears = [...new Set(questions.map((q) => q.year))].sort((a, b) => b - a)

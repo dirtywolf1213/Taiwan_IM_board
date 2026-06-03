@@ -136,7 +136,7 @@
     "answerLetter": "C",
     "difficulty": 0.45,
     "needsImage": true,
-    "image": "images/109/7.png",
+    "image": "images/109/7.jpg",
     "explanation": ""
   },
   {
@@ -156,7 +156,7 @@
     "answerLetter": "D",
     "difficulty": 0.87,
     "needsImage": true,
-    "image": "images/109/8.png",
+    "image": "images/109/8.jpg",
     "explanation": ""
   },
   {
@@ -196,7 +196,7 @@
     "answerLetter": "E",
     "difficulty": 0.75,
     "needsImage": true,
-    "image": "images/109/10.png",
+    "image": "images/109/10.jpg",
     "explanation": ""
   },
   {
@@ -316,7 +316,7 @@
     "answerLetter": "C",
     "difficulty": 0.57,
     "needsImage": true,
-    "image": "images/109/16.png",
+    "image": "images/109/16.jpg",
     "explanation": ""
   },
   {
@@ -396,7 +396,7 @@
     "answerLetter": "D",
     "difficulty": 0.57,
     "needsImage": true,
-    "image": "images/109/20.png",
+    "image": "images/109/20.jpg",
     "explanation": ""
   },
   {
@@ -596,7 +596,7 @@
     "answerLetter": "D",
     "difficulty": 0.91,
     "needsImage": true,
-    "image": "images/109/30.png",
+    "image": "images/109/30.jpg",
     "explanation": ""
   },
   {
@@ -636,7 +636,7 @@
     "answerLetter": "D",
     "difficulty": 0.55,
     "needsImage": true,
-    "image": "images/109/32.png",
+    "image": "images/109/32.jpg",
     "explanation": ""
   },
   {
@@ -1116,7 +1116,7 @@
     "answerLetter": "C",
     "difficulty": 0.9,
     "needsImage": true,
-    "image": "images/109/56.png",
+    "image": "images/109/56.jpg",
     "explanation": ""
   },
   {
@@ -1136,7 +1136,7 @@
     "answerLetter": "B",
     "difficulty": 0.65,
     "needsImage": true,
-    "image": "images/109/57.png",
+    "image": "images/109/57.jpg",
     "explanation": ""
   },
   {
@@ -1156,7 +1156,7 @@
     "answerLetter": "D",
     "difficulty": 0.73,
     "needsImage": true,
-    "image": "images/109/58.png",
+    "image": "images/109/58.jpg",
     "explanation": ""
   },
   {
@@ -1296,7 +1296,7 @@
     "answerLetter": "B",
     "difficulty": 0.33,
     "needsImage": true,
-    "image": "images/109/65.png",
+    "image": "images/109/65.jpg",
     "explanation": ""
   },
   {
@@ -1376,7 +1376,7 @@
     "answerLetter": "C",
     "difficulty": 0.03,
     "needsImage": true,
-    "image": "images/109/69.png",
+    "image": "images/109/69.jpg",
     "explanation": ""
   },
   {
@@ -3876,7 +3876,7 @@
     "answerLetter": "C",
     "difficulty": 0.9,
     "needsImage": true,
-    "image": "images/109/194.png",
+    "image": "images/109/194.jpg",
     "explanation": ""
   },
   {
@@ -3976,7 +3976,7 @@
     "answerLetter": "D",
     "difficulty": 0.66,
     "needsImage": true,
-    "image": "images/109/199.png",
+    "image": "images/109/199.jpg",
     "explanation": ""
   },
   {
@@ -3996,7 +3996,7 @@
     "answerLetter": "A",
     "difficulty": 0.38,
     "needsImage": true,
-    "image": "images/109/200.png",
+    "image": "images/109/200.jpg",
     "explanation": ""
   }
 ]

@@ -199,9 +199,9 @@ def main():
             for im in imgs:
                 out.paste(im, (0, y))
                 y += im.height + gap
-        fn = out_dir / f'{num}.png'
-        out.save(fn)
-        paths[num] = f'images/{year}/{num}.png'
+        fn = out_dir / f'{num}.jpg'
+        out.save(fn, 'JPEG', quality=82, optimize=True, progressive=True)
+        paths[num] = f'images/{year}/{num}.jpg'
         print(f'  Q{num}: {fn} ({out.width}x{out.height}, {len(imgs)} 區塊)')
 
     # 回填 JSON

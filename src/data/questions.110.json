@@ -72,7 +72,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "images/110/4.png",
+    "image": "images/110/4.jpg",
     "explanation": ""
   },
   {
@@ -148,7 +148,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "images/110/8.png",
+    "image": "images/110/8.jpg",
     "explanation": ""
   },
   {
@@ -167,7 +167,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "images/110/9.png",
+    "image": "images/110/9.jpg",
     "explanation": ""
   },
   {
@@ -300,7 +300,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "images/110/16.png",
+    "image": "images/110/16.jpg",
     "explanation": ""
   },
   {
@@ -908,7 +908,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "images/110/48.png",
+    "image": "images/110/48.jpg",
     "explanation": ""
   },
   {
@@ -946,7 +946,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "images/110/50.png",
+    "image": "images/110/50.jpg",
     "explanation": ""
   },
   {
@@ -1003,7 +1003,7 @@
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
-    "image": "images/110/53.png",
+    "image": "images/110/53.jpg",
     "explanation": ""
   },
   {
@@ -1383,7 +1383,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "images/110/73.png",
+    "image": "images/110/73.jpg",
     "explanation": ""
   },
   {
@@ -2960,7 +2960,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "images/110/156.png",
+    "image": "images/110/156.jpg",
     "explanation": ""
   },
   {
@@ -2979,7 +2979,7 @@
     "answer": 3,
     "answerLetter": "D",
     "needsImage": true,
-    "image": "images/110/157.png",
+    "image": "images/110/157.jpg",
     "explanation": ""
   },
   {
@@ -2998,7 +2998,7 @@
     "answer": 1,
     "answerLetter": "B",
     "needsImage": true,
-    "image": "images/110/158.png",
+    "image": "images/110/158.jpg",
     "explanation": ""
   },
   {
@@ -3017,7 +3017,7 @@
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
-    "image": "images/110/159.png",
+    "image": "images/110/159.jpg",
     "explanation": ""
   },
   {
