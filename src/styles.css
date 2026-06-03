@@ -147,7 +147,29 @@ button { font-family: inherit; cursor: pointer; }
 .tag { margin-left: 10px; padding: 2px 10px; border-radius: 999px; font-size: 0.8rem; font-weight: 700; }
 .tag.ok { background: var(--green-bg); color: var(--green); }
 .tag.ng { background: var(--red-bg); color: var(--red); }
-.explanation { margin: 10px 0 0; color: var(--muted); font-size: 0.9rem; }
+.explanation { margin: 12px 0 0; }
+.explanation-head {
+  display: flex; align-items: center; gap: 8px;
+  font-weight: 700; color: var(--teal-dark); font-size: 0.9rem; margin-bottom: 4px;
+}
+.expl-draft {
+  font-size: 0.7rem; font-weight: 700; color: #92400e;
+  background: #fffbeb; border: 1px solid #f59e0b; border-radius: 999px; padding: 1px 8px;
+}
+.explanation-body { color: var(--text); font-size: 0.9rem; line-height: 1.7; }
+.explanation-body :first-child { margin-top: 0; }
+.explanation-body :last-child { margin-bottom: 0; }
+.explanation-body p { margin: 6px 0; }
+.explanation-body ul, .explanation-body ol { margin: 6px 0; padding-left: 1.3em; }
+.explanation-body li { margin: 3px 0; }
+.explanation-body blockquote {
+  margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--line);
+  color: var(--muted); font-size: 0.85rem;
+}
+.explanation-body code {
+  background: var(--bg); padding: 1px 5px; border-radius: 4px;
+  font-size: 0.85em;
+}
 
 /* ---------- 導覽 ---------- */
 .nav { display: flex; gap: 12px; }

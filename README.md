@@ -116,6 +116,19 @@ npm run validate   # 驗證題庫資料(python3 tools/validate.py)
 必要欄位、選項數=5、`answer`/`answerLetter` 一致、`subject` 屬 11 科、題號連續不重複、
 `image` 檔案存在等;有錯誤回傳非 0,可接入 CI / SessionStart hook。
 
+### 題目詳解
+
+詳解與題庫**解耦**,放在獨立檔 `src/data/explanations.<年>.json`(以題目 id 為 key),
+載入時自動合併;重跑轉檔不會覆寫詳解。格式:
+
+```json
+{ "114-001": { "text": "**正解:C** …(支援 Markdown)", "status": "reviewed" } }
+```
+
+- `status` 非 `reviewed`(預設草稿)時,App 會在詳解標示「草稿・未經審核」。
+- 詳解內容以 AI 起草、由醫師審核定稿為原則;`npm run validate` 會報告各年覆蓋率。
+- 可漸進補充,App 僅對「有內容」的題目顯示詳解。
+
 ### 進度備份
 
 App 首頁提供「匯出進度 / 匯入進度」(備份碼或檔案)。作答紀錄僅存於本機 localStorage,

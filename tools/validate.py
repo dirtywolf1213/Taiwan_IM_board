@@ -100,6 +100,23 @@ def main():
         all_warn += warns
         print(f'  {Path(f).name}: {n} 題, 錯誤 {len(errs)}, 警告 {len(warns)}')
 
+    # 詳解覆蓋率(非錯誤,僅報告進度)
+    print('\n詳解覆蓋率:')
+    for f in files:
+        year = Path(f).name.split('.')[1]
+        qn = len(json.loads(Path(f).read_text(encoding='utf-8')))
+        ef = Path(f).parent / f'explanations.{year}.json'
+        reviewed = draft = 0
+        if ef.exists():
+            for e in json.loads(ef.read_text(encoding='utf-8')).values():
+                if not e.get('text'):
+                    continue
+                if e.get('status') == 'reviewed':
+                    reviewed += 1
+                else:
+                    draft += 1
+        print(f'  {year}: 已審核 {reviewed}/{qn}、草稿 {draft}')
+
     print(f'\n總計 {total} 題 / {len(files)} 檔')
     for w in all_warn:
         print(f'  ⚠️  {w}')

@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown'
 import { letter, subjectColor } from '../lib/util.js'
 
 // 顯示一題:題幹、(附圖)、選項。
@@ -69,7 +70,19 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
               {chosen === q.answer ? '答對' : '答錯'}
             </span>
           )}
-          {q.explanation && <p className="explanation">{q.explanation}</p>}
+          {q.explanation && (
+            <div className="explanation">
+              <div className="explanation-head">
+                詳解
+                {q.explanationStatus !== 'reviewed' && (
+                  <span className="expl-draft">草稿・未經審核</span>
+                )}
+              </div>
+              <div className="explanation-body">
+                <ReactMarkdown>{q.explanation}</ReactMarkdown>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>
