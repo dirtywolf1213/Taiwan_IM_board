@@ -129,6 +129,7 @@ npm run validate   # 驗證題庫資料(python3 tools/validate.py)
 - 詳解內容以 AI 起草、由醫師審核定稿為原則;`npm run validate` 會報告各年覆蓋率。
 - 可漸進補充,App 僅對「有內容」的題目顯示詳解。
 - **撰寫格式一律遵循 [docs/詳解撰寫規範.md](./docs/詳解撰寫規範.md)**(固定五段式:本題觀念 / 選項分析 / 答案解析 / 核心知識點 / 參考資料)。範例見 `explanations.114.json` 的 `114-001`。
+- 用 AI 協助量產詳解的**操作手冊與現成指令**見 [docs/AI寫詳解教學與指令.md](./docs/AI寫詳解教學與指令.md);可用 `python3 tools/export_questions.py --year <年> [--subject <科>]` 匯出待寫題目餵給 AI。
 
 ### 進度備份
 
