@@ -1,0 +1,82 @@
+{
+  "106-090": {
+    "text": "### 本題觀念\n考**多重抗藥性結核病（MDR-TB）**的流行、診斷與治療原則。\n\n### 選項分析\n- **(1)** 正確。台灣 MDR 監測：新病人約 1%、再治病人 6–8%，較中國大陸（5.7%/25.6%）及東南亞輕微。\n- **(2)** **錯誤**。除傳統藥敏試驗外，**分子快速診斷（Hain test、Xpert MTB/RIF）已可用且建議採行**，並非「仍在評估」。\n- **(3)** 正確。**多藥、足量、足療程＋都治（DOT）**可減少 MDR 產生。\n- **(4)** **錯誤**。MDR-TB 須合併 ≥4 種有效藥且**療程長（一般痰陰轉後仍需持續約 18 個月、總療程長）**，並非「不須延長」。\n- **(5)** 正確。二線藥副作用較多，應轉介**具經驗之 MDR 照護團隊**。\n\n正確為 **(1)+(3)+(5)** → **(A)**。\n\n### 答案解析\n(2)(4) 錯誤，故選 **(A)**。\n\n### 核心知識點\n- 預防 MDR：足量足療程＋DOT；診斷可用 **Xpert/Hain**；MDR 治療**多藥、長療程**、由專家團隊照護。\n\n### 參考資料\n1. Nahid P, Dorman SE, Alipanah N, et al. Official ATS/CDC/IDSA Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis. *Clin Infect Dis*. 2016;63(7):e147-e195. PMID: 27516382. DOI: 10.1093/cid/ciw376。\n2. 衛生福利部疾病管制署。結核病防治。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-100": {
+    "text": "### 本題觀念\n考 **C. difficile 感染（CDI）**的診治（與 110-077 同型，敘述更細）。\n\n### 選項分析\n- **(A)** 錯誤。70% 酒精**對孢子無效**，須肥皂+水洗手。\n- **(B)** 錯誤。大腸鏡偽膜敏感性**並非 >90%**，陰性不能排除。\n- **(C)** 錯誤。配對相反：**toxin A＝enterotoxin、toxin B＝cytotoxin**。\n- **(D)** **正確 → 本題答案**。輕度初次發作，依考年標準首選 **metronidazole 500 mg TID ×10–14 天**（口服；不能口服時靜脈）。\n- **(E)** 錯誤。反覆發作首選**口服 vancomycin/fidaxomicin**；**IV vancomycin 無效**。\n\n### 答案解析\n僅 (D) 符合考年標準，故選 **(D)**。\n\n### 核心知識點\n- 重度/復發用**口服** vancomycin/fidaxomicin；IV vancomycin 對 CDI 無效。\n\n> **最新進展**：2018/2021 IDSA/SHEA 首次發作即首選**口服 fidaxomicin/vancomycin**。\n\n### 參考資料\n1. Johnson S, Lavergne V, Skinner AM, et al. IDSA/SHEA 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults. *Clin Infect Dis*. 2021;73(5):e1029-e1044. PMID: 34164674. DOI: 10.1093/cid/ciab549。\n2. McDonald LC, Gerding DN, Johnson S, et al. Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by IDSA/SHEA. *Clin Infect Dis*. 2018;66(7):e1-e48. PMID: 29462280. DOI: 10.1093/cid/cix1085。",
+    "status": "draft"
+  },
+  "106-101": {
+    "text": "### 本題觀念\n考**狂犬病（rabies）**的臨床、預防與預後。\n\n### 選項分析\n- **(A)** 正確。**恐水**源於咽喉肌痙攣。\n- **(B)** 正確（依考年）。台灣人類本土病例自民國 48 年起絕跡；被本地犬貓咬傷原則上不需 RIG/疫苗。\n- **(C)** 正確。前往疫區建議**行前 ≥1 個月接種 3 劑**暴露前疫苗。\n- **(D)** 正確。疫區咬傷後應徹底清洗消毒、給 **RIG＋4 劑疫苗**。\n- **(E)** **錯誤 → 本題答案**。狂犬病一旦發病**致死率近 100%**，絕非「約 45%」。\n\n### 答案解析\n題問「何者錯誤」，發病後幾近全致死，故選 **(E)**。\n\n### 核心知識點\n- 狂犬病發病後**幾乎 100% 致死**；重點在**暴露後預防（清創＋RIG＋疫苗）**。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Rabies and Other Rhabdovirus Infections）。\n2. CDC. Rabies — Clinical Overview. https://www.cdc.gov/rabies/hcp/",
+    "status": "draft"
+  },
+  "106-102": {
+    "text": "### 本題觀念\n考**退伍軍人症（Legionellosis）**的臨床與治療。\n\n### 選項分析\n- **(A)** 正確。白血球↑、AST/ALT↑、**低血鈉、低血磷、cold agglutinin 陰性**。\n- **(B)** 正確。最適 25–42°C 水環境、吸入污染水、潛伏 2–10 天。\n- **(C)** **為非 → 本題答案**。Legionella 為**細胞內菌**，**第三代頭孢（β-lactam）無效**；應用 **FQ 或 macrolide**。\n- **(D)** 正確。移植後 3 個月內為高危期，移植患者 CXR 可見**開洞病灶**。\n- **(E)** 正確。可造成肺外感染（腹膜炎、軟組織感染）。\n\n### 答案解析\n題問「為非」，頭孢治 Legionella 無效，故選 **(C)**。\n\n### 核心知識點\n- Legionella 首選 **levofloxacin 或 azithromycin**；**β-lactam/頭孢無效**（細胞內菌）。\n\n### 參考資料\n1. Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia（ATS/IDSA 指引）。*Am J Respir Crit Care Med*. 2019;200(7):e45-e67. PMID: 31573350. DOI: 10.1164/rccm.201908-1581ST。\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Legionella Infections）。",
+    "status": "draft"
+  },
+  "106-103": {
+    "text": "### 本題觀念\n考**醫院冷卻水塔/供水系統對 Legionella 的消毒方法**。\n\n### 選項分析\n- **(A)** **為非 → 本題答案**。加熱法須將水溫提高至 **≥60°C**（高溫沖刷）；**維持 45–50°C 反而是 Legionella 的生長溫區**，無法消毒。\n- **(B)** 正確。氯化消毒（如二氧化氯）。\n- **(C)** 正確。紫外線消毒。\n- **(D)** 正確。銅銀離子交換法。\n- **(E)** 正確。微米孔徑濾水器。\n\n### 答案解析\n題問「為非」，45–50°C 無法殺 Legionella，故選 **(A)**。\n\n### 核心知識點\n- Legionella 在 25–45°C 繁殖；**熱沖洗需 ≥60°C**；其他可用氯化、UV、銅銀離子、過濾。\n\n### 參考資料\n1. CDC. Legionella（Legionnaires' Disease）— Control & Water Management. https://www.cdc.gov/legionella/\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Legionella Infections）。",
+    "status": "draft"
+  },
+  "106-104": {
+    "text": "### 本題觀念\n考**作用於細胞膜（破壞細胞膜）的抗生素**。\n\n### 選項分析\n- **(1) Penicillins** — 抑制細胞壁。\n- **(2) Aminoglycosides**、**(3) Macrolides** — 抑制蛋白質合成。\n- **(4) Quinolones** — 抑制 DNA（gyrase/topoisomerase）。\n- **(5) Polymyxins** — **作用於細胞膜**（破壞 LPS/外膜）。\n- **(6) Daptomycin** — **作用於細胞膜**（去極化）。\n\n破壞細胞膜者＝**(5)+(6)** → **(D)**。\n\n### 答案解析\npolymyxins 與 daptomycin 作用於細胞膜，故選 **(D)**。\n\n### 核心知識點\n- **細胞膜作用**：polymyxin（colistin）、daptomycin；細胞壁：β-lactam/vancomycin；蛋白質：aminoglycoside/macrolide/tetracycline；DNA：FQ；RNA：rifampin；葉酸：sulfa/TMP。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Antibacterial Agents（作用機轉））。\n2. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
+    "status": "draft"
+  },
+  "106-105": {
+    "text": "### 本題觀念\n考**抗微生物藥劑與其副作用的配對**。\n\n### 選項分析\n- **(A)** 正確。Macrolides — **QTc 延長**。\n- **(B)** 正確。Clindamycin — **偽膜性腸炎**（CDI 風險高）。\n- **(C)** **最不適當 → 本題答案**。**Lipodystrophy（脂肪重分布）與抗反轉錄病毒藥（HIV 用藥）相關**，**不是 metronidazole**；metronidazole 的副作用為**周邊神經病變、disulfiram 反應、金屬味**。\n- **(D)** 正確。Sulfonamide — 過敏反應（含 SJS/TEN）。\n- **(E)** 正確。Fluoroquinolones — 血糖異常（高/低血糖）。\n\n### 答案解析\n題問最不適當，lipodystrophy 非 metronidazole，故選 **(C)**。\n\n### 核心知識點\n- Metronidazole：**周邊神經病變、disulfiram 反應、金屬味**；lipodystrophy 屬 ART 副作用。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Antibacterial Agents（副作用））。\n2. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
+    "status": "draft"
+  },
+  "106-106": {
+    "text": "### 本題觀念\n考**登革熱的病毒學與免疫**（找出不適當敘述）。\n\n### 選項分析\n- **(1)** **不適當**。登革病毒屬黃病毒科，為**單股 RNA 病毒**（非 DNA）。\n- **(2)** **不適當**。感染一型後僅對**該型**終身免疫，**對其他型別無持久保護**（反而有 ADE 風險）。\n- **(3)** **不適當**。屈公熱（Chikungunya）屬 **Togaviridae（Alphavirus）**，**非黃病毒科**（但病媒蚊與登革熱相同）。\n- **(4)** 正確。DHF 未適當治療死亡率可達 20%，早期支持治療可降至 <1%。\n\n最不適當者＝**(1)+(2)+(3)** → **(E)**。\n\n### 答案解析\n(1)(2)(3) 皆錯，故選 **(E)**。\n\n### 核心知識點\n- 登革＝**RNA 黃病毒**、4 型、僅同型免疫；**Chikungunya 屬 Alphavirus（Togaviridae）**。\n\n### 參考資料\n1. World Health Organization. *Dengue: Guidelines for Diagnosis, Treatment, Prevention and Control*（New edition）。Geneva: WHO; 2009. https://www.who.int/publications/i/item/9789241547871\n2. 衛生福利部疾病管制署。登革熱。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-107": {
+    "text": "### 本題觀念\n考**登革熱的病媒、症狀、潛伏期與通報**。\n\n### 選項分析\n- **(A)** 正確。台灣病媒蚊為埃及斑蚊、白線斑蚊。\n- **(B)** 正確。頭痛、後眼窩痛、肌肉痛、出疹、白血球減少。\n- **(C)** **最不適當 → 本題答案**。被感染斑蚊叮咬後**潛伏期約 4–7 天（3–14 天）**才發病，**不是 10–14 天**。\n- **(D)** 正確。4 種血清型、**第二類法定傳染病、24 小時內通報**。\n- **(E)** 正確。發病前 1 天至發病後 5 天為病毒血症期。\n\n### 答案解析\n題問最不適當，潛伏期約 4–7 天，故選 **(C)**。\n\n### 核心知識點\n- 登革熱潛伏期 **4–7 天**；病毒血症期（發病前 1 至後 5 天）可感染叮咬之斑蚊。\n\n### 參考資料\n1. World Health Organization. *Dengue: Guidelines for Diagnosis, Treatment, Prevention and Control*（New edition）。Geneva: WHO; 2009. https://www.who.int/publications/i/item/9789241547871\n2. 衛生福利部疾病管制署。登革熱。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-108": {
+    "text": "### 本題觀念\n考**流行性感冒**的病毒學與抗病毒藥機轉。\n\n### 選項分析\n- **(A)** 正確。流感分 A/B/C，C 型甚少致人類疾病。\n- **(B)** 正確。台灣季節性流感為 A（H3N2、H1N1）與 B 型。\n- **(C)** 正確。成人傳染期約症狀後 3–7 天，幼童可達數週。\n- **(D)** 正確。疫苗為最佳預防，約 70–80% 健康成人可得保護性抗體。\n- **(E)** **為非 → 本題答案**。Oseltamivir、Zanamivir 是**神經胺酸酶（neuraminidase）抑制劑**，**不是 hemagglutinin 抑制劑**。\n\n### 答案解析\n題問「為非」，抗病毒藥為 NA 抑制劑，故選 **(E)**。\n\n### 核心知識點\n- **Oseltamivir/Zanamivir/Peramivir＝神經胺酸酶（NA）抑制劑**；baloxavir 為聚合酶抑制劑。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Influenza）。\n2. CDC / ACIP. Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the ACIP（最新年度版）。https://www.cdc.gov/flu/professionals/acip/",
+    "status": "draft"
+  },
+  "106-109": {
+    "text": "### 本題觀念\n考**新型 A 型流感（含禽流感）**的流行病學。\n\n### 選項分析\n- **(A)** 正確。高病原性禽流感含 H5N1、H5N6、H7N7、H7N9。\n- **(B)** 正確。H5N1/H7N9 曾有家庭群聚，不排除侷限性人傳人，但無持續性人傳人證據。\n- **(C)** 正確。潛伏期 1–10 天，上限取 10 天。\n- **(D)** **為非 → 本題答案**。人感染 **H5N6 多為重症、死亡率高**，並非「多為輕症、僅約 10% 出現肺炎」。\n- **(E)** 正確。近五成 H7N9 為 ≥65 歲，逾六成有潛在疾病。\n\n### 答案解析\n題問「為非」，H5N6 多為重症，故選 **(D)**。\n\n### 核心知識點\n- H5N1/H5N6 人類感染**多為重症、高致死**；H7N9 好發長者/有共病者。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Influenza（Avian and Novel A））。\n2. 衛生福利部疾病管制署。流感與新型A型流感。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-110": {
+    "text": "### 本題觀念\n考**茲卡病毒（Zika）的病毒學、症狀與傳播**。\n\n### 選項分析\n- **(A)** 正確。Zika 屬黃病毒科，潛伏期約 3–7 天（最長約 12 天）。\n- **(B)** 正確。症狀較登革輕，約 25% 出現症狀，持續 2–7 天。\n- **(C)** 正確。發燒、紅疹、關節痛、非化膿性結膜炎；可併 GBS、ITP。\n- **(D)** **最不適當 → 本題答案**。Zika 主要病媒為 **斑蚊（Aedes，埃及斑蚊/白線斑蚊）**，**不是三斑家蚊/矮小家蚊（Culex）**；另可經性行為、輸血傳播。\n- **(E)** 正確。孕婦可垂直感染致胎兒小頭症。\n\n### 答案解析\n題問最不適當，Zika 病媒為斑蚊（Aedes），故選 **(D)**。\n\n### 核心知識點\n- **Zika 病媒＝Aedes 斑蚊**（與登革相同）；可性接觸/輸血傳播；孕婦感染→小頭症。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Flaviviruses（Zika））。\n2. 衛生福利部疾病管制署。茲卡病毒感染症。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-111": {
+    "text": "### 本題觀念\n考**茲卡病毒的感染管制與追蹤**。\n\n### 選項分析\n- **(A)** 正確。茲卡屬**第五類法定傳染病、24 小時內通報**。\n- **(B)** 正確。無疫苗、症狀支持治療，**防蚊**最重要。\n- **(C)** 正確。確診後以間隔 7 日採檢，血液及尿液核酸檢測皆陰性才停止追蹤。\n- **(D)** 正確。男女感染者應安全性行為 ≥6 個月；男性性伴侶為孕婦時，全程戴套至分娩。\n- **(E)** **最不適當 → 本題答案**。茲卡的接觸者/感染源調查時段並非「發病前 3 天至發病後 7 天」這種短窗——因病毒（尤其精液/尿液）可長時間存在，調查與防護時段應更長，此敘述不適當。\n\n### 答案解析\n題問最不適當，(E) 的調查時段敘述不正確，故選 **(E)**。\n\n### 核心知識點\n- Zika：第五類法傳、24h 通報；防蚊＋安全性行為 ≥6 個月；病毒可長期存於精液。\n\n### 參考資料\n1. 衛生福利部疾病管制署。茲卡病毒感染症。https://www.cdc.gov.tw/\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Flaviviruses（Zika））。",
+    "status": "draft"
+  },
+  "106-112": {
+    "text": "### 本題觀念\n考**感染性心內膜炎（IE）的致病菌、治療與預防**。\n\n### 選項分析\n- **(1)** 正確。IVDU 之 IE 最常見 **S. aureus**。\n- **(2)** 正確。**血液培養陰性 IE** 常因 Coxiella（Q fever）、Bartonella，治療含 **doxycycline**。\n- **(3)** **錯誤**。預防性抗生素僅用於**高風險心臟病人進行特定牙科處置**，**不用於常規呼吸道/腸胃道內視鏡**。\n- **(4)** **錯誤**。Osler nodes、Janeway lesions、甲下出血等周邊表徵**現今少見（遠不到半數）**。\n- **(5)** 正確。**黴菌性 IE 預後差**。\n\n正確為 **(1)+(2)+(5)** → **(E)**。\n\n### 答案解析\n(3)(4) 錯誤，故選 **(E)**。\n\n### 核心知識點\n- 培養陰性 IE 想到 **Q fever/Bartonella（doxycycline）**；IE 預防限高風險心臟＋牙科；周邊免疫表徵現今少見。\n\n### 參考資料\n1. Baddour LM, Wilson WR, Bayer AS, et al. Infective Endocarditis in Adults（AHA Scientific Statement）。*Circulation*. 2015;132(15):1435-1486. PMID: 26373316. DOI: 10.1161/CIR.0000000000000296。\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Infective Endocarditis）。",
+    "status": "draft"
+  },
+  "106-113": {
+    "text": "### 本題觀念\n考**呼吸器相關肺炎（VAP）預防的組合式照護（bundle）**。\n\n### 選項分析\n- **(1) 每日拔管評估** — 是。\n- **(2) 床頭抬高 30–45°** — 是。\n- **(3) 每日口腔抗菌照護** — 是。\n- **(4) 每日中止鎮靜劑** — 是。\n- **(5) 補充呼吸器管路水分** — **非**（管路積水反增污染與 VAP 風險）。\n\n正確組合＝**(1)+(2)+(3)+(4)** → **(B)**。\n\n### 答案解析\n(5) 非 bundle 項目，故選 **(B)**。\n\n### 核心知識點\n- VAP bundle：**每日拔管評估、床頭抬高、每日中止鎮靜、口腔護理、手衛生**。\n\n### 參考資料\n1. Kalil AC, Metersky ML, Klompas M, et al. Management of Adults With Hospital-acquired and Ventilator-associated Pneumonia: 2016 Clinical Practice Guidelines by the IDSA and ATS. *Clin Infect Dis*. 2016;63(5):e61-e111. PMID: 27418577. DOI: 10.1093/cid/ciw353。\n2. 衛生福利部疾病管制署。呼吸器相關肺炎組合式照護。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-114": {
+    "text": "### 本題觀念\n考 **2016 Surviving Sepsis Campaign** 對敗血症/敗血性休克的處置（找出錯誤）。\n\n### 選項分析\n- **(1)** 正確。最初 3 小時內至少給 **30 mL/kg** 晶體輸液。\n- **(2)** **錯誤**。抗生素療程應**個別化（多為 7–10 天）**，並非「一定要 10–14 天」。\n- **(3)** **錯誤**。**不建議使用 hydroxyethyl starch（HES）**（增加腎損傷/死亡）。\n- **(4)** 正確。第一線升壓劑為 **norepinephrine**。\n- **(5)** **錯誤**。**不建議常規使用 hydrocortisone**；僅在輸液＋升壓劑無法穩定時考慮。\n\n錯誤者＝**(2)+(3)+(5)** → **(D)**。\n\n### 答案解析\n(2)(3)(5) 為錯誤敘述，故選 **(D)**。\n\n### 核心知識點\n- SSC 2016：**3 小時 30 mL/kg**、首選 **norepinephrine**；**禁 HES**；類固醇非常規（難治性休克才用）。\n\n### 參考資料\n1. Rhodes A, Evans LE, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. *Crit Care Med*. 2017;45(3):486-552. PMID: 28098591. DOI: 10.1097/CCM.0000000000002255。\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Sepsis and Septic Shock）。",
+    "status": "draft"
+  },
+  "106-115": {
+    "text": "### 本題觀念\n考**非結核分枝桿菌（NTM）**的流行、診斷與藥物。\n\n### 選項分析\n- **(1)** **錯誤**。NTM 為**環境性病原（水、土壤）**，**非人際傳播**；菌株增加主要因檢測進步與宿主增加。\n- **(2)** 正確。好發於**肺部結構異常或免疫缺陷**者。\n- **(3)** 正確。不同菌種藥敏不同，整體**對 clarithromycin 有感受性、對 pyrazinamide 無感受性**。\n- **(4)** **錯誤**。ATS/IDSA 診斷需**同時符合臨床/影像＋微生物學（多次培養陽性）**，**非任一即可**。\n- **(5)** **錯誤**。**PPD 無法可靠區分** NTM 與結核（有交叉反應）。\n\n正確為 **(2)+(3)** → **(C)**。\n\n### 答案解析\n(1)(4)(5) 錯誤，故選 **(C)**。\n\n### 核心知識點\n- NTM 環境性、非人傳人；診斷須**臨床＋影像＋微生物學（多次陽性）並重**；clarithromycin 有效、PZA 無效。\n\n### 參考資料\n1. Daley CL, Iaccarino JM, Lange C, et al. Treatment of Nontuberculous Mycobacterial Pulmonary Disease: An Official ATS/ERS/ESCMID/IDSA Clinical Practice Guideline. *Clin Infect Dis*. 2020;71(4):e1-e36. PMID: 32797222. DOI: 10.1093/cid/ciaa241。\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Nontuberculous Mycobacterial Infections）。",
+    "status": "draft"
+  },
+  "106-116": {
+    "text": "### 本題觀念\n登山後發燒、**焦痂（eschar）＋局部淋巴腫**、肝功能上升、白血球偏低 → **恙蟲病（scrub typhus）**。\n\n### 選項分析\n- **(A)** 正確。恙蟲病，致病菌 **Orientia tsutsugamushi**。\n- **(B)** **錯誤 → 本題答案**。由**恙蟎幼蟲（chigger mite）叮咬**傳播，**不是蝨（louse）**。\n- **(C)** 正確。台灣流行於**東部及離島**（花東、澎湖、金門等）。\n- **(D)** 正確。首選 **doxycycline**。\n- **(E)** 正確。潛伏期約 9–18 天。\n\n### 答案解析\n題問「何者錯誤」，恙蟲病由恙蟎傳播，故選 **(B)**。\n\n### 核心知識點\n- 恙蟲病：**恙蟎幼蟲傳播、焦痂、doxycycline**；流行於台灣東部/離島。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Rickettsial Diseases（Scrub Typhus））。\n2. 衛生福利部疾病管制署。恙蟲病。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-117": {
+    "text": "### 本題觀念\n考**氣管內插管（飛沫微粒生成操作）的防護裝備**。\n\n### 選項分析\n插管屬**會產生氣膠**的高風險操作，須**空氣＋接觸＋噴濺**防護：\n- **(1)** 洗手、戴手套 — 是。\n- **(2)** **N95 口罩** — 是（非外科口罩）。\n- **(3)** 隔離衣 — 是。\n- **(4)** 眼罩/面罩 — 是。\n- **(5)** 外科手術口罩 — **不足**（應用 N95）。\n\n正確＝**(1)+(2)+(3)+(4)** → **(B)**。\n\n### 答案解析\n插管須 N95＋隔離衣＋眼罩＋手套，故選 **(B)**。\n\n### 核心知識點\n- 氣膠生成操作（插管、支氣管鏡、CPR）須 **N95＋眼/面罩＋隔離衣＋手套**。\n\n### 參考資料\n1. CDC. Infection Control: Transmission-Based Precautions（含飛沫微粒生成操作防護）。https://www.cdc.gov/infection-control/hcp/basics/transmission-based-precautions.html\n2. 衛生福利部疾病管制署。感染管制措施指引。https://www.cdc.gov.tw/",
+    "status": "draft"
+  },
+  "106-118": {
+    "text": "### 本題觀念\n考**抗結核藥物的副作用與療程原則**。\n\n### 選項分析\n- **(A)** 正確。PZA 致高尿酸血症，但少引發痛風發作。\n- **(B)** 正確。Ethambutol → 視神經炎（需監測視力/色覺）。\n- **(C)** 正確。Rifampicin 使尿液變橘紅。\n- **(D)** 正確。肝功能 >正常 5 倍應停 INH、PZA、rifampicin。\n- **(E)** **錯誤 → 本題答案**。前 2 個月為四藥 intensive phase；**若 PZA 未完整使用 2 個月，總療程不可只 6 個月，需延長（如 9 個月）**。\n\n### 答案解析\n題問「何者錯誤」，PZA 未足量則療程須延長，故選 **(E)**。\n\n### 核心知識點\n- 標準 TB：2HRZE/4HR（共 6 個月）；**未用/未足 PZA 者療程須延長至 9 個月**。\n\n### 參考資料\n1. Nahid P, Dorman SE, Alipanah N, et al. Official ATS/CDC/IDSA Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis. *Clin Infect Dis*. 2016;63(7):e147-e195. PMID: 27516382. DOI: 10.1093/cid/ciw376。\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Tuberculosis）。",
+    "status": "draft"
+  }
+}
