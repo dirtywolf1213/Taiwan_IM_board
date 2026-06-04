@@ -55,7 +55,13 @@ def validate_file(path, seen_ids):
             errors.append(f'{where}: options 含空白項')
 
         ans = q['answer']
-        if not isinstance(ans, int) or not (0 <= ans < len(opts)):
+        multi = q.get('answers')
+        if multi is not None:
+            # 送分/多答案題:每個索引需合法
+            if not isinstance(multi, list) or not multi or any(
+                    not isinstance(a, int) or not (0 <= a < len(opts)) for a in multi):
+                errors.append(f'{where}: answers 索引不合法 ({multi})')
+        elif not isinstance(ans, int) or not (0 <= ans < len(opts)):
             errors.append(f'{where}: answer 索引不合法 ({ans})')
         elif q['answerLetter'] != chr(65 + ans):
             errors.append(f'{where}: answerLetter({q["answerLetter"]}) 與 answer({ans}→{chr(65 + ans)}) 不一致')

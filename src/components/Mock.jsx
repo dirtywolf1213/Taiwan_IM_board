@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
 import SubjectStats from './SubjectStats.jsx'
-import { shuffle, fmtTime, preloadImage } from '../lib/util.js'
+import { shuffle, fmtTime, preloadImage, isCorrect } from '../lib/util.js'
 
 export default function Mock({ questions, onAnswer, onExit }) {
   const [phase, setPhase] = useState('setup') // setup | exam | result
@@ -40,13 +40,13 @@ export default function Mock({ questions, onAnswer, onExit }) {
   const submit = () => {
     clearInterval(timer.current)
     list.forEach((q) => {
-      if (answers[q.id] != null) onAnswer(q.id, answers[q.id], answers[q.id] === q.answer)
+      if (answers[q.id] != null) onAnswer(q.id, answers[q.id], isCorrect(q, answers[q.id]))
     })
     setPhase('result')
   }
 
   const score = useMemo(
-    () => list.filter((q) => answers[q.id] === q.answer).length,
+    () => list.filter((q) => isCorrect(q, answers[q.id])).length,
     [list, answers],
   )
 
@@ -94,7 +94,7 @@ export default function Mock({ questions, onAnswer, onExit }) {
     for (const q of list) {
       const s = (bySubject[q.subject] ||= { correct: 0, total: 0 })
       s.total++
-      if (answers[q.id] === q.answer) s.correct++
+      if (isCorrect(q, answers[q.id])) s.correct++
     }
     return (
       <div className="screen">

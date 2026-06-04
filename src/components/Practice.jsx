@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
-import { shuffle, subjectColor, preloadImage } from '../lib/util.js'
+import { shuffle, subjectColor, preloadImage, isCorrect } from '../lib/util.js'
 
 const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習' }
 
@@ -47,12 +47,12 @@ export default function Practice({ mode, subject, year, questions, progress, onA
   const choose = (idx) => {
     if (revealed) return
     setAnswers((a) => ({ ...a, [q.id]: idx }))
-    onAnswer(q.id, idx, idx === q.answer)
+    onAnswer(q.id, idx, isCorrect(q, idx))
   }
 
   const answeredCount = Object.keys(answers).length
   const correctCount = Object.entries(answers).filter(
-    ([id, idx]) => list.find((x) => x.id === id)?.answer === idx,
+    ([id, idx]) => { const x = list.find((x) => x.id === id); return x && isCorrect(x, idx) },
   ).length
 
   return (

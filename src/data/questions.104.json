@@ -47,7 +47,7 @@
     "sectionRaw": "心臟科",
     "question": "77歲老太太一向健朗，未有任何不適症狀，因主動脈區有心縮性心雜音而轉診內科。理學檢查：Height: 160cm/ Weight: 55kg; BP:142/82 mmHg; T/P/R: 36.2 /60 /20, SpO2: 99% under room air; Pulsus paradoxicus (-),PMI: 5th ICS, around left mid-clavicular line, aortic ejection sound (+),Gr. III/VI Mid-systolic murmur over Aortic area and left lower sternal border, no neck radiation; Lungs: No crackles; No hepatosplenomegaly and no ascites; No legs edema. 其心電圖、胸部X光、心臟超音波及心導管報告如列。本病人隨即有下列諸項臨床決策： (1)初步診斷是高血壓及高血壓性心臟病 (2)初步診斷是主動脈瓣狹窄心臟病 (3)在現階段最好的內科治療是適量的Beta- blocker,Calcium channel blocker,ACE inhibitors or Angiotensin receptor blocker，以降低血壓 (4)由於未有明顯的心絞痛、眩暈或呼吸困難，在現階段最恰當的治療是以Statin、Angiotensin receptor blocker及 Beta-blocker 為宜 (5)內科及外科的治療，對其預後無有改進，本病人的唯一選擇是主動脈瓣膜置換手術或經導管主動脈瓣膜置放手術，請問下列何組決策是正確的 ?",
     "options": [
-      "(1)+(3)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 1/57",
+      "(1)+(3)+(5)",
       "(1)+(3)+(4)",
       "(2)+(3)+(5)",
       "(1)+(4)+(5)",
@@ -89,7 +89,7 @@
     "options": [
       "Printzmetal's angina",
       "Aortic dissection",
-      "Acute anterior myocardial infarction file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 2/57",
+      "Acute anterior myocardial infarction",
       "Hypertension",
       "Acute periodontitis disease"
     ],
@@ -151,7 +151,7 @@
       "(1)+(2)+(4)",
       "(1)+(3)+(5)",
       "(2)+(3)+(4)",
-      "(2)+(3)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 3/57"
+      "(2)+(3)+(5)"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -209,7 +209,7 @@
     "options": [
       "Supraventricular tachycardia",
       "WPW syndrome with AVRT",
-      "Long QT syndrome with Torsade de pointes file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 4/57",
+      "Long QT syndrome with Torsade de pointes",
       "Monomorphic ventricular tachycardia from outflow tract",
       "Polymorphic ventricular tachycardia with Torsade de pointes"
     ],
@@ -291,7 +291,7 @@
       "咳血生理、解剖、病理及功能異常的診斷",
       "病理、生理、功能及生化異常的診斷",
       "病因、解剖、生理及功能異常的診斷",
-      "病因、病理、生理及功能異常的診斷 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 5/57"
+      "病因、病理、生理及功能異常的診斷"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -385,7 +385,7 @@
     "num": 20,
     "subject": "心臟血管",
     "sectionRaw": "心臟科",
-    "question": "78歲男性，有長期吸菸，肥胖和十年左右的第二型糖尿病。他因為最近兩個月出現的運動喘前來門診。目前他使用的藥品包含 aspirin, metformin 和偶爾會因為關節疼痛服用 ibuprofen。他的身體檢發現延遲出現-- 脈搏尖峰（delayed peak in peripheral pulse），left ventricular file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 6/57 heave。他的心跳規則，在心臟基底部位(cardiac base)有 VI/VI 級的收縮期心雜音，此雜音會傳向頸動脈區域。同時出現第四心音，心臟超音波只有嚴重的主動脈瓣狹窄。請問依據病史與相關發現，造成這個病人心臟變化的最可能原因是？",
+    "question": "78歲男性，有長期吸菸，肥胖和十年左右的第二型糖尿病。他因為最近兩個月出現的運動喘前來門診。目前他使用的藥品包含 aspirin, metformin 和偶爾會因為關節疼痛服用 ibuprofen。他的身體檢發現延遲出現-- 脈搏尖峰（delayed peak in peripheral pulse），left ventricular heave。他的心跳規則，在心臟基底部位(cardiac base)有 VI/VI 級的收縮期心雜音，此雜音會傳向頸動脈區域。同時出現第四心音，心臟超音波只有嚴重的主動脈瓣狹窄。請問依據病史與相關發現，造成這個病人心臟變化的最可能原因是？",
     "options": [
       "先天性二瓣的主動脈瓣膜（bicuspid aortic valve）",
       "糖尿病",
@@ -431,7 +431,7 @@
       "測量尿液中的 VMA; metanephrines; catecholamines",
       "安排雙側腎動脈的都卜勒超音波檢查",
       "檢查 plasma renin activity (PRA) 與 plasma aldosterone concentration (PAC)",
-      "安排睡眠醫學檢查 < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 7/57"
+      "安排睡眠醫學檢查 < 一○四年度試題目錄 >"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -511,7 +511,7 @@
       "下呼吸道抵抗力改變(altered lower respiratory host defense)--降低輸血時血紅素的閾值(hemoglobin transfusion threshold)",
       "氣管內管周圍物質的吸入(microaspiration around endotracheal tube)--加強鎮靜",
       "呼吸器使用時間過長--呼吸器脫離流程(weaning protocols)",
-      "胃食道逆流--prokinetic agents file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 8/57"
+      "胃食道逆流--prokinetic agents"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -630,7 +630,7 @@
       "年齡",
       "意識不清",
       "BUN",
-      "CRP(C-reactive protein) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 9/57",
+      "CRP(C-reactive protein)",
       "呼吸次數"
     ],
     "answer": 3,
@@ -691,7 +691,7 @@
       "可能出現發冷、發熱",
       "在接觸過敏原後的一到兩個小時內出現呼吸困難症狀",
       "支氣管肺泡灌洗液中的CD4與CD8淋巴球細胞的比例常小於1",
-      "支氣管肺泡灌洗液中肥大細胞的量可能和疾病嚴重度成正比 (A 14.下列何者是目前國際間做單肺肺臟移植最常見的適應症？ or A. 慢性阻塞性肺病(COPD) C ) B. 囊腫纖維化(cystic fibrosis) C. 原發性肺纖維化(idiopathic pulmonary fibrosis) D. 類肉瘤(sarcoidosis) E. 原發性肺動脈高壓(idiopathic pulmonary hypertension)"
+      "支氣管肺泡灌洗液中肥大細胞的量可能和疾病嚴重度成正比"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -727,7 +727,7 @@
     "sectionRaw": "胸腔科",
     "question": "下列有關原發自發性氣胸(primary spontaneous pneumothorax)的描述何者不正確？",
     "options": [
-      "病患無過去肺部疾病 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 10/57",
+      "病患無過去肺部疾病",
       "常是肺尖的bleb破裂所致",
       "初次發生後，約有10%的機會再復發",
       "初次發生的一般治療原則是simple aspiration",
@@ -811,7 +811,7 @@
       "(2)+(5)+(6)+(8)+(9)",
       "(1)+(5)+(6)+(7)+(9)",
       "(5)+(6)+(7)+(8)+(9)",
-      "(2)+(5)+(6)+(7)+(9) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 11/57"
+      "(2)+(5)+(6)+(7)+(9)"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -851,7 +851,7 @@
       "(1)+(2)+(6)+(7)",
       "(1)+(3)+(5)+(6)",
       "(2)+(5)+(6)+(8)",
-      "(1)+(2)+(5)+(6) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 12/57"
+      "(1)+(2)+(5)+(6) < 一○四年度試題目錄 >"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -951,7 +951,7 @@
       "bismuth subsalicylate",
       "erythromycin",
       "metronidazole",
-      "amoxicillin file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 13/57"
+      "amoxicillin"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -1047,7 +1047,7 @@
     "sectionRaw": "消化科",
     "question": "有關胃分泌(gastric secretion)的敘述，何者錯誤？",
     "options": [
-      "基礎胃酸分泌量在早上最高 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 14/57",
+      "基礎胃酸分泌量在早上最高",
       "除胃酸外，胃可分泌pepsinogen",
       "鐵質和B12的吸收與胃分泌有關",
       "somatostatin可抑制胃酸分泌",
@@ -1131,7 +1131,7 @@
       "輸注Vitamin K",
       "輸注Platelet",
       "給予預防性抗生素",
-      "安排內視鏡檢查 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 15/57"
+      "安排內視鏡檢查"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -1205,7 +1205,7 @@
     "num": 61,
     "subject": "消化",
     "sectionRaw": "消化科",
-    "question": "下列關於Acute Appendicitis之敘述，何者正確？ (1) 典型之腹痛是由periumbilical/epigastric region移行至right lower quadrant of abdomen (2) 常有bowel habit change (3) 常有anorexia (4) 身體診察時，在右下腹沒有發現 tenderness，即可排除acute appendicitis之診斷 (5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 16/57 psoas/obturator sign對判斷acute appendicitis之有無極具價值 (6) 使用CT with contrast agent enhancement診斷 acute appendicitis之準確率（accuracy）相當高，可達 90%",
+    "question": "下列關於Acute Appendicitis之敘述，何者正確？ (1) 典型之腹痛是由periumbilical/epigastric region移行至right lower quadrant of abdomen (2) 常有bowel habit change (3) 常有anorexia (4) 身體診察時，在右下腹沒有發現 tenderness，即可排除acute appendicitis之診斷 (5) psoas/obturator sign對判斷acute appendicitis之有無極具價值 (6) 使用CT with contrast agent enhancement診斷 acute appendicitis之準確率（accuracy）相當高，可達 90%",
     "options": [
       "(1)+(2)+(3)",
       "(2)+(3)+(5)",
@@ -1285,13 +1285,13 @@
     "num": 65,
     "subject": "消化",
     "sectionRaw": "消化科",
-    "question": "一位45歲男性病人因右上腹痛及皮膚癢而就醫，抽血檢驗結果如下：ALT=60U/L (≦41)，AST=70U/L (≦31)， file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 17/57 ALP=700 (≦104)，r-GT=450U/L (≦50)， Bil(T)=1.2mg/dL，Bil(D)=0.8mg/dL。住院後接受磁振造影及膽胰管攝影（MRCP, magnetic resonance cholangio pancreatography）發現肝內膽管有分布不一之狹窄及擴大現象（segmental stricture with saccular dilatation）。病人接受肝切片，其組織顯現portal tract expansion with ductular proliferation and lymphocytic infiltration，此病人之診斷因而已經確立。關於本病人之病情，下列各項敘述，何者錯誤？",
+    "question": "一位45歲男性病人因右上腹痛及皮膚癢而就醫，抽血檢驗結果如下：ALT=60U/L (≦41)，AST=70U/L (≦31)， ALP=700 (≦104)，r-GT=450U/L (≦50)， Bil(T)=1.2mg/dL，Bil(D)=0.8mg/dL。住院後接受磁振造影及膽胰管攝影（MRCP, magnetic resonance cholangio pancreatography）發現肝內膽管有分布不一之狹窄及擴大現象（segmental stricture with saccular dilatation）。病人接受肝切片，其組織顯現portal tract expansion with ductular proliferation and lymphocytic infiltration，此病人之診斷因而已經確立。關於本病人之病情，下列各項敘述，何者錯誤？",
     "options": [
       "常合併有慢性發炎性腸道疾病（inflammatory bowel disease）",
       "應隨時注意其是否併發cholangiocarcinoma",
       "高劑量 (25 mg/Kg/d) UDCA (ursodeoxycholic acid) 能有效控制其病情",
       "若病情惡化，可考慮肝臟移植",
-      "MRCP用於診斷此等病人，其準確率可達90% < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 18/57"
+      "MRCP用於診斷此等病人，其準確率可達90% < 一○四年度試題目錄 >"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -1351,7 +1351,7 @@
       "(3)+(4)",
       "(4)+(5)",
       "(1)+(3)",
-      "(2)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 19/57"
+      "(2)+(5)"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -1429,7 +1429,7 @@
     "options": [
       "(1)+(2)",
       "(3)+(4)",
-      "(3)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 20/57",
+      "(3)+(5)",
       "(2)+(3)",
       "(2)+(5)"
     ],
@@ -1508,7 +1508,7 @@
     "question": "66歲婦人因憂鬱症吞服鈣離子阻斷劑與乙型交感神經阻斷劑(不知道幾粒)，經急診後篩檢發現血壓 70/50 mmHg, 心跳 45/min，心電圖有AV block 現象。請問底下哪些是不適當的特殊治療或處置？ (1) 給予大量生理鹽水; (2) Glucacon ; (3) Vasopressors or inotropic agents; (4) Magnesium; (5) Electric pacing ; (6) High dose insulin (with glucose and potassium) ; (7) 需要隨時檢測血糖及鉀離子",
     "options": [
       "(1)+(2)+(7)",
-      "(2)+(6)+(7) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 21/57",
+      "(2)+(6)+(7)",
       "(1)+(4)",
       "(6)+(7)",
       "(1)+(2)+(6)"
@@ -1591,7 +1591,7 @@
       "Clindamycin",
       "Ampicillin或Erythromycin",
       "Fluoroquinolone",
-      "Metronidazole file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 22/57"
+      "Metronidazole"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -1670,7 +1670,7 @@
       "(1)+(2)+(3)+(4)+(5)",
       "(1)+(3)+(5)",
       "(2)+(3)+(4)",
-      "(3)+(4)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 23/57",
+      "(3)+(4)+(5)",
       "(1)+(3)+(4)"
     ],
     "answer": 1,
@@ -1731,7 +1731,7 @@
       "一般而言，當矯正低血鉀時，TPP比HNPP的病人更常發生rebound hyperkalemia.",
       "一般而言，當矯正低血鉀時，TPP比HNPP的病人更常發生Paradoxical hypokalemia",
       "TPP的病人發生Paradoxical hypokalemia的原因，通常與體液容積不足(hypovolemia)或renin-aldosterone 活性過高有關",
-      "HNPP的病人發生Paradoxical hypokalemia的原因，通常與血壓高有關，所以可以使用beta-blocker來預防 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 24/57 < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 25/57"
+      "HNPP的病人發生Paradoxical hypokalemia的原因，通常與血壓高有關，所以可以使用beta-blocker來預防 < 一○四年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -1828,7 +1828,7 @@
     "question": "下列因素均可能引起老年人的譫妄(delirium)，何者除外？",
     "options": [
       "尿道炎",
-      "代謝障礙 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 26/57",
+      "代謝障礙",
       "肺炎",
       "葯物",
       "心理壓力"
@@ -1911,7 +1911,7 @@
       "M-CSF（macrophage colony-stimulating factor）是破骨細胞（osteoclast）分化所需",
       "RANK（receptor activator of nuclear Factor κB） ligand是破骨細胞分泌",
       "Osteocalcin，Osteopontin，Alkaline Phosphatase是成骨細胞分泌",
-      "Cross-linked N-telopeptide血濃度可代表骨吸收之強度 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 27/57"
+      "Cross-linked N-telopeptide血濃度可代表骨吸收之強度"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -1971,7 +1971,7 @@
       "Gouty arthritis",
       "Calcium pyrophosphate dihydrate deposition arthritis",
       "Bacterial septic arthritis",
-      "Reactive arthritis < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 28/57"
+      "Reactive arthritis < 一○四年度試題目錄 >"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -2045,7 +2045,7 @@
     "num": 103,
     "subject": "感染",
     "sectionRaw": "感染科",
-    "question": "下列何者抗菌藥物屬於懷孕分類Category B可以適合孕婦使用？ file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 29/57",
+    "question": "下列何者抗菌藥物屬於懷孕分類Category B可以適合孕婦使用？",
     "options": [
       "Aminoglycoside",
       "Fluoroquinolone",
@@ -2131,7 +2131,7 @@
       "(1)+(3)+(5)。",
       "(3)+(4)+(5)。",
       "(1)+(2)+(4)。",
-      "(1)+(2)+(3)+(4)+(5)。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 30/57"
+      "(1)+(2)+(3)+(4)+(5)。"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -2211,7 +2211,7 @@
       "Fusidic acid",
       "Linezolid",
       "Sulfamethoxazole/ trimethoprim",
-      "Doxycycline file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 31/57"
+      "Doxycycline"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -2285,7 +2285,7 @@
     "num": 115,
     "subject": "感染",
     "sectionRaw": "感染科",
-    "question": "一位38歲台商自大陸返台後，發現HIV感染及肺部感染M. tuberculosis， CD4檢查為100 cell/mm3，下列敘述何者正確？(1) 除立即投與抗結核藥物外，亦應同時開始highly active anti-retroviral therapy (HAART); (2) 患者此時已是 AIDS ; (3) 立即投與抗結核藥物，並將患者轉至負壓隔離病 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 32/57 房; (4) 患者需儘快接受抗病毒藥物治療，改善免疫系統; (5) 患者先接受至少6個月抗結核藥物治療後，才能開始接受抗病毒藥物治療。",
+    "question": "一位38歲台商自大陸返台後，發現HIV感染及肺部感染M. tuberculosis， CD4檢查為100 cell/mm3，下列敘述何者正確？(1) 除立即投與抗結核藥物外，亦應同時開始highly active anti-retroviral therapy (HAART); (2) 患者此時已是 AIDS ; (3) 立即投與抗結核藥物，並將患者轉至負壓隔離病 房; (4) 患者需儘快接受抗病毒藥物治療，改善免疫系統; (5) 患者先接受至少6個月抗結核藥物治療後，才能開始接受抗病毒藥物治療。",
     "options": [
       "(1)+(2)+(3)+(4)",
       "(1)+(3)+(4)",
@@ -2350,8 +2350,8 @@
       "Vancomycin靜脈注射若太快可能導致Red man syndrome",
       "Fluoroquinolones若用於使用抗心律不整藥物的患者或電解質不平衡者，應留意QTc延長之不良反應。",
       "降低aminoglycoside腎毒性的方式是採一日多次劑量給予。",
-      "Amphotericin B最主要的副作用是腎毒性，每次輸注前各給予500ml生理食鹽水及減緩輸注速度可降低副作用。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 33/57",
-      "Terbinafine用於治療甲癬，有時造成嚴重藥物性肝炎，對於肝腎疾病患者應避免使用。 < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 34/57"
+      "Amphotericin B最主要的副作用是腎毒性，每次輸注前各給予500ml生理食鹽水及減緩輸注速度可降低副作用。",
+      "Terbinafine用於治療甲癬，有時造成嚴重藥物性肝炎，對於肝腎疾病患者應避免使用。 < 一○四年度試題目錄 >"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -2430,7 +2430,7 @@
       "I-131 uptake & scan",
       "甲狀腺素抑制治療",
       "觀察追蹤",
-      "開刀切除 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 35/57",
+      "開刀切除",
       "頸部電腦斷層檢查"
     ],
     "answer": 0,
@@ -2507,7 +2507,7 @@
     "sectionRaw": "內分泌科",
     "question": "60歲男性有高血壓病史20年，最近2年血壓難以控制，目前降血壓藥為amlodipine 10mg，Betaloc 100 mg qd， Losartan 100 mg qd，Clonidine 0.1 mg qd， hydrochlorothiazide 25 mg qd，腹部電腦斷層發現右側腎上腺3公分腫瘤。請問在評估此腫瘤須做那一些檢查對診斷最有幫助？ (1) BUN、Cr (2) Na、K、CL (3) plasma aldosterone，plasma renin activity (4) 腎上腺腫瘤細針穿刺 (5) Overnight 1 mg dexamethasone suppression test (6) MIBG Scan (7) Plasma metanephrine",
     "options": [
-      "(1)+(2)+(3)+(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 36/57",
+      "(1)+(2)+(3)+(4)",
       "(2)+(3)+(4)+(5)",
       "(3)+(4)+(5)+(6)",
       "(3)+(5)+(7)",
@@ -2551,7 +2551,7 @@
       "(2)+(5)+(6)",
       "(1)+(5)+(6)",
       "(3)+(4)+(5)",
-      "(2)+(4)+(6) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 37/57"
+      "(2)+(4)+(6) < 一○四年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -2631,7 +2631,7 @@
       "住院做72 hour fasting test",
       "口服葡萄糖耐性試驗",
       "轉介外科手術",
-      "Selective arterial calcium stimulation test file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 38/57"
+      "Selective arterial calcium stimulation test"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -2710,7 +2710,7 @@
       "(1)+(2)",
       "(2)+(3)",
       "(3)+(4)",
-      "(4)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 39/57",
+      "(4)+(5)",
       "(1)+(5)"
     ],
     "answer": 2,
@@ -2751,7 +2751,7 @@
       "(2)+(3)+(4)",
       "(3)+(4)+(5)",
       "(1)+(4)+(5)",
-      "(1)+(2)+(5) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 40/57"
+      "(1)+(2)+(5) < 一○四年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -2850,7 +2850,7 @@
       "La抗體 (anti-La)",
       "Ro抗體 (anti-Ro)",
       "Scl-70抗體 (anti-Scl-70)",
-      "U1 RNP (anti-U1 RNP) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 41/57",
+      "U1 RNP (anti-U1 RNP)",
       "Sm抗體 (anti-Sm)"
     ],
     "answer": 1,
@@ -2951,7 +2951,7 @@
       "bisphosphonqate",
       "RANKL inhibitor (Denosumab)",
       "parathyroid homone (teriparatide)",
-      "hormone replacement therapy < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 42/57"
+      "hormone replacement therapy < 一○四年度試題目錄 >"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -3050,7 +3050,7 @@
       "Anti-U1RNP",
       "Nailfold capillaroscopy",
       "Pulmonary function test + DLCO",
-      "Anti-centromere antibody file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 43/57",
+      "Anti-centromere antibody",
       "Anti-topoisomerase-1"
     ],
     "answer": 4,
@@ -3128,7 +3128,7 @@
     "question": "血管炎症候群(vasculitis syndrome)的標幟抗體為ANCA，請問下列那些血管炎是ANCA(+) vasculitis？(1) drug- induced vasculitis (2) granulomatosis with polyangiitis (3) cancer-associated vasculitis (4) Churg-Strauss syndrome (5) Behcet's disease (6) microscopic polyangiitis (7) Kawasaki disease (8) idiopathic crescentic glomerulonephritis (9) giant cell arteritis (10) polyarteritis nodosa",
     "options": [
       "(1)+(3)+(5)+(7)",
-      "(1)+(2)+(3)+(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 44/57",
+      "(1)+(2)+(3)+(4)",
       "(2)+(5)+(6)+(7)",
       "(2)+(4)+(6)+(8)",
       "(3)+(8)+(9)+(10)"
@@ -3151,7 +3151,7 @@
       "(2)+(5)+(10)",
       "(3)+(5)+(9)",
       "(4)+(6)+(8)",
-      "(5)+(7)+(8) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 45/57"
+      "(5)+(7)+(8) < 一○四年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -3251,7 +3251,7 @@
       "Acute promyelocytic leukemia : arsenic trioxide",
       "Multiple myeloma : bortezomib",
       "Myelofibrosis : azacitidine",
-      "Acute lymphoblastic leukemia with t(9;22) : imatinib file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 46/57"
+      "Acute lymphoblastic leukemia with t(9;22) : imatinib"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -3350,8 +3350,8 @@
       "(1)+(3)",
       "(2)+(3)",
       "(1)+(2)+(3)",
-      "(1)+(3)+(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 47/57",
-      "(1)+(2)+(3)+(4) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 48/57"
+      "(1)+(3)+(4)",
+      "(1)+(2)+(3)+(4) < 一○四年度試題目錄 >"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -3429,7 +3429,7 @@
     "options": [
       "已充分手術，僅需定期追蹤觀察即可。至少每3-4個月追蹤骨盆腔理學檢查，與系列CT電腦斷層掃描",
       "血清Human papilloma virus (HPV) 檢查",
-      "手術後骨盆腔放射線治療 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 49/57",
+      "手術後骨盆腔放射線治療",
       "手術後化學治療",
       "手術後骨盆腔放射線治療，合併同步化學治療"
     ],
@@ -3505,7 +3505,7 @@
     "num": 176,
     "subject": "血液腫瘤",
     "sectionRaw": "腫瘤科",
-    "question": "以下哪些病症或症候群，會增加患者罹患癌症的風險? (1) Fanconi's anemia (2) Down syndrome (3) Von Hippel- Lindau syndrome (4) Fragile X syndrome (5) Neurofibromatosis file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 50/57",
+    "question": "以下哪些病症或症候群，會增加患者罹患癌症的風險? (1) Fanconi's anemia (2) Down syndrome (3) Von Hippel- Lindau syndrome (4) Fragile X syndrome (5) Neurofibromatosis",
     "options": [
       "(1+)(2)+(4)",
       "(2)+(3)+(4)",
@@ -3551,7 +3551,7 @@
       "(3)+(4)+(5)",
       "(1)+(2)+(3)+(5)",
       "(1)+(2)+(3)+(4)",
-      "(1)+(2)+(3)+(4)+(5) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 51/57"
+      "(1)+(2)+(3)+(4)+(5) < 一○四年度試題目錄 >"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -3611,7 +3611,7 @@
       "(2)+(3)",
       "(3)+(4)",
       "(4)+(1)",
-      "(2)+(4) (A 4.55歲女性因風濕性心臟病、瓣膜置換與心房顫動，使用口 or 服抗凝劑，因腦出血至急診，INR為5.5，使用下列何種治 B 療能最快恢復凝血功能？ (1) Vitamin K；(2) Fresh frozen or plasma；(3)Platelets；(4)Prothrombin complex C concentrates；(5) Whole blood or A. (1)+(2) D ) B. (1)+(2)+(3) C. (1)+(2)+(4) D. (1)+(3)+(5) E. (1)+(4)+(5)"
+      "(2)+(4)"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -3625,7 +3625,7 @@
     "num": 182,
     "subject": "神經",
     "sectionRaw": "神經科",
-    "question": "50歲女性罹患肌無力（myasthenia gravis）4年，因肺炎併發呼吸衰竭入住加護病房，下列那些類別的抗生素較不適合使用？(1) Quinolones；(2) Beta-lactam + beta- file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 52/57 lactamase inhibitor；(3) Macrolides；(4) Cephalosporins。",
+    "question": "50歲女性罹患肌無力（myasthenia gravis）4年，因肺炎併發呼吸衰竭入住加護病房，下列那些類別的抗生素較不適合使用？(1) Quinolones；(2) Beta-lactam + beta- lactamase inhibitor；(3) Macrolides；(4) Cephalosporins。",
     "options": [
       "(1)+(3)",
       "(2)+(4)",
@@ -3671,7 +3671,7 @@
       "(2)+(4)",
       "(1)+(4)",
       "(2)+(3)",
-      "(1)+(2)+(3)+(4) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 53/57"
+      "(1)+(2)+(3)+(4) < 一○四年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -3751,7 +3751,7 @@
       "在一般醫療情境(general medicine)當中，憂鬱症 (depression)曾經被證明是譫妄的危險因子之一",
       "Serum urea 增加也是譫妄的危險因子之一",
       "腦波檢查 (electroencephalography: EEG)對於診斷譫妄，有良好的敏感度(sensitivity)及特異度(specificity)",
-      "Haloperidol 0.5mg BID 是合理的藥物治療選擇 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 54/57"
+      "Haloperidol 0.5mg BID 是合理的藥物治療選擇"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -3811,7 +3811,7 @@
       "(1)+(3)+(5)",
       "(2)+(3)+(4)",
       "(1)+(2)+(5)",
-      "(3)+(4)+(5) < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 55/57"
+      "(3)+(4)+(5) < 一○四年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -3891,7 +3891,7 @@
       "Vasculitic ulcer",
       "Neuropathic ulcer",
       "Ischemic ulcer",
-      "Clavus file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 56/57"
+      "Clavus"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -3951,12 +3951,61 @@
       "Renal function",
       "Thyroid function",
       "Pulmonary function",
-      "Muscle power test < 一○四年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/104.html 57/57"
+      "Muscle power test < 一○四年度試題目錄 >"
     ],
     "answer": 2,
     "answerLetter": "C",
     "needsImage": true,
     "image": "images/104/198.jpg",
+    "explanation": ""
+  },
+  {
+    "id": "104-199",
+    "year": 104,
+    "num": 199,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "下列何者是目前國際間做單肺肺臟移植最常見的適應症？",
+    "options": [
+      "慢性阻塞性肺病(COPD)",
+      "囊腫纖維化(cystic fibrosis)",
+      "原發性肺纖維化(idiopathic pulmonary fibrosis)",
+      "類肉瘤(sarcoidosis)",
+      "原發性肺動脈高壓(idiopathic pulmonary hypertension)"
+    ],
+    "answer": 0,
+    "answers": [
+      0,
+      2
+    ],
+    "answerLetter": "A、C(送分)",
+    "needsImage": false,
+    "image": "",
+    "explanation": ""
+  },
+  {
+    "id": "104-200",
+    "year": 104,
+    "num": 200,
+    "subject": "神經",
+    "sectionRaw": "神經科",
+    "question": "55歲女性因風濕性心臟病、瓣膜置換與心房顫動，使用口服抗凝劑，因腦出血至急診，INR為5.5，使用下列何種治療能最快恢復凝血功能？ (1) Vitamin K;(2) Fresh frozen plasma;(3) Platelets;(4) Prothrombin complex concentrates;(5) Whole blood",
+    "options": [
+      "(1)+(2)",
+      "(1)+(2)+(3)",
+      "(1)+(2)+(4)",
+      "(1)+(3)+(5)",
+      "(1)+(4)+(5)"
+    ],
+    "answer": 2,
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "answerLetter": "A、B、C(送分)",
+    "needsImage": false,
+    "image": "",
     "explanation": ""
   }
 ]

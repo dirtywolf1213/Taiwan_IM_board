@@ -31,6 +31,10 @@ export function shuffle(arr) {
 
 export const letter = (i) => String.fromCharCode(65 + i)
 
+// 正解索引集合(支援送分/多答案題的 answers 陣列;否則用單一 answer)
+export const correctSet = (q) => (q.answers && q.answers.length ? q.answers : [q.answer])
+export const isCorrect = (q, idx) => idx != null && correctSet(q).includes(idx)
+
 // 預先載入圖片(讓下一題的附圖先進瀏覽器快取)
 export function preloadImage(image) {
   if (!image) return

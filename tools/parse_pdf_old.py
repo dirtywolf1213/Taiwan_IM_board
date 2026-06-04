@@ -25,8 +25,8 @@ FIGURE_REF = re.compile(r'如圖|如附圖|如下圖|附圖|見圖|圖所示|圖
 SECTION = re.compile(r'筆試題\s*--\s*(\S+)')
 Q_START = re.compile(r'^\s*\(([A-E])\)\s*(\d+)\.\s*(.*)$')
 OPT_START = re.compile(r'^\s*([A-E])\.\s*(.*)$')
-# 列印頁首/雜訊:日期時間、exam_xxx、Page 標記
-NOISE = re.compile(r'exam_\d+|^\s*\d{4}/\d{1,2}/\d{1,2}\s|內科專科醫師|Page\.?\s')
+# 列印頁首/頁尾雜訊:日期時間、exam_xxx、Page、file:// 路徑、列印網址
+NOISE = re.compile(r'exam_\d+|^\s*\d{4}/\d{1,2}/\d{1,2}\s|內科專科醫師|Page\.?\s|file:///|tsim_print_html|https?-www-')
 
 # 科目段名稱 → 11 科
 SUBJECT_MAP = {

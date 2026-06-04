@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { letter, subjectColor } from '../lib/util.js'
+import { letter, subjectColor, isCorrect } from '../lib/util.js'
 
 // 附圖:切題時用 key 強制換新元素(避免顯示上一題的舊圖),載入中顯示佔位。
 function FigureImage({ src, alt }) {
@@ -61,7 +61,7 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
       <ul className="options">
         {q.options.map((opt, i) => {
           const isChosen = chosen === i
-          const isAnswer = q.answer === i
+          const isAnswer = isCorrect(q, i)
           let cls = 'option'
           if (revealed) {
             if (isAnswer) cls += ' correct'
@@ -88,8 +88,8 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
         <div className="answer-box">
           正解:<strong>{q.answerLetter}</strong>
           {chosen != null && (
-            <span className={chosen === q.answer ? 'tag ok' : 'tag ng'}>
-              {chosen === q.answer ? '答對' : '答錯'}
+            <span className={isCorrect(q, chosen) ? 'tag ok' : 'tag ng'}>
+              {isCorrect(q, chosen) ? '答對' : '答錯'}
             </span>
           )}
           {q.explanation && (

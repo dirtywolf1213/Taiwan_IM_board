@@ -65,7 +65,7 @@
     "num": 4,
     "subject": "心臟血管",
     "sectionRaw": "心臟科",
-    "question": "88歲男性老年主訴近三個月時有胸悶，眩昏及心悸。從去年年底起日漸不能自理生活，並有近期的失憶，不能言語及進食，逐日加重後住院。身體檢查：BP:112/53 mmHg; HR:46 bpm；RR,18/min；SpO2, 98%；意識E4M4V5; Muscle power, Normal；頸靜脈正常，甲狀腺正常；胸部有粗濁呼吸音；心臟：S1偏重，在心尖及主動脈區有 Grade 2/6 Diastolic murmur；腹部未有肝脾腫；腳沒有水 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 1/62 腫。心電圖及胸部X光如附；超音波心圖顯示主動脈瓣及三尖瓣中度閉鎖不全。請問本病人最可能診斷是：",
+    "question": "88歲男性老年主訴近三個月時有胸悶，眩昏及心悸。從去年年底起日漸不能自理生活，並有近期的失憶，不能言語及進食，逐日加重後住院。身體檢查：BP:112/53 mmHg; HR:46 bpm；RR,18/min；SpO2, 98%；意識E4M4V5; Muscle power, Normal；頸靜脈正常，甲狀腺正常；胸部有粗濁呼吸音；心臟：S1偏重，在心尖及主動脈區有 Grade 2/6 Diastolic murmur；腹部未有肝脾腫；腳沒有水 腫。心電圖及胸部X光如附；超音波心圖顯示主動脈瓣及三尖瓣中度閉鎖不全。請問本病人最可能診斷是：",
     "options": [
       "左心室衰竭",
       "右心室衰竭",
@@ -129,7 +129,7 @@
     "options": [
       "Aspirin沒有預防腦中風的角色。",
       "AF病人的CHA2DS2-VASc計分0分(男)或低於1以下 (女)，得不用抗凝血藥物。",
-      "伴有腎功能失全的AF得用Apixaban。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 2/62",
+      "伴有腎功能失全的AF得用Apixaban。",
       "Apixaban, Edoxaban, 及Dabigatran 110 mg 較多腦內出血。",
       "正常瓣膜性或非瓣膜性(Native or non-valvular)AF都得使用Warfarin 及Non-Vitamin K antagonist oral anticoagulation (NOAC)"
     ],
@@ -190,7 +190,7 @@
       "(1)+(3)+(5)",
       "(1)+(3)+(6)",
       "(2)+(3)+(5)",
-      "(2)+(3)+(6) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 3/62",
+      "(2)+(3)+(6)",
       "(2)+(4)+(6)"
     ],
     "answer": 1,
@@ -251,7 +251,7 @@
       "根據文獻[ Irbesartan in Heart Failure with Preserved Systolic Function (I-PRESERVE) trial], Irbesartan無法明顯改善正常收縮分率心臟衰竭病患之臨床預後",
       "根據文獻[Digitalis Investigation Group (DIG) trial],毛地黃 (digoxin)在正常收縮分率心臟衰竭病患的治療上, 並無幫助.",
       "根據文獻[Study of The Effects of Nebivolol Intervention on Outcomes and Rehospitalization in Seniors with Heart Failure (SENIORS) trial], Nebivolol[一種乙狀受體阻斷劑 (beta-blocker)] , 無法改善曾因正常收縮分率心臟衰竭住院年長病患之所有原因死亡率(all-cause mortality)",
-      "根據文獻 [the Aldosterone Receptor Blockade in Diastolic Heart Failure (ALDO-DHF) study], file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 4/62 Spironolactone 無法改善正常收縮分率心臟衰竭病患的運動量,心衰竭症狀與生活品質."
+      "根據文獻 [the Aldosterone Receptor Blockade in Diastolic Heart Failure (ALDO-DHF) study], Spironolactone 無法改善正常收縮分率心臟衰竭病患的運動量,心衰竭症狀與生活品質."
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -325,7 +325,7 @@
     "num": 17,
     "subject": "心臟血管",
     "sectionRaw": "心臟科",
-    "question": "一名30歲男性到門診求診;無心悸時門診心電圖如附圖A,心悸時心電圖如附圖B. 請問下列描述何者錯誤?(1)附圖A 心電圖呈現縮短的PR間距 (shortened PR interval)；(2)附圖A 心電圖呈現 Epsilon 波 (Epsilon wave)；(3)附圖B為心室頻 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 5/62 脈 (ventricular tachycardia)；(4)當病人心悸呈現附圖B之心律不整時,不可以施打verapamil；(5)當病人心悸呈現附圖B之心律不整時,可以施打adenosine",
+    "question": "一名30歲男性到門診求診;無心悸時門診心電圖如附圖A,心悸時心電圖如附圖B. 請問下列描述何者錯誤?(1)附圖A 心電圖呈現縮短的PR間距 (shortened PR interval)；(2)附圖A 心電圖呈現 Epsilon 波 (Epsilon wave)；(3)附圖B為心室頻 脈 (ventricular tachycardia)；(4)當病人心悸呈現附圖B之心律不整時,不可以施打verapamil；(5)當病人心悸呈現附圖B之心律不整時,可以施打adenosine",
     "options": [
       "(1)+(5)",
       "(2)+(4)+(5)",
@@ -405,7 +405,7 @@
     "num": 21,
     "subject": "心臟血管",
     "sectionRaw": "心臟科",
-    "question": "下列哪些乙狀受體阻斷劑(beta-blocker)可以用來改善低收縮分率心臟衰竭 (heart failure with reduced ejection file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 6/62 fraction)之預後?(1)carvedilol；(2)bisoprolol； (3)metoprolol succinate；(4)xamoterol；(5)propranolol",
+    "question": "下列哪些乙狀受體阻斷劑(beta-blocker)可以用來改善低收縮分率心臟衰竭 (heart failure with reduced ejection fraction)之預後?(1)carvedilol；(2)bisoprolol； (3)metoprolol succinate；(4)xamoterol；(5)propranolol",
     "options": [
       "(3)+(4)+(5)",
       "(1)+(2)+(3)",
@@ -431,7 +431,7 @@
       "急性心肌梗塞發生24小時內,即使未發生心室心律不整, 仍應常規預防性給予病患lidocaine",
       "急性心肌梗塞48小時後,如果病患因心臟衰竭而發生心室頻脈或心室顫動;其住院死亡率或長期追蹤之死亡率均增加",
       "Torsades des pointes 這種心室頻脈,可以在急性心肌梗塞後發生",
-      "急性心肌梗塞後發生之心室頻脈或心室顫動,如果對電擊 (electroshock)無效時,給予病患amiodarone, 有可能改善心室頻脈或心室顫動對電擊治療的反應 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 7/62"
+      "急性心肌梗塞後發生之心室頻脈或心室顫動,如果對電擊 (electroshock)無效時,給予病患amiodarone, 有可能改善心室頻脈或心室顫動對電擊治療的反應 < 一０六年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -489,7 +489,7 @@
     "options": [
       "診斷COPD一定需要肺量計(spirometry)與支氣管擴張劑試驗 (bronchodilator reversibility test)。",
       "輕度到中度的COPD患者，若有呼吸道高反應性(airway hyperresponsiveness，AHR)，可以預測肺功能會加速下降，特別是持續吸菸者。",
-      "合乎慢性支氣管炎(chronic bronchitis)定義的患者都屬於COPD。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 8/62",
+      "合乎慢性支氣管炎(chronic bronchitis)定義的患者都屬於COPD。",
       "Centriacinar emphysema主要影響respiratory bronchiole，常見於α1-antitrypsin deficiency患者。",
       "肺氣腫(emphysema)是病理診斷，而慢支氣管炎 (chronic bronchitis)為臨床診斷。"
     ],
@@ -549,7 +549,7 @@
     "options": [
       "(1)+(2)+(3)",
       "(2)+(3)+(4)",
-      "(3)+(4)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 9/62",
+      "(3)+(4)+(5)",
       "(1)+(3)+(5)",
       "(1)+(4)+(5)"
     ],
@@ -591,7 +591,7 @@
       "合併有COPD與OSAHS的患者，比只有單一疾病的患者預後較差，白天也更容易發生肺高壓(pulmonary hypertension)。",
       "2016年大型的隨機分派實驗SAVE study證實持續陽壓治療(continuous positive airway pressure，CPAP)可以預防心血管疾病的發生。",
       "OSAHS對健康造成的不利影響是透過chronic intermittent hypoxemia 與sleep fragmentation所造成",
-      "以連續陽壓呼吸器治療(CPAP)治療overlap syndnome 可以改善COPD預後 (B 9.關於氣喘 (asthma)，下列敘述何者錯誤？ or A. 吸入methacholin或histamine會造成支氣管收縮 C) (bronchoconstriction)稱為呼吸道過度反應性(airway hyperresponsiveness，AHR)。這是氣喘(asthma)的特徵，但在很多COPD患者身上也可見到。 B. 呼氣中一氧化氮的濃度(fraction of exhaled nitric oxide, FeNO)已被2017 GINA (Global Initiative for Asthma) guideline 建議可以用來引導治療asthma (FENO-guided treatment)。 C. 對於同時有慢性鼻竇炎(chronic rhinosinusitis)的患者，治療鼻竇炎僅能改善鼻子和呼吸道的症狀，對於 asthma outcome並無幫助。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 10/62 D. Asthma with obesity是asthma的表現型(phenotype) 之一，有較明顯的呼吸道症狀，但很少嗜伊紅性呼吸道發炎(eosinophilic airway inflammation)。 E. 氣喘病人的評估中包括共病如睡眠呼吸中止症 (obstructive sleep apnea)。"
+      "以連續陽壓呼吸器治療(CPAP)治療overlap syndnome 可以改善COPD預後"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -648,7 +648,7 @@
     "question": "70歲之男性病人，一天兩包菸。最近十年來常有痰及咳嗽，最近一年來並有運動後呼吸困難之症狀。就診時理學檢查結果如下：血壓及脈搏正常，呼吸每分鐘22次，無發紺現象，胸廓之前後徑較正常增加。叩診時呈示「過度回響」之現象。實驗室檢查之部份結果如下：pH7.36，PaO2 74mmHg，PaCO2 58mmHg。病人為什麼覺得喘?",
     "options": [
       "因為血液氧氣濃度不夠 (PaO2 74mmHg)",
-      "因為血液酸鹼值超過正常值 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 11/62",
+      "因為血液酸鹼值超過正常值",
       "因為二氧化碳濃度太高 (PaCO2 58mmHg)",
       "胸廓之前後徑增加，呼吸肌無法有效運作",
       "咳嗽痰太多所以覺得喘"
@@ -725,7 +725,7 @@
     "num": 37,
     "subject": "胸腔",
     "sectionRaw": "胸腔科",
-    "question": "72歲女性股骨骨折開刀住院，三天後突發喘，理學檢查呈現心跳每分鐘120下，呼吸每分鐘25次，血氧濃度94% (Room air)，沒有發燒，心肺檢查無異常。心電圖顯示竇性心跳過速(sinus tachycardia)，動脈血檢查:酸鹼值 7.52，二氧化碳分壓 (PaCO2)25mmHg，下一步該做甚麼檢查或治療？ file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 12/62",
+    "question": "72歲女性股骨骨折開刀住院，三天後突發喘，理學檢查呈現心跳每分鐘120下，呼吸每分鐘25次，血氧濃度94% (Room air)，沒有發燒，心肺檢查無異常。心電圖顯示竇性心跳過速(sinus tachycardia)，動脈血檢查:酸鹼值 7.52，二氧化碳分壓 (PaCO2)25mmHg，下一步該做甚麼檢查或治療？",
     "options": [
       "安慰病人喘是骨折正常病程",
       "給予鎮定劑",
@@ -805,7 +805,7 @@
     "num": 41,
     "subject": "胸腔",
     "sectionRaw": "胸腔科",
-    "question": "62歲男性 COPD在門診追蹤治療。在一次重感冒後，病人覺得越來越喘，咳嗽加劇，合併少許黃痰，因此來到急診。未發作時，最後一次的肺功能FEV1 42%。在急診，二氧化碳分壓 (PaCO2)78mmHg，病人呈現accessory file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 13/62 muscle use 及輕微神智不清，兩側瀰漫性喘鳴音，胸部X 光無肺炎跡象。請問下一步應該做甚麼可以降低死亡率？",
+    "question": "62歲男性 COPD在門診追蹤治療。在一次重感冒後，病人覺得越來越喘，咳嗽加劇，合併少許黃痰，因此來到急診。未發作時，最後一次的肺功能FEV1 42%。在急診，二氧化碳分壓 (PaCO2)78mmHg，病人呈現accessory muscle use 及輕微神智不清，兩側瀰漫性喘鳴音，胸部X 光無肺炎跡象。請問下一步應該做甚麼可以降低死亡率？",
     "options": [
       "使用非侵襲性正壓呼吸器",
       "插管使用呼吸器",
@@ -851,7 +851,7 @@
       "主要的危險因子為女性及肥胖",
       "隨著年紀增加，發病的機會也增加",
       "常伴隨心血管疾病及代謝疾病",
-      "診斷需要靠過夜多導睡眠監測(overnight polysomnography) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 14/62"
+      "診斷需要靠過夜多導睡眠監測(overnight polysomnography) < 一０六年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -945,7 +945,7 @@
     "num": 48,
     "subject": "消化",
     "sectionRaw": "消化科",
-    "question": "有關慢性C型肝炎治療之敘述，何者錯誤？(1)長效型干擾素 (PEG IFN) 併用Ribavirin 目前仍是治療主流，特別是在C file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 15/62 肝病毒基因型第一型患者；(2)長效型干擾素 (PEG IFN) 併用Ribavirin之副作用包括：類似流感之症狀，白血球 (中性球) 降低、貧血；(3)長效型干擾素 (PEG IFN) 併用Ribavirin 之副作用不包括：自體免疫疾病 (尤其是甲狀腺炎)、憂鬱；(4)免干擾素全口服C肝藥物類 (Direct Acting Antiviral Agents, DAAs) 之副作用較少且輕微，包括：倦怠、頭痛、皮膚炎、睡眠障礙；(5)DAAs對C肝病毒基因型第二型患者之治癒率可達九成五以上；(6)每一種DAA皆可用於肝功能已失代償之肝硬化病人(decompensated cirrhotic patients)；(7)DAAs之使用需特別注意藥物交互作用(Drug- Drug Interactions)",
+    "question": "有關慢性C型肝炎治療之敘述，何者錯誤？(1)長效型干擾素 (PEG IFN) 併用Ribavirin 目前仍是治療主流，特別是在C 肝病毒基因型第一型患者；(2)長效型干擾素 (PEG IFN) 併用Ribavirin之副作用包括：類似流感之症狀，白血球 (中性球) 降低、貧血；(3)長效型干擾素 (PEG IFN) 併用Ribavirin 之副作用不包括：自體免疫疾病 (尤其是甲狀腺炎)、憂鬱；(4)免干擾素全口服C肝藥物類 (Direct Acting Antiviral Agents, DAAs) 之副作用較少且輕微，包括：倦怠、頭痛、皮膚炎、睡眠障礙；(5)DAAs對C肝病毒基因型第二型患者之治癒率可達九成五以上；(6)每一種DAA皆可用於肝功能已失代償之肝硬化病人(decompensated cirrhotic patients)；(7)DAAs之使用需特別注意藥物交互作用(Drug- Drug Interactions)",
     "options": [
       "(7)+(6)+(5)+(3)",
       "(1)+(3)+(4)+(7)",
@@ -1005,7 +1005,7 @@
     "num": 51,
     "subject": "消化",
     "sectionRaw": "消化科",
-    "question": "有關慢性B型肝炎特異性治療 (PEG Interferon及口服抗B肝病毒藥物) 之敘述，何者錯誤？(1)HBeAg (+) 患者，無肝硬化，ULN < ALT < 2X ULN (upper limit of normal range)，應開始接受治療；(2)HBeAg (-) 患者，若 HBV DNA ≧ 2000 IU/mL，且半年內有兩次 ALT > 2X ULN (彼此間隔3個月以上)，應開始接受治療；(3)肝硬化患者，若HBV DNA file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 16/62 ≧ 10000 IU/mL，應開始接受治療；(4)肝硬化患者，已失去代償(decompensated liver cirrhosis)，不論HBV DNA檢測結果為何，應開始接受治療；(5)年輕生育年齡之患者，優先考慮口服抗B肝病毒藥物；(6)若有急性發作病情，且 Bilirubin (T)=10.5 (< 1.0), PT=17.5 (< 11), 應儘速給予PEG Interferon治療",
+    "question": "有關慢性B型肝炎特異性治療 (PEG Interferon及口服抗B肝病毒藥物) 之敘述，何者錯誤？(1)HBeAg (+) 患者，無肝硬化，ULN < ALT < 2X ULN (upper limit of normal range)，應開始接受治療；(2)HBeAg (-) 患者，若 HBV DNA ≧ 2000 IU/mL，且半年內有兩次 ALT > 2X ULN (彼此間隔3個月以上)，應開始接受治療；(3)肝硬化患者，若HBV DNA ≧ 10000 IU/mL，應開始接受治療；(4)肝硬化患者，已失去代償(decompensated liver cirrhosis)，不論HBV DNA檢測結果為何，應開始接受治療；(5)年輕生育年齡之患者，優先考慮口服抗B肝病毒藥物；(6)若有急性發作病情，且 Bilirubin (T)=10.5 (< 1.0), PT=17.5 (< 11), 應儘速給予PEG Interferon治療",
     "options": [
       "(1)+(3)+(5)",
       "(2)+(3)+(4)+(6)",
@@ -1068,7 +1068,7 @@
     "question": "關於 obscure gastrointestinal bleeding 之確診，下列敘述何者錯誤？",
     "options": [
       "應再以 colonoscopy及 esophagogastroduodenoscopy 排除常見的出血病灶",
-      "Technetium-99m (Tc-99m) labeled nuclear scan 用於偵測 actively bleeding lesions很有用，只要出血量達 0.1-0.5 mL/min 即可，也能判斷為何種病灶及其解剖位置。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 17/62",
+      "Technetium-99m (Tc-99m) labeled nuclear scan 用於偵測 actively bleeding lesions很有用，只要出血量達 0.1-0.5 mL/min 即可，也能判斷為何種病灶及其解剖位置。",
       "Angiography (celiac & mesenteric arteries) 僅能用於 active overt bleeding ( 需 > 1 mL/min) 之病人，除了診斷，也能提供arterial embolization 治療。",
       "Small-bowel barium study with enteroclysis 現在較少被用為第一線診斷工具",
       "Single- and Double-Balloon Enterscopy不適用於有 radiation enteritis, severe ulceration 及 recent bowel surgery 之病人"
@@ -1131,7 +1131,7 @@
       "(1)+(3)+(4)",
       "(1)+(4)+(5)",
       "(2)+(3)+(4)",
-      "(2)+(3)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 18/62"
+      "(2)+(3)+(5)"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -1211,7 +1211,7 @@
       "膽道支架置放",
       "胰臟和肝臟放射治療",
       "手術切除胰臟腫瘤",
-      "輔助性化學治療 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 19/62"
+      "輔助性化學治療"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -1285,13 +1285,13 @@
     "num": 65,
     "subject": "消化",
     "sectionRaw": "消化科",
-    "question": "75歲女性一早起床有腹部絞痛、腹瀉二次，且合併解出鮮血。病患有高血壓及冠狀動脈疾病病史，服用藥物包括 aspirin, ramipril, metoprolol和simvastatin。6個月前大腸鏡檢查正常。至急診之身體檢查體溫36.8℃、血壓 130/80mmHg、脈搏70/min、呼吸14/min，左下腹有壓痛，直腸肛診有鮮血。腹部電腦斷層之乙狀結腸有局部增厚現象。下列何者為最可能的診斷？ file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 20/62",
+    "question": "75歲女性一早起床有腹部絞痛、腹瀉二次，且合併解出鮮血。病患有高血壓及冠狀動脈疾病病史，服用藥物包括 aspirin, ramipril, metoprolol和simvastatin。6個月前大腸鏡檢查正常。至急診之身體檢查體溫36.8℃、血壓 130/80mmHg、脈搏70/min、呼吸14/min，左下腹有壓痛，直腸肛診有鮮血。腹部電腦斷層之乙狀結腸有局部增厚現象。下列何者為最可能的診斷？",
     "options": [
       "Crohn's disease",
       "ulcerative colitis",
       "microscopic colitis",
       "ischemic colitis",
-      "CMV colitis < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 21/62"
+      "CMV colitis < 一０六年度試題目錄 >"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -1371,7 +1371,7 @@
       "最常引起的是type II RTA",
       "此種RTA引起的酸血症，通常serum pH值會很低，需要靜脈注射補充bicarbonate",
       "此種RTA是因為血中aldosterone濃度很高所引起",
-      "主要病變是在collecting tubule，無法排出氫離子 (hydrogen ion) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 22/62"
+      "主要病變是在collecting tubule，無法排出氫離子 (hydrogen ion)"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -1447,7 +1447,7 @@
     "sectionRaw": "腎臟科",
     "question": "一位46歲男性，過去經常有鼻竇炎症狀，最近一個月來，出現胸悶、氣喘、咳嗽、喀血。住院後尿液檢查有: hematuria, 與 RBC cast。抽血檢查: antineutrophil cytoplasmic antibody (ANCA)陽性反應。病人如果接受腎臟生檢(renal biopsy)，最可能的臨床診斷與病理變化是:",
     "options": [
-      "Goodpasture's syndrome file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 23/62",
+      "Goodpasture's syndrome",
       "Granulomatosis with polyangiitis (Wegener's granulomatosis)",
       "Polyarteritis nodosa (PNA)",
       "Microscopic polyangitis (MPA)",
@@ -1511,7 +1511,7 @@
       "(1)+(3)+(6)",
       "(1)+(4)+(5)",
       "(1)+(4)+(6)",
-      "(2)+(4)+(6) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 24/62"
+      "(2)+(4)+(6)"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -1585,7 +1585,7 @@
     "num": 80,
     "subject": "腎臟",
     "sectionRaw": "腎臟科",
-    "question": "某40歲男性無糖尿病或高血壓病史、過去常有間歇性肢體疼痛、皮膚病變(如圖)、不易流汗、尿蛋白(++)、腎功能失常(Cre 3.0 mg/dL)，其家族史為兩位兄長兄分別死於心臟衰竭及腦血管意外及血液透析。請問下列何者不正確？(1) 應為Gaucher disease；(2)宜安排眼科、心臟方面檢查； (3)其姊妹應該都不會有症狀；(4)尿液檢查可出現 \"Maltese crosses\"的沉澱物；(5) 腎臟病理多為focal segmental glomerulosclerosis(FSGS)。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 25/62",
+    "question": "某40歲男性無糖尿病或高血壓病史、過去常有間歇性肢體疼痛、皮膚病變(如圖)、不易流汗、尿蛋白(++)、腎功能失常(Cre 3.0 mg/dL)，其家族史為兩位兄長兄分別死於心臟衰竭及腦血管意外及血液透析。請問下列何者不正確？(1) 應為Gaucher disease；(2)宜安排眼科、心臟方面檢查； (3)其姊妹應該都不會有症狀；(4)尿液檢查可出現 \"Maltese crosses\"的沉澱物；(5) 腎臟病理多為focal segmental glomerulosclerosis(FSGS)。",
     "options": [
       "(1)+(3)",
       "(2)+(3)",
@@ -1667,7 +1667,7 @@
     "sectionRaw": "腎臟科",
     "question": "關於骨髓移植腎病變(Bone marrow transplant nephropathy)，下列敘述何者為正確？",
     "options": [
-      "常在移植後百日內發生 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 26/62",
+      "常在移植後百日內發生",
       "與Cyclosporine有關",
       "與Sirolimus有關",
       "與Radiation有關",
@@ -1731,7 +1731,7 @@
       "急性腎臟傷害中大多數為Prerenal AKI。",
       "NSAIDs、ACEi、ARB等容易引起Prerenal AKI。",
       "社區型急性腎臟害大部分為Prerenal AKI。",
-      "低血清白蛋白容易好發Prerenal AKI。 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 27/62"
+      "低血清白蛋白容易好發Prerenal AKI。 < 一０六年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -1805,7 +1805,7 @@
     "num": 91,
     "subject": "血液腫瘤",
     "sectionRaw": "考古題",
-    "question": "55歲男性最近3個月開始有潮紅、流汗、呼吸困難之發作，起初很輕微，但近1個月來覺得加重，曾因上述症狀到過急診，但經症狀治療即恢復，三星期前還因懷疑急性盲腸炎 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 28/62 開刀但症狀皆無改善，二天前內視鏡檢查發現十二指腸潰瘍、胃炎，腹超發現肝實質性疾病 ( parenchymal disease ) ，腹部電腦斷層發現右腎上腺有3.5 cm腫瘤，經內分泌檢查，cortisol、ACTH、catecholamine、aldosterone、 plasma renin activity、 DHEAS皆為正常，請問您如何處置？",
+    "question": "55歲男性最近3個月開始有潮紅、流汗、呼吸困難之發作，起初很輕微，但近1個月來覺得加重，曾因上述症狀到過急診，但經症狀治療即恢復，三星期前還因懷疑急性盲腸炎 開刀但症狀皆無改善，二天前內視鏡檢查發現十二指腸潰瘍、胃炎，腹超發現肝實質性疾病 ( parenchymal disease ) ，腹部電腦斷層發現右腎上腺有3.5 cm腫瘤，經內分泌檢查，cortisol、ACTH、catecholamine、aldosterone、 plasma renin activity、 DHEAS皆為正常，請問您如何處置？",
     "options": [
       "此為無功能性腫瘤，可採症狀治療",
       "不論有無功能，照會開刀治療",
@@ -1870,7 +1870,7 @@
       "Plain abdomen用來判斷nonstrangulating complete small-bowel obstruction相當可靠",
       "Partial mechanical small-bowel obstruction與 adynamic ileus不太容易區分，但colonic distension 在adynamic ileus通常較明顯",
       "脹大的小腸中可見air-fluid levels，常排列成 “stepladder” pattern，少見內含空氣的大腸，這些發現常見於strangulating small-bowel obstruction",
-      "若臨床症狀很像small intestine obstruction，但plain abdomen看起來正常，此時安排腹部CT檢查有助於診斷 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 29/62",
+      "若臨床症狀很像small intestine obstruction，但plain abdomen看起來正常，此時安排腹部CT檢查有助於診斷",
       "喝鋇劑來幫忙判斷小腸的阻塞部位是相當安全的"
     ],
     "answer": 2,
@@ -1967,11 +1967,11 @@
     "sectionRaw": "考古題",
     "question": "下列何種狀況有可能造成全血球減少？(1)嚴重 Vit B12 deficiency；(2) Myelodysplastic syndrome；(3) Liver cirrhosis；(4) Autoimmune disease",
     "options": [
-      "(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 30/62",
+      "(4)",
       "(2)+(4)",
       "(2)+(3)",
       "(2)+(3)+(4)",
-      "(1)+(2)+(3)+(4) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 31/62"
+      "(1)+(2)+(3)+(4) < 一０六年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -2031,7 +2031,7 @@
       "此菌最適合於攝氏25至42度水環境生長，傳染方式是飛沫傳染，患者通常經由吸入受汙染水源而致病，潛伏期為2至10天。",
       "免疫力低下感染病人及有慢性肺病老年人容易感染， 14天至21天第三代頭孢子素(cephalosporin)可有效治療。",
       "移植器官患者在移植後3個月內是得到Legionella感染的高危險期，且胸部X光在移植患者易見開洞病灶 (cavitation)。",
-      "Legionella可造成肺外感染，如腹膜炎或皮膚軟組織感染。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 32/62"
+      "Legionella可造成肺外感染，如腹膜炎或皮膚軟組織感染。"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -2130,7 +2130,7 @@
       "在台灣主要的病媒蚊為埃及斑蚊(Andes aegypti)及白線斑蚊(Aedes albopictus)。",
       "常見症狀為頭痛、後眼窩痛、肌肉痛、出疹、白血球減少。",
       "被感染登革病毒的斑蚊叮咬後，大約經過10至14天，此感染宿主會開始出現臨床登革熱病症。",
-      "四種不同血清型病毒皆可致病，屬第二類法定傳染病，需24小時內通報。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 33/62",
+      "四種不同血清型病毒皆可致病，屬第二類法定傳染病，需24小時內通報。",
       "在病人發病前1天至發病後5天稱為「病毒血症期」，此時期感染者若被斑蚊叮咬，則此斑蚊將感染登革病毒。"
     ],
     "answer": 2,
@@ -2207,7 +2207,7 @@
     "sectionRaw": "感染科",
     "question": "關茲卡病毒(Zika virus)的感染管制，下列何者最不適當？",
     "options": [
-      "台灣疾病管制署公布茲卡病毒屬於第五類法定傳染病，需於24小時內通報。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 34/62",
+      "台灣疾病管制署公布茲卡病毒屬於第五類法定傳染病，需於24小時內通報。",
       "茲卡病毒感染症目前無疫苗可預防，得病後僅能症狀支持性治療，避免病媒蚊叮咬是最重要的預防方法。",
       "個案經檢驗確定感染茲卡病毒後，則後續採檢以間隔7 日為原則，血液及尿液檢驗結果分子生物學核酸檢測均為陰性，才能停止追蹤採檢。",
       "無論男性或女性之感染者，均應採取安全性行為至少6 個月，若男性的性伴侶為孕婦，則性行為時應戴保險套至性伴侶分娩。",
@@ -2271,7 +2271,7 @@
       "(1)+(2)+(5)",
       "(1)+(3)+(4)",
       "(2)+(3)+(5)",
-      "(2)+(4)+(5) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 35/62"
+      "(2)+(4)+(5)"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -2351,7 +2351,7 @@
       "Ethambutol可造成視神經炎",
       "Rifampicin會使尿液變橘紅色",
       "當使用抗結核藥後，肝功能超過正常5倍時，應考慮停 Isoniazid、PZA及rifampicin",
-      "通常抗結核治療前二個月要使用四種藥，稱為Intensive Phase，如若無抗藥問題，則PZA未完整使用二個月時，治療全程可六個月結束 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 36/62 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 37/62"
+      "通常抗結核治療前二個月要使用四種藥，稱為Intensive Phase，如若無抗藥問題，則PZA未完整使用二個月時，治療全程可六個月結束 < 一０六年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -2411,7 +2411,7 @@
       "測量血漿中的游離後腎上腺髓素(Plasma free metanephrines)具有最高的特異性，但常會有因靜脈抽血時造成的偽陽性(venipuncture-induced false- positive)結果",
       "病人有心悸症狀，應該優先使用乙型腎上腺受體抑制劑 (β-adrenergic blockers)，以避免心跳過速，造成危險",
       "約有10%的嗜酪細胞瘤是惡性的，除了開刀以外，可以考慮以200 mCi的131 I-MIBG 治療",
-      "大約有25-33% 的嗜酪細胞瘤病人有跟遺傳有關的基因突變，其中有SDHB基因突變的，產生惡性變化的可能 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 38/62 性最低"
+      "大約有25-33% 的嗜酪細胞瘤病人有跟遺傳有關的基因突變，其中有SDHB基因突變的，產生惡性變化的可能 性最低"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -2471,7 +2471,7 @@
       "病人有尿崩症，且其plasma arginine vasopressin (AVP) < 1 pg/mL，應該安排腦下垂體核磁共振檢查。",
       "尿崩症的病人如果其腦下垂體核磁共振影像顯示其後葉有白白亮點，一定是中樞性尿崩症 (central DI)。",
       "懷疑有尿崩症的病人在做限水測試時，尿量減少，尿滲透壓增加，此病人比較像是中樞性尿崩症 (central DI)。",
-      "腎源性尿崩症(nephrogenic DI)應該使用 desmopressin (DDAVP)治療。 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 39/62"
+      "腎源性尿崩症(nephrogenic DI)應該使用 desmopressin (DDAVP)治療。"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -2550,8 +2550,8 @@
       "此病人的癌症分期屬於第三期",
       "此病人的五年存活率大約為70%",
       "手術後應該給予2-5 mCi的放射性碘做掃描，確定是否有遠端轉移後再考慮是否需要給予放射性碘治療",
-      "經過手術及必要的放射性碘治療後，應該給予甲狀腺素補充，以維持病人的甲狀腺功能於正常範圍，其TSH應該越低越好 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 40/62",
-      "病人接受治療劑量的放射性碘後之掃描沒有看到有攝取放射性碘的病灶，其thyroglobulin 為 20 ng/mL，此病人可以確定沒有甲狀腺癌再發 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 41/62"
+      "經過手術及必要的放射性碘治療後，應該給予甲狀腺素補充，以維持病人的甲狀腺功能於正常範圍，其TSH應該越低越好",
+      "病人接受治療劑量的放射性碘後之掃描沒有看到有攝取放射性碘的病灶，其thyroglobulin 為 20 ng/mL，此病人可以確定沒有甲狀腺癌再發 < 一０六年度試題目錄 >"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -2611,7 +2611,7 @@
       "SGLT-2抑制劑的作用機轉，主要是抑制尿糖之再吸收，讓葡萄糖大量的從尿中排出",
       "腎功能eGFR<45 ml/min/1.73㎡以下時，不應使用此類藥物",
       "此類藥物增加尿糖排出，因此女性容易有泌尿道感染之可能性，但是男性則無此困擾",
-      "此類藥物在降血糖的過程中，糖尿病患者體重也會隨之減輕 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 42/62"
+      "此類藥物在降血糖的過程中，糖尿病患者體重也會隨之減輕"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -2687,7 +2687,7 @@
     "sectionRaw": "新陳代謝科",
     "question": "低血糖是糖尿病治療過程中、非糖尿病患者相關疾病或使用特定藥物治療時常見的併發症，下列何者是發生低血糖的原因?(1) 不當使用胰島素或口服降血糖藥物；(2)肢端肥大症；(3)胃切除手術後 (Post-gastric bypass surgery)； (4)腎上腺機能不足 (Adrenal insufficiency)；(5)庫欣氏症候群 (Cushing's syndrome)",
     "options": [
-      "(1)+(2)+(4) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 43/62",
+      "(1)+(2)+(4)",
       "(2)+(3)+(4)",
       "(1)+(3)+(4)",
       "(1)+(2)+(5)",
@@ -2751,7 +2751,7 @@
       "DPP-4 inhibitor 的研究中發現，DPP-4 ihbibitor 可能有造成病患心臟衰竭的風險",
       "第一型糖尿病之患者也適合使用GLP-1類的針劑藥物",
       "腸泌素類的藥物發生低血糖的機會比硫胺類 (Sulfonylurea)類藥物為低",
-      "研究顯示，第二型糖尿病患者使用GLP-1類藥物時，可以減輕病患體重 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 44/62"
+      "研究顯示，第二型糖尿病患者使用GLP-1類藥物時，可以減輕病患體重 < 一０六年度試題目錄 >"
     ],
     "answer": 2,
     "answerLetter": "C",
@@ -2851,7 +2851,7 @@
       "前葡萄膜炎(Anterior uveitis)",
       "口腔潰瘍",
       "皮膚紅斑",
-      "肺部纖維化 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 45/62"
+      "肺部纖維化"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -2951,7 +2951,7 @@
       "葉酸之吸收",
       "維他命B12之吸收",
       "維他命D之吸收",
-      "膽固醇 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 46/62"
+      "膽固醇 < 一０六年度試題目錄 >"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -3048,7 +3048,7 @@
     "question": "61歲女姓發覺最近臉部及手部指節處有紅斑出現。起床時無法立即站起來，必須以雙手支撐才能站起來。抽血發現 AST 108U/L, ALT 32U/L, CK 659 U/L。請問要確定診斷，下列的何種檢查對疾病的診斷最具決定性？",
     "options": [
       "MRI",
-      "Electromyolography (EMG) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 47/62",
+      "Electromyolography (EMG)",
       "Muscle biopsy",
       "Myoglobulin",
       "Whole body CT scan"
@@ -3128,7 +3128,7 @@
     "question": "下列有關血管炎症候群(vasculitis syndrome)與臨床相關的配對中，何者最正確？(1)Granulomatosis with polyangiitis－usually cANCA (+)；(2)Takayasu arteritis －difference in bilateral. brachial blood pressure； (3)Giant cell arteritis－high incidence in young age group；(4)Eosinophilic granulomatosis with polyangiitis－high incidence in old age group； (5)Henoch-Schonlein purpura－increase in serum IgA； (6)Polyarteritis nodosa－chronic pancreatitis； (7)Cryoglobulinemic vasculitis－associated with hepatitis C；(8)Behcet's disease－usually pANCA (+)； (9)Microscopic polyangiitis－usually associated with sinusitis",
     "options": [
       "(1)+(2)+(3)",
-      "(3)+(4)+(6) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 48/62",
+      "(3)+(4)+(6)",
       "(1)+(5)+(7)",
       "(2)+(7)+(8)",
       "(1)+(3)+(9)"
@@ -3151,7 +3151,7 @@
       "(2)+(4)+(5)",
       "(1)+(6)+(7)",
       "(4)+(9)+(1)",
-      "(5)+(6)+(8) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 49/62"
+      "(5)+(6)+(8) < 一０六年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -3251,7 +3251,7 @@
       "Corticosteroid",
       "Immunosuppressive agent",
       "Thrombopoietin receptor agonist",
-      "JAK inhibitor file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 50/62"
+      "JAK inhibitor"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -3351,7 +3351,7 @@
       "(1)+(2)",
       "(1)+(3)",
       "(2)+(3)",
-      "(1)+(2)+(3) file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 51/62 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 52/62"
+      "(1)+(2)+(3) < 一０六年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -3411,7 +3411,7 @@
       "Vandetanib標靶治療",
       "Brentuximab vedotin單株抗體治療",
       "Palliative external beam radiation therapy to the neck",
-      "Surgical en bloc resection of the thyroid, anterior tracheal wall with reconstruction, followed by chemotherapy file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 53/62"
+      "Surgical en bloc resection of the thyroid, anterior tracheal wall with reconstruction, followed by chemotherapy"
     ],
     "answer": 3,
     "answerLetter": "D",
@@ -3490,7 +3490,7 @@
       "ATM基因的loss of heterozygosity",
       "p53抑癌基因的germline mutation",
       "Rb抑癌基因的germline mutation",
-      "MSH2基因的germline mutation file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 54/62",
+      "MSH2基因的germline mutation",
       "Nucleotide excision repair相關基因的somatic mutation"
     ],
     "answer": 3,
@@ -3545,13 +3545,13 @@
     "num": 178,
     "subject": "血液腫瘤",
     "sectionRaw": "腫瘤科",
-    "question": "癌症的免疫節制點抑制劑(immune checkpoint inhibitors) 或標靶治療藥劑(molecular targeted agents)通常針對特定的訊息傳遞路徑或分子標靶進行抑制，以達到治療癌症的目的。治療藥劑與免疫或分子標靶的配對，下列那些為正確?(1)Afatinib與EGFR；(2)Ipilimumab與CTLA-4； file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 55/62 (3)Trastuzumab與HER-2；(4)Rituximab與CD30； (5)Nivolumab與PD-1",
+    "question": "癌症的免疫節制點抑制劑(immune checkpoint inhibitors) 或標靶治療藥劑(molecular targeted agents)通常針對特定的訊息傳遞路徑或分子標靶進行抑制，以達到治療癌症的目的。治療藥劑與免疫或分子標靶的配對，下列那些為正確?(1)Afatinib與EGFR；(2)Ipilimumab與CTLA-4； (3)Trastuzumab與HER-2；(4)Rituximab與CD30； (5)Nivolumab與PD-1",
     "options": [
       "(1)+(2)+(3)+(5)",
       "(1)+(2)+(3)+(4)",
       "(2)+(3)+(4)+(5)",
       "(3)+(4)+(5)",
-      "(2)+(4)+(5) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 56/62"
+      "(2)+(4)+(5) < 一０六年度試題目錄 >"
     ],
     "answer": 0,
     "answerLetter": "A",
@@ -3647,7 +3647,7 @@
     "sectionRaw": "神經科",
     "question": "25歲男性，近3日有漸進四肢無力、肢體末端麻木，神經學檢查顯示四肢肌力3-4分、肢體遠端較近端無力、肌腱反射消失，1週前有上呼吸道感染，脊髓液檢查結果最可能是下述何者？",
     "options": [
-      "蛋白40 mg/dL、葡萄糖75 mg/dL、白血球5/μL、初壓 200 mmH2O file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 57/62",
+      "蛋白40 mg/dL、葡萄糖75 mg/dL、白血球5/μL、初壓 200 mmH2O",
       "蛋白200 mg/dL、葡萄糖45 mg/dL、白血球100/μL、初壓 250 mmH2O",
       "蛋白150 mg/dL、葡萄糖85 mg/dL、白血球3/μL、初壓 120 mmH2O",
       "蛋白100 mg/dL、葡萄糖55 mg/dL、白血球20/μL、初壓 180 mmH2O",
@@ -3691,7 +3691,7 @@
       "(2)+(4)",
       "(1)+(4)",
       "(2)+(3)",
-      "(1)+(2)+(3)+(4) < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 58/62"
+      "(1)+(2)+(3)+(4) < 一０六年度試題目錄 >"
     ],
     "answer": 1,
     "answerLetter": "B",
@@ -3769,7 +3769,7 @@
     "options": [
       "目前沒有足夠證據支持要以藥物治療或心理治療，作為首選治療方式",
       "Inderal 可以減輕社交焦慮症(social anxiety disorder) 的症狀",
-      "Benzodiazepine類藥物可以作為第一線的單獨治療 (monotherapy)選項 file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 59/62",
+      "Benzodiazepine類藥物可以作為第一線的單獨治療 (monotherapy)選項",
       "用選擇性血清素再吸收抑制劑(SSRI)治療焦慮疾患，起始劑量建議由SSRI治療憂鬱症起始劑量的一半開始",
       "當焦慮疾患用藥物治癒後，還需要藥物做維持性治療一段時間"
     ],
@@ -3831,7 +3831,7 @@
       "醫師在預後推測(prognostication)的教育訓練充足與否，也是阻礙此類溝通的原因",
       "照護體系分工太細缺乏協調(lack of coordination)也是影響這類溝通效能的原因之一",
       "透過教育訓練建立知識(knowlege)、態度(attitude)與技巧(skill)的連結，有助於增進生命末期(end-of-life)的醫病溝通品質",
-      "對醫師專業而言，面對嚴重致命疾病的醫病溝通，是不會有壓力的 < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 60/62"
+      "對醫師專業而言，面對嚴重致命疾病的醫病溝通，是不會有壓力的 < 一０六年度試題目錄 >"
     ],
     "answer": 4,
     "answerLetter": "E",
@@ -3927,7 +3927,7 @@
     "sectionRaw": "皮膚科",
     "question": "此22歲男性病患同時有嘴唇成簇小水皰，及手掌如圖所示標靶樣皮疹，最可能的感染病原是：",
     "options": [
-      "Herpes simplex virus file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 61/62",
+      "Herpes simplex virus",
       "Parvovirus B19",
       "Streptococcus, group A",
       "Varicella zoster virus",
@@ -3971,12 +3971,36 @@
       "塗抹permethrin 藥膏",
       "全身塗抹benzyl benzoate 藥水",
       "口服類固醇",
-      "口服ivermectin < 一０六年度試題目錄 > file:///C:/Users/jaeteng/Documents/Codex/2026-06-03/https-www-tsim-org-tw-ehc/work/tsim_print_html/106.html 62/62"
+      "口服ivermectin < 一０六年度試題目錄 >"
     ],
     "answer": 0,
     "answerLetter": "A",
     "needsImage": true,
     "image": "images/106/199.jpg",
+    "explanation": ""
+  },
+  {
+    "id": "106-200",
+    "year": 106,
+    "num": 200,
+    "subject": "胸腔",
+    "sectionRaw": "胸腔科",
+    "question": "關於氣喘 (asthma)，下列敘述何者錯誤？",
+    "options": [
+      "吸入methacholin或histamine會造成支氣管收縮(bronchoconstriction)稱為呼吸道過度反應性(airway hyperresponsiveness，AHR)。這是氣喘(asthma)的特徵，但在很多COPD患者身上也可見到。",
+      "呼氣中一氧化氮的濃度(fraction of exhaled nitric oxide, FeNO)已被2017 GINA (Global Initiative for Asthma) guideline 建議可以用來引導治療asthma (FENO-guided treatment)。",
+      "對於同時有慢性鼻竇炎(chronic rhinosinusitis)的患者，治療鼻竇炎僅能改善鼻子和呼吸道的症狀，對於asthma outcome並無幫助。",
+      "Asthma with obesity是asthma的表現型(phenotype)之一，有較明顯的呼吸道症狀，但很少嗜伊紅性呼吸道發炎(eosinophilic airway inflammation)。",
+      "氣喘病人的評估中包括共病如睡眠呼吸中止症(obstructive sleep apnea)。"
+    ],
+    "answer": 1,
+    "answers": [
+      1,
+      2
+    ],
+    "answerLetter": "B、C(送分)",
+    "needsImage": false,
+    "image": "",
     "explanation": ""
   }
 ]
