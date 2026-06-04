@@ -12,6 +12,22 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
+      workbox: {
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true,
+        // 圖片不進預快取,改為 runtime CacheFirst(穩定、可離線、不阻塞首屏)
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }) => request.destination === 'image',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'tim-images',
+              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 90 },
+            },
+          },
+        ],
+      },
       manifest: {
         name: '內科專科考試刷題',
         short_name: '內科刷題',
