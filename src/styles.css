@@ -195,9 +195,27 @@ button { font-family: inherit; cursor: pointer; }
 .count-picker { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
 .count-picker .mode-btn { align-items: center; }
 
+.jump-row { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.jump-row .progress-bar { flex: 1; margin-bottom: 0; }
+.jump-toggle {
+  flex: 0 0 auto; background: #fff; border: 1px solid var(--line); border-radius: 999px;
+  padding: 5px 12px; font-size: 0.82rem; font-weight: 600; color: var(--teal-dark);
+}
+.jump-panel {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px; margin-bottom: 16px; max-height: 46vh; overflow-y: auto;
+}
+.jump-hint { font-size: 0.78rem; color: var(--muted); margin: 0 0 10px; display: flex; align-items: center; gap: 5px; }
+.jump-hint .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--teal); display: inline-block; }
+
 .grid-jump {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
   gap: 6px; margin: 4px 0 16px;
+}
+.jump.expl { position: relative; }
+.jump.expl::after {
+  content: ''; position: absolute; top: 3px; right: 3px;
+  width: 7px; height: 7px; border-radius: 50%; background: var(--teal);
 }
 .jump {
   aspect-ratio: 1; border: 1px solid var(--line); background: #fff; border-radius: 8px;

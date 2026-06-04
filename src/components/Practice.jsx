@@ -24,6 +24,7 @@ export default function Practice({ mode, subject, year, questions, progress, onA
 
   const [i, setI] = useState(0)
   const [answers, setAnswers] = useState({}) // 本次 session: { id: chosenIndex }
+  const [showJump, setShowJump] = useState(false)
 
   // 預載接下來兩題的附圖,切題時就已在快取
   useEffect(() => {
@@ -68,7 +69,29 @@ export default function Practice({ mode, subject, year, questions, progress, onA
         <span className="topbar-score">{correctCount}/{answeredCount}</span>
       </div>
 
-      <div className="progress-bar"><span style={{ width: `${((i + 1) / list.length) * 100}%` }} /></div>
+      <div className="jump-row">
+        <div className="progress-bar"><span style={{ width: `${((i + 1) / list.length) * 100}%` }} /></div>
+        <button className="jump-toggle" onClick={() => setShowJump((v) => !v)}>
+          跳題 {showJump ? '▲' : '▼'}
+        </button>
+      </div>
+
+      {showJump && (
+        <div className="jump-panel">
+          <p className="jump-hint"><span className="dot expl" /> 有詳解 ・ 點題號可直接跳</p>
+          <div className="grid-jump">
+            {list.map((qq, idx) => (
+              <button
+                key={qq.id}
+                className={`jump ${answers[qq.id] != null ? 'done' : ''} ${idx === i ? 'cur' : ''} ${qq.explanation ? 'expl' : ''}`}
+                onClick={() => { setI(idx); setShowJump(false) }}
+              >
+                {idx + 1}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <QuestionView
         q={q}
