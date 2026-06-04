@@ -1,1 +1,70 @@
-{}
+{
+  "113-080": {
+    "text": "### 本題觀念\n性病(STI)表徵與致病原配對。考點:**生殖器疣(genital warts)由人類乳突病毒(HPV)** 引起,而非 HHV-8(HHV-8 與 Kaposi 肉瘤相關)。\n\n### 選項分析\n- **(A)** 副睪炎:*Chlamydia trachomatis* — 正確(年輕男性常見)。\n- **(B)** 巴氏腺炎:*Trichomonas vaginalis* — 合理配對之一。\n- **(C)** 不孕:*Neisseria gonorrhoeae* — 正確(PID 後遺症)。\n- **(D)** 生殖器疣:**Human herpes virus type 8** — **錯誤 → 本題答案**。應為 **HPV**;HHV-8 對應 Kaposi 肉瘤。\n- **(E)** 生殖器潰瘍:*Haemophilus ducreyi*(軟性下疳)— 正確。\n\n### 答案解析\n題目問「何者為非」。生殖器疣的病原是 HPV 不是 HHV-8,故選 **(D)**。\n\n### 核心知識點\n- **生殖器疣 = HPV(6、11 型)**;子宮頸癌 = HPV 16、18。**HHV-8 = Kaposi 肉瘤**。\n- 生殖器潰瘍:HSV、梅毒(*T. pallidum*)、軟性下疳(*H. ducreyi*)、淋巴肉芽腫(LGV)。\n\n### 參考資料\n1. CDC STI Treatment Guidelines。\n2. *Harrison's Principles of Internal Medicine*, Sexually transmitted infections.",
+    "status": "draft"
+  },
+  "113-081": {
+    "text": "### 本題觀念\n肺部麴菌(*Aspergillus*)感染的型態與**治療首選**。考點:侵襲性麴菌病首選 **voriconazole**,**fluconazole 對黴菌(mold)無效**。\n\n### 選項分析\n- **(A)** 隨宿主免疫狀態呈不同型態 — 正確。\n- **(B)** 侵襲性肺麴菌病多見於免疫低下;流感、COVID 後可併發 — 正確(IAPA、CAPA)。\n- **(C)** 診斷靠血/肺泡沖洗液 **Galactomannan** 或 PCR — 正確。\n- **(D)** 慢性肺麴菌病:慢性空洞 + 數月至數年症狀,靠 **Aspergillus IgG** 診斷 — 正確。\n- **(E)** 「治療首選 **Fluconazole** 及 Amphotericin B」 — **錯誤(最不正確)→ 本題答案**。**fluconazole 無抗黴菌(mold)活性**;侵襲性麴菌病首選 **voriconazole**(或 isavuconazole),次選 liposomal amphotericin B。\n\n### 答案解析\nfluconazole 對 Aspergillus 無效,故 (E) 最不正確,選 **(E)**。\n\n### 核心知識點\n- 侵襲性肺麴菌病首選 **voriconazole**(或 isavuconazole);**fluconazole 不涵蓋黴菌**。\n- 診斷:Galactomannan、(1,3)-β-D-glucan、培養、影像(halo sign)。\n\n### 參考資料\n1. IDSA Aspergillosis Guidelines。\n2. *Harrison's Principles of Internal Medicine*, Aspergillosis.",
+    "status": "draft"
+  },
+  "113-082": {
+    "text": "### 本題觀念\n**登革熱(Dengue)**:東南亞返國、發燒頭痛肌痛、皮疹、白血球與血小板下降、**NS1 抗原陽性**。處置為**支持性治療 + 通報 + 防蚊**,並避免 NSAID。\n\n### 選項分析\n- **(A)** 血小板低 + 疑出血點即輸血小板 — 錯誤。登革熱不以血小板數值預防性輸注;依出血情形決定。\n- **(B)** 經驗性抗生素 + **NSAIDs** 止痛 — 錯誤。病毒性疾病不需抗生素;**NSAID/aspirin 會增加出血**,應避免(用 acetaminophen)。\n- **(C)** 高度懷疑登革熱,**支持性治療、通報疾管署、使用蚊帳** — **正確 → 本題答案**。\n- **(D)** 感染過便終生免疫 — 錯誤。登革病毒有 **4 型血清型**,二次感染(異型)反而**重症風險增加**(ADE)。\n- **(E)** 以上皆非 — 錯誤。\n\n### 答案解析\nNS1 陽性 + 流行區返國 → 登革熱,支持治療 + 通報 + 防蚊,故選 **(C)**。\n\n### 核心知識點\n- 診斷:NS1 抗原(早期)、IgM/IgG、PCR。治療**支持性**;**避免 NSAID/aspirin**。\n- 4 種血清型,**二次異型感染**易重症;注意警示徵象(腹痛、持續嘔吐、出血、血比容上升)。\n- 法定傳染病,須**通報**並防蚊。\n\n### 參考資料\n1. WHO Dengue Guidelines。\n2. 台灣疾病管制署 登革熱臨床處置。",
+    "status": "draft"
+  },
+  "113-083": {
+    "text": "### 本題觀念\n成人疫苗接種。考點:**活性減毒疫苗(MMR、水痘)於懷孕及免疫低下/移植後早期為禁忌**。\n\n### 選項分析\n- **(1)** 懷孕中發現無德國麻疹抗體「立即補打 MMR」 — **錯誤**。MMR 為**活性疫苗,懷孕禁忌**,應**產後**補種。\n- **(2)** 65 歲以上施打肺炎鏈球菌、流感、COVID 疫苗 — **正確**。\n- **(3)** 骨髓移植後「立即」接種水痘疫苗 — **錯誤**。活性疫苗須待免疫重建(一般移植後約 24 個月且無 GVHD/免疫抑制)。\n- **(4)** 懷孕 28–36 週接種一劑 **Tdap** — **正確**(保護新生兒)。\n- **(5)** 懷孕任何孕期可接種**流感疫苗(不活化)** — **正確**。\n- 正解組合 **(D) = (2)+(4)+(5)**。\n\n### 答案解析\n(1)(3) 為活性疫苗於禁忌族群,排除;故選 **(D)**。\n\n### 核心知識點\n- **懷孕禁忌(活性):MMR、水痘、LAIV(鼻噴流感)**;懷孕可打:**Tdap(28–36 週)、不活化流感、COVID**。\n- 移植後活性疫苗須延後至免疫重建。\n\n### 參考資料\n1. 台灣疾病管制署 成人預防接種建議。\n2. CDC / ACIP Adult Immunization Schedule.",
+    "status": "draft"
+  },
+  "113-084": {
+    "text": "### 本題觀念\n**猴痘(Mpox)** 的病原、傳播、病程與疫苗。\n\n### 選項分析\n- **(1)** DNA 病毒、症狀類天花、過去主見於中西非 — 正確(Orthopoxvirus,雙股 DNA)。\n- **(2)** 經密切接觸呼吸分泌物/皮膚病灶/汙染物;潛伏期 3–21 天(多 6–13 天)— 正確。\n- **(3)** 發燒、頭痛、肌痛、虛脫,皮疹自臉擴散,斑丘疹→水皰→膿皰→結痂,結痂前仍具傳染力 — 正確。\n- **(4)** 人畜共通,近期多經**性行為**傳播;會陰病灶需與梅毒、軟性下疳、帶狀皰疹鑑別 — 正確。\n- **(5)** **JYNNEOS** 疫苗可預防 — 正確。\n- 五項皆正確 → **(D)**。\n\n### 答案解析\n所有敘述皆正確,故選 **(D)**。\n\n### 核心知識點\n- Mpox = **Orthopoxvirus(dsDNA)**;2022 年後多經**密切/性接觸**傳播,好發 MSM。\n- 病灶結痂脫落前具傳染力;疫苗 **JYNNEOS(MVA-BN)**。\n\n### 參考資料\n1. CDC Mpox — clinical / vaccine(JYNNEOS)。\n2. 台灣疾病管制署 猴痘。",
+    "status": "draft"
+  },
+  "113-085": {
+    "text": "### 本題觀念\n**VRE(Ampicillin 且 Vancomycin 抗藥腸球菌)** 治療。考點:**daptomycin 不可用於肺炎**、teicoplanin 對 vanA 型 VRE 無效、定植不治療。\n\n### 選項分析\n- **(1)** 尿/痰/肛拭培養出 VRE 就立即治療 — **錯誤**(多為定植)。\n- **(2)** daptomycin 治療 **VRE 肺炎** — **錯誤**。daptomycin 被肺部 surfactant 去活化,**不可用於肺炎**。\n- **(3)** linezolid 或 daptomycin 治療 **VRE 菌血症** — **正確**。\n- **(4)** 近年 VRE 已佔腸球菌之三至四成以上(疾管署統計）— **正確**。\n- **(5)** VRE 用 **teicoplanin** 仍有效 — **錯誤**。vanA 型對 vancomycin 與 teicoplanin 皆抗藥。\n- 正解組合 **(E) = (3)+(4)**。\n\n### 答案解析\n僅 (3)(4) 正確,故選 **(E)**。\n\n### 核心知識點\n- **VRE 嚴重感染:linezolid 或 daptomycin**(daptomycin **不可治肺炎**)。\n- vanA 型對 teicoplanin 亦抗藥;定植不治療。\n\n### 參考資料\n1. IDSA / 台灣疾管署 抗藥性監測。\n2. *Harrison's Principles of Internal Medicine*, Enterococci.",
+    "status": "draft"
+  },
+  "113-086": {
+    "text": "### 本題觀念\n菌尿與尿路感染。考點:**導尿管相關的無症狀菌尿不治療**(尤其無泌尿道症狀時)。\n\n### 選項分析\n- **(A)** 危險因子:停經、性行為、糖尿病、失禁 — 正確。\n- **(B)** 懷孕菌尿給予抗生素可降低腎盂腎炎、早產、低出生體重 — 正確(孕婦無症狀菌尿需治療)。\n- **(C)** 男性 UTI 多有功能/結構異常 — 正確。\n- **(D)** 長期導尿、因**上呼吸道症狀**就醫,尿培養 *E. faecalis*,但無泌尿道症狀,給 **ciprofloxacin** — **錯誤 → 本題答案**。此為**導尿管相關無症狀菌尿**,**不應治療**(且其症狀為 URI,非泌尿道感染)。\n- **(E)** 腎移植、嗜中性球低下、將接受泌尿手術者的無症狀菌尿(VRE)可口服 linezolid — 正確(屬需處理的例外)。\n\n### 答案解析\n無症狀導尿管菌尿不治療,(D) 給抗生素錯誤,選 **(D)**。\n\n### 核心知識點\n- **無症狀菌尿需治療的少數情況:孕婦、即將接受泌尿道侵入操作者**;其餘(含長期導尿)不治療。\n- 過度治療菌尿助長抗藥性。\n\n### 參考資料\n1. IDSA Asymptomatic Bacteriuria Guideline。\n2. *Harrison's Principles of Internal Medicine*, UTI.",
+    "status": "draft"
+  },
+  "113-087": {
+    "text": "### 本題觀念\n**A 族鏈球菌(GAS,*Streptococcus pyogenes*)** 的臨床表現與治療。\n\n### 選項分析\n- **(1)** 急性咽炎:發燒、喉痛、扁桃腺化膿,可有猩紅熱 — 正確。\n- **(2)** 可表現膿痂疹、丹毒、蜂窩組織炎 — 正確。\n- **(3)** 嚴重可致壞死性肌筋膜炎、毒性休克症候群 — 正確。\n- **(4)** 同住/密切接觸、擁擠環境易傳播 — 正確。\n- **(5)** 10 天口服 **Amoxicillin/penicillin** 治療咽炎可縮短症狀並**降低急性風濕熱**風險 — 正確。\n- 五項皆正確 → **(E)**。\n\n### 答案解析\n所有敘述皆正確,故選 **(E)**。\n\n### 核心知識點\n- GAS 咽炎首選 **penicillin/amoxicillin 10 天**,可預防**急性風濕熱**(但不能預防鏈球菌後腎絲球腎炎)。\n- 侵襲性 GAS:壞死性筋膜炎、毒性休克;需手術清創 + penicillin + clindamycin。\n\n### 參考資料\n1. IDSA Group A Streptococcal pharyngitis Guideline。\n2. *Harrison's Principles of Internal Medicine*, Streptococcal infections.",
+    "status": "draft"
+  },
+  "113-088": {
+    "text": "### 本題觀念\n**克雷伯氏菌(*Klebsiella pneumoniae*)** 的抗藥性與用藥。涵蓋內源抗藥(ampicillin)、ESBL、carbapenemase(NDM)與台灣高毒力肝膿瘍株特性。\n\n### 選項分析\n- **(A)** wild-type Kp 可用 **ampicillin** — 錯誤。Kp **內源對 ampicillin 抗藥**(產 SHV)。\n- **(B)** ESBL Kp 用 **minocycline** — 錯誤(非標準首選)。\n- **(C)** **ESBL Kp 用 ertapenem 或 imipenem** — **正確 → 本題答案**。\n- **(D)** 產 **NDM-1**(金屬-β-lactamase）者用 **ceftazidime/avibactam** — 錯誤。**avibactam 不抑制金屬酶(NDM)**。\n- **(E)** 台灣肝膿瘍/眼內炎 Kp「大多為 ESBL」抗藥性高 — 錯誤。多為**高毒力 K1/K2 莢膜型**,抗生素**多仍敏感**。\n\n### 答案解析\nESBL Kp 以 carbapenem(ertapenem/imipenem)治療,故選 **(C)**。\n\n### 核心知識點\n- Kp **內源抗 ampicillin**;**ESBL → carbapenem**;**NDM(MBL)→ avibactam 無效**(需 cefiderocol 或含 aztreonam 組合)。\n- 台灣社區肝膿瘍 Kp 多為**高毒力莢膜型(hvKp)**,通常抗生素敏感。\n\n### 參考資料\n1. *Harrison's Principles of Internal Medicine*, Klebsiella。\n2. 抗藥性 β-lactamase 與用藥整理(CLSI / IDSA)。",
+    "status": "draft"
+  },
+  "113-089": {
+    "text": "### 本題觀念\n懷孕禁忌的疫苗 — **活性減毒疫苗(水痘)為禁忌**。\n\n### 選項分析\n- **(A)** 肺炎鏈球菌多醣疫苗(PPSV)— 不活化,非禁忌。\n- **(B)** 肺炎鏈球菌結合型疫苗(PCV)— 不活化,非禁忌。\n- **(C)** B 型肝炎疫苗 — 不活化,孕婦可打。\n- **(D)** **水痘疫苗(varicella)** — **禁忌 → 本題答案**(活性減毒)。\n- **(E)** 腦膜炎雙球菌結合型疫苗 — 不活化/類毒素,非禁忌。\n\n### 答案解析\n水痘疫苗為活性,懷孕禁忌,故選 **(D)**。\n\n### 核心知識點\n- **懷孕禁忌(活性):MMR、水痘、帶狀皰疹活性疫苗、LAIV、黃熱病(權衡)**。\n- 懷孕建議:Tdap、不活化流感、COVID。\n\n### 參考資料\n1. CDC / ACIP Guidelines for Vaccinating Pregnant Women。\n2. 台灣疾病管制署 孕婦疫苗接種。",
+    "status": "draft"
+  },
+  "113-090": {
+    "text": "### 本題觀念\n社區性肺炎(CAP)致病原與**暴露/宿主風險因子**配對。考點:***Chlamydia psittaci* 來自鳥類**,非貓。\n\n### 選項分析\n- **(A)** *S. pneumoniae* — 酗酒 — 適當。\n- **(B)** *Pseudomonas aeruginosa* — 支氣管擴張症 — 適當。\n- **(C)** *H. influenzae* — COPD — 適當。\n- **(D)** ***Chlamydia psittaci* — 接觸貓** — **最不適當 → 本題答案**。鸚鵡熱(psittacosis)由 *C. psittaci* 引起,暴露源為**鳥類(鸚鵡/禽類)**;貓暴露對應 *Bartonella*、*Coxiella burnetii*(Q 熱）、弓蟲。\n- **(E)** *S. aureus* — 流感流行期 — 適當(流感後續發金黃色葡萄球菌肺炎)。\n\n### 答案解析\npsittacosis 來自鳥類非貓,(D) 配對錯誤,選 **(D)**。\n\n### 核心知識點\n- ***C. psittaci*(鸚鵡熱)= 鳥類**;貓 → *Bartonella*(貓抓病)、*Coxiella*(Q 熱,亦牛羊)、弓蟲。\n- 流感後 → 金黃色葡萄球菌、肺炎鏈球菌續發肺炎。\n\n### 參考資料\n1. IDSA/ATS CAP Guidelines。\n2. *Harrison's Principles of Internal Medicine*, Pneumonia / Psittacosis.",
+    "status": "draft"
+  },
+  "113-091": {
+    "text": "### 本題觀念\n**脾切除後敗血症(OPSI)**:無脾者對**有莢膜菌**清除力差,易暴發性感染。\n\n### 選項分析\n- **(1)** *Streptococcus pneumoniae* — 是(最常見)。\n- **(2)** *Staphylococcus aureus* — 非典型 OPSI 主角。\n- **(3)** *Haemophilus influenzae* — 是。\n- **(4)** *Neisseria meningitidis* — 是。\n- **(5)** *Pseudomonas aeruginosa* — 非。\n- 正解組合 **(A) = (1)+(3)+(4)**(三大莢膜菌)。\n\n### 答案解析\nOPSI 以肺炎鏈球菌、Hib、腦膜炎雙球菌為主,故選 **(A)**。\n\n### 核心知識點\n- 無脾者:接種 **肺炎鏈球菌、Hib、MenACWY/B** 疫苗;發燒須儘速就醫/備用抗生素。\n\n### 參考資料\n1. *Harrison's Principles of Internal Medicine*, Infections in the asplenic host。\n2. CDC 無脾者疫苗建議。",
+    "status": "draft"
+  },
+  "113-092": {
+    "text": "### 本題觀念\n肺炎鏈球菌腦膜炎、**β-lactam 敏感**時的首選藥。\n\n### 選項分析\n- **(A)** vancomycin — 僅在抗藥/未知敏感時經驗併用,確認敏感後不需。\n- **(B)** **ceftriaxone** — **正確 → 本題答案**。β-lactam 敏感的肺炎鏈球菌腦膜炎首選第三代頭孢(ceftriaxone)。\n- **(C)** ampicillin — 用於 Listeria;非此首選。\n- **(D)** levofloxacin — 替代/特殊情況,非首選。\n- **(E)** dexamethasone — 是**輔助**抗發炎(降低聽損/神經後遺症),**非抗生素**。\n\n### 答案解析\n敏感株首選 ceftriaxone,故選 **(B)**。\n\n### 核心知識點\n- 經驗治療 ceftriaxone + vancomycin;**確認 β-lactam 敏感後以 ceftriaxone 為主**。\n- 肺炎鏈球菌腦膜炎併用 **dexamethasone**(首劑抗生素前/同時)。\n\n### 參考資料\n1. IDSA Bacterial Meningitis Guideline。\n2. *Harrison's Principles of Internal Medicine*, Meningitis.",
+    "status": "draft"
+  },
+  "113-093": {
+    "text": "### 本題觀念\n**ESBL(廣效性 β-內醯胺酶)** 可水解的抗生素;考點:**ESBL 不水解 carbapenem**。\n\n### 選項分析\n- **(A)** Cefotaxime(第三代頭孢)— 被 ESBL 水解。\n- **(B)** Aztreonam(monobactam)— 被 ESBL 水解。\n- **(C)** **Meropenem(carbapenem)** — **不被 ESBL 水解 → 本題答案(除外者)**。\n- **(D)** Piperacillin — 被 ESBL 水解。\n- **(E)** Ceftazidime — 被 ESBL 水解。\n\n### 答案解析\nESBL 水解青黴素、頭孢、aztreonam,但**不水解 carbapenem**,故除外者為 **(C)**。\n\n### 核心知識點\n- **ESBL → carbapenem 仍有效**(治療首選);carbapenem 抗藥需另有 carbapenemase(KPC、NDM、OXA-48)。\n- ESBL 也不被一般 cephalosporin 涵蓋,即使體外似敏感也避免。\n\n### 參考資料\n1. CLSI / *Harrison's Principles of Internal Medicine*, β-lactamases。\n2. IDSA Guidance on AMR Gram-negative treatment.",
+    "status": "draft"
+  },
+  "113-094": {
+    "text": "### 本題觀念\n醫療人員(HCW)**常規建議**接種的疫苗。考點:**帶狀皰疹疫苗非 HCW 常規職業建議**。\n\n### 選項分析\n- **(A)** B 型肝炎 — HCW 常規(血液暴露風險)。\n- **(B)** 水痘 — HCW 常規(無免疫者)。\n- **(C)** **帶狀皰疹疫苗** — **非 HCW 常規 → 本題答案**。帶狀皰疹疫苗是依**年齡(≥50 歲)**的一般建議,非醫療人員職業必評估項目。\n- **(D)** MMR — HCW 常規。\n- **(E)** 流感 — HCW 常規(每年)。\n\n### 答案解析\n帶狀皰疹疫苗不屬 HCW 常規評估,故選 **(C)**。\n\n### 核心知識點\n- HCW 常規:**HepB、MMR、水痘、Tdap、每年流感**(視情況 COVID)。\n- 帶狀皰疹疫苗依年齡(≥50)建議,非職業別。\n\n### 參考資料\n1. CDC Recommended Vaccines for Healthcare Workers。\n2. 台灣疾病管制署 醫療人員疫苗建議。",
+    "status": "draft"
+  },
+  "113-095": {
+    "text": "### 本題觀念\nHSCT 後一年 **TMP-SMX 預防**可涵蓋的病原;考點:**不涵蓋綠膿桿菌**。\n\n### 選項分析\n- **(A)** *Listeria monocytogenes* — TMP-SMX 可涵蓋。\n- **(B)** *Nocardia* — TMP-SMX 可涵蓋(且為首選)。\n- **(C)** *Streptococcus pneumoniae* — TMP-SMX 多可涵蓋。\n- **(D)** **綠膿桿菌 *Pseudomonas aeruginosa*** — **不涵蓋 → 本題答案**。\n- **(E)** *Pneumocystis*(PJP)— TMP-SMX 為**預防/治療首選**。\n\n### 答案解析\nTMP-SMX 主要預防 PJP,並可涵蓋 Nocardia、Listeria、部分肺炎鏈球菌,但**不涵蓋綠膿桿菌**,故選 **(D)**。\n\n### 核心知識點\n- TMP-SMX 預防 = **PJP**(同時涵蓋 Nocardia、Listeria、Toxoplasma 部分);**不涵蓋綠膿桿菌**。\n\n### 參考資料\n1. *Harrison's Principles of Internal Medicine*, Sulfonamides / PJP prophylaxis。\n2. ECIL / IDSA HSCT 預防建議。",
+    "status": "draft"
+  },
+  "113-096": {
+    "text": "### 本題觀念\n**HSCT 後早期(<1 個月,嗜中性球低下期)** 的感染病原。考點:**CMV 多在中期(30–100 天)**,非早期。\n\n### 選項分析\n- **(A)** *E. coli* — 早期細菌感染常見。\n- **(B)** *Candida albicans* — 早期(黏膜炎/嗜中性球低下)常見。\n- **(C)** **Cytomegalovirus(CMV)** — **較不常見於早期 → 本題答案**。CMV 再活化多在**移植後 30–100 天(中期)**。\n- **(D)** *Clostridium difficile* — 早期(化療/抗生素)可見。\n- **(E)** *Aspergillus fumigatus* — 嗜中性球長期低下時早期亦可發生。\n\n### 答案解析\nCMV 屬中期病原,早期較不常見,故選 **(C)**。\n\n### 核心知識點\n- HSCT 感染時序:**前期(<30 天)** 細菌、念珠菌、HSV;**中期(30–100 天)** **CMV**、麴菌、PJP;**後期(>100 天)** 莢膜菌、VZV。\n\n### 參考資料\n1. *Harrison's Principles of Internal Medicine*, Infections in transplant recipients。\n2. ECIL / IDSA HSCT 感染時序。",
+    "status": "draft"
+  }
+}
