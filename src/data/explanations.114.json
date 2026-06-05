@@ -13,70 +13,104 @@
   },
   "114-077": {
     "text": "### 本題觀念\n考**潛伏結核（LTBI）篩檢時 TST 與 IGRA 的選擇**,情境關鍵是病人曾接受**膀胱內 BCG 灌注治療**(膀胱癌)。BCG（卡介苗）會使**結核菌素皮膚試驗（TST）偽陽性**,而 **IGRA（丙型干擾素釋出分析）所用抗原 ESAT-6/CFP-10 不存在於 BCG 與大多數 NTM**,故不受 BCG 影響。\n\n### 選項分析\n- **(A) CXR** — 用於排除「活動性」肺結核,**不是 LTBI 篩檢工具**;本例無症狀,不是首選的 LTBI 檢測。\n- **(B) TST** — 受 **BCG 偽陽性**干擾,此病人剛接受膀胱 BCG,判讀不可靠。\n- **(C) IGRA** — **正確 → 本題答案**。不受 BCG 影響、單次抽血、專一性高,是 BCG 接種者 LTBI 篩檢的首選。\n- **(D) Two-step TST** — 用於「**初次基準測試會 boosting**」的反覆篩檢族群(如醫院新進人員的基準),非本題目的,且仍受 BCG 干擾。\n- **(E) 以上皆是** — 不對,各法目的不同。\n\n### 答案解析\nBCG 接種史使 TST 偽陽性,LTBI 篩檢應選**不受 BCG 影響的 IGRA**,故選 **(C)**。\n\n### 核心知識點\n- **IGRA 優於 TST 的情境**:曾接種 **BCG**、不易回診判讀者;**TST 仍適用**:兒童、資源有限、需 boosting 評估。\n- IGRA/TST **皆只測「感染」、不分活動或潛伏**;陽性者須先以症狀＋CXR **排除活動性 TB** 才給 LTBI 處方。\n- LTBI 現行首選短療程:**3HP（每週 isoniazid＋rifapentine ×12 週）**或 **4R（rifampin 4 個月）**(較 9H 完訓率高)。\n\n### 參考資料\n1. Lewinsohn DM, Leonard MK, LoBue PA, et al. Official ATS/IDSA/CDC Clinical Practice Guidelines: Diagnosis of Tuberculosis in Adults and Children. *Clin Infect Dis*. 2017;64(2):e1-e33. PMID: 27932390. DOI: 10.1093/cid/ciw694.（現行版）\n2. Sterling TR, Njie G, Zenner D, et al. Guidelines for the Treatment of Latent Tuberculosis Infection: Recommendations from the NTCA and CDC, 2020. *MMWR Recomm Rep*. 2020;69(1):1-11. PMID: 32053584. DOI: 10.15585/mmwr.rr6901a1.（現行版,首選 rifamycin 短療程）",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-081": {
     "text": "### 本題觀念\nMSM、一週發燒＋血性腹瀉、CT 見**末端迴腸/升結腸壁增厚**、大腸鏡潰瘍切片見**活動體（trophozoites）** → **侵襲性阿米巴大腸炎（Entamoeba histolytica）**。考其**雙階段治療**。\n\n### 選項分析\n- **(A)** metronidazole 750 mg TID ×5–10 天 — 對侵襲性感染正確,但**單用不夠**(未清除腸腔囊體,易復發/續傳)。\n- **(B)** 單用 paromomycin — 錯誤,paromomycin 為**腸腔（luminal）藥**,無法治療已侵入組織的阿米巴。\n- **(C)** metronidazole 可同時殺活動體與腸腔囊體 — **錯誤**,metronidazole 在腸腔吸收快、**對腸腔囊體清除不佳**。\n- **(D)** **正確 → 本題答案**。先用 **metronidazole（或 tinidazole）治療侵襲性活動體**,**接著加 paromomycin（或 diloxanide furoate）根除腸腔囊體**,以防復發與傳播。\n- **(E)** 以上皆非 — 不對。\n\n### 答案解析\n侵襲性阿米巴病需「**組織內殺蟲（metronidazole）→ 再腸腔清囊（paromomycin）**」雙階段,故選 **(D)**。\n\n### 核心知識點\n- **侵襲性阿米巴病（大腸炎/肝膿瘍）**:組織藥 **metronidazole 或 tinidazole**,**務必接續腸腔藥**（paromomycin / diloxanide）清除囊體。\n- 無症狀帶囊者:僅需**腸腔藥**。\n- 阿米巴肝膿瘍多**不需引流**(藥物即可),除非巨大、左葉、瀕破裂或治療無反應。\n\n### 參考資料\n1. Shane AL, Mody RK, Crump JA, et al. 2017 IDSA Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea. *Clin Infect Dis*. 2017;65(12):e45-e80. PMID: 29053792. DOI: 10.1093/cid/cix669.（現行版）\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Amebiasis 與 Free-Living Amebas）。\n3. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-082": {
     "text": "### 本題觀念\n考**腸球菌（Enterococcus）感染與抗生素使用**,重點在**菌種、無症狀菌尿何時要治、VRE 用藥**。\n\n### 選項分析\n- **(1)** 正確。VRE 最常見菌種為 **E. faecium**(較 E. faecalis 更易帶 vanA)。\n- **(2)** 正確。**孕婦**驗出菌尿(E. faecalis)即使無症狀也應治療(降低腎盂腎炎/早產),E. faecalis 對 **amoxicillin** 敏感,可口服。\n- **(3)** 正確。**泌尿手術前**之無症狀菌尿(會造成黏膜出血者)應治療;此例 VRE,可用 **linezolid**。\n- **(4)** 正確。嚴重 VRE 感染用 **linezolid 或 daptomycin**(daptomycin 須高劑量 8–12 mg/kg)。\n- **(5)** 錯誤。一般尿/痰培養出 VRE 多為**移生（colonization）**,不需治療。\n\n正確為 **(1)+(2)+(3)+(4)** → **(D)**。\n\n### 答案解析\n僅 (5) 為過度治療,其餘正確,故選 **(D)**。\n\n### 核心知識點\n- **無症狀菌尿「該治」的少數情境**:**孕婦、即將接受會造成黏膜出血之泌尿手術者**;其餘(含導尿管、長者、糖尿病)原則上不治療。\n- **E. faecalis → ampicillin/amoxicillin**;**E. faecium/VRE → linezolid 或 daptomycin**;腸球菌對 **cephalosporin 天生抗藥**。\n\n### 參考資料\n1. Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the IDSA. *Clin Infect Dis*. 2019;68(10):e83-e110. PMID: 30895288. DOI: 10.1093/cid/ciy1121.（現行版）\n2. Shi C, Jin W, Xie Y, et al. Efficacy and Safety of Daptomycin versus Linezolid for Vancomycin-resistant Enterococcal Bacteraemia: An Updated Systematic Review and Meta-analysis. *J Glob Antimicrob Resist*. 2019;21:235-245. PMID: 31629937. DOI: 10.1016/j.jgar.2019.10.008.",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-083": {
     "text": "### 本題觀念\n颱風後**腳傷接觸土壤/污水**→**腳膿瘍＋雙側肺炎** → **類鼻疽（melioidosis, Burkholderia pseudomallei）**。考其微生物、傳染、臨床與**雙階段治療**。\n\n### 選項分析\n- **(A)** 正確。B. pseudomallei 為**革蘭氏陰性桿菌**,染色呈**兩極濃染「安全別針（safety-pin）」狀**。\n- **(B)** 正確。經**皮膚傷口接觸污染土壤/水**,亦可**吸入**感染(颱風/暴雨後病例上升)。\n- **(C)** 正確。急性可致**重症肺炎、敗血症、休克**,死亡率高。\n- **(D)** **錯誤 → 本題答案**。治療須**兩階段**:**密集期**靜脈 **ceftazidime 或 meropenem ≥2 週**,**接續根除期**口服 **TMP-SMX ≥3 個月**;只用 ceftazidime 2–4 週**不足、復發率高**。\n- **(E)** 正確。**糖尿病**(最重要)、慢性肺/腎病、地中海型貧血、免疫抑制為高風險。\n\n### 答案解析\n題問「何者錯誤」,類鼻疽需密集期＋長達數月根除期,故選 **(D)**。\n\n### 核心知識點\n- **類鼻疽治療＝密集期（ceftazidime/meropenem IV ≥2 週）＋根除期（TMP-SMX 口服 ≥3 個月）**;療程不足易復發。\n- 最大宿主危險因子為**糖尿病**;東南亞、北澳、台灣南部雨季高發。\n\n### 參考資料\n1. Anothaisintawee T, Harncharoenkul K, Poramathikul K, et al. Efficacy of Drug Treatment for Severe Melioidosis and Eradication Treatment: A Systematic Review and Network Meta-analysis. *PLoS Negl Trop Dis*. 2023;17(6):e0011382. PMID: 37307278. DOI: 10.1371/journal.pntd.0011382.（最新統合分析）\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Melioidosis and Glanders（Burkholderia））。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-084": {
     "text": "### 本題觀念\n颱風後清污水、一週後發燒＋**結膜充血＋黃疸＋急性腎衰竭** → **鉤端螺旋體病（Weil's disease）**。考診斷工具與首選藥。\n\n### 選項分析\n- **(1)** 正確。優先考慮 **leptospirosis**(暴露史＋結膜充血＋肝腎受損之三聯)。\n- **(2)** 錯誤。診斷**主要靠血清學（MAT 顯微凝集試驗）**或 PCR;**培養緩慢困難**,非主要依據。\n- **(3)** 正確。輕中症首選 **penicillin G**(或 doxycycline)。\n- **(4)** 正確。**重症可用 ceftriaxone**(RCT 證實療效與 penicillin 相當)。\n- **(5)** 此題未納入;azithromycin 為替代選擇而非首選。\n\n正確為 **(1)+(3)+(4)** → **(B)**。\n\n### 答案解析\n診斷靠血清學(非培養),治療 penicillin、重症 ceftriaxone,故選 **(B)**。\n\n### 核心知識點\n- **Leptospirosis 診斷＝血清學（MAT）**;治療輕症 doxycycline/penicillin、**重症 IV penicillin 或 ceftriaxone**。\n- 經典 **Weil's disease**＝黃疸＋急性腎損傷＋出血;暴露線索:洪水、污水、農牧、戲水、鼠尿。\n\n### 參考資料\n1. Panaphut T, Domrongkitchaiporn S, Vibhagool A, et al. Ceftriaxone Compared with Sodium Penicillin G for Treatment of Severe Leptospirosis. *Clin Infect Dis*. 2003;36(12):1507-1513. PMID: 12802748. DOI: 10.1086/375226.\n2. Ji Z, Jian M, Su X, et al. Efficacy and Safety of Antibiotics for Treatment of Leptospirosis: A Systematic Review and Network Meta-analysis. *Syst Rev*. 2024;13(1):108. PMID: 38627798. DOI: 10.1186/s13643-024-02519-y.（最新統合分析）\n3. CDC. Leptospirosis — Clinical Overview. https://www.cdc.gov/leptospirosis/",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-085": {
     "text": "### 本題觀念\n考 **C. difficile 感染（CDI）**的院感、危險因子、診斷與治療。\n\n### 選項分析\n- **(A)** 錯誤。孢子對酒精有抗性,**酒精性乾洗手無效**;預防孢子傳播須**接觸隔離＋肥皂+水洗手**。\n- **(B)** 錯誤。**PPI 會「增加」CDI 風險**(胃酸屏障下降),非降低。\n- **(C)** **正確 → 本題答案**。依考年標準,初次發作第一線口服可為 **metronidazole 或 vancomycin**。\n- **(D)** 錯誤。重度 CDI 首選**口服 vancomycin（或 fidaxomicin）**;**IV vancomycin 對 CDI 無效**(無法達腸腔)。\n- **(E)** 錯誤。**單純培養出 C. difficile 不能診斷 CDAD**(無法分辨產毒株/帶菌),須**糞便 toxin/NAAT ＋臨床腹瀉**。\n\n### 答案解析\n僅 (C) 正確,故選 **(C)**。\n\n### 核心知識點\n- **CDI 風險**:抗生素(尤其 clindamycin/FQ/頭孢)、**PPI**、高齡、住院。\n- 診斷靠**糞便 toxin/NAAT＋症狀**(不靠培養);重度用**口服** vancomycin/fidaxomicin。\n\n> **最新進展**:2021 IDSA/SHEA 已將初次發作首選改為**口服 fidaxomicin 或 vancomycin**,metronidazole 退為(無法取得上述藥時的)次選;fidaxomicin 復發率較低。\n\n### 參考資料\n1. Johnson S, Lavergne V, Skinner AM, et al. IDSA/SHEA 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults. *Clin Infect Dis*. 2021;73(5):e1029-e1044. PMID: 34164674. DOI: 10.1093/cid/ciab549.（現行版,首選 fidaxomicin/vancomycin）\n2. Louie TJ, Miller MA, Mullane KM, et al. Fidaxomicin versus Vancomycin for Clostridium difficile Infection. *N Engl J Med*. 2011;364(5):422-431. PMID: 21288078. DOI: 10.1056/NEJMoa0910812.（關鍵 RCT:復發率較低）",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-086": {
     "text": "### 本題觀念\n考**金黃色葡萄球菌（S. aureus）治療**:MSSA 與 MRSA/VISA 的用藥選擇、菌血症處置。\n\n### 選項分析\n- **(1)** 錯誤。**MSSA 感染 β-lactam（oxacillin/nafcillin/cefazolin）優於 vancomycin**(vancomycin 對 MSSA 殺菌較慢、療效較差)。\n- **(2)** 錯誤。**MSSA 心內膜炎首選 nafcillin/oxacillin 或 cefazolin**,非 vancomycin/daptomycin。\n- **(3)** 正確。**VISA** 可考慮 **linezolid 或 ceftaroline**(daptomycin 須高劑量並注意 MIC)。\n- **(4)** 正確。S. aureus 菌血症**治療數日仍發燒 → 重抽血培養＋找深部病灶**(心內膜炎、骨髓炎、轉移膿瘍);此為「complicated bacteremia」線索。\n- **(5)** 正確。輕度 CA-MRSA 皮膚軟組織感染可口服 **TMP-SMX 或 doxycycline**(±clindamycin)。\n\n正確為 **(3)+(4)+(5)** → **(D)**。\n\n### 答案解析\n(1)(2) 把 MSSA 用藥寫反(MSSA 應用 β-lactam),故選 **(D)**。\n\n### 核心知識點\n- **MSSA 首選 β-lactam（nafcillin/oxacillin/cefazolin）> vancomycin**;**MRSA → vancomycin（依 AUC/MIC 監測）或 daptomycin**。\n- **S. aureus 菌血症**務必:重抽血培養確認清除、找轉移病灶、評估心內膜炎、足療程(無併發 ≥2 週,複雜性更長)。\n\n### 參考資料\n1. Liu C, Bayer A, Cosgrove SE, et al. IDSA Clinical Practice Guidelines for the Treatment of MRSA Infections in Adults and Children. *Clin Infect Dis*. 2011;52(3):e18-e55. PMID: 21208910. DOI: 10.1093/cid/ciq146.（現行版,尚未改版）\n2. Rybak MJ, Le J, Lodise TP, et al. Therapeutic Monitoring of Vancomycin for Serious MRSA Infections: A Revised Consensus Guideline（ASHP/IDSA/PIDS/SIDP）。*Am J Health Syst Pharm*. 2020;77(11):835-864. PMID: 32191793. DOI: 10.1093/ajhp/zxaa036.（改以 AUC/MIC 監測）",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-087": {
     "text": "### 本題觀念\n此 CSF 為典型**細菌性腦膜炎**:外觀混濁、壓力 280 mmH₂O(↑)、WBC 1200 且**多核球(PMN)為主**、**葡萄糖 20 mg/dL(CSF/血糖比 < 0.4)**、蛋白 180 mg/dL(↑)。記住 CSF 四格鑑別:**細菌性**=PMN↑↑、糖↓↓、蛋白↑↑;**病毒性**=淋巴球、糖正常;**結核/黴菌**=淋巴球、糖↓、蛋白↑↑且病程亞急性。本題考成人社區型細菌性腦膜炎的流行病學、經驗治療與特殊情境。\n\n### 選項分析\n- **(A) 最常見致病原為 *Streptococcus pneumoniae*** — 正確。成人社區型細菌性腦膜炎首位即肺炎鏈球菌(約占成人 ~50%),其次 *N. meningitidis*;自 Hib 疫苗普及後 *H. influenzae* 已大幅減少。\n- **(B) 即使適當治療死亡率約 20%** — 正確。肺炎鏈球菌腦膜炎成人死亡率約 **15–30%**,存活者約 30% 留神經後遺症(聽損、認知)。這正是須**及早抗生素＋輔助 dexamethasone**的原因。\n- **(C) 見紫斑/瘀點先考慮 *H. influenzae*** — **錯誤 → 本題答案**。**紫斑/瘀斑(purpura/petechiae)是腦膜炎雙球菌(*N. meningitidis*)菌血症的標誌**,可進展為 purpura fulminans、Waterhouse–Friderichsen 症候群;*H. influenzae* 不以紫斑表現。此為經典「皮疹對應病原」陷阱。\n- **(D) 經驗用 ceftriaxone + vancomycin** — 正確。第三代頭孢涵蓋肺炎鏈球菌/腦膜炎雙球菌/*H. influenzae*;**加 vancomycin 是為涵蓋對頭孢中/高度抗藥之肺炎鏈球菌(PRSP)**。**≥50 歲、免疫低下、酗酒、孕婦須加 ampicillin 涵蓋 Listeria**(本例 40 歲免疫正常,不強制)。\n- **(E) 腦部術後腦膜炎需抗綠膿桿菌** — 正確。神經外科術後/腦室引流相關腦膜炎致病原轉為**院內菌(綠膿桿菌、葡萄球菌含 MRSA、不動桿菌)**,經驗治療改 **cefepime 或 meropenem + vancomycin**。\n\n### 答案解析\n題問「最不適當」。紫斑/瘀點對應的是 ***N. meningitidis*** 而非 *H. influenzae*,故 **(C)** 為錯誤敘述、即本題答案。\n\n### 核心知識點\n- **經驗治療(依年齡/危險因子)**:標準 **ceftriaxone 2 g IV Q12h + vancomycin**;**≥50 歲、孕婦、免疫低下、酗酒 → 加 ampicillin**(Listeria);**神經外科術後/穿通傷 → cefepime 或 meropenem + vancomycin**(涵蓋綠膿+MRSA)。\n- **輔助 dexamethasone**:**0.15 mg/kg Q6h × 4 天,須在第一劑抗生素「前 10–20 分鐘或同時」給**;對**肺炎鏈球菌**腦膜炎降低死亡與聽損最明確(NEJM 2002 RCT)。若最終非肺炎鏈球菌可考慮停用;傳統建議疑似 Listeria 時避用,但 2023 全國世代研究顯示 Listeria 腦膜炎使用 dexamethasone 仍可能有益。\n- **流程**:疑似即**1 小時內給抗生素**;若有局部神經學徵象/免疫低下/抽搐/視乳突水腫 → **先 CT 再 LP**,但**不可為等 CT 而延誤抗生素**(可先抽血培養→給藥)。\n- **CSF 判讀**:細菌性常 WBC >1000(PMN 為主)、糖 <40 或 CSF/血糖 <0.4、蛋白 >100–200;Gram 染色陽性率 60–90%、培養 70–85%(已先給抗生素會降低陽性率)。\n\n### 參考資料\n1. van de Beek D, Cabellos C, Dzupova O, et al. ESCMID guideline: diagnosis and treatment of acute bacterial meningitis. *Clin Microbiol Infect*. 2016;22(Suppl 3):S37-S62. PMID: 27062097. DOI: 10.1016/j.cmi.2016.01.007.(現行歐洲指引,較 IDSA 新)\n2. Tunkel AR, Hartman BJ, Kaplan SL, et al. Practice Guidelines for the Management of Bacterial Meningitis. *Clin Infect Dis*. 2004;39(9):1267-1284. PMID: 15494903. DOI: 10.1086/425368.(IDSA 現行版,尚未改版)\n3. de Gans J, van de Beek D; European Dexamethasone in Adulthood Bacterial Meningitis Study Investigators. Dexamethasone in adults with bacterial meningitis. *N Engl J Med*. 2002;347(20):1549-1556. DOI: 10.1056/NEJMoa021334.(輔助類固醇關鍵 RCT)\n4. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022(Acute Meningitis)。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-088": {
     "text": "### 本題觀念\n考**急性腦炎（acute encephalitis）**,重點是 **HSV 腦炎**的影像、診斷與處置。\n\n### 選項分析\n- **(A)** 正確。**皰疹病毒（尤其 HSV-1）為最重要可治療病原**。\n- **(B)** 正確。臨床三聯:發燒、意識改變、合併**人格改變/癲癇/局部神經學徵象**。\n- **(C)** 正確。CSF 應送 **HSV 與 enterovirus PCR**(常見可治/可辨病原)。\n- **(D)** **最不適當 → 本題答案**。HSV 腦炎 MRI 典型侵犯**顳葉內側（temporal lobe）、邊緣系統、腦島**,**不是額葉(frontal)為主**。\n- **(E)** 正確。CSF **HSV PCR 敏感度約 96%、專一度約 99%**,與腦切片相當甚至更佳。\n\n### 答案解析\n題問「最不適當」,HSV 腦炎為**顳葉**而非額葉病灶,故選 **(D)**。\n\n### 核心知識點\n- **疑似腦炎即經驗性 IV acyclovir 10 mg/kg Q8h**(不等 PCR,延遲影響預後);HSV PCR 陰性而高度懷疑時應 3–7 天後重驗。\n- HSV 腦炎影像/腦波(EEG PLEDs)偏**顳葉**;治療療程 14–21 天。\n\n### 參考資料\n1. Tunkel AR, Glaser CA, Bloch KC, et al. The Management of Encephalitis: Clinical Practice Guidelines by the IDSA. *Clin Infect Dis*. 2008;47(3):303-327. PMID: 18582201. DOI: 10.1086/589747.（IDSA 現行版）\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Acute Viral Encephalitis（HSV））。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-089": {
     "text": "### 本題觀念\n考**感染性心內膜炎（IE）**的血液培養策略、瓣膜時序流行病學與超音波效能。\n\n### 選項分析\n- **(A)** 正確。經驗治療前應從**不同部位抽 ≥3 套血液培養**(提高檢出、判讀污染)。\n- **(B)** 正確。首批陰性者,**48–72 小時後再抽 2–3 套**(尤其已用抗生素或疑培養陰性病原)。\n- **(C)** **最不適當 → 本題答案**。**人工瓣膜術後早期(數週至 1 年內)PVE 最常見為葡萄球菌**(凝固酶陰性葡萄球菌、S. aureus),**不是鏈球菌**;鏈球菌(口腔來源)多見於自體瓣膜亞急性 IE 或晚期 PVE。\n- **(D)** 正確。**TTE 約 20–35% 看不到贅生物**(敏感度有限,尤其人工瓣膜/小贅生物)。\n- **(E)** 正確。**TEE 假陰性約 6–18%、敏感度約 90%**,優於 TTE。\n\n### 答案解析\n題問「最不適當」,早期 PVE 應以葡萄球菌為主,故選 **(C)**。\n\n### 核心知識點\n- **早期 PVE（<1 年）→ 葡萄球菌(含 CoNS)**;晚期 PVE 與自體瓣膜亞急性 IE → 草綠色鏈球菌、腸球菌。\n- 診斷:血培養 ×3 ＋**TEE**(敏感度優於 TTE);依 **modified Duke criteria**。\n\n### 參考資料\n1. Baddour LM, Wilson WR, Bayer AS, et al. Infective Endocarditis in Adults（AHA Scientific Statement）。*Circulation*. 2015;132(15):1435-1486. PMID: 26373316. DOI: 10.1161/CIR.0000000000000296.\n2. Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the Management of Endocarditis. *Eur Heart J*. 2023;44(39):3948-4042. PMID: 37622656. DOI: 10.1093/eurheartj/ehad193.（最新）",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-090": {
     "text": "### 本題觀念\n考**異體造血幹細胞移植（allo-HSCT）「晚期（>3–6 個月）」的感染風險**。此期免疫雖較穩定,但**體液免疫/脾功能恢復慢、常有慢性 GVHD**,對**有莢膜細菌**特別易感。\n\n### 選項分析\n- **(B)** **正確 → 本題答案**。晚期 allo-HSCT(尤其慢性 GVHD/功能性脾低下)對**有莢膜菌**易感,**Streptococcus pneumoniae** 造成瀰漫性/侵襲性感染風險最高。\n- **(A) Pseudomonas**、**(E) Candida** — 多見於**早期嗜中性球低下期**(<30 天)。\n- **(C) Legionella** — 與環境水源相關,非此期特徵性最高風險。\n- **(D) C. difficile** — 造成腸炎,非「瀰漫性」感染。\n\n### 答案解析\n晚期 HSCT 瀰漫性感染風險最高者為**有莢膜的肺炎鏈球菌**,故選 **(B)**。\n\n### 核心知識點\n- **HSCT 感染三期**:嗜中性球低下期(細菌/Candida/HSV)→ 30–100 天(CMV、Aspergillus、PJP)→ **晚期(>100 天:莢膜菌＝肺炎鏈球菌/Hib/腦膜炎雙球菌、VZV)**。\n- 晚期須**疫苗重建(肺炎鏈球菌、Hib、流感、…)＋對有莢膜菌之預防**。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Infections in Transplant Recipients）。\n2. CDC / ACIP. Altered Immunocompetence — General Best Practice Guidelines for Immunization（含無脾）。https://www.cdc.gov/vaccines/hcp/imz-best-practices/altered-immunocompetence.html",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-091": {
     "text": "### 本題觀念\n考**胺基糖苷類（aminoglycosides）**的機轉、殺菌性質、毒性與藥效學。\n\n### 選項分析\n- **(A)** 正確。與 **30S 次單位 16S rRNA** 結合,干擾 mRNA 轉譯而抑制蛋白質合成。\n- **(B)** **最不適當 → 本題答案**。胺基糖苷類是**殺菌性（bactericidal）、濃度依賴**,**不是抑菌性（bacteriostatic）**;常與細胞壁活性藥(β-lactam)併用取**協同**。\n- **(C)** 正確。在**膿瘍低 pH/低氧**環境攝入差、活性下降。\n- **(D)** 正確。**腎毒性多可逆、耳毒性可能不可逆**。\n- **(E)** 正確。具**濃度依賴殺菌＋後抗生素效應(PAE)** → 故採**一日一次(extended-interval)**給藥。\n\n### 答案解析\n題問「最不適當」,胺基糖苷類為殺菌而非抑菌,故選 **(B)**。\n\n### 核心知識點\n- **濃度依賴＋PAE → 一日一次給藥**(提高峰值殺菌、降腎毒性);監測 trough 以減毒性。\n- 毒性:**腎(多可逆)＋耳/前庭(可能不可逆)**;與 β-lactam 協同治療嚴重 G(+)/G(-) 感染。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Aminoglycosides）。\n2. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-092": {
     "text": "### 本題觀念\n考 **TMP-SMX（trimethoprim/sulfamethoxazole）的抗菌涵蓋範圍**——找出「不涵蓋」者。\n\n### 選項分析\n- **(A) Pneumocystis jirovecii** — 涵蓋(**PJP 治療與預防首選**)。\n- **(B) Stenotrophomonas maltophilia** — 涵蓋(**首選藥**)。\n- **(C) CA-MRSA** — 涵蓋(輕度皮膚軟組織感染口服選擇)。\n- **(D) Pseudomonas aeruginosa** — **不涵蓋 → 本題答案**。TMP-SMX **對綠膿桿菌無效**。\n- **(E) Haemophilus influenzae** — 涵蓋。\n\n### 答案解析\n題問「何者除外」,TMP-SMX 不涵蓋綠膿桿菌,故選 **(D)**。\n\n### 核心知識點\n- **TMP-SMX 強項**:**PJP、Stenotrophomonas、Nocardia、CA-MRSA、Listeria(替代)、許多腸內菌**;**弱項/無效**:**Pseudomonas、多數厭氧菌、腸球菌、group A strep**。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Sulfonamides, Trimethoprim, and Quinolones）。\n2. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-093": {
     "text": "### 本題觀念\n考哪個病原對 **carbapenem（imipenem）具「與生俱來」內源抗藥性**。\n\n### 選項分析\n- **(B) Stenotrophomonas maltophilia** — **正確 → 本題答案**。天生產**兩種 β-lactamase(含 L1 metallo-β-lactamase)**,**內源性對所有 carbapenem 抗藥**;治療首選 **TMP-SMX**。\n- **(A) Pseudomonas aeruginosa** — 對 carbapenem **原本敏感**,可「後天」獲得抗藥(porin 缺失/外排)。\n- **(C) ESBL-K. pneumoniae**、**(D) AmpC-E. coli** — carbapenem 正是其**治療首選**(敏感)。\n- **(E) Enterococcus faecalis** — 對 imipenem 敏感(對頭孢才天生抗藥)。\n\n### 答案解析\n**S. maltophilia 內源性對 carbapenem 抗藥**,故選 **(B)**。\n\n### 核心知識點\n- **內源性 carbapenem 抗藥代表＝Stenotrophomonas maltophilia(L1 MBL)→ 用 TMP-SMX**。\n- 區分「**內源性(天生)**」vs「**後天獲得**」抗藥:綠膿、CRE 多為後天機轉。\n\n### 參考資料\n1. Tamma PD, Heil EL, Justo JA, et al. IDSA 2024 Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections. *Clin Infect Dis*. 2024（線上）。PMID: 39108079. DOI: 10.1093/cid/ciae403.（現行版,僅涵蓋革蘭氏陰性菌）\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Gram-Negative Bacilli（Stenotrophomonas））。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-094": {
     "text": "### 本題觀念\n**臉部微整形「肉毒桿菌毒素」注射後**出現眼瞼下垂、複視、構音困難 → **醫源性肉毒桿菌中毒（botulism）**(毒素過量/擴散)。考與破傷風的鑑別。\n\n### 選項分析\n- **(A)** **最不適當 → 本題答案**。此為**肉毒桿菌中毒(C. botulinum 神經毒素)**,表現為**下行性弛緩性麻痺、顱神經症狀**;**破傷風(C. tetani)** 反而是**痙攣性/僵直(牙關緊閉、角弓反張)**,方向相反。\n- **(B)** 正確。以**支持治療(呼吸照護)為主**,嚴重者給**抗毒素(antitoxin)**且應儘早。\n- **(C)** 正確。**血清毒素檢測**可確診。\n- **(D)** 正確。屬**毒素媒介**,**無法以廣效抗生素治療或預防**(且 aminoglycoside 可能加重神經肌肉阻斷)。\n- **(E)** 正確。症狀源於**神經毒素**阻斷突觸前乙醯膽鹼釋放。\n\n### 答案解析\n題問「最不適當」,正確診斷是肉毒桿菌中毒而非破傷風,故選 **(A)**。\n\n### 核心知識點\n- **肉毒＝弛緩性、下行性麻痺＋顱神經症狀**;**破傷風＝痙攣性僵直**(機轉皆抑制神經傳遞,但作用神經不同)。\n- 肉毒治療:**儘早抗毒素＋呼吸支持**;通報法定傳染病。\n\n### 參考資料\n1. CDC. Botulism — Clinical Overview. https://www.cdc.gov/botulism/\n2. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Botulism（Clostridial Infections））。",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-095": {
     "text": "### 本題觀念\n考 **C. difficile 感染（CDI）**治療的「**不適當**」敘述。\n\n### 選項分析\n- **(1)** 適當(真)。**vancomycin 本身也會擾亂菌叢**,具誘發後續 CDI 的風險。\n- **(2)** 適當(真)。初次發作首選**口服 fidaxomicin 或 vancomycin ×10 天**。\n- **(3)** **不適當**。**NAP1/BI/027 高毒力株**對 metronidazole 反應差、且 027 為 FQ 抗藥;**首選應為口服 vancomycin/fidaxomicin**,而非 metronidazole。\n- **(4)** 適當(真)。**治療終點＝腹瀉緩解**,**不需追蹤糞便毒素清除**(test of cure 無意義)。\n- **(5)** **不適當**。多次復發者用**「口服」vancomycin 減量/脈衝療法**或 fidaxomicin/FMT/bezlotoxumab;**「針劑(IV)vancomycin」對 CDI 無效**。\n\n不適當者＝**(3)+(5)** → **(D)**。\n\n### 答案解析\n(3) metronidazole 不該作 027 首選、(5) IV vancomycin 無效,故選 **(D)**。\n\n### 核心知識點\n- **多次復發 CDI**:口服 vancomycin 脈衝/減量、fidaxomicin、**糞菌移植(FMT)**、bezlotoxumab(降復發)。\n- IV vancomycin **對 CDI 無效**(達不到腸腔);027 株應用 vancomycin/fidaxomicin。\n\n### 參考資料\n1. Johnson S, Lavergne V, Skinner AM, et al. IDSA/SHEA 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults. *Clin Infect Dis*. 2021;73(5):e1029-e1044. PMID: 34164674. DOI: 10.1093/cid/ciab549.（現行版,首選 fidaxomicin/vancomycin）\n2. Louie TJ, Miller MA, Mullane KM, et al. Fidaxomicin versus Vancomycin for Clostridium difficile Infection. *N Engl J Med*. 2011;364(5):422-431. PMID: 21288078. DOI: 10.1056/NEJMoa0910812.（關鍵 RCT:復發率較低）",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   },
   "114-096": {
     "text": "### 本題觀念\n考**具莢膜（capsulated）細菌**的辨認——這與**無脾/補體缺損者**的高風險病原直接相關。\n\n### 選項分析\n- **(1) Streptococcus pneumoniae** — 有莢膜(多醣莢膜,疫苗即針對之)。\n- **(2) Haemophilus influenzae** — 有莢膜(b 型莢膜致侵襲性疾病)。\n- **(4) Neisseria meningitidis** — 有莢膜(分群依莢膜多醣)。\n- **(3) Staphylococcus aureus** — 一般歸類**非典型莢膜菌**(有微莢膜但非此題重點)。\n- **(5) Pseudomonas aeruginosa** — 為**黏液藻酸鹽(alginate)生物膜**,非典型多醣莢膜菌。\n\n具莢膜經典三菌＝**(1)+(2)+(4)** → **(A)**。\n\n### 答案解析\n肺炎鏈球菌、Hib、腦膜炎雙球菌為經典有莢膜菌,故選 **(A)**。\n\n### 核心知識點\n- **有莢膜經典三聯＝S. pneumoniae、H. influenzae、N. meningitidis**(再加 Klebsiella、GBS)。\n- **無脾/脾切除/功能性脾低下者**對此三菌易致猛爆敗血症 → 須**接種肺炎鏈球菌、Hib、腦膜炎雙球菌疫苗**並衛教及早就醫。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Infections in the Asplenic Host）。\n2. CDC / ACIP. Altered Immunocompetence — General Best Practice Guidelines for Immunization（含無脾）。https://www.cdc.gov/vaccines/hcp/imz-best-practices/altered-immunocompetence.html",
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "dirtywolf1213",
+    "reviewedAt": "2026-06-05"
   }
 }
