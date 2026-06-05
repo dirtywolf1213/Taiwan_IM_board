@@ -8,7 +8,7 @@
     "status": "draft"
   },
   "111-082": {
-    "text": "### 本題觀念\n考 **COVID-19 抗病毒治療**(與病毒共存階段)——選出正確組合。\n\n### 選項分析\n- **(1)** 錯誤。Remdesivir 單用**並非對輕、重症皆有顯著效果**(主要用於需氧氣住院者或早期高風險門診者)。\n- **(2)** 正確。Paxlovid(nirmatrelvir)抑制蛋白酶;**ritonavir 抑 CYP3A4** 以提升濃度。\n- **(3)** 正確。Molnupiravir 為核苷類似物(致缺陷 RNA),**孕婦不建議**。\n- **(4)** 正確。Paxlovid/molnupiravir 用於**發病早期、輕症但高重症風險**者。\n- **(5)** 錯誤。**Paxlovid 於 eGFR 30–60 須減量、<30 禁用**,並非「eGFR>30 即不需調整」。\n\n正確為 **(2)+(3)+(4)** → **(C)**。\n\n### 答案解析\n(1)(5) 錯誤,故選 **(C)**。\n\n### 核心知識點\n- 門診高風險首選 **Paxlovid**(注意 CYP3A4 交互作用、**eGFR 30–60 減量、<30 禁用**);molnupiravir 為替代(孕婦不建議)。\n\n### 參考資料\n1. Infectious Diseases Society of America. Guidelines on the Treatment and Management of Patients with COVID-19（living guideline, 2025 更新）。https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/（NIH 指引已於 2024 退役,現以 IDSA 為主）\n2. RECOVERY Collaborative Group（Horby P, Lim WS, Emberson JR, et al.）。Dexamethasone in Hospitalized Patients with Covid-19. *N Engl J Med*. 2021;384(8):693-704. PMID: 32678530. DOI: 10.1056/NEJMoa2021436.（重症降低死亡率）",
+    "text": "### 本題觀念\n考 **COVID-19 抗病毒治療**(與病毒共存階段)——選出正確組合。\n\n### 選項分析\n- **(1)** 錯誤。Remdesivir 單用**並非對輕、重症皆有顯著效果**(主要用於需氧氣住院者或早期高風險門診者)。\n- **(2)** 正確。Paxlovid(nirmatrelvir)抑制蛋白酶;**ritonavir 抑 CYP3A4** 以提升濃度。\n- **(3)** 正確。Molnupiravir 為核苷類似物(致缺陷 RNA),**孕婦不建議**。\n- **(4)** 正確。Paxlovid/molnupiravir 用於**發病早期、輕症但高重症風險**者。\n- **(5)** 錯誤。**Paxlovid 於 eGFR 30–60 須減量**;eGFR<30 依考年仿單為禁用(**2024 FDA 仿單已更新為可減量 150/100 mg QD**),總之並非「eGFR>30 即不需調整」。\n\n正確為 **(2)+(3)+(4)** → **(C)**。\n\n### 答案解析\n(1)(5) 錯誤,故選 **(C)**。\n\n### 核心知識點\n- 門診高風險首選 **Paxlovid**(注意 CYP3A4 交互作用、**eGFR 30–60 減量、<30 依 2024 仿單改減量(舊版禁用)**);molnupiravir 為替代(孕婦不建議)。\n\n### 參考資料\n1. Infectious Diseases Society of America. Guidelines on the Treatment and Management of Patients with COVID-19（living guideline, 2025 更新）。https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/（NIH 指引已於 2024 退役,現以 IDSA 為主）\n2. RECOVERY Collaborative Group（Horby P, Lim WS, Emberson JR, et al.）。Dexamethasone in Hospitalized Patients with Covid-19. *N Engl J Med*. 2021;384(8):693-704. PMID: 32678530. DOI: 10.1056/NEJMoa2021436.（重症降低死亡率）",
     "status": "draft"
   },
   "111-083": {
@@ -32,7 +32,7 @@
     "status": "draft"
   },
   "111-088": {
-    "text": "### 本題觀念\n考**酒精性乾洗手的效能與限制**。\n\n### 選項分析\n- **(A)** 錯誤。每次需足量(約 **3 mL、搓揉至乾約 20–30 秒**),1 mL 不足。\n- **(B)** 錯誤。**對寄生蟲蟲卵無效**。\n- **(C)** 錯誤。**對腸病毒、諾羅病毒(無套膜)效果不佳**。\n- **(D)** **正確 → 本題答案**。對**有套膜病毒(流感、SARS-CoV-2)**有效。\n- **(E)** 以上皆正確 — 不對。\n\n### 答案解析\n酒精對有套膜的流感/新冠有效,故選 **(D)**。\n\n### 核心知識點\n- 酒精乾洗手對**有套膜病原**佳;**無套膜病毒(腸病毒/諾羅)、孢子(C. diff)、蟲卵無效 → 須肥皂+水**。足量約 3 mL。\n\n### 參考資料\n1. World Health Organization. *WHO Guidelines on Hand Hygiene in Health Care*. Geneva: WHO; 2009. https://www.who.int/publications/i/item/9789241597906\n2. CDC. Hand Hygiene in Healthcare Settings（MMWR 2002;RR-16）。https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+    "text": "### 本題觀念\n考**酒精性乾洗手的效能與限制**。\n\n### 選項分析\n- **(A)** 錯誤。每次需足量(約 **3 mL、搓揉至乾約 20–30 秒**),1 mL 不足。\n- **(B)** 錯誤。**對寄生蟲蟲卵無效**。\n- **(C)** 錯誤。**對無套膜病毒(腸病毒、諾羅)殺滅效果不穩定/較差**(故其流行時仍以肥皂洗手為佳)。\n- **(D)** **正確 → 本題答案**。對**有套膜病毒(流感、SARS-CoV-2)**有效。\n- **(E)** 以上皆正確 — 不對。\n\n### 答案解析\n酒精對有套膜的流感/新冠有效,故選 **(D)**。\n\n### 核心知識點\n- 酒精乾洗手對**有套膜病原**佳;**對無套膜病毒(腸病毒/諾羅)效果不穩定、孢子(C. diff)/蟲卵無效 → 須肥皂+水**。足量約 3 mL。\n\n### 參考資料\n1. World Health Organization. *WHO Guidelines on Hand Hygiene in Health Care*. Geneva: WHO; 2009. https://www.who.int/publications/i/item/9789241597906\n2. CDC. Hand Hygiene in Healthcare Settings（MMWR 2002;RR-16）。https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
     "status": "draft"
   },
   "111-089": {
@@ -60,7 +60,7 @@
     "status": "draft"
   },
   "111-095": {
-    "text": "### 本題觀念\n考**性病症候群與致病原配對**(與 113-080 同型)——找出錯誤。\n\n### 選項分析\n- **(A)** 正確。副睪炎 — Chlamydia trachomatis。\n- **(B)** 巴氏腺炎 — 多為混合菌/淋菌(此題非答案)。\n- **(C)** 正確。不孕 — N. gonorrhoeae(PID 後遺)。\n- **(D)** **錯誤 → 本題答案**。生殖器疣由 **HPV(6/11 型)** 造成;**HHV-8 對應 Kaposi 肉瘤**。\n- **(E)** 正確。生殖器潰瘍 — Haemophilus ducreyi(軟性下疳)。\n\n### 答案解析\n生殖器疣應對應 HPV 而非 HHV-8,故選 **(D)**。\n\n### 核心知識點\n- **HPV 6/11→疣**;HPV 16/18→癌前/癌;**HHV-8→Kaposi**;生殖器潰瘍鑑別:HSV、梅毒、軟性下疳(H. ducreyi)、LGV。\n\n### 參考資料\n1. Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. *MMWR Recomm Rep*. 2021;70(4):1-187. PMID: 34292926. DOI: 10.15585/mmwr.rr7004a1.（現行版）",
+    "text": "### 本題觀念\n考**性病症候群與致病原配對**(與 113-080 同型)——找出錯誤。\n\n### 選項分析\n- **(A)** 正確。副睪炎 — Chlamydia trachomatis。\n- **(B)** 巴氏腺炎 — 多為**混合菌/淋菌/披衣菌**(Trichomonas 非典型病原,此配對亦不佳;但本題以 (D) 為明確錯誤之答案)。\n- **(C)** 正確。不孕 — N. gonorrhoeae(PID 後遺)。\n- **(D)** **錯誤 → 本題答案**。生殖器疣由 **HPV(6/11 型)** 造成;**HHV-8 對應 Kaposi 肉瘤**。\n- **(E)** 正確。生殖器潰瘍 — Haemophilus ducreyi(軟性下疳)。\n\n### 答案解析\n生殖器疣應對應 HPV 而非 HHV-8,故選 **(D)**。\n\n### 核心知識點\n- **HPV 6/11→疣**;HPV 16/18→癌前/癌;**HHV-8→Kaposi**;生殖器潰瘍鑑別:HSV、梅毒、軟性下疳(H. ducreyi)、LGV。\n\n### 參考資料\n1. Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. *MMWR Recomm Rep*. 2021;70(4):1-187. PMID: 34292926. DOI: 10.15585/mmwr.rr7004a1.（現行版）",
     "status": "draft"
   },
   "111-096": {

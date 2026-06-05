@@ -8,7 +8,7 @@
     "status": "draft"
   },
   "105-101": {
-    "text": "### 本題觀念\n金門旅遊後發燒、皮疹、**焦痂** → **恙蟲病(scrub typhus)**——找出「為非」者。\n\n### 選項分析\n- **(A)** 正確。恙蟲病,Orientia tsutsugamushi。\n- **(B)** 正確。血清學佳,亦可取焦痂做 PCR。\n- **(C)** 正確。被**恙蟎幼蟲(chigger)**叮咬後潛伏 6–21 天。\n- **(D)** **為非 → 本題答案**。**經 doxycycline 治療後死亡率很低(<幾 %)**;「25–30%」為過高的概括敘述(僅見於未治療之部分高毒力株)。\n- **(E)** 正確。早期可見**相對性緩脈**。\n\n### 答案解析\n治療後死亡率低,故選 **(D)**。\n\n### 核心知識點\n- 恙蟲病:恙蟎傳播、焦痂、相對性緩脈;**doxycycline 治療、預後佳**;重症可 IV doxycycline＋azithromycin(INTREST)。\n\n### 參考資料\n1. Varghese GM, Dayanand D, Gunasekaran K, et al.（INTREST）。Intravenous Doxycycline, Azithromycin, or Both for Severe Scrub Typhus. *N Engl J Med*. 2023;388(9):792-803. PMID: 36856615. DOI: 10.1056/NEJMoa2208449.（合併療法較佳）\n2. 衛生福利部疾病管制署。恙蟲病。https://www.cdc.gov.tw/",
+    "text": "### 本題觀念\n金門旅遊後發燒、皮疹、**焦痂** → **恙蟲病(scrub typhus)**——找出「為非」者。\n\n### 選項分析\n- **(A)** 正確。恙蟲病,Orientia tsutsugamushi。\n- **(B)** 正確。血清學佳,亦可取焦痂做 PCR。\n- **(C)** 正確。被**恙蟎幼蟲(chigger)**叮咬後潛伏 6–21 天。\n- **(D)** **為非 → 本題答案**。**經 doxycycline 治療後死亡率 <2%**;未治療文獻差異大(中位約 6%,部分高毒力株可達數十%),故本題「感染死亡率約 25–30%」作為**概括陳述不正確**。\n- **(E)** 正確。早期可見**相對性緩脈**。\n\n### 答案解析\n治療後死亡率低,故選 **(D)**。\n\n### 核心知識點\n- 恙蟲病:恙蟎傳播、焦痂、相對性緩脈;**doxycycline 治療、預後佳**;重症可 IV doxycycline＋azithromycin(INTREST)。\n\n### 參考資料\n1. Varghese GM, Dayanand D, Gunasekaran K, et al.（INTREST）。Intravenous Doxycycline, Azithromycin, or Both for Severe Scrub Typhus. *N Engl J Med*. 2023;388(9):792-803. PMID: 36856615. DOI: 10.1056/NEJMoa2208449.（合併療法較佳）\n2. 衛生福利部疾病管制署。恙蟲病。https://www.cdc.gov.tw/",
     "status": "draft"
   },
   "105-102": {
@@ -40,7 +40,7 @@
     "status": "draft"
   },
   "105-109": {
-    "text": "### 本題觀念\n考**孕期抗生素的 Pregnancy category D(不建議使用)**。\n\n### 選項分析\n- **(A) Azithromycin**、**(B) Clindamycin**、**(C) Metronidazole**、**(D) Vancomycin** — 多屬較安全等級(B 類為主)。\n- **(E) Sulfonamide** — **category D → 本題答案**。近足月使用有**核黃疸(kernicterus)**風險。\n\n### 答案解析\nSulfonamide 屬 category D,故選 **(E)**。\n\n### 核心知識點\n- 孕期避免:**sulfonamide(近足月→kernicterus)、tetracycline(牙/骨)、aminoglycoside(耳毒)、FQ**;較安全:β-lactam、erythromycin、azithromycin、clindamycin、metronidazole。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Antibacterial Agents（孕期用藥））。\n2. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
+    "text": "### 本題觀念\n考**孕期抗生素的 Pregnancy category D(不建議使用)**。\n\n### 選項分析\n- **(A) Azithromycin**、**(B) Clindamycin**、**(C) Metronidazole**、**(D) Vancomycin** — 多屬較安全等級(B 類為主)。\n- **(E) Sulfonamide** — **本題答案**。**複方 TMP-SMX 列 category D**(單方 sulfamethoxazole 為 C);近足月使用有**核黃疸(kernicterus)**風險,相對其他選項最應避免。\n\n### 答案解析\nSulfonamide(尤其複方 TMP-SMX/近足月)風險最高,故選 **(E)**。\n\n### 核心知識點\n- 孕期避免:**sulfonamide(近足月→kernicterus)、tetracycline(牙/骨)、aminoglycoside(耳毒)、FQ**;較安全:β-lactam、erythromycin、azithromycin、clindamycin、metronidazole。\n\n### 參考資料\n1. Jameson JL, Fauci AS, Kasper DL, et al., eds. *Harrison's Principles of Internal Medicine*. 21st ed. McGraw Hill; 2022（Antibacterial Agents（孕期用藥））。\n2. Gilbert DN, Chambers HF, Saag MS, et al. *The Sanford Guide to Antimicrobial Therapy*. 55th ed. Antimicrobial Therapy, Inc.; 2025。",
     "status": "draft"
   },
   "105-110": {
@@ -56,7 +56,7 @@
     "status": "draft"
   },
   "105-113": {
-    "text": "### 本題觀念\n考**台灣季節性流感疫苗的接種率(流行病學數據)**。\n\n### 選項分析\n依台灣疾管署統計,**≥65 歲長者接種率約 40%**、**全人口接種率約 15–20%**。\n- **(C)** **正確 → 本題答案**(約 40% / 約 15–20%)。\n- **(A)/(B)/(D)** 數字過高或過低,皆不符。\n\n### 答案解析\n長者約 40%、全人口約 15–20%,故選 **(C)**。\n\n### 核心知識點\n- 台灣流感疫苗接種率:長者約 4 成、全人口約 1.5–2 成;公費對象(長者、幼兒、醫護、高風險)涵蓋率較高。\n\n### 參考資料\n1. 衛生福利部疾病管制署。流感疫苗接種統計。https://www.cdc.gov.tw/\n2. Uyeki TM, Bernstein HH, Bradley JS, et al. IDSA 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. *Clin Infect Dis*. 2019;68(6):e1-e47. PMID: 30566567. DOI: 10.1093/cid/ciy866.（現行版）",
+    "text": "### 本題觀念\n考**台灣季節性流感疫苗的接種率(流行病學數據)**。\n\n### 選項分析\n依台灣疾管署統計,**≥65 歲長者接種率約 40%**、**全人口接種率約 15–20%**。\n- **(C)** **正確 → 本題答案**(約 40% / 約 15–20%)。\n- **(A)/(B)/(D)** 數字過高或過低,皆不符。\n\n### 答案解析\n長者約 40%、全人口約 15–20%,故選 **(C)**。\n\n### 核心知識點\n- 台灣流感疫苗接種率:長者約 4 成、全人口約 1.5–2 成;公費對象(長者、幼兒、醫護、高風險)涵蓋率較高。(具體數字應以**疾管署當年度(約 103–104 年度)接種統計**為準。)\n\n### 參考資料\n1. 衛生福利部疾病管制署。流感疫苗接種統計。https://www.cdc.gov.tw/\n2. Uyeki TM, Bernstein HH, Bradley JS, et al. IDSA 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. *Clin Infect Dis*. 2019;68(6):e1-e47. PMID: 30566567. DOI: 10.1093/cid/ciy866.（現行版）",
     "status": "draft"
   },
   "105-114": {
@@ -80,7 +80,7 @@
     "status": "draft"
   },
   "105-119": {
-    "text": "### 本題觀念\n考 **WHO 手部衛生原則**——選正確組合。\n\n### 選項分析\n- **1.** 正確。酒精乾洗手在多數面向優於濕洗手(除明顯髒污)。\n- **2.** 正確。無明顯髒污時**優先用乾洗手**。\n- **3.** 錯誤。明顯髒污/血液體液應濕洗手,但 WHO 建議搓洗**約 40–60 秒**,「20 秒」偏短。\n- **4.** 正確。照護點普遍設置/隨身攜帶乾洗手液。\n- **5.** 錯誤。酒精**對諾羅、腸病毒(無套膜)效果不佳**。\n\n正確為 **1+2+4** → **(B)**。\n\n### 答案解析\n3、5 錯誤,故選 **(B)**。\n\n### 核心知識點\n- 乾洗手對**有套膜病原**佳;無套膜病毒/孢子須**肥皂+水**;WHO 五個洗手時機(My 5 Moments)。\n\n### 參考資料\n1. World Health Organization. *WHO Guidelines on Hand Hygiene in Health Care*. Geneva: WHO; 2009. https://www.who.int/publications/i/item/9789241597906\n2. CDC. Hand Hygiene in Healthcare Settings（MMWR 2002;RR-16）。https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+    "text": "### 本題觀念\n考 **WHO 手部衛生原則**——選正確組合。\n\n### 選項分析\n- **1.** 正確。酒精乾洗手在多數面向優於濕洗手(除明顯髒污)。\n- **2.** 正確。無明顯髒污時**優先用乾洗手**。\n- **3.** 錯誤。明顯髒污/血液體液應濕洗手;**WHO 全程建議 40–60 秒**(CDC 搓揉 ≥20 秒),本敘述「20 秒」與 WHO 標準不符故判錯(非指 20 秒於所有指引皆錯)。\n- **4.** 正確。照護點普遍設置/隨身攜帶乾洗手液。\n- **5.** 錯誤。酒精**對諾羅、腸病毒(無套膜)效果不佳**。\n\n正確為 **1+2+4** → **(B)**。\n\n### 答案解析\n3、5 錯誤,故選 **(B)**。\n\n### 核心知識點\n- 乾洗手對**有套膜病原**佳;無套膜病毒/孢子須**肥皂+水**;WHO 五個洗手時機(My 5 Moments)。\n\n### 參考資料\n1. World Health Organization. *WHO Guidelines on Hand Hygiene in Health Care*. Geneva: WHO; 2009. https://www.who.int/publications/i/item/9789241597906\n2. CDC. Hand Hygiene in Healthcare Settings（MMWR 2002;RR-16）。https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
     "status": "draft"
   }
 }
