@@ -7,3 +7,10 @@ dist-ssr
 
 # 詳解 v2 重寫的暫存工作區(草稿/匯出/建構腳本);完成後會合併進 src/data/explanations.<年>.json
 tmp_drafts/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
