@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "validate": "python3 tools/validate.py"
+    "preview": "npm run build && wrangler dev",
+    "validate": "python3 tools/validate.py",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -15,8 +16,10 @@
     "react-markdown": "^10.1.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.40.0",
     "@vitejs/plugin-react": "^5.0.0",
     "vite": "^7.0.0",
-    "vite-plugin-pwa": "^1.0.0"
+    "vite-plugin-pwa": "^1.0.0",
+    "wrangler": "^4.98.0"
   }
 }
