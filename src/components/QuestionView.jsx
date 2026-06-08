@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { letter, subjectColor, isCorrect } from '../lib/util.js'
+import ExportMenu from './ExportMenu.jsx'
 
 // 附圖:切題時用 key 強制換新元素(避免顯示上一題的舊圖),載入中顯示佔位。
 function FigureImage({ src, alt }) {
@@ -105,6 +106,9 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
               </div>
             </div>
           )}
+          <div className="q-export-row">
+            <ExportMenu questions={[q]} label="匯出本題" compact />
+          </div>
         </div>
       )}
     </div>

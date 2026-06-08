@@ -1,6 +1,8 @@
 import SubjectStats from './SubjectStats.jsx'
+import { APP_VERSION, hasUnseenUpdate } from '../lib/version.js'
 
-export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup }) {
+export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout }) {
+  const unseen = hasUnseenUpdate()
   const total = index.length
   const results = progress.results
   const answered = Object.keys(results).length
@@ -63,6 +65,12 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
       </div>
 
       <footer className="foot">
+        <p>
+          <button className="link-inline ver-btn" onClick={onOpenAbout}>
+            版本 v{APP_VERSION}・更新紀錄
+            {unseen && <span className="ver-dot" aria-label="有更新" />}
+          </button>
+        </p>
         <p>製作人:dirtywolf1213</p>
         <p>進度只存在這台裝置的瀏覽器</p>
         <p className="foot-disc">

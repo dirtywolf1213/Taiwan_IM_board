@@ -1,0 +1,15 @@
+# Cloudflare Pages / Workers 靜態資源快取規則
+# 目的:HTML 與 service worker 不被邊緣/瀏覽器長期快取(才能即時偵測新版),
+#       帶 hash 的靜態資產則可長期不可變快取。
+
+/index.html
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+/registerSW.js
+  Cache-Control: no-cache
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
