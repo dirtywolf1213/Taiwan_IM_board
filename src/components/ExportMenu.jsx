@@ -6,7 +6,8 @@ import { useEffect, useRef, useState } from 'react'
 //   questions  要匯出的題目陣列(單題就傳一個元素)
 //   label      按鈕文字(預設「匯出/分享」)
 //   compact    小尺寸樣式(用在單題工具列)
-export default function ExportMenu({ questions, label = '匯出 / 分享', compact = false }) {
+//   drop       選單展開方向:'up'(預設,適合頁面底部)/ 'down'(適合頁面頂部)
+export default function ExportMenu({ questions, label = '匯出 / 分享', compact = false, drop = 'up' }) {
   const [open, setOpen] = useState(false)
   const [toast, setToast] = useState('')
   const ref = useRef(null)
@@ -51,13 +52,13 @@ export default function ExportMenu({ questions, label = '匯出 / 分享', compa
         ⬇ {label}{list.length > 1 ? `(${list.length})` : ''}
       </button>
       {open && (
-        <div className="export-pop" role="menu">
+        <div className={`export-pop drop-${drop}`} role="menu">
           <button onClick={doCopy}>📋 複製 Markdown<small>貼給其他 AI / 訊息最方便</small></button>
           <button onClick={doDownload}>📄 下載 .md<small>純文字檔</small></button>
           <button onClick={doPDF}>🖨 匯出 PDF<small>含附圖,適合分享 / 列印</small></button>
         </div>
       )}
-      {toast && <span className="export-toast">{toast}</span>}
+      {toast && <span className={`export-toast drop-${drop}`}>{toast}</span>}
     </div>
   )
 }

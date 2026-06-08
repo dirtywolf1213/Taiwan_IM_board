@@ -72,7 +72,7 @@ export default function Practice({ mode, subject, year, questions, progress, onA
 
       <div className="jump-row">
         <div className="progress-bar"><span style={{ width: `${((i + 1) / list.length) * 100}%` }} /></div>
-        <ExportMenu questions={list} label="匯出" compact />
+        <ExportMenu questions={list} label="匯出" compact drop="down" />
         <button className="jump-toggle" onClick={() => setShowJump((v) => !v)}>
           跳題 {showJump ? '▲' : '▼'}
         </button>

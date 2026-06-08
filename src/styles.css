@@ -338,11 +338,13 @@ button { font-family: inherit; cursor: pointer; }
 }
 .export-menu.compact .export-btn { padding: 6px 10px; font-size: 0.8rem; }
 .export-pop {
-  position: absolute; right: 0; bottom: calc(100% + 6px); z-index: 60;
+  position: absolute; right: 0; z-index: 60;
   background: #fff; border: 1px solid var(--line); border-radius: 12px;
   box-shadow: 0 8px 28px rgba(15, 23, 42, 0.18); padding: 6px; min-width: 220px;
   display: flex; flex-direction: column; gap: 2px;
 }
+.export-pop.drop-up { bottom: calc(100% + 6px); }
+.export-pop.drop-down { top: calc(100% + 6px); }
 .export-pop button {
   display: flex; flex-direction: column; align-items: flex-start; text-align: left;
   background: none; border: none; border-radius: 8px; padding: 9px 10px; cursor: pointer;
@@ -351,8 +353,10 @@ button { font-family: inherit; cursor: pointer; }
 .export-pop button:hover { background: #f1f5f9; }
 .export-pop button small { color: var(--muted); font-size: 0.74rem; margin-top: 1px; }
 .export-toast {
-  position: absolute; right: 0; bottom: calc(100% + 6px); z-index: 60;
+  position: absolute; right: 0; z-index: 60;
   background: var(--teal-dark); color: #fff; border-radius: 8px; padding: 7px 12px;
   font-size: 0.8rem; white-space: nowrap; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.25);
 }
+.export-toast.drop-up { bottom: calc(100% + 6px); }
+.export-toast.drop-down { top: calc(100% + 6px); }
 .q-export-row { display: flex; justify-content: flex-end; margin-top: 12px; }
