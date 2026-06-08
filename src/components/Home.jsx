@@ -1,7 +1,7 @@
 import SubjectStats from './SubjectStats.jsx'
 import { APP_VERSION, hasUnseenUpdate } from '../lib/version.js'
 
-export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout }) {
+export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual }) {
   const unseen = hasUnseenUpdate()
   const total = index.length
   const results = progress.results
@@ -25,6 +25,7 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
       <header className="hero">
         <h1>內科專科考試刷題</h1>
         <p className="sub">台灣內科專科醫師甄審・練習題庫</p>
+        <button className="manual-btn" onClick={onOpenManual}>📖 使用說明</button>
       </header>
 
       <section className="stats">

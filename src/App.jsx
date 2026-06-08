@@ -9,6 +9,7 @@ import SubjectPicker from './components/SubjectPicker.jsx'
 import YearPicker from './components/YearPicker.jsx'
 import BackupModal from './components/BackupModal.jsx'
 import AboutModal from './components/AboutModal.jsx'
+import UserManual from './components/UserManual.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
@@ -26,6 +27,7 @@ export default function App() {
   const [showDisclaimer, setShowDisclaimer] = useState(false)
   const [backup, setBackup] = useState(null)
   const [showAbout, setShowAbout] = useState(false)
+  const [showManual, setShowManual] = useState(false)
 
   useEffect(() => saveProgress(progress), [progress])
 
@@ -132,9 +134,11 @@ export default function App() {
         onOpenDisclaimer={() => setShowDisclaimer(true)}
         onBackup={setBackup}
         onOpenAbout={() => setShowAbout(true)}
+        onOpenManual={() => setShowManual(true)}
       />
       {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
+      {showManual && <UserManual onClose={() => setShowManual(false)} />}
       {backup && (
         <BackupModal
           mode={backup}
