@@ -3,15 +3,22 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 import { readFileSync } from 'node:fs'
 import { execSync } from 'node:child_process'
+import { fileURLToPath } from 'node:url'
+import { dirname, resolve } from 'node:path'
 
 // 部署到子路徑時(例如 GitHub Pages)可用 BASE_PATH 覆寫
 const base = process.env.BASE_PATH || '/'
 
 // 版本資訊:版本號以 changelog 第一筆為單一真實來源;另記錄 build 時間與 git commit。
-const changelog = JSON.parse(readFileSync('./src/data/changelog.json', 'utf8'))
-const version = changelog[0]?.version || '0.0.0'
+// 全部包在 try/catch 並以「本檔位置」解析路徑,確保任何工作目錄下載入此 config 都不會丟例外。
+const here = dirname(fileURLToPath(import.meta.url))
+let version = '0.0.0'
+try {
+  const changelog = JSON.parse(readFileSync(resolve(here, 'src/data/changelog.json'), 'utf8'))
+  version = changelog[0]?.version || version
+} catch { /* 讀不到 changelog 時用預設版本 */ }
 let gitSha = 'dev'
-try { gitSha = execSync('git rev-parse --short HEAD').toString().trim() } catch { /* 無 git 時忽略 */ }
+try { gitSha = execSync('git rev-parse --short HEAD', { cwd: here }).toString().trim() } catch { /* 無 git 時忽略 */ }
 
 export default defineConfig({
   base,
