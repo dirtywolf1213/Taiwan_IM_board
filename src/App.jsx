@@ -11,6 +11,7 @@ import YearPicker from './components/YearPicker.jsx'
 import BackupModal from './components/BackupModal.jsx'
 import AboutModal from './components/AboutModal.jsx'
 import UserManual from './components/UserManual.jsx'
+import StatsModal from './components/StatsModal.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
@@ -29,6 +30,7 @@ export default function App() {
   const [backup, setBackup] = useState(null)
   const [showAbout, setShowAbout] = useState(false)
   const [showManual, setShowManual] = useState(false)
+  const [showStats, setShowStats] = useState(false)
 
   useEffect(() => saveProgress(progress), [progress])
 
@@ -170,10 +172,12 @@ export default function App() {
         onBackup={setBackup}
         onOpenAbout={() => setShowAbout(true)}
         onOpenManual={() => setShowManual(true)}
+        onOpenStats={() => setShowStats(true)}
       />
       {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
       {showManual && <UserManual onClose={() => setShowManual(false)} />}
+      {showStats && <StatsModal index={index} progress={progress} onClose={() => setShowStats(false)} />}
       {backup && (
         <BackupModal
           mode={backup}

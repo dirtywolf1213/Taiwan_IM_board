@@ -2,7 +2,10 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import UpdatePrompt from './components/UpdatePrompt.jsx'
+import { applyTheme, getTheme } from './lib/theme.js'
 import './styles.css'
+
+applyTheme(getTheme()) // 進站即套用深/淺色,避免閃白
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>

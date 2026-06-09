@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import SubjectStats from './SubjectStats.jsx'
 import { APP_VERSION, hasUnseenUpdate } from '../lib/version.js'
 import { dueCount } from '../lib/srs.js'
+import { getTheme, toggleTheme } from '../lib/theme.js'
 
-export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual }) {
+export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual, onOpenStats }) {
   const unseen = hasUnseenUpdate()
   const total = index.length
   const results = progress.results
@@ -12,6 +14,7 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
   const acc = answered ? Math.round((correct / answered) * 100) : 0
   const favCount = (progress.favorites || []).length
   const dueN = dueCount(progress.srs)
+  const [theme, setThemeState] = useState(getTheme())
 
   // 各科作答正確率(依歷史紀錄,用輕量索引對應科目)
   const bySubject = {}
@@ -28,7 +31,12 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
       <header className="hero">
         <h1>內科專科考試刷題</h1>
         <p className="sub">台灣內科專科醫師甄審・練習題庫</p>
-        <button className="manual-btn" onClick={onOpenManual}>📖 使用說明</button>
+        <div className="hero-btns">
+          <button className="manual-btn" onClick={onOpenManual}>📖 使用說明</button>
+          <button className="manual-btn" onClick={() => setThemeState(toggleTheme())}>
+            {theme === 'dark' ? '☀️ 淺色' : '🌙 深色'}
+          </button>
+        </div>
       </header>
 
       <section className="stats">
@@ -75,6 +83,13 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
       </section>
 
       {answered > 0 && <SubjectStats stats={bySubject} title="各科正確率" />}
+      {answered > 0 && (
+        <div className="stats-link-row">
+          <button className="mode-btn" onClick={onOpenStats}>
+            📊 學習統計與報告<small>各科/各年完成度・正確率・匯出 PDF 報告</small>
+          </button>
+        </div>
+      )}
 
       <div className="backup-links">
         {answered > 0 && <button className="link-btn" onClick={() => onBackup('export')}>匯出進度（備份）</button>}
