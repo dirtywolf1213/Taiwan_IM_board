@@ -213,3 +213,6 @@ python3 tools/extract_figures.py --year 114
 - [x] App 內版本/更新提示(提示式更新＋更新紀錄＋一鍵刷新最新版)
 - [x] 做題頁一鍵匯出/分享(複製 Markdown / 下載 .md / 匯出 PDF,含附圖)
 - [x] Cloudflare Pages/Workers 部署支援(`public/_headers` 快取規則)
+- [x] 參考資料 PMID/DOI 可點擊連結;逐年嚴格審核詳解(最新版指引、查證 PMID)
+- [x] 題目收藏 ★、個人筆記 📝、間隔複習(到期複習)、學習統計與 PDF 報告、深色模式
+- [x] 進度備份壓縮(gzip)、更新/刷新前提醒匯出備份
