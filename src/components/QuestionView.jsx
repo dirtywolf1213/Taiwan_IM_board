@@ -30,6 +30,30 @@ function FigureImage({ src, alt }) {
   )
 }
 
+// 個人筆記編輯器:切題時自動載入該題筆記,輸入即存(失焦時寫入)。
+function NoteEditor({ id, note, onSetNote }) {
+  const [open, setOpen] = useState(false)
+  const [text, setText] = useState(note || '')
+  useEffect(() => { setText(note || ''); setOpen(!!note) }, [id, note])
+  const save = () => { if ((text || '') !== (note || '')) onSetNote(id, text) }
+  return (
+    <div className="note-block">
+      <button className="note-toggle" onClick={() => setOpen((v) => !v)}>
+        📝 我的筆記{note ? ' ●' : ''} {open ? '▲' : '▼'}
+      </button>
+      {open && (
+        <textarea
+          className="note-area"
+          placeholder="寫下自己的筆記、口訣、易錯點…(只存在本機,會跟著備份)"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          onBlur={save}
+        />
+      )}
+    </div>
+  )
+}
+
 // 顯示一題:題幹、(附圖)、選項。
 // props:
 //   q          題目物件
@@ -37,7 +61,12 @@ function FigureImage({ src, alt }) {
 //   revealed   是否顯示正解與詳解(練習模式作答後 / 模擬考檢討時)
 //   onChoose   選擇選項的 callback(index)
 //   index/total 進度顯示
-export default function QuestionView({ q, chosen, revealed, onChoose, index, total }) {
+//   favorited / onToggleFav   收藏狀態與切換
+//   note / onSetNote          個人筆記
+export default function QuestionView({
+  q, chosen, revealed, onChoose, index, total,
+  favorited, onToggleFav, note, onSetNote,
+}) {
   return (
     <div className="card">
       <div className="q-meta">
@@ -52,7 +81,19 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
             </span>
           )}
         </span>
-        <span>{index + 1} / {total}</span>
+        <span className="q-meta-right">
+          {onToggleFav && (
+            <button
+              className={`fav-btn ${favorited ? 'on' : ''}`}
+              onClick={() => onToggleFav(q.id)}
+              aria-label={favorited ? '取消收藏' : '收藏這題'}
+              title={favorited ? '取消收藏' : '收藏這題'}
+            >
+              {favorited ? '★' : '☆'}
+            </button>
+          )}
+          {index + 1} / {total}
+        </span>
       </div>
 
       <p className="q-stem">{q.question}</p>
@@ -117,6 +158,8 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
           </div>
         </div>
       )}
+
+      {onSetNote && <NoteEditor id={q.id} note={note} onSetNote={onSetNote} />}
     </div>
   )
 }

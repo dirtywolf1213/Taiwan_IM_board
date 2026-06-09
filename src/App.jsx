@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { index, loadAll, loadYear, loadYearsForIds } from './data/questions.js'
 import { loadProgress, saveProgress } from './lib/storage.js'
+import { nextSrs, dueIds } from './lib/srs.js'
 import Home from './components/Home.jsx'
 import Practice from './components/Practice.jsx'
 import Mock from './components/Mock.jsx'
@@ -43,8 +44,25 @@ export default function App() {
   const recordAnswer = (id, chosen, correct) => {
     setProgress((p) => ({
       ...p,
-      results: { ...p.results, [id]: { chosen, correct, ts: Date.now() } },
+      results: { ...p.results, [id]: { chosen, correct } },
+      srs: { ...p.srs, [id]: nextSrs(p.srs?.[id], correct) },
     }))
+  }
+
+  const toggleFavorite = (id) => {
+    setProgress((p) => {
+      const favs = p.favorites || []
+      const has = favs.includes(id)
+      return { ...p, favorites: has ? favs.filter((x) => x !== id) : [...favs, id] }
+    })
+  }
+
+  const setNote = (id, text) => {
+    setProgress((p) => {
+      const notes = { ...(p.notes || {}) }
+      if (text && text.trim()) notes[id] = text; else delete notes[id]
+      return { ...p, notes }
+    })
   }
 
   // 動態載入需要的年份後再進入該畫面
@@ -70,6 +88,12 @@ export default function App() {
         .filter(([, r]) => !r.correct).map(([id]) => id)
       setMode('wrong')
       enter(() => loadYearsForIds(wrongIds), 'practice')
+    } else if (m === 'fav') {
+      setMode('fav')
+      enter(() => loadYearsForIds(progress.favorites || []), 'practice')
+    } else if (m === 'due') {
+      setMode('due')
+      enter(() => loadYearsForIds(dueIds(progress.srs)), 'practice')
     } else {
       setMode('random')
       enter(loadAll, 'practice')
@@ -90,7 +114,7 @@ export default function App() {
 
   const reset = () => {
     if (confirm('確定要清除所有作答紀錄嗎?此動作無法復原。')) {
-      setProgress({ results: {}, favorites: [] })
+      setProgress({ results: {}, favorites: [], notes: {}, srs: {} })
     }
   }
 
@@ -115,13 +139,24 @@ export default function App() {
         questions={session}
         progress={progress}
         onAnswer={recordAnswer}
+        onToggleFav={toggleFavorite}
+        onSetNote={setNote}
         onExit={() => setView('home')}
       />
     )
   }
 
   if (view === 'mock') {
-    return <Mock questions={session} onAnswer={recordAnswer} onExit={() => setView('home')} />
+    return (
+      <Mock
+        questions={session}
+        progress={progress}
+        onAnswer={recordAnswer}
+        onToggleFav={toggleFavorite}
+        onSetNote={setNote}
+        onExit={() => setView('home')}
+      />
+    )
   }
 
   return (

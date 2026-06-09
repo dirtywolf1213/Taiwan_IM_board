@@ -374,3 +374,21 @@ button { font-family: inherit; cursor: pointer; }
 .update-modal .modal-body .mode-btn { width: 100%; margin-top: 4px; }
 .update-modal-actions { display: flex; gap: 10px; }
 .update-modal-actions .mode-btn { flex: 1; align-items: center; }
+
+/* 收藏星號 + 筆記 */
+.q-meta-right { display: inline-flex; align-items: center; gap: 8px; }
+.fav-btn {
+  background: none; border: none; font-size: 1.25rem; line-height: 1;
+  color: #cbd5e1; padding: 0 2px;
+}
+.fav-btn.on { color: #f59e0b; }
+.note-block { margin-top: 12px; border-top: 1px dashed var(--line); padding-top: 10px; }
+.note-toggle {
+  background: none; border: none; color: var(--teal-dark); font-weight: 600;
+  font-size: 0.85rem; padding: 2px 0;
+}
+.note-area {
+  width: 100%; min-height: 70px; resize: vertical; margin-top: 8px;
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px;
+  font-family: inherit; font-size: 0.9rem; box-sizing: border-box;
+}

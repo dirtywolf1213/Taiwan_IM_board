@@ -20,7 +20,9 @@ export function saveProgress(p) {
 }
 
 function defaults() {
-  // results: { [id]: { chosen, correct, ts } } — 每題最近一次作答
-  // favorites: [id]
-  return { results: {}, favorites: [] }
+  // results:   { [id]: { chosen, correct } } — 每題最近一次作答
+  // favorites: [id]                          — 收藏的題目
+  // notes:     { [id]: text }                — 個人筆記
+  // srs:       { [id]: { box, due } }        — 間隔複習(Leitner)狀態
+  return { results: {}, favorites: [], notes: {}, srs: {} }
 }

@@ -3,7 +3,7 @@ import QuestionView from './QuestionView.jsx'
 import SubjectStats from './SubjectStats.jsx'
 import { shuffle, fmtTime, preloadImage, isCorrect } from '../lib/util.js'
 
-export default function Mock({ questions, onAnswer, onExit }) {
+export default function Mock({ questions, progress = {}, onAnswer, onToggleFav, onSetNote, onExit }) {
   const [phase, setPhase] = useState('setup') // setup | exam | result
   const [list, setList] = useState([])
   const [answers, setAnswers] = useState({})
@@ -110,7 +110,9 @@ export default function Mock({ questions, onAnswer, onExit }) {
         <SubjectStats stats={bySubject} title="各科答對統計" />
         <p className="review-title">逐題檢討</p>
         {list.map((q, idx) => (
-          <QuestionView key={q.id} q={q} chosen={answers[q.id] ?? null} revealed index={idx} total={list.length} />
+          <QuestionView key={q.id} q={q} chosen={answers[q.id] ?? null} revealed index={idx} total={list.length}
+            favorited={(progress.favorites || []).includes(q.id)} onToggleFav={onToggleFav}
+            note={(progress.notes || {})[q.id]} onSetNote={onSetNote} />
         ))}
         <div className="nav">
           <button className="primary" onClick={onExit}>回首頁</button>
@@ -139,6 +141,8 @@ export default function Mock({ questions, onAnswer, onExit }) {
         onChoose={(idx) => setAnswers((a) => ({ ...a, [q.id]: idx }))}
         index={i}
         total={list.length}
+        favorited={(progress.favorites || []).includes(q.id)}
+        onToggleFav={onToggleFav}
       />
 
       <div className="grid-jump">

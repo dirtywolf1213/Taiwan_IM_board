@@ -1,5 +1,6 @@
 import SubjectStats from './SubjectStats.jsx'
 import { APP_VERSION, hasUnseenUpdate } from '../lib/version.js'
+import { dueCount } from '../lib/srs.js'
 
 export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual }) {
   const unseen = hasUnseenUpdate()
@@ -9,6 +10,8 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
   const correct = Object.values(results).filter((r) => r.correct).length
   const wrongIds = Object.entries(results).filter(([, r]) => !r.correct).map(([id]) => id)
   const acc = answered ? Math.round((correct / answered) * 100) : 0
+  const favCount = (progress.favorites || []).length
+  const dueN = dueCount(progress.srs)
 
   // 各科作答正確率(依歷史紀錄,用輕量索引對應科目)
   const bySubject = {}
@@ -47,10 +50,24 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
         </button>
         <button
           className="mode-btn"
+          onClick={() => onStart('due')}
+          disabled={dueN === 0}
+        >
+          到期複習<small>{dueN ? `${dueN} 題到期(間隔複習)` : '目前沒有到期題目'}</small>
+        </button>
+        <button
+          className="mode-btn"
           onClick={() => onStart('wrong')}
           disabled={wrongIds.length === 0}
         >
           錯題複習<small>{wrongIds.length ? `${wrongIds.length} 題待複習` : '目前沒有錯題'}</small>
+        </button>
+        <button
+          className="mode-btn"
+          onClick={() => onStart('fav')}
+          disabled={favCount === 0}
+        >
+          我的收藏 ★<small>{favCount ? `${favCount} 題收藏` : '點題目的 ☆ 即可收藏'}</small>
         </button>
         <button className="mode-btn" onClick={() => onStart('mock')}>
           模擬考<small>計時・交卷計分</small>

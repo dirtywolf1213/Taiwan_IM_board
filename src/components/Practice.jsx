@@ -2,10 +2,11 @@ import { useEffect, useMemo, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
 import ExportMenu from './ExportMenu.jsx'
 import { shuffle, subjectColor, preloadImage, isCorrect } from '../lib/util.js'
+import { dueIds } from '../lib/srs.js'
 
-const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習' }
+const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習', fav: '我的收藏', due: '到期複習' }
 
-export default function Practice({ mode, subject, year, questions, progress, onAnswer, onExit }) {
+export default function Practice({ mode, subject, year, questions, progress, onAnswer, onToggleFav, onSetNote, onExit }) {
   // 依模式決定題目順序(只在進入時計算一次)
   const list = useMemo(() => {
     if (mode === 'random') return shuffle(questions)
@@ -14,6 +15,14 @@ export default function Practice({ mode, subject, year, questions, progress, onA
         Object.entries(progress.results).filter(([, r]) => !r.correct).map(([id]) => id),
       )
       return questions.filter((q) => wrong.has(q.id))
+    }
+    if (mode === 'fav') {
+      const favs = new Set(progress.favorites || [])
+      return questions.filter((q) => favs.has(q.id)).sort((a, b) => b.year - a.year || a.num - b.num)
+    }
+    if (mode === 'due') {
+      const due = new Set(dueIds(progress.srs))
+      return questions.filter((q) => due.has(q.id)).sort((a, b) => b.year - a.year || a.num - b.num)
     }
     if (mode === 'subject') return questions.filter((q) => q.subject === subject)
     if (mode === 'year') {
@@ -102,6 +111,10 @@ export default function Practice({ mode, subject, year, questions, progress, onA
         onChoose={choose}
         index={i}
         total={list.length}
+        favorited={(progress.favorites || []).includes(q.id)}
+        onToggleFav={onToggleFav}
+        note={(progress.notes || {})[q.id]}
+        onSetNote={onSetNote}
       />
 
       <div className="nav">
