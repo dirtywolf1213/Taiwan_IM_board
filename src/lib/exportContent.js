@@ -1,6 +1,7 @@
 import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { letter, correctSet } from './util.js'
 import { APP_VERSION } from './version.js'
 
@@ -84,7 +85,7 @@ const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => (
   { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
 ))
 
-const mdToHtml = (md) => renderToStaticMarkup(createElement(ReactMarkdown, null, md || ''))
+const mdToHtml = (md) => renderToStaticMarkup(createElement(ReactMarkdown, { remarkPlugins: [remarkGfm] }, md || ''))
 
 function questionToHtml(q) {
   const opts = q.options.map((opt, i) =>

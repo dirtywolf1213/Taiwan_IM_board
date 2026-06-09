@@ -1,7 +1,13 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { letter, subjectColor, isCorrect } from '../lib/util.js'
 import ExportMenu from './ExportMenu.jsx'
+
+// 詳解內參考資料的連結:一律新分頁開啟,方便使用者點開查證原文。
+const LinkNewTab = ({ href, children }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer">{children}</a>
+)
 
 // 附圖:切題時用 key 強制換新元素(避免顯示上一題的舊圖),載入中顯示佔位。
 function FigureImage({ src, alt }) {
@@ -102,7 +108,7 @@ export default function QuestionView({ q, chosen, revealed, onChoose, index, tot
                 )}
               </div>
               <div className="explanation-body">
-                <ReactMarkdown>{q.explanation}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: LinkNewTab }}>{q.explanation}</ReactMarkdown>
               </div>
             </div>
           )}

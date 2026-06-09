@@ -17,9 +17,11 @@
 
 ## 1. 三大最高原則（操作者最在意，依序）
 
-### ① 最新（Currency）
-- 每題的指引/證據**必須是現行最新版**。下筆前**用 WebSearch 確認有沒有更新版**（指引改版較快的領域尤其要查:Sepsis、CAP、HAP/VAP、AMR、TB、疫苗排程、HF、AF、DM、COVID）。
-- 若詳解引用了**舊版指引、而已有新版**，且**未標注**→ **FLAG**，並指出新版（名稱+年份+PMID/DOI）。
+### ① 最新（Currency）— 本輪審核重點
+- 每題的指引/證據**必須是現行最新版**。**逐題用 WebSearch 查「這個主題的指引有沒有更新版」**（改版快的領域尤其要查:AF、HF、ACS/冠心、HTN、血脂、CKD、DM、Sepsis、CAP、HAP/VAP、COPD/GOLD、氣喘/GINA、TB、VTE、RA、SLE、痛風、ANCA、各癌別 NCCN/ASCO…）。
+- 若詳解引用了**舊版指引、而已有新版**，且**未標注**→ **FLAG**，並在建議裡給出**新版**（名稱+年份+PMID/DOI+連結）。**使用者特別反映「很多 reference 還是舊版」,本輪請從嚴抓。**
+- **🔗 每一筆參考資料都要有「可點擊連結」**（PMID→`https://pubmed.ncbi.nlm.nih.gov/<id>/`、DOI→`https://doi.org/<doi>`、指引→官方網址,Markdown `[..](..)` 形式）。**缺連結 → FLAG** 並補上。
+- **舊考題**:該考點當年證據/指引若與現行不同,詳解**必須點出「當年依據 vs 現行差異」**;只寫一邊而未對照 → FLAG。
 - 若某主題權威指引**確實尚未改版**（如 IDSA 腦膜炎 2004、SSTI 2014、CA-UTI 2010）→ 可接受，但詳解**必須標「(現行版,尚未改版)」**;沒標 → FLAG 要求補標。
 - 檢查是否漏掉**改變實務的關鍵新試驗/新藥**（例:TB 4 個月療程、隱球菌單劑 L-amB（AMBITION）、CDI fidaxomicin、流感 baloxavir、帶狀疱疹 Shingrix、SSC 2021…）。該補而未補 → FLAG。
 
