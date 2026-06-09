@@ -368,3 +368,9 @@ button { font-family: inherit; cursor: pointer; }
   padding: 6px 16px; font-size: 0.85rem; font-weight: 600; cursor: pointer;
 }
 .manual-btn:hover { background: #f0fdfa; }
+
+/* 更新前提醒視窗 */
+.update-modal { max-width: 440px; }
+.update-modal .modal-body .mode-btn { width: 100%; margin-top: 4px; }
+.update-modal-actions { display: flex; gap: 10px; }
+.update-modal-actions .mode-btn { flex: 1; align-items: center; }

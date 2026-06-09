@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { encodeProgress, decodeProgress, countAnswered } from '../lib/backup.js'
 
 // mode: 'export' | 'import'
@@ -6,10 +6,18 @@ import { encodeProgress, decodeProgress, countAnswered } from '../lib/backup.js'
 // import: 貼上備份碼或選檔,套用後取代現有進度
 export default function BackupModal({ mode, progress, onApply, onClose }) {
   const isExport = mode === 'export'
-  const code = isExport ? encodeProgress(progress) : ''
+  const [code, setCode] = useState('')
   const [text, setText] = useState('')
   const [msg, setMsg] = useState('')
   const [err, setErr] = useState('')
+
+  // 備份碼以非同步方式產生(含 gzip 壓縮)
+  useEffect(() => {
+    if (!isExport) return
+    let on = true
+    encodeProgress(progress).then((c) => { if (on) setCode(c) })
+    return () => { on = false }
+  }, [isExport, progress])
 
   const copy = async () => {
     try {
@@ -38,11 +46,11 @@ export default function BackupModal({ mode, progress, onApply, onClose }) {
     reader.readAsText(f)
   }
 
-  const apply = () => {
+  const apply = async () => {
     setErr('')
     let p
     try {
-      p = decodeProgress(text)
+      p = await decodeProgress(text)
     } catch (e) {
       setErr(e.message)
       return
@@ -63,10 +71,10 @@ export default function BackupModal({ mode, progress, onApply, onClose }) {
                 複製下方備份碼或下載檔案保存。換裝置 / 清快取後,用「匯入進度」貼回即可還原。
                 目前共 {countAnswered(progress)} 題作答紀錄。
               </p>
-              <textarea className="backup-area" readOnly value={code} onFocus={(e) => e.target.select()} />
+              <textarea className="backup-area" readOnly value={code} placeholder="備份碼產生中…" onFocus={(e) => e.target.select()} />
               <div className="backup-btns">
-                <button className="mode-btn" onClick={copy}>複製備份碼</button>
-                <button className="mode-btn" onClick={download}>下載檔案</button>
+                <button className="mode-btn" onClick={copy} disabled={!code}>複製備份碼</button>
+                <button className="mode-btn" onClick={download} disabled={!code}>下載檔案</button>
               </div>
               {msg && <p className="backup-msg">{msg}</p>}
             </>
