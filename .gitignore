@@ -7,3 +7,6 @@ dist-ssr
 
 # 詳解 v2 重寫的暫存工作區(草稿/匯出/建構腳本);完成後會合併進 src/data/explanations.<年>.json
 tmp_drafts/
+
+# AI 審核的中間產物(verdict 行);內容會注入 review/<科>_<年>.md 審核稿,毋須入庫
+review/verdicts_*.txt
