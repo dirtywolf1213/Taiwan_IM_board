@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { APP_VERSION, BUILD_TIME, GIT_SHA, CHANGELOG, markVersionSeen, forceRefresh } from '../lib/version.js'
 import { loadProgress } from '../lib/storage.js'
-import { downloadBackup, countAnswered } from '../lib/backup.js'
+import { encodeProgress, downloadBackup, countAnswered } from '../lib/backup.js'
 
 function fmtBuild(iso) {
   try {
@@ -13,17 +13,26 @@ function fmtBuild(iso) {
 
 export default function AboutModal({ onClose }) {
   const [confirming, setConfirming] = useState(false)
-  const [saved, setSaved] = useState(false)
+  const [code, setCode] = useState('')
+  const [msg, setMsg] = useState('')
   const [refreshing, setRefreshing] = useState(false)
   const answered = countAnswered(loadProgress())
 
   // 開啟即視為「已看過此版本」(清除首頁紅點)
   useEffect(() => { markVersionSeen() }, [])
+  // 預先編好備份碼,讓「複製」能在點擊當下同步取用
+  useEffect(() => {
+    if (!confirming) return
+    let on = true
+    encodeProgress(loadProgress()).then((c) => { if (on) setCode(c) })
+    return () => { on = false }
+  }, [confirming])
 
-  const exportFirst = async () => {
-    try { await downloadBackup(loadProgress()); setSaved(true) }
-    catch { setSaved(true) }
+  const copyCode = async () => {
+    try { await navigator.clipboard.writeText(code); setMsg('已複製備份碼') }
+    catch { setMsg('複製失敗,請改用下載') }
   }
+  const download = async () => { await downloadBackup(loadProgress()); setMsg('已下載備份檔') }
   const doRefresh = async () => { setRefreshing(true); await forceRefresh() }
 
   // 刷新前先提醒備份(與「立即更新」一致)
@@ -38,10 +47,11 @@ export default function AboutModal({ onClose }) {
               萬一紀錄不見可用「匯入進度」一鍵還原。
               {answered > 0 ? `目前共 ${answered} 題作答紀錄。` : '目前尚無作答紀錄。'}
             </p>
-            <button className="mode-btn" onClick={exportFirst} disabled={answered === 0}>
-              ⬇ {saved ? '已匯出(可再按一次)' : '先匯出進度(下載備份檔)'}
-            </button>
-            {saved && <p className="backup-msg">已下載備份檔,請妥善保存。</p>}
+            <div className="backup-btns">
+              <button className="mode-btn" onClick={copyCode} disabled={answered === 0 || !code}>複製備份碼</button>
+              <button className="mode-btn" onClick={download} disabled={answered === 0}>下載備份檔</button>
+            </div>
+            {msg && <p className="backup-msg">{msg}</p>}
           </div>
           <div className="modal-actions update-modal-actions">
             <button className="mode-btn primary" onClick={doRefresh} disabled={refreshing}>
