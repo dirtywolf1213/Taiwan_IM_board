@@ -376,7 +376,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Asthma"
  },
  {
   "id": "113-020",
@@ -395,7 +396,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Asthma"
  },
  {
   "id": "113-021",
@@ -414,7 +416,8 @@
   "answerLetter": "C",
   "needsImage": true,
   "image": "images/113/21.jpg",
-  "explanation": ""
+  "explanation": "",
+  "topic": "COPD"
  },
  {
   "id": "113-022",
@@ -433,7 +436,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "COPD"
  },
  {
   "id": "113-023",
@@ -452,7 +456,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "ARDS-Vent"
  },
  {
   "id": "113-024",
@@ -471,7 +476,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "ARDS-Vent"
  },
  {
   "id": "113-025",
@@ -490,7 +496,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pleural"
  },
  {
   "id": "113-026",
@@ -509,7 +516,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "113-027",
@@ -528,7 +536,8 @@
   "answerLetter": "E",
   "needsImage": true,
   "image": "images/113/27.jpg",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pleural"
  },
  {
   "id": "113-028",
@@ -547,7 +556,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pleural"
  },
  {
   "id": "113-029",
@@ -566,7 +576,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "COPD"
  },
  {
   "id": "113-030",
@@ -585,7 +596,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "113-031",
@@ -604,7 +616,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "113-032",
@@ -623,7 +636,8 @@
   "answerLetter": "D",
   "needsImage": true,
   "image": "images/113/32.jpg",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pleural"
  },
  {
   "id": "113-033",
@@ -642,7 +656,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pleural"
  },
  {
   "id": "113-034",
@@ -661,7 +676,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "ARDS-Vent"
  },
  {
   "id": "113-035",
@@ -680,7 +696,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "COPD"
  },
  {
   "id": "113-036",
@@ -699,7 +716,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "COPD"
  },
  {
   "id": "113-037",
@@ -718,7 +736,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GIBleed"
  },
  {
   "id": "113-038",
@@ -737,7 +756,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Hepatitis"
  },
  {
   "id": "113-039",
@@ -756,7 +776,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Colon"
  },
  {
   "id": "113-040",
@@ -775,7 +796,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Hepatitis"
  },
  {
   "id": "113-041",
@@ -794,7 +816,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Esophagus"
  },
  {
   "id": "113-042",
@@ -813,7 +836,8 @@
   "answerLetter": "E",
   "needsImage": true,
   "image": "images/113/42.jpg",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Esophagus"
  },
  {
   "id": "113-043",
@@ -832,7 +856,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GIBleed"
  },
  {
   "id": "113-044",
@@ -851,7 +876,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Cirrhosis"
  },
  {
   "id": "113-045",
@@ -870,7 +896,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Biliary"
  },
  {
   "id": "113-046",
@@ -889,7 +916,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Biliary"
  },
  {
   "id": "113-047",
@@ -908,7 +936,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "PUD"
  },
  {
   "id": "113-048",
@@ -927,7 +956,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Colon"
  },
  {
   "id": "113-049",
@@ -946,7 +976,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pancreas"
  },
  {
   "id": "113-050",
@@ -965,7 +996,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Colon"
  },
  {
   "id": "113-051",
@@ -984,7 +1016,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Colon"
  },
  {
   "id": "113-052",
@@ -1003,7 +1036,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Biliary"
  },
  {
   "id": "113-053",
@@ -1022,7 +1056,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Colon"
  },
  {
   "id": "113-054",
@@ -1041,7 +1076,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Colon"
  },
  {
   "id": "113-055",
@@ -1060,7 +1096,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Dialysis-Tx"
  },
  {
   "id": "113-056",
@@ -1079,7 +1116,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "CKD"
  },
  {
   "id": "113-057",
@@ -1098,7 +1136,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-058",
@@ -1117,7 +1156,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Stone"
  },
  {
   "id": "113-059",
@@ -1136,7 +1176,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-060",
@@ -1155,7 +1196,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-061",
@@ -1174,7 +1216,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-062",
@@ -1193,7 +1236,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Electrolyte"
  },
  {
   "id": "113-063",
@@ -1212,7 +1256,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Electrolyte"
  },
  {
   "id": "113-064",
@@ -1231,7 +1276,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Electrolyte"
  },
  {
   "id": "113-065",
@@ -1250,7 +1296,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-066",
@@ -1269,7 +1316,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-067",
@@ -1288,7 +1336,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-068",
@@ -1307,7 +1356,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GN"
  },
  {
   "id": "113-069",
@@ -1326,7 +1376,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "AKI"
  },
  {
   "id": "113-070",
@@ -1345,7 +1396,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Stone"
  },
  {
   "id": "113-071",
@@ -1364,7 +1416,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "AKI"
  },
  {
   "id": "113-072",
@@ -1383,7 +1436,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-Renal"
  },
  {
   "id": "113-073",
@@ -1402,7 +1456,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Asthma"
  },
  {
   "id": "113-074",
@@ -1421,7 +1476,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Thyroid"
  },
  {
   "id": "113-075",
@@ -1440,7 +1496,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-076",
@@ -1459,7 +1516,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Asthma"
  },
  {
   "id": "113-077",
@@ -1498,7 +1556,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "PUD"
  },
  {
   "id": "113-079",
@@ -1517,7 +1576,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Adrenal"
  },
  {
   "id": "113-080",
@@ -1876,7 +1936,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-098",
@@ -1895,7 +1956,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pituitary"
  },
  {
   "id": "113-099",
@@ -1914,7 +1976,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Thyroid"
  },
  {
   "id": "113-100",
@@ -1933,7 +1996,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Thyroid"
  },
  {
   "id": "113-101",
@@ -1952,7 +2016,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "BoneCalcium"
  },
  {
   "id": "113-102",
@@ -1971,7 +2036,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Adrenal"
  },
  {
   "id": "113-103",
@@ -1990,7 +2056,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Adrenal"
  },
  {
   "id": "113-104",
@@ -2009,7 +2076,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Thyroid"
  },
  {
   "id": "113-105",
@@ -2028,7 +2096,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-106",
@@ -2047,7 +2116,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-107",
@@ -2066,7 +2136,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-108",
@@ -2085,7 +2156,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-109",
@@ -2104,7 +2176,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-110",
@@ -2123,7 +2196,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-111",
@@ -2142,7 +2216,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-112",
@@ -2161,7 +2236,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Diabetes"
  },
  {
   "id": "113-113",
@@ -2500,7 +2576,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Bleeding-Coag"
  },
  {
   "id": "113-130",
@@ -2519,7 +2596,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Anemia"
  },
  {
   "id": "113-131",
@@ -2538,7 +2616,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Myeloma"
  },
  {
   "id": "113-132",
@@ -2557,7 +2636,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Leukemia"
  },
  {
   "id": "113-133",
@@ -2576,7 +2656,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Lymphoma"
  },
  {
   "id": "113-134",
@@ -2595,7 +2676,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Anemia"
  },
  {
   "id": "113-135",
@@ -2614,7 +2696,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Anemia"
  },
  {
   "id": "113-136",
@@ -2633,7 +2716,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Bleeding-Coag"
  },
  {
   "id": "113-137",
@@ -2652,7 +2736,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SolidTumor"
  },
  {
   "id": "113-138",
@@ -2671,7 +2756,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Lymphoma"
  },
  {
   "id": "113-139",
@@ -2690,7 +2776,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SolidTumor"
  },
  {
   "id": "113-140",
@@ -2709,7 +2796,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SolidTumor"
  },
  {
   "id": "113-141",
@@ -2728,7 +2816,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SolidTumor"
  },
  {
   "id": "113-142",
@@ -2747,7 +2836,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-Heme"
  },
  {
   "id": "113-143",
@@ -2766,7 +2856,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Bleeding-Coag"
  },
  {
   "id": "113-144",
@@ -2785,7 +2876,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SolidTumor"
  },
  {
   "id": "113-145",
@@ -2804,7 +2896,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Stroke"
  },
  {
   "id": "113-146",
@@ -2823,7 +2916,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "CNS-Other"
  },
  {
   "id": "113-147",
@@ -2842,7 +2936,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Neuromuscular"
  },
  {
   "id": "113-148",
@@ -2861,7 +2956,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "PsychPharm"
  },
  {
   "id": "113-149",
@@ -2880,7 +2976,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "PsychPharm"
  },
  {
   "id": "113-150",
@@ -2899,7 +2996,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Stroke"
  },
  {
   "id": "113-151",
@@ -2918,7 +3016,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Psychosis"
  },
  {
   "id": "113-152",
@@ -2937,7 +3036,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Sleep"
  },
  {
   "id": "113-153",
@@ -2956,7 +3056,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Mood"
  },
  {
   "id": "113-154",
@@ -2975,7 +3076,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Mood"
  },
  {
   "id": "113-155",
@@ -2994,7 +3096,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Sleep"
  },
  {
   "id": "113-156",
@@ -3013,7 +3116,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Drug-Eruption"
  },
  {
   "id": "113-157",
@@ -3032,7 +3136,8 @@
   "answerLetter": "E",
   "needsImage": true,
   "image": "images/113/157.jpg",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Infection-Skin"
  },
  {
   "id": "113-158",
@@ -3051,7 +3156,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pigment-Hair"
  },
  {
   "id": "113-159",
@@ -3070,7 +3176,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Drug-Eruption"
  },
  {
   "id": "113-160",
@@ -3089,6 +3196,7 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Infection-Skin"
  }
 ]
