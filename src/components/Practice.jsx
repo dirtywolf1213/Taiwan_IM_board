@@ -56,6 +56,31 @@ export default function Practice({ mode, subject, year, questions, progress, onA
     preloadImage(shown[i + 2]?.image)
   }, [i, shown])
 
+  // 桌機鍵盤快捷鍵:1–5 選答、←→ 換題(輸入筆記時不攔截)
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const tag = (e.target.tagName || '').toLowerCase()
+      if (tag === 'input' || tag === 'textarea') return
+      const cur = shown[i]
+      if (!cur) return
+      if (e.key >= '1' && e.key <= '5') {
+        const idx = +e.key - 1
+        if (answers[cur.id] == null && idx < cur.options.length) {
+          setAnswers((a) => ({ ...a, [cur.id]: idx }))
+          onAnswer(cur.id, idx, isCorrect(cur, idx))
+          e.preventDefault()
+        }
+      } else if (e.key === 'ArrowRight') {
+        setI((v) => Math.min(shown.length - 1, v + 1)); e.preventDefault()
+      } else if (e.key === 'ArrowLeft') {
+        setI((v) => Math.max(0, v - 1)); e.preventDefault()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [shown, i, answers, onAnswer])
+
   if (shown.length === 0) {
     return (
       <div className="screen">

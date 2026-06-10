@@ -2,6 +2,25 @@ import { useMemo, useState } from 'react'
 import QuestionView from './QuestionView.jsx'
 import { subjectColor } from '../lib/util.js'
 
+// 把符合關鍵字的片段用 <mark> 標起來(不分大小寫)
+function highlight(text, query) {
+  const s = (query || '').trim()
+  if (!s) return text
+  const lo = text.toLowerCase()
+  const q = s.toLowerCase()
+  const out = []
+  let i = 0
+  let k = 0
+  for (;;) {
+    const idx = lo.indexOf(q, i)
+    if (idx === -1) { out.push(text.slice(i)); break }
+    if (idx > i) out.push(text.slice(i, idx))
+    out.push(<mark key={k++}>{text.slice(idx, idx + q.length)}</mark>)
+    i = idx + q.length
+  }
+  return out
+}
+
 // 全題庫搜尋:比對題幹/選項文字、題號、科目、考點。點結果即可檢視該題與詳解。
 export default function Search({ questions, progress, onToggleFav, onSetNote, onExit }) {
   const [qstr, setQstr] = useState('')
@@ -80,7 +99,7 @@ export default function Search({ questions, progress, onToggleFav, onSetNote, on
               {q.topic && <span className="topic-chip">{q.topic}</span>}
               <span className="search-id">{q.id}</span>
             </span>
-            <span className="search-stem">{q.question}</span>
+            <span className="search-stem">{highlight(q.question, qstr)}</span>
           </button>
         ))}
       </div>

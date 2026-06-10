@@ -13,6 +13,7 @@ import AboutModal from './components/AboutModal.jsx'
 import UserManual from './components/UserManual.jsx'
 import StatsModal from './components/StatsModal.jsx'
 import Search from './components/Search.jsx'
+import QuestionView from './components/QuestionView.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
@@ -34,6 +35,22 @@ export default function App() {
   const [showStats, setShowStats] = useState(false)
 
   useEffect(() => saveProgress(progress), [progress])
+
+  // 單題分享連結:網址含 #q=114-001 時,同意免責後直接開啟該題
+  useEffect(() => {
+    if (!agreed) return
+    const m = (window.location.hash || '').match(/#q=(\d{3}-\d{3})/)
+    if (!m || !index.some((q) => q.id === m[1])) return
+    let alive = true
+    setLoading(true)
+    loadYearsForIds([m[1]]).then((arr) => {
+      if (!alive) return
+      setSession(arr.filter((x) => x.id === m[1]))
+      setView('single')
+      setLoading(false)
+    })
+    return () => { alive = false }
+  }, [agreed])
 
   const agree = () => {
     try { localStorage.setItem(DISCLAIMER_KEY, '1') } catch { /* ignore */ }
@@ -148,6 +165,32 @@ export default function App() {
         onSetNote={setNote}
         onExit={() => setView('home')}
       />
+    )
+  }
+
+  if (view === 'single') {
+    const q = session[0]
+    const goHome = () => {
+      try { window.history.replaceState(null, '', import.meta.env.BASE_URL || '/') } catch { /* ignore */ }
+      setView('home')
+    }
+    return (
+      <div className="screen">
+        <div className="topbar">
+          <button className="back" onClick={goHome}>← 首頁</button>
+          <span className="topbar-title">分享的題目</span>
+          <span />
+        </div>
+        {q ? (
+          <QuestionView
+            q={q} chosen={null} revealed onChoose={() => {}} index={0} total={1}
+            favorited={(progress.favorites || []).includes(q.id)}
+            onToggleFav={toggleFavorite}
+            note={(progress.notes || {})[q.id]}
+            onSetNote={setNote}
+          />
+        ) : <p className="empty">找不到這題。</p>}
+      </div>
     )
   }
 

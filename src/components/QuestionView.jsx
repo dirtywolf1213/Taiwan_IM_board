@@ -67,6 +67,14 @@ export default function QuestionView({
   q, chosen, revealed, onChoose, index, total,
   favorited, onToggleFav, note, onSetNote,
 }) {
+  const [copied, setCopied] = useState(false)
+  const copyLink = () => {
+    const base = import.meta.env.BASE_URL || '/'
+    const url = `${window.location.origin}${base}#q=${q.id}`
+    const done = () => { setCopied(true); setTimeout(() => setCopied(false), 1500) }
+    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(url).then(done, done)
+    else { try { prompt('複製這題的連結:', url) } catch { /* ignore */ } done() }
+  }
   return (
     <div className="card">
       <div className="q-meta">
@@ -156,6 +164,7 @@ export default function QuestionView({
           )}
           <div className="q-export-row">
             <ExportMenu questions={[q]} label="匯出本題" compact />
+            <button className="q-link-btn" onClick={copyLink}>{copied ? '✓ 已複製連結' : '🔗 連結'}</button>
           </div>
         </div>
       )}
