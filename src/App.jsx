@@ -12,6 +12,7 @@ import BackupModal from './components/BackupModal.jsx'
 import AboutModal from './components/AboutModal.jsx'
 import UserManual from './components/UserManual.jsx'
 import StatsModal from './components/StatsModal.jsx'
+import Search from './components/Search.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
@@ -114,6 +115,8 @@ export default function App() {
     enter(() => loadYear(y), 'practice') // 只載入該年
   }
 
+  const openSearch = () => enter(loadAll, 'search') // 搜尋需全題庫,載入後在前端即時比對
+
   const reset = () => {
     if (confirm('確定要清除所有作答紀錄嗎?此動作無法復原。')) {
       setProgress({ results: {}, favorites: [], notes: {}, srs: {} })
@@ -148,6 +151,18 @@ export default function App() {
     )
   }
 
+  if (view === 'search') {
+    return (
+      <Search
+        questions={session}
+        progress={progress}
+        onToggleFav={toggleFavorite}
+        onSetNote={setNote}
+        onExit={() => setView('home')}
+      />
+    )
+  }
+
   if (view === 'mock') {
     return (
       <Mock
@@ -173,6 +188,7 @@ export default function App() {
         onOpenAbout={() => setShowAbout(true)}
         onOpenManual={() => setShowManual(true)}
         onOpenStats={() => setShowStats(true)}
+        onOpenSearch={openSearch}
       />
       {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}

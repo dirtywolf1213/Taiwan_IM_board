@@ -80,6 +80,7 @@ export default function QuestionView({
               {q.subject}
             </span>
           )}
+          {q.topic && <span className="topic-chip" title="考點">{q.topic}</span>}
         </span>
         <span className="q-meta-right">
           {onToggleFav && (

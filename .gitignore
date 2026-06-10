@@ -10,3 +10,4 @@ tmp_drafts/
 
 # AI 審核的中間產物(verdict 行);內容會注入 review/<科>_<年>.md 審核稿,毋須入庫
 review/verdicts_*.txt
+__pycache__/

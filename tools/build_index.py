@@ -17,7 +17,10 @@ def main():
     idx = []
     for f in sorted(glob('src/data/questions.*.json')):
         for q in json.loads(Path(f).read_text(encoding='utf-8')):
-            idx.append({'id': q['id'], 'year': q['year'], 'num': q['num'], 'subject': q['subject']})
+            row = {'id': q['id'], 'year': q['year'], 'num': q['num'], 'subject': q['subject']}
+            if q.get('topic'):  # 考點(若已分類),供首頁/篩選/搜尋用,免載整年題庫
+                row['topic'] = q['topic']
+            idx.append(row)
     idx.sort(key=lambda q: (q['year'], q['num']))
     Path('src/data/index.json').write_text(
         json.dumps(idx, ensure_ascii=False), encoding='utf-8')

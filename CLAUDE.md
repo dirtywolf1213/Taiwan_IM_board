@@ -67,6 +67,7 @@
   "answer":2,"answerLetter":"C","needsImage":false,"image":"images/114/001.png" }
 ```
 - `answer` = 正解索引(0 起);`answerLetter` = 對應字母;兩者須一致(validate 會檢查)。
+- `topic`(選填)= 考點次分類(單一主考點,英文/縮寫,如 `ACS`/`HF`)。目前試點科:心臟血管。由 `tools/classify_topic.py` 依「題幹+選項+詳解」關鍵字自動分類;改動後重建 `index.json`(已含 `topic`,供 chips/搜尋免載整年)。UI:依科目練習的考點 chips、每題 badge、全題庫搜尋。
 - **送分/複選題**:可有 `answers`(索引陣列),`answerLetter` 可為 `"A、C(送分)"` 這類字串 → 顯示與匯出都照字串原樣。
 - `needsImage:true` 表示該題有附圖;`image` 為相對路徑(顯示時前綴 `import.meta.env.BASE_URL`)。
 
@@ -76,7 +77,7 @@
 ```
 - `status` 非 `reviewed` 時 App 顯示「草稿・未經審核」。重跑題庫轉檔不會覆蓋詳解。
 
-**`src/data/index.json`** — 由 `tools/build_index.py` 產生(僅 id/year/num/subject)。改題號後必須重建。
+**`src/data/index.json`** — 由 `tools/build_index.py` 產生(id/year/num/subject,有分類者另含 `topic`)。改題號或考點後必須重建。
 **`src/data/changelog.json`** — 版本紀錄(見 §2);第一筆的 `version` 即 App 顯示版本。
 
 ---
@@ -112,6 +113,7 @@
 | `parse_pdf.py` / `parse_pdf_109.py` / `parse_pdf_old.py` | 考題 PDF → `questions.<年>.json`(不同年份版面用不同版) |
 | `build_index.py` | 重建 `src/data/index.json`(改題號後必跑) |
 | `classify.py` | 題目科目分類(11 科;規則見 `docs/題目分類說明.md`) |
+| `classify_topic.py` | 題目「考點」次分類(單一主考點,英文縮寫;`--subject` 指定科,`--dry-run` 看分佈)。改完重建 index |
 | `extract_figures.py` | 依 `LAYOUT` 裁切框把附圖 PDF 切成 PNG 存 `public/images/<年>/`,並回填 `image` 欄位 |
 | `auto_figures.py` | 附圖自動關聯的輔助 |
 | `export_questions.py` | 匯出「尚無詳解」題目餵 AI(`--year` / `--subject` / `--nums`) |

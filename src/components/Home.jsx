@@ -4,7 +4,7 @@ import { APP_VERSION, hasUnseenUpdate } from '../lib/version.js'
 import { dueCount } from '../lib/srs.js'
 import { getTheme, toggleTheme } from '../lib/theme.js'
 
-export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual, onOpenStats }) {
+export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual, onOpenStats, onOpenSearch }) {
   const unseen = hasUnseenUpdate()
   const total = index.length
   const results = progress.results
@@ -32,6 +32,7 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
         <h1>內科專科考試刷題</h1>
         <p className="sub">台灣內科專科醫師甄審・練習題庫</p>
         <div className="hero-btns">
+          <button className="manual-btn" onClick={onOpenSearch}>🔍 搜尋</button>
           <button className="manual-btn" onClick={onOpenManual}>📖 使用說明</button>
           <button className="manual-btn" onClick={() => setThemeState(toggleTheme())}>
             {theme === 'dark' ? '☀️ 淺色' : '🌙 深色'}

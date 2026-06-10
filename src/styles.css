@@ -282,6 +282,45 @@ button { font-family: inherit; cursor: pointer; }
   display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px;
   font-size: 0.72rem; font-weight: 700;
 }
+/* 考點(topic)小標籤:中性外框,跟在科目後 */
+.topic-chip {
+  display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 6px;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2px;
+  color: var(--teal-dark); background: transparent; border: 1px solid var(--teal);
+}
+
+/* ---------- 考點次篩選 chips(依科目練習) ---------- */
+.topic-bar {
+  display: flex; gap: 6px; overflow-x: auto; margin-bottom: 12px; padding-bottom: 2px;
+  -webkit-overflow-scrolling: touch;
+}
+.topic-pill {
+  flex: 0 0 auto; border: 1px solid var(--line); background: var(--card);
+  border-radius: 999px; padding: 5px 12px; font-size: 0.8rem; font-weight: 600;
+  color: var(--muted); white-space: nowrap;
+}
+.topic-pill.on { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+/* ---------- 搜尋 ---------- */
+.search-input {
+  width: 100%; padding: 11px 14px; font-size: 1rem; border: 1.5px solid var(--line);
+  border-radius: 12px; background: var(--card); color: var(--text); margin-bottom: 6px;
+}
+.search-input:focus { outline: none; border-color: var(--teal); }
+.search-hint { font-size: 0.8rem; color: var(--muted); margin: 0 0 12px; }
+.search-list { display: flex; flex-direction: column; gap: 8px; }
+.search-item {
+  text-align: left; border: 1px solid var(--line); background: var(--card);
+  border-radius: 12px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px;
+}
+.search-item-meta { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.search-item-meta .subject-chip { margin-left: 0; }
+.search-item-meta .topic-chip { margin-left: 0; }
+.search-id { font-size: 0.74rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.search-stem {
+  font-size: 0.9rem; color: var(--text); line-height: 1.4;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
 
 /* ---------- 頁尾免責 ---------- */
 .foot p { margin: 4px 0; }
