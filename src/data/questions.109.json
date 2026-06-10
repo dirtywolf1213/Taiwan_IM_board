@@ -204,7 +204,7 @@
   "answer": 4,
   "answerLetter": "E",
   "difficulty": 0.75,
-  "needsImage": true,
+  "needsImage": false,
   "explanation": "",
   "topic": "ACS"
  },
