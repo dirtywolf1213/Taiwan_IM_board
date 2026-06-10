@@ -3546,7 +3546,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Breast"
  },
  {
   "id": "106-170",
@@ -3567,7 +3567,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Melanoma"
  },
  {
   "id": "106-171",
@@ -3588,7 +3588,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Principles"
  },
  {
   "id": "106-172",
@@ -3609,7 +3609,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "Other-Heme"
+  "topic": "Onc-Lung"
  },
  {
   "id": "106-173",
@@ -3630,7 +3630,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-GU"
  },
  {
   "id": "106-174",
@@ -3651,7 +3651,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Lymphoma"
  },
  {
   "id": "106-175",
@@ -3672,7 +3672,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-CRC"
  },
  {
   "id": "106-176",
@@ -3693,7 +3693,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Breast"
  },
  {
   "id": "106-177",
@@ -3714,7 +3714,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-NET"
  },
  {
   "id": "106-178",
@@ -3735,7 +3735,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "Lymphoma"
+  "topic": "Onc-Principles"
  },
  {
   "id": "106-179",

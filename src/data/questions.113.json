@@ -2737,7 +2737,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-GI"
  },
  {
   "id": "113-138",
@@ -2777,7 +2777,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Lung"
  },
  {
   "id": "113-140",
@@ -2797,7 +2797,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-NET"
  },
  {
   "id": "113-141",
@@ -2817,7 +2817,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-CUP"
  },
  {
   "id": "113-142",
@@ -2837,7 +2837,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "Other-Heme"
+  "topic": "Onc-Lung"
  },
  {
   "id": "113-143",
@@ -2857,7 +2857,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "Bleeding-Coag"
+  "topic": "Onc-Principles"
  },
  {
   "id": "113-144",
@@ -2877,7 +2877,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Principles"
  },
  {
   "id": "113-145",

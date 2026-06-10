@@ -1597,7 +1597,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Principles"
  },
  {
   "id": "114-081",
@@ -2757,7 +2757,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Principles"
  },
  {
   "id": "114-139",
@@ -2777,7 +2777,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "Other-Heme"
+  "topic": "Onc-GYN"
  },
  {
   "id": "114-140",
@@ -2797,7 +2797,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Breast"
  },
  {
   "id": "114-141",
@@ -2817,7 +2817,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "MPN-MDS"
+  "topic": "Onc-GI"
  },
  {
   "id": "114-142",
@@ -2837,7 +2837,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-GI"
  },
  {
   "id": "114-143",
@@ -2857,7 +2857,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "Other-Heme"
+  "topic": "Onc-Melanoma"
  },
  {
   "id": "114-144",
@@ -2877,7 +2877,7 @@
   "needsImage": false,
   "image": "",
   "explanation": "",
-  "topic": "SolidTumor"
+  "topic": "Onc-Sarcoma"
  },
  {
   "id": "114-145",

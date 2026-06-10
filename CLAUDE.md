@@ -67,7 +67,7 @@
   "answer":2,"answerLetter":"C","needsImage":false,"image":"images/114/001.png" }
 ```
 - `answer` = 正解索引(0 起);`answerLetter` = 對應字母;兩者須一致(validate 會檢查)。
-- `topic`(選填)= 考點次分類(單一主考點,英文/縮寫,如 `ACS`/`HF`)。已分類科:**全 11 科 2000 題**。由 `tools/classify_topic.py` 依「題幹+選項+詳解」關鍵字自動分類(各科考點清單見該檔 `TAXO`;啟發式、可再細分,如 heme 的 `SolidTumor`);改動後重建 `index.json`(已含 `topic`,供 chips/搜尋免載整年)。UI:依科目練習的考點 chips、每題 badge、全題庫搜尋。
+- `topic`(選填)= 考點次分類(單一主考點,英文/縮寫,如 `ACS`/`HF`)。已分類科:**全 11 科 2000 題**。由 `tools/classify_topic.py` 依「題幹+選項+詳解」關鍵字自動分類(各科考點清單見該檔 `TAXO`;啟發式、可再細分)。血液腫瘤的實體癌已細分為 `Onc-Lung/Breast/CRC/GU/GI/Melanoma/GYN/NET/Sarcoma/CUP` 與 `Onc-Principles`;改動後重建 `index.json`(已含 `topic`,供 chips/搜尋免載整年)。UI:依科目練習的考點 chips、每題 badge、全題庫搜尋。
 - **送分/複選題**:可有 `answers`(索引陣列),`answerLetter` 可為 `"A、C(送分)"` 這類字串 → 顯示與匯出都照字串原樣。
 - `needsImage:true` 表示該題有附圖;`image` 為相對路徑(顯示時前綴 `import.meta.env.BASE_URL`)。
 
