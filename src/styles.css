@@ -194,6 +194,20 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- 模擬考 ---------- */
 .count-picker { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
 .count-picker .mode-btn { align-items: center; }
+.mock-limit { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text); margin-top: 12px; }
+.mock-limit input { width: 18px; height: 18px; accent-color: var(--teal); }
+.mock-custom { display: flex; gap: 10px; margin-top: 12px; }
+.mock-custom input {
+  flex: 1; padding: 9px 12px; border: 1.5px solid var(--line); border-radius: 10px;
+  background: var(--card); color: var(--text); font-size: 0.95rem;
+}
+.mock-custom .mode-btn { flex: 0 0 auto; padding: 9px 16px; }
+.topbar-title.time-low { color: var(--red); }
+.mock-topic-row { display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 0.9rem; }
+.mock-topic-row:last-child { border-bottom: none; }
+.mock-topic-name { color: var(--text); }
+.mock-topic-pct { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; }
+.mock-topic-pct.low { color: var(--red); }
 
 .jump-row { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
 .jump-row .progress-bar { flex: 1; margin-bottom: 0; }
