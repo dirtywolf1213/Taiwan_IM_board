@@ -89,17 +89,28 @@ export default function Practice({ mode, subject, year, questions, progress, onA
 
       {showJump && (
         <div className="jump-panel">
-          <p className="jump-hint"><span className="dot expl" /> 有詳解 ・ 點題號可直接跳</p>
+          <p className="jump-hint">
+            <span className="lg ok" />答對
+            <span className="lg no" />答錯
+            <span className="dot" />有詳解
+          </p>
+          <p className="jump-note">已作答的題目會永久標記(綠=答對、紅=答錯,含過去紀錄);點題號可直接跳。</p>
           <div className="grid-jump">
-            {list.map((qq, idx) => (
-              <button
-                key={qq.id}
-                className={`jump ${answers[qq.id] != null ? 'done' : ''} ${idx === i ? 'cur' : ''} ${qq.explanation ? 'expl' : ''}`}
-                onClick={() => { setI(idx); setShowJump(false) }}
-              >
-                {idx + 1}
-              </button>
-            ))}
+            {list.map((qq, idx) => {
+              // 本回合作答優先,否則看歷史紀錄(localStorage) → 已作答永久標記、並區分對/錯
+              const sess = answers[qq.id]
+              const r = sess != null ? { correct: isCorrect(qq, sess) } : progress.results[qq.id]
+              const mark = r ? (r.correct ? 'done ok' : 'done no') : ''
+              return (
+                <button
+                  key={qq.id}
+                  className={`jump ${mark} ${idx === i ? 'cur' : ''} ${qq.explanation ? 'expl' : ''}`}
+                  onClick={() => { setI(idx); setShowJump(false) }}
+                >
+                  {idx + 1}
+                </button>
+              )
+            })}
           </div>
         </div>
       )}
