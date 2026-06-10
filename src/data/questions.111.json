@@ -1421,7 +1421,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "TB"
  },
  {
   "id": "111-075",
@@ -1516,7 +1517,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "111-080",
@@ -1554,7 +1556,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "111-082",
@@ -1573,7 +1576,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-ID"
  },
  {
   "id": "111-083",
@@ -1592,7 +1596,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "UTI"
  },
  {
   "id": "111-084",
@@ -1611,7 +1616,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "TB"
  },
  {
   "id": "111-085",
@@ -1630,7 +1636,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "111-086",
@@ -1649,7 +1656,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SSTI"
  },
  {
   "id": "111-087",
@@ -1668,7 +1676,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vaccine"
  },
  {
   "id": "111-088",
@@ -1687,7 +1696,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "111-089",
@@ -1706,7 +1716,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Resistance"
  },
  {
   "id": "111-090",
@@ -1725,7 +1736,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "111-091",
@@ -1744,7 +1756,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Zoonosis"
  },
  {
   "id": "111-092",
@@ -1763,7 +1776,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-ID"
  },
  {
   "id": "111-093",
@@ -1782,7 +1796,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Fungal"
  },
  {
   "id": "111-094",
@@ -1801,7 +1816,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-ID"
  },
  {
   "id": "111-095",
@@ -1820,7 +1836,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "STI"
  },
  {
   "id": "111-096",
@@ -1839,7 +1856,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vaccine"
  },
  {
   "id": "111-097",
@@ -2162,7 +2180,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Myositis"
  },
  {
   "id": "111-114",
@@ -2181,7 +2200,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Allergy"
  },
  {
   "id": "111-115",
@@ -2200,7 +2220,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SLE"
  },
  {
   "id": "111-116",
@@ -2219,7 +2240,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "111-117",
@@ -2238,7 +2260,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "111-118",
@@ -2257,7 +2280,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Sjogren"
  },
  {
   "id": "111-119",
@@ -2276,7 +2300,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "111-120",
@@ -2295,7 +2320,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Myositis"
  },
  {
   "id": "111-121",
@@ -2314,7 +2340,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "111-122",
@@ -2333,7 +2360,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vasculitis"
  },
  {
   "id": "111-123",
@@ -2352,7 +2380,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "111-124",
@@ -2371,7 +2400,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SSc"
  },
  {
   "id": "111-125",
@@ -2390,7 +2420,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Sjogren"
  },
  {
   "id": "111-126",
@@ -2409,7 +2440,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "111-127",
@@ -2428,7 +2460,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SLE"
  },
  {
   "id": "111-128",
@@ -2447,7 +2480,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vasculitis"
  },
  {
   "id": "111-129",

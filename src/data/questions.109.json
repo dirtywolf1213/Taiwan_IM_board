@@ -1458,7 +1458,8 @@
   "difficulty": 0.35,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "109-073",
@@ -1919,7 +1920,8 @@
   "difficulty": 0.83,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "109-096",
@@ -1939,7 +1941,8 @@
   "difficulty": 0.89,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "OA-Soft"
  },
  {
   "id": "109-097",
@@ -1959,7 +1962,8 @@
   "difficulty": 0.77,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "HIV"
  },
  {
   "id": "109-098",
@@ -2039,7 +2043,8 @@
   "difficulty": 0.71,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "TB"
  },
  {
   "id": "109-102",
@@ -2059,7 +2064,8 @@
   "difficulty": 0.93,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "109-103",
@@ -2079,7 +2085,8 @@
   "difficulty": 0.78,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Resistance"
  },
  {
   "id": "109-104",
@@ -2099,7 +2106,8 @@
   "difficulty": 0.39,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Resistance"
  },
  {
   "id": "109-105",
@@ -2119,7 +2127,8 @@
   "difficulty": 0.76,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GI-Infx"
  },
  {
   "id": "109-106",
@@ -2139,7 +2148,8 @@
   "difficulty": 0.71,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "HIV"
  },
  {
   "id": "109-107",
@@ -2159,7 +2169,8 @@
   "difficulty": 0.83,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Resistance"
  },
  {
   "id": "109-108",
@@ -2179,7 +2190,8 @@
   "difficulty": 0.66,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "109-109",
@@ -2199,7 +2211,8 @@
   "difficulty": 0.88,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "CNS"
  },
  {
   "id": "109-110",
@@ -2219,7 +2232,8 @@
   "difficulty": 0.5,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "109-111",
@@ -2239,7 +2253,8 @@
   "difficulty": 0.33,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Zoonosis"
  },
  {
   "id": "109-112",
@@ -2259,7 +2274,8 @@
   "difficulty": 0.58,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "109-113",
@@ -2279,7 +2295,8 @@
   "difficulty": 0.93,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Zoonosis"
  },
  {
   "id": "109-114",
@@ -2299,7 +2316,8 @@
   "difficulty": 0.97,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vaccine"
  },
  {
   "id": "109-115",
@@ -2319,7 +2337,8 @@
   "difficulty": 0.78,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "109-116",
@@ -2339,7 +2358,8 @@
   "difficulty": 0.54,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "109-117",
@@ -2359,7 +2379,8 @@
   "difficulty": 0.59,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Resistance"
  },
  {
   "id": "109-118",
@@ -2379,7 +2400,8 @@
   "difficulty": 0.83,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "GI-Infx"
  },
  {
   "id": "109-119",
@@ -2399,7 +2421,8 @@
   "difficulty": 0.89,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "HIV"
  },
  {
   "id": "109-120",
@@ -2819,7 +2842,8 @@
   "difficulty": 0.63,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "109-141",
@@ -2839,7 +2863,8 @@
   "difficulty": 0.76,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "109-142",
@@ -2859,7 +2884,8 @@
   "difficulty": 0.59,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "109-143",
@@ -2879,7 +2905,8 @@
   "difficulty": 0.69,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "109-144",
@@ -2899,7 +2926,8 @@
   "difficulty": 0.93,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vasculitis"
  },
  {
   "id": "109-145",
@@ -2939,7 +2967,8 @@
   "difficulty": 0.86,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "IgG4"
  },
  {
   "id": "109-147",
@@ -2959,7 +2988,8 @@
   "difficulty": 0.86,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "IgG4"
  },
  {
   "id": "109-148",
@@ -2979,7 +3009,8 @@
   "difficulty": 0.93,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "109-149",
@@ -2999,7 +3030,8 @@
   "difficulty": 0.92,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "109-150",
@@ -3019,7 +3051,8 @@
   "difficulty": 0.9,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SLE"
  },
  {
   "id": "109-151",
@@ -3039,7 +3072,8 @@
   "difficulty": 0.66,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "109-152",
@@ -3059,7 +3093,8 @@
   "difficulty": 0.95,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SSc"
  },
  {
   "id": "109-153",
@@ -3079,7 +3114,8 @@
   "difficulty": 0.9,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "IgG4"
  },
  {
   "id": "109-154",
@@ -3099,7 +3135,8 @@
   "difficulty": 0.91,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "109-155",
@@ -3119,7 +3156,8 @@
   "difficulty": 0.78,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vasculitis"
  },
  {
   "id": "109-156",
@@ -3139,7 +3177,8 @@
   "difficulty": 0.65,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "OA-Soft"
  },
  {
   "id": "109-157",
@@ -3159,7 +3198,8 @@
   "difficulty": 0.92,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "109-158",
@@ -3179,7 +3219,8 @@
   "difficulty": 0.35,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vasculitis"
  },
  {
   "id": "109-159",
@@ -3199,7 +3240,8 @@
   "difficulty": 0.96,
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "APS"
  },
  {
   "id": "109-160",

@@ -1800,7 +1800,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "CNS"
  },
  {
   "id": "104-090",
@@ -1980,7 +1981,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "104-099",
@@ -2000,7 +2002,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "104-100",
@@ -2020,7 +2023,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "104-101",
@@ -2040,7 +2044,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "STI"
  },
  {
   "id": "104-102",
@@ -2060,7 +2065,8 @@
   "answerLetter": "C",
   "needsImage": true,
   "image": "images/104/102.jpg",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Zoonosis"
  },
  {
   "id": "104-103",
@@ -2080,7 +2086,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-104",
@@ -2100,7 +2107,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-105",
@@ -2120,7 +2128,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-106",
@@ -2140,7 +2149,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-107",
@@ -2160,7 +2170,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "TB"
  },
  {
   "id": "104-108",
@@ -2180,7 +2191,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Zoonosis"
  },
  {
   "id": "104-109",
@@ -2200,7 +2212,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vaccine"
  },
  {
   "id": "104-110",
@@ -2220,7 +2233,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-111",
@@ -2240,7 +2254,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Resistance"
  },
  {
   "id": "104-112",
@@ -2260,7 +2275,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "104-113",
@@ -2280,7 +2296,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-114",
@@ -2300,7 +2317,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vaccine"
  },
  {
   "id": "104-115",
@@ -2320,7 +2338,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "TB"
  },
  {
   "id": "104-116",
@@ -2340,7 +2359,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Viral"
  },
  {
   "id": "104-117",
@@ -2360,7 +2380,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Pneumonia"
  },
  {
   "id": "104-118",
@@ -2380,7 +2401,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Antibiotics"
  },
  {
   "id": "104-119",
@@ -2800,7 +2822,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SSc"
  },
  {
   "id": "104-140",
@@ -2820,7 +2843,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-Rheum"
  },
  {
   "id": "104-141",
@@ -2840,7 +2864,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "OA-Soft"
  },
  {
   "id": "104-142",
@@ -2860,7 +2885,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "104-143",
@@ -2880,7 +2906,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Sjogren"
  },
  {
   "id": "104-144",
@@ -2900,7 +2927,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "104-145",
@@ -2920,7 +2948,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "104-146",
@@ -2940,7 +2969,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "104-147",
@@ -2960,7 +2990,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "104-148",
@@ -2980,7 +3011,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Other-Rheum"
  },
  {
   "id": "104-149",
@@ -3000,7 +3032,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Myositis"
  },
  {
   "id": "104-150",
@@ -3020,7 +3053,8 @@
   "answerLetter": "A",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Allergy"
  },
  {
   "id": "104-151",
@@ -3040,7 +3074,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "APS"
  },
  {
   "id": "104-152",
@@ -3060,7 +3095,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "RA"
  },
  {
   "id": "104-153",
@@ -3080,7 +3116,8 @@
   "answerLetter": "E",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SSc"
  },
  {
   "id": "104-154",
@@ -3100,7 +3137,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "SpA"
  },
  {
   "id": "104-155",
@@ -3120,7 +3158,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "104-156",
@@ -3140,7 +3179,8 @@
   "answerLetter": "C",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Sjogren"
  },
  {
   "id": "104-157",
@@ -3160,7 +3200,8 @@
   "answerLetter": "D",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Vasculitis"
  },
  {
   "id": "104-158",
@@ -3180,7 +3221,8 @@
   "answerLetter": "B",
   "needsImage": false,
   "image": "",
-  "explanation": ""
+  "explanation": "",
+  "topic": "Gout"
  },
  {
   "id": "104-159",
