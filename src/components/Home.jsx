@@ -107,6 +107,16 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
         </p>
         <p>製作人:dirtywolf1213</p>
         <p>進度只存在這台裝置的瀏覽器</p>
+        <p>
+          <a
+            className="link-inline"
+            href={`${import.meta.env.BASE_URL}build-tutorial.html`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🛠 這個網站是怎麼打造的(教學)
+          </a>
+        </p>
         <p className="foot-disc">
           本服務為非官方、個人非營利學習工具,題目與答案來自醫學會公開資料,著作權歸原權利人所有。
           <button className="link-inline" onClick={onOpenDisclaimer}>閱讀完整免責聲明</button>
