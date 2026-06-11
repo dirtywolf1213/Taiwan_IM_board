@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>從零打造你自己的刷題網頁・逐步教學(以內科專科刷題網站為教案)</title>
+<style>
+  :root{
+    --teal:#0f766e; --teal-d:#115e59; --teal-l:#f0fdfa; --ink:#1f2937; --muted:#6b7280;
+    --line:#e5e7eb; --bg:#f8fafc; --amber:#b45309; --amber-bg:#fffbeb; --green:#15803d; --green-bg:#f0fdf4;
+    --blue:#1d4ed8; --blue-bg:#eff6ff; --red:#b91c1c; --red-bg:#fef2f2; --purple:#6d28d9; --purple-bg:#f5f3ff;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
+       color:var(--ink);background:var(--bg);line-height:1.78;font-size:16.5px}
+  header.top{background:linear-gradient(135deg,var(--teal),#0b5e57);color:#fff;padding:38px 20px}
+  header.top .wrap{max-width:1040px;margin:0 auto}
+  header.top h1{margin:0 0 8px;font-size:1.75rem;line-height:1.4}
+  header.top p{margin:3px 0;opacity:.95;font-size:.98rem}
+  header.top .meta{margin-top:12px;font-size:.85rem;opacity:.82}
+  .layout{max-width:1040px;margin:0 auto;padding:0 20px}
+  nav.toc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:24px 0}
+  nav.toc h2{margin:0 0 10px;font-size:1.05rem;color:var(--teal-d)}
+  nav.toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:30px}
+  nav.toc li{margin:5px 0}
+  nav.toc a{color:var(--ink);text-decoration:none}
+  nav.toc a:hover{color:var(--teal);text-decoration:underline}
+  .pathmap{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 0}
+  .pathmap span{background:var(--teal-l);border:1px solid #99f6e4;color:var(--teal-d);border-radius:20px;
+                padding:3px 11px;font-size:.8rem}
+  section.lesson{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px 28px;margin:22px 0}
+  .lh{display:flex;align-items:flex-start;gap:14px;border-bottom:2px solid var(--teal-l);padding-bottom:12px;margin-bottom:6px}
+  .lh .num{flex:0 0 auto;background:var(--teal);color:#fff;border-radius:12px;width:54px;height:54px;
+           display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+  .lh .num small{font-size:.62rem;opacity:.85}
+  .lh .num b{font-size:1.4rem}
+  .lh h2{margin:0;font-size:1.32rem;color:var(--teal-d)}
+  .lh .sub{margin:3px 0 0;color:var(--muted);font-size:.92rem}
+  h3{color:var(--teal-d);margin:22px 0 6px;font-size:1.08rem}
+  h4{margin:16px 0 4px;font-size:1rem;color:#374151}
+  p{margin:9px 0}
+  ul,ol{margin:9px 0;padding-left:1.45em}
+  li{margin:5px 0}
+  code{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:5px;padding:1px 6px;font-size:.9em;
+       font-family:"SFMono-Regular",Consolas,Menlo,monospace;color:#0f172a;word-break:break-all}
+  .box{border-radius:11px;padding:14px 18px;margin:15px 0;border:1px solid}
+  .box .t{display:flex;align-items:center;gap:7px;font-weight:700;margin-bottom:4px}
+  .goal{background:var(--blue-bg);border-color:#bfdbfe}      .goal .t{color:var(--blue)}
+  .concept{background:#fff;border-color:var(--line)}
+  .case{background:var(--teal-l);border-color:#99f6e4}        .case .t{color:var(--teal-d)}
+  .youdo{background:var(--amber-bg);border-color:#fde68a}     .youdo .t{color:var(--amber)}
+  .word{background:var(--purple-bg);border-color:#ddd6fe}     .word .t{color:var(--purple)}
+  .warn{background:var(--amber-bg);border-color:#fde68a}      .warn .t{color:var(--amber)}
+  .good{background:var(--green-bg);border-color:#bbf7d0}      .good .t{color:var(--green)}
+  .danger{background:var(--red-bg);border-color:#fecaca}      .danger .t{color:var(--red)}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.93rem}
+  th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+  th{background:var(--teal-l);color:var(--teal-d)}
+  tr:nth-child(even) td{background:#fafafa}
+  pre{background:#0f172a;color:#e2e8f0;border-radius:10px;padding:15px 17px;overflow:auto;font-size:.86rem;line-height:1.65}
+  pre .c{color:#94a3b8}.pre .k{color:#7dd3fc}.pre .s{color:#86efac}
+  pre .k{color:#7dd3fc} pre .s{color:#86efac}
+  .pipe{display:flex;flex-wrap:wrap;align-items:stretch;gap:8px;margin:16px 0}
+  .pipe .step{flex:1 1 140px;min-width:140px;background:#fff;border:1.5px solid var(--teal);border-radius:10px;padding:9px 12px}
+  .pipe .step .tag{font-size:.7rem;color:#fff;background:var(--teal);border-radius:5px;padding:0 6px}
+  .pipe .step h5{margin:6px 0 2px;font-size:.92rem;color:var(--teal-d)}
+  .pipe .step p{margin:1px 0;font-size:.8rem;color:var(--muted);line-height:1.45}
+  .pipe .arrow{display:flex;align-items:center;color:var(--teal);font-size:1.3rem;font-weight:700}
+  .stat-row{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0}
+  .stat{flex:1 1 120px;background:var(--teal-l);border:1px solid #99f6e4;border-radius:10px;padding:12px;text-align:center}
+  .stat b{display:block;font-size:1.5rem;color:var(--teal-d)} .stat span{font-size:.8rem;color:var(--muted)}
+  details{border:1px solid var(--line);border-radius:10px;padding:6px 14px;margin:10px 0;background:#fff}
+  summary{cursor:pointer;font-weight:600;color:var(--teal-d)}
+  .map{font-family:"SFMono-Regular",Consolas,Menlo,monospace;font-size:.85rem;line-height:1.7;
+       background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto}
+  .map .d{color:var(--teal-d);font-weight:700} .map .cm{color:var(--muted)}
+  footer{max-width:1040px;margin:10px auto 56px;padding:0 20px;color:var(--muted);font-size:.85rem;text-align:center}
+  .back{position:fixed;right:18px;bottom:18px;background:var(--teal);color:#fff;border-radius:50%;width:46px;height:46px;
+        display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:1.2rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+  @media print{.back,nav.toc{display:none} section.lesson{break-inside:avoid}}
+  @media(max-width:640px){nav.toc ol{columns:1}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1>從零打造你自己的刷題網頁<br><span style="font-size:1.05rem;font-weight:500;opacity:.92">一步一步的教學 ── 以「內科專科刷題網站」當教案逐步拆解</span></h1>
+    <p>讀者設定:<strong>完全沒有程式背景的醫師</strong>。讀完你會知道「<b>要做一個像這樣的刷題網站,從無到有需要哪些步驟、每一步有哪些選擇、為什麼這樣選</b>」。</p>
+    <p>每一課的結構固定:<b>🎯 這一步要做什麼 → 💡 觀念與選擇 → 📚 教案:我們的做法 → 🔁 換你思考</b>。</p>
+    <div class="meta">對應實際網站版本 v1.8.2・題庫 104–114 年共 2000 題・11 科・181 題附圖</div>
+  </div>
+</header>
+
+<div class="layout">
+
+<nav class="toc">
+  <h2>🗺️ 課程地圖(14 課)</h2>
+  <ol>
+    <li><a href="#L0">想清楚:你要做什麼</a></li>
+    <li><a href="#L1">技術選型:要不要後端?用什麼蓋?</a></li>
+    <li><a href="#L2">把內容數位化(來源 → 資料)</a></li>
+    <li><a href="#L3">設計「一題」的資料結構</a></li>
+    <li><a href="#L4">圖片題怎麼處理</a></li>
+    <li><a href="#L5">分類與索引(分科/考點/目錄)</a></li>
+    <li><a href="#L6">詳解系統(解耦・五段式・草稿制)</a></li>
+    <li><a href="#L7">把畫面做出來(元件・練習模式)</a></li>
+    <li><a href="#L8">記住使用者的進度(本機儲存)</a></li>
+    <li><a href="#L9">品質把關(自動驗證・零錯誤)</a></li>
+    <li><a href="#L10">變成可安裝、可離線的 App(PWA)</a></li>
+    <li><a href="#L11">打包與上線(部署)</a></li>
+    <li><a href="#L12">上線後的維護(版本・Git)</a></li>
+    <li><a href="#L13">進階:用 AI 大規模協作</a></li>
+  </ol>
+  <div class="pathmap">
+    <span>需求</span><span>選型</span><span>資料</span><span>結構</span><span>圖片</span><span>分類</span><span>詳解</span>
+    <span>畫面</span><span>進度</span><span>驗證</span><span>PWA</span><span>部署</span><span>維護</span><span>AI 協作</span>
+  </div>
+</nav>
+
+<div class="box concept" style="border-color:#99f6e4;background:#fff">
+  <div class="t" style="color:var(--teal-d)">📌 開始前先有的心態</div>
+  你<b>不需要會寫程式</b>也能讀懂這份教學——它教你「整件事怎麼運作、每步在決定什麼」。真要動手時,這些粗活都可以交給工具或 AI;你的價值在<b>內容正確性</b>與<b>產品決策</b>。把每一課的「📚 教案」當成一個已經做完的真實範例來對照。
+</div>
+
+<!-- ===================== L0 ===================== -->
+<section class="lesson" id="L0">
+  <div class="lh"><div class="num"><small>Lesson</small><b>0</b></div>
+    <div><h2>想清楚:你到底要做什麼</h2><p class="sub">所有專案的第一步不是寫程式,是「定義問題」。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>用一段話講清楚:給誰用、解決什麼痛點、規模多大、有什麼限制。這決定後面所有技術選擇。</div>
+
+  <h3>💡 觀念:先回答五個問題</h3>
+  <table>
+    <tr><th>問題</th><th>為什麼重要</th></tr>
+    <tr><td>① <b>使用對象</b>是誰?</td><td>自用?小團體?還是公開大眾?→ 影響要不要帳號、要不要伺服器。</td></tr>
+    <tr><td>② 內容<b>規模</b>多大?</td><td>幾十題 vs 幾千題 → 影響資料要不要分檔、要不要「按需載入」。</td></tr>
+    <tr><td>③ 內容<b>多久更新</b>一次?</td><td>很少更新 → 可「打包進網頁」;天天變 → 才需要資料庫。</td></tr>
+    <tr><td>④ 要不要<b>跨裝置同步</b>?</td><td>要同步就需要後端+帳號;不要的話可以極簡。</td></tr>
+    <tr><td>⑤ <b>預算/維運</b>能力?</td><td>沒預算、不想維運 → 往「純前端、免費主機」走。</td></tr>
+  </table>
+
+  <div class="box case"><div class="t">📚 教案:我們的答案</div>
+    <ul style="margin:4px 0">
+      <li><b>對象</b>:準備內科專科甄審的醫師,<b>自用 + 小團體、不公開</b>。</li>
+      <li><b>規模</b>:104–114 年 <b>2000 題、11 科</b>(每年 160 或 200 題)。</li>
+      <li><b>更新</b>:題庫一年加一次,平常不太動 → 適合「打包進網頁」。</li>
+      <li><b>同步</b>:不需要雲端同步,各自在自己裝置刷即可。</li>
+      <li><b>預算</b>:<b>零維運成本</b>是硬需求。</li>
+    </ul>
+    <div class="stat-row" style="margin-top:8px">
+      <div class="stat"><b>2000</b><span>題</span></div><div class="stat"><b>11</b><span>科</span></div>
+      <div class="stat"><b>自用+小團體</b><span>對象</span></div><div class="stat"><b>$0</b><span>維運</span></div>
+    </div>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>把你想做的東西,用上面五題各回答一句。如果你的答案是「自用、內容固定、不用同步、零預算」——恭喜,你會走到跟我們一樣的「純前端」路線(下一課)。如果是「要開放註冊、內容每天變」,那就需要後端,屬另一條路。</div>
+</section>
+
+<!-- ===================== L1 ===================== -->
+<section class="lesson" id="L1">
+  <div class="lh"><div class="num"><small>Lesson</small><b>1</b></div>
+    <div><h2>技術選型:要不要「後端」?用什麼蓋?</h2><p class="sub">這是最關鍵的分岔路。選對了,後面省一半力氣。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>決定網站的「型態」(有沒有後端)與「建材」(用什麼框架做)。</div>
+
+  <h3>💡 觀念一:前端 vs 後端,差在哪</h3>
+  <table>
+    <tr><th></th><th>前端</th><th>後端</th></tr>
+    <tr><td>是什麼</td><td>使用者眼睛看得到、手點得到的畫面</td><td>躲在背後的伺服器 + 資料庫</td></tr>
+    <tr><td>負責</td><td>顯示題目、互動、存本機進度</td><td>帳號、跨裝置資料、即時運算</td></tr>
+    <tr><td>成本</td><td>可放免費主機、不用維運</td><td>要租伺服器、要維護、會當機</td></tr>
+  </table>
+  <div class="box warn"><div class="t">⚖️ 取捨</div><b>純前端</b>:零維運、超穩、隱私好,但<b>不能跨裝置同步</b>、內容更新要重新打包上線。<b>有後端</b>:能同步能即時改,但要錢要顧。<u>內容固定的刷題庫,純前端幾乎完勝。</u></div>
+
+  <div class="box word"><div class="t">📖 名詞</div><b>純前端</b>=整個網站像「會互動的電子書」,題目全包在裡面,沒有中央伺服器在算東西。</div>
+
+  <h3>💡 觀念二:用什麼「建材與工具」</h3>
+  <p>純前端網站常見組合:</p>
+  <table>
+    <tr><th>工具</th><th>角色(白話)</th></tr>
+    <tr><td><b>HTML/CSS/JavaScript</b></td><td>網頁的三大基本元素:結構 / 外觀 / 互動。</td></tr>
+    <tr><td><b>框架(React 等)</b></td><td>把畫面拆成可重複用的「積木(元件)」,複雜畫面好維護。</td></tr>
+    <tr><td><b>打包工具(Vite 等)</b></td><td>把程式碼「編譯」成瀏覽器看得懂的上線成品;開發時還能即時預覽。</td></tr>
+    <tr><td><b>PWA 能力</b></td><td>讓網頁「可安裝、可離線」(Lesson 10 細談)。</td></tr>
+  </table>
+
+  <div class="box case"><div class="t">📚 教案:我們的選擇</div>
+    <ul style="margin:4px 0">
+      <li><b>純前端、零後端、不需帳號</b>:進度只存瀏覽器本機(下一段名詞)。</li>
+      <li><b>React 19 + Vite 7</b>:用 React 把畫面拆成 15 塊元件;Vite 負責打包與開發預覽。</li>
+      <li><b>PWA</b>:可加到主畫面、可離線刷題。</li>
+      <li>樣式用單一 <code>styles.css</code>(沒有額外 UI 套件,保持輕量)。</li>
+    </ul>
+  </div>
+
+  <div class="box word"><div class="t">📖 名詞:localStorage</div>瀏覽器自帶的一小塊「私人記事本」,網站可以把你的作答紀錄存在這裡。換瀏覽器/清資料就會消失——這是純前端「不用後端也能記住進度」的關鍵,代價是不能自動跨裝置。</div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>不想學框架?<b>最小可行版本</b>甚至能用「一個 HTML 檔 + 一段 JavaScript + 題目陣列」做出來。框架是「題量大、功能多」時才划算的投資。先想清楚你要多少功能,再決定要不要上 React。</div>
+</section>
+
+<!-- ===================== L2 ===================== -->
+<section class="lesson" id="L2">
+  <div class="lh"><div class="num"><small>Lesson</small><b>2</b></div>
+    <div><h2>把內容數位化:從「來源」到「電腦看得懂的資料」</h2><p class="sub">有網站殼還不夠,真正的價值是內容。先把題目變成資料。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>把題目從原始來源(PDF、Word、紙本…)變成電腦能精準讀取的「結構化資料」。</div>
+
+  <h3>💡 觀念:電腦不懂「一份考卷」,只懂「欄位」</h3>
+  <p>PDF 在電腦眼中只是「一堆圖文」,它不知道哪段是題幹、哪段是選項、答案是什麼。你必須把它拆成固定欄位——這個過程叫「<b>結構化</b>」。常見做法:程式自動抽取 + 人工/AI 校對。</p>
+  <div class="box word"><div class="t">📖 名詞:JSON</div>一種「結構化資料表」的檔案格式。就像把病歷拆成固定欄位(姓名、年齡、診斷…),電腦能精準讀。<b>我們的每一題就是一筆 JSON 紀錄。</b></div>
+
+  <div class="box case"><div class="t">📚 教案:PDF → JSON 的半自動流程</div>
+    <ol style="margin:4px 0">
+      <li>原始 PDF 放 <code>source-pdfs/&lt;年&gt;/</code>。</li>
+      <li>寫一支轉檔小程式 <code>tools/parse_pdf.py</code>,把文字抽出來、依題號切開。</li>
+      <li>因為不同年份排版不同,做了多個版本(<code>parse_pdf.py</code> / <code>parse_pdf_109.py</code> / <code>parse_pdf_old.py</code>),像不同年代病歷要用不同判讀規則。</li>
+      <li>輸出成每年一檔:<code>src/data/questions.114.json</code> …</li>
+    </ol>
+    <div class="box danger" style="margin:8px 0 0"><div class="t">🚨 最高原則:零錯誤</div>醫療內容「寧缺勿錯」——抽出來的題目/答案必須與來源<b>逐字一致</b>,所以是「程式抽 + 人/AI 校對」,寧慢求準。</div>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>如果你的題目本來就在 Excel 或 Word,數位化會輕鬆很多(可直接轉成 JSON)。PDF 是最麻煩的來源。先盤點你的內容「原本長什麼樣」,難度差很多。</div>
+</section>
+
+<!-- ===================== L3 ===================== -->
+<section class="lesson" id="L3">
+  <div class="lh"><div class="num"><small>Lesson</small><b>3</b></div>
+    <div><h2>設計「一題」要有哪些欄位</h2><p class="sub">資料結構設計得好,後面的篩選、搜尋、統計才做得出來。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>決定「一題」要記錄哪些資訊(欄位),以及為什麼。</div>
+
+  <h3>💡 觀念:先想「使用者會怎麼用」,再回推欄位</h3>
+  <p>你想讓使用者「依年份練、依科目練、搜尋、看正確率」嗎?那每題就得有「年份、科目、答案」等欄位。<b>功能需求決定欄位設計。</b></p>
+
+  <div class="box case"><div class="t">📚 教案:我們一題的長相</div>
+<pre><span class="c">// questions.114.json 裡的一題</span>
+{
+  <span class="k">"id"</span>: <span class="s">"114-001"</span>,        <span class="c">// 全站唯一編號(114年第1題)→ 才能精準定位每一題</span>
+  <span class="k">"year"</span>: 114, <span class="k">"num"</span>: 1,    <span class="c">// 年份、題號 → 依年份練習、原卷排序</span>
+  <span class="k">"subject"</span>: <span class="s">"心臟血管"</span>,    <span class="c">// 科目 → 依科目練習、各科正確率</span>
+  <span class="k">"question"</span>: <span class="s">"…題幹…"</span>,
+  <span class="k">"options"</span>: [<span class="s">"A"</span>,<span class="s">"B"</span>,<span class="s">"C"</span>,<span class="s">"D"</span>,<span class="s">"E"</span>],  <span class="c">// 五個選項</span>
+  <span class="k">"answer"</span>: 2,              <span class="c">// 正解索引(0起算 → 2=第3個=C)</span>
+  <span class="k">"answerLetter"</span>: <span class="s">"C"</span>,     <span class="c">// 正解字母(驗證會檢查兩者一致,防打錯)</span>
+  <span class="k">"needsImage"</span>: false,      <span class="c">// 有沒有附圖</span>
+  <span class="k">"image"</span>: <span class="s">""</span>,             <span class="c">// 圖片路徑(有圖才填)</span>
+  <span class="k">"topic"</span>: <span class="s">"HF"</span>           <span class="c">// 考點(下一課再加上去)</span>
+}</pre>
+    <p style="margin:6px 0 0">設計巧思:同時存 <code>answer</code>(數字)和 <code>answerLetter</code>(字母),程式會自動檢查兩者一致——這是一道「防呆」。送分/複選題則允許答案寫成 <code>"A、C(送分)"</code> 這種字串。</p>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>畫一張你自己的「一題卡」:你要哪些欄位?要不要難度?要不要標籤?<b>寧可一開始多想幾個欄位</b>(像 topic 我們就是後來才加),改資料結構比改程式麻煩。</div>
+</section>
+
+<!-- ===================== L4 ===================== -->
+<section class="lesson" id="L4">
+  <div class="lh"><div class="num"><small>Lesson</small><b>4</b></div>
+    <div><h2>圖片題怎麼處理(ECG / X 光 / 病理)</h2><p class="sub">內科題很多要看圖,圖要「切對、放對、對到正確題號」。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>把附圖從來源切出來、存成圖檔、對應到正確的題,並讓網頁顯示得出來。</div>
+
+  <h3>💡 觀念:圖是獨立檔案,用「路徑」連到題</h3>
+  <p>圖片不會塞進 JSON,而是存成獨立圖檔,題目裡只記「<b>圖在哪</b>」(路徑)。網頁顯示時再去把圖載進來。</p>
+
+  <div class="box case"><div class="t">📚 教案:自動裁切 + 回填路徑</div>
+    <ol style="margin:4px 0">
+      <li>附圖 PDF 放 <code>source-pdfs/&lt;年&gt;/</code>,上面標「第 N 題」。</li>
+      <li>工具 <code>tools/extract_figures.py</code> 依事先量好的「裁切框座標」切圖,存成 <code>public/images/&lt;年&gt;/&lt;題號&gt;.jpg</code>,並自動把路徑回填到那題的 <code>image</code> 欄。</li>
+      <li>顯示時自動加上正確網址前綴。</li>
+    </ol>
+    <div class="box good" style="margin:8px 0 0"><div class="t">✅ 品質結果</div>目前 <b>181 題</b>有圖,經<b>逐張開圖核對</b>:無放錯、無重複、無左右顛倒;還因此抓到並修正了 3 題詳解的判讀錯誤(例如把皮肌炎誤判成硬皮症)。</div>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>如果你的圖本來就一張一張分開(不是擠在一張 PDF),就不用裁切,直接放進資料夾、填路徑即可。圖片題最花工的是「裁切」與「對題號」,先評估你的圖長怎樣。</div>
+</section>
+
+<!-- ===================== L5 ===================== -->
+<section class="lesson" id="L5">
+  <div class="lh"><div class="num"><small>Lesson</small><b>5</b></div>
+    <div><h2>分類與索引:讓題庫「好找、好統計」</h2><p class="sub">2000 題不分類就是一團亂。分類 + 做目錄,功能才強。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>幫每題分科、分考點,並做一份「輕量目錄」讓網站跑得快。</div>
+
+  <h3>💡 觀念一:兩層分類(科 → 考點)</h3>
+  <p>大分類(科)讓你選「心臟科」;細分類(考點)讓你只練「ACS」或「心衰竭」。考點用<b>英文縮寫</b>(符合醫界習慣)。分類可用「關鍵字規則」自動做,再人工微調。</p>
+
+  <div class="box case"><div class="t">📚 教案:分科 + 分考點 + 細分</div>
+    <ul style="margin:4px 0">
+      <li><code>tools/classify.py</code> 把題分到 <b>11 科</b>。</li>
+      <li><code>tools/classify_topic.py</code> 依「題幹+選項+詳解」關鍵字標<b>考點</b>(如 ACS/HF/SLE/Gout…),<b>2000 題全覆蓋</b>。</li>
+      <li>大桶還能再細分:血液腫瘤的實體癌拆成 <code>Onc-Lung/Breast/CRC/GU/GI…</code> 等器官別。</li>
+    </ul>
+  </div>
+
+  <h3>💡 觀念二:輕量索引(目錄),讓網站不卡</h3>
+  <p>首頁要顯示各科題數、正確率,搜尋要快。若每次都載入全部 2000 題的完整內容會很慢。解法:做一份只含「id/年/題號/科目/考點」的<b>薄目錄</b>,先讀它;真要做某年的題,<b>才載入那一年</b>。</p>
+  <div class="box case"><div class="t">📚 教案:index + 按需載入</div>
+    <code>tools/build_index.py</code> 產生 <code>src/data/index.json</code>(薄目錄)。App 啟動先讀目錄,點某年才動態載入該年題目——像先看病歷封面索引,要看某次住院才抽那一本。</div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>題量小(幾百題)其實可以全部一次載入,不必做索引。索引是「題量大 + 要即時統計/搜尋」時的優化。先別過度設計。</div>
+</section>
+
+<!-- ===================== L6 ===================== -->
+<section class="lesson" id="L6">
+  <div class="lh"><div class="num"><small>Lesson</small><b>6</b></div>
+    <div><h2>詳解系統:解耦、五段式、草稿制</h2><p class="sub">刷題網站的靈魂。詳解要好寫、好維護、可信任。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>設計「詳解怎麼存、長什麼格式、怎麼標示可信度」。</div>
+
+  <h3>💡 觀念一:詳解與題目「分開存」(解耦)</h3>
+  <p>把詳解放在另一個檔(以題號對應),好處是:重跑題目轉檔時<b>不會蓋掉</b>辛苦寫的詳解;詳解可以慢慢補。</p>
+
+  <div class="box case"><div class="t">📚 教案:詳解獨立檔 + 狀態</div>
+<pre><span class="c">// explanations.114.json</span>
+{
+  <span class="k">"114-001"</span>: {
+    <span class="k">"text"</span>: <span class="s">"### 本題觀念\n…(Markdown 五段式)"</span>,
+    <span class="k">"status"</span>: <span class="s">"draft"</span>   <span class="c">// draft=草稿;reviewed=醫師審核定稿</span>
+  }
+}</pre>
+  </div>
+
+  <div class="box word"><div class="t">📖 名詞:Markdown</div>用簡單符號排版的純文字。打 <code>**字**</code> 變粗體、<code>### 標題</code> 變小標、<code>[文字](網址)</code> 變連結。詳解就用它寫,網頁會自動轉成漂亮排版。</div>
+
+  <h3>💡 觀念二:固定格式 + 可信度標示</h3>
+  <p>固定「五段式」讓每篇詳解品質一致、好讀;用「草稿/已審核」標示讓使用者知道<b>能信到什麼程度</b>。</p>
+  <table>
+    <tr><th>五段式</th><th>內容</th></tr>
+    <tr><td>### 本題觀念</td><td>這題在考什麼核心概念</td></tr>
+    <tr><td>### 選項分析</td><td>逐一說明每個選項對錯與陷阱</td></tr>
+    <tr><td>### 答案解析</td><td>為什麼選這個、與正解一致</td></tr>
+    <tr><td>### 核心知識點</td><td>可帶走的重點(藥名劑量、cutoff、分情境決策)</td></tr>
+    <tr><td>### 參考資料</td><td>最新版指引 + 關鍵試驗,附可點的 PMID/DOI</td></tr>
+  </table>
+
+  <div class="box good"><div class="t">✅ 草稿制(信任設計)</div>所有 AI 起草的詳解一律先標 <b>draft</b>,網頁顯示「草稿・未經審核」;<b>只有醫師人工定稿</b>才改 <b>reviewed</b>。<b>AI 永遠不可自行標 reviewed。</b>目前 2000 篇:17 已審、1983 草稿。</div>
+  <div class="box warn"><div class="t">⚠️ 正解依「考年標準」</div>確保答對當年題;考點後來更新,用「<b>&gt; 最新進展:</b>」另外註明,但不改考年正解。</div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>你的詳解要不要固定格式?<b>強烈建議要</b>——格式一致可讀性與品質都會大幅提升,也方便日後請 AI 大量起草。先訂一份「撰寫規範」。</div>
+</section>
+
+<!-- ===================== L7 ===================== -->
+<section class="lesson" id="L7">
+  <div class="lh"><div class="num"><small>Lesson</small><b>7</b></div>
+    <div><h2>把畫面做出來(積木式元件 + 各種練習模式)</h2><p class="sub">資料齊了,現在讓使用者真的能「刷」。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>設計使用者流程與畫面:首頁 → 選模式 → 一題一題作答 → 看詳解。</div>
+
+  <h3>💡 觀念:把畫面拆成可重複用的「積木」</h3>
+  <p>「一題的卡片」會在練習、模擬考、搜尋結果裡重複出現——做成一塊積木(元件)就能到處用,改一次到處更新。</p>
+  <div class="box word"><div class="t">📖 名詞:元件(component)</div>畫面的積木。例如 <code>QuestionView</code>(一題卡)、<code>Home</code>(首頁)、<code>Search</code>(搜尋頁)各是一塊,可組合、可重用。</div>
+
+  <div class="box case"><div class="t">📚 教案:15 塊元件 + 多種模式</div>
+    <p style="margin:4px 0">畫面在 <code>src/components/</code>,由 <code>App.jsx</code> 當「總機」切換。使用者能用的模式:</p>
+    <table>
+      <tr><th>模式/功能</th><th>說明</th></tr>
+      <tr><td>依年份/依科目/隨機 練習</td><td>依科目時上方有<b>考點 chips</b>,可只練某考點</td></tr>
+      <tr><td>到期複習(間隔複習)</td><td>用 Leitner 演算法排程:答對隔越久才再出現,記最牢</td></tr>
+      <tr><td>錯題複習 / 我的收藏 ★</td><td>只練答錯過的 / 收藏的</td></tr>
+      <tr><td>模擬考</td><td>可限時(每題1分鐘、到時自動交卷)、自訂題數;交卷給各科+各考點弱點報告</td></tr>
+      <tr><td>搜尋 🔍</td><td>搜題幹/選項/題號/科目/考點,關鍵字高亮</td></tr>
+      <tr><td>跳題格</td><td>永久標記已作答(綠=對、紅=錯)</td></tr>
+      <tr><td>學習統計</td><td>各科/各年完成度與正確率,可匯出 PDF 報告</td></tr>
+      <tr><td>收藏★/筆記📝/深色模式/鍵盤快捷鍵/單題分享連結</td><td>各種體驗優化</td></tr>
+    </table>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>第一版別貪心。<b>最小可行版</b>只要:列題 → 點選項 → 顯示對錯與詳解。其他模式(模擬考、SRS、統計)都是後續一個一個加上去的(我們也是這樣長出來的)。</div>
+</section>
+
+<!-- ===================== L8 ===================== -->
+<section class="lesson" id="L8">
+  <div class="lh"><div class="num"><small>Lesson</small><b>8</b></div>
+    <div><h2>記住使用者的進度(沒有後端也能做到)</h2><p class="sub">作答紀錄、收藏、筆記要存下來,而且不靠伺服器。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>把使用者的作答對錯、收藏、筆記、複習排程存起來,下次打開還在。</div>
+
+  <h3>💡 觀念:存在「瀏覽器本機」</h3>
+  <p>純前端沒有資料庫,但瀏覽器自帶 <b>localStorage</b>(本機記事本),可以把進度存在使用者自己的裝置。優點:不用後端、隱私好;缺點:換裝置不會跟著走 → 要做「備份/還原」。</p>
+
+  <div class="box case"><div class="t">📚 教案:本機進度 + 備份 + 間隔複習</div>
+    <ul style="margin:4px 0">
+      <li>進度存在 <code>localStorage</code>,內容包含:每題最後一次對錯、收藏清單、筆記、間隔複習排程。</li>
+      <li><b>備份</b>:「匯出進度」成備份碼或檔案(還做了<b>壓縮</b>,2000 題的紀錄也很短);換裝置「匯入」還原。</li>
+      <li><b>間隔複習(SRS)</b>:用 Leitner 盒子演算法決定每題「下次該何時再出現」。</li>
+    </ul>
+    <div class="box warn" style="margin:8px 0 0"><div class="t">⚠️ 提醒使用者備份</div>因為只存本機,換手機/清快取前要先匯出。所以「按更新前會跳出提醒先備份」。</div>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>哪天你真的需要「跨裝置同步」或「老師看學生進度」,那才是你需要後端+帳號的時機。在那之前,localStorage + 備份碼就很夠用。</div>
+</section>
+
+<!-- ===================== L9 ===================== -->
+<section class="lesson" id="L9">
+  <div class="lh"><div class="num"><small>Lesson</small><b>9</b></div>
+    <div><h2>品質把關:讓錯誤無所遁形</h2><p class="sub">醫療內容最怕錯。用「自動檢查 + 原則」雙重把關。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>建立「每次改完都自動檢查一遍」的機制,並訂下不可違反的內容原則。</div>
+
+  <h3>💡 觀念:能自動檢查的,就別靠人記得</h3>
+  <p>寫一支「驗證程式」,把所有「機器可判斷的錯」一次抓出來(欄位漏填、答案不一致、圖檔不存在…),人就能專心看「機器看不出的醫學正確性」。</p>
+
+  <div class="box case"><div class="t">📚 教案:自動驗證 + 人為原則</div>
+    <p style="margin:4px 0"><code>tools/validate.py</code> 會檢查:必要欄位、選項=5、<b>答案字母與索引一致</b>、科目合法、題號連續不重複、圖檔存在、目錄同步、詳解覆蓋率。另有人為鐵則:</p>
+    <ul style="margin:4px 0">
+      <li>參考資料 <b>PMID/DOI 必須查證為真</b>(查不到改原則性描述,<b>嚴禁杜撰</b>)。</li>
+      <li>圖片題<b>逐張開圖核對</b>(放對沒、判讀對沒)。</li>
+    </ul>
+    <div class="box danger" style="margin:8px 0 0"><div class="t">🚨 最高原則:零錯誤優先</div>不確定的數字/試驗/PMID 一律查證或改原則性描述。寧缺勿錯。</div>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>列出你內容裡「一定不能錯、又能用規則檢查」的點(例如答案格式、必填欄位),把它寫成檢查清單——這份清單就是你的「validate」。每次改完跑一次,睡得安穩。</div>
+</section>
+
+<!-- ===================== L10 ===================== -->
+<section class="lesson" id="L10">
+  <div class="lh"><div class="num"><small>Lesson</small><b>10</b></div>
+    <div><h2>變成可安裝、可離線的 App(PWA)</h2><p class="sub">讓網頁能「加到主畫面」、沒網路也能用。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>讓你的網站能像 App 一樣安裝、離線使用,並能優雅地提示更新。</div>
+
+  <div class="box word"><div class="t">📖 名詞:PWA</div>Progressive Web App——「漸進式網頁應用」。簡單說:用網址開的網頁,但能加到主畫面、離線運作,介於網站與 App 之間。背後靠一個叫 <b>Service Worker</b> 的小幫手把檔案<b>快取</b>(暫存)在裝置上。</div>
+
+  <div class="box case"><div class="t">📚 教案:提示式更新</div>
+    <ul style="margin:4px 0">
+      <li>題目與圖第一次看過後會被快取,之後可<b>離線</b>刷。</li>
+      <li><b>提示式更新</b>:偵測到新版時,畫面下方跳「🆕 有新版本可用」,使用者按「立即更新」才套用——不背景強制換版。</li>
+      <li>每 30 分鐘、切回分頁時會自動檢查一次更新。</li>
+    </ul>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>PWA 是「加分項」,不是必需。第一版可以先不做;等你發現使用者想「裝起來、離線用」時再加。打包工具(Vite)有現成外掛,加起來不難。</div>
+</section>
+
+<!-- ===================== L11 ===================== -->
+<section class="lesson" id="L11">
+  <div class="lh"><div class="num"><small>Lesson</small><b>11</b></div>
+    <div><h2>打包與上線(讓全世界連得到)</h2><p class="sub">在自己電腦能跑還不算數,要「打包」並「部署」到主機。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>把程式碼變成上線成品,並放到網路主機上,拿到一個網址。</div>
+
+  <h3>💡 觀念:build(打包)→ deploy(部署)</h3>
+  <table>
+    <tr><td><b>build</b></td><td>把程式碼「編譯」成瀏覽器看得懂的成品檔案。像把食譜做成上桌的菜。</td></tr>
+    <tr><td><b>deploy</b></td><td>把成品放到網路主機上,別人才連得到。像把菜端到餐廳給客人。</td></tr>
+  </table>
+
+  <div class="box case"><div class="t">📚 教案:兩個免費主機同時上線</div>
+    <table>
+      <tr><th>主機</th><th>說明</th><th>觸發</th></tr>
+      <tr><td>GitHub Pages</td><td>放在子網址 <code>/Taiwan_IM_board/</code></td><td>程式碼推上 main 主線就<b>自動</b>打包上線</td></tr>
+      <tr><td>Cloudflare Worker</td><td>放在根網域(自己的網址)</td><td>用 <code>npx wrangler deploy</code> 部署</td></tr>
+    </table>
+    <p style="margin:6px 0 0">兩者唯一要小心的差別是「網址前綴」設定(子網址 vs 根網址),設錯會整頁空白——這在設定檔已處理好。常用指令:<code>npm run build</code>(打包)、<code>npm run dev</code>(本機預覽)。</p>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>免費主機很多(GitHub Pages、Cloudflare、Netlify、Vercel…),純前端網站幾乎都能免費掛上去。先挑一個就好,熟了再考慮第二個當備援。</div>
+</section>
+
+<!-- ===================== L12 ===================== -->
+<section class="lesson" id="L12">
+  <div class="lh"><div class="num"><small>Lesson</small><b>12</b></div>
+    <div><h2>上線後的維護:版本、更新、安全網</h2><p class="sub">網站會一直長大,要有「記錄改了什麼」和「能還原」的機制。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>建立「版本紀錄」「更新提示」與「可追溯/可還原」的維護習慣。</div>
+
+  <div class="box word"><div class="t">📖 名詞:Git</div>「版本控制」工具,等於專案的<b>完整修改病歷 + 時光機</b>。<b>commit</b>=存一次檔並附說明;<b>branch</b>=另開實驗支線不動正式版;<b>merge</b>=把支線併回主線;<b>main</b>=正式版支線。</div>
+
+  <div class="box case"><div class="t">📚 教案:維護的三個習慣</div>
+    <ul style="margin:4px 0">
+      <li><b>版本紀錄</b>:<code>changelog.json</code> 記每次更新(第一筆的版本號就是 App 顯示的版本,目前 v1.8.2)。</li>
+      <li><b>「改功能 = 三件事一起改」</b>:任何使用者看得到的更動,必須同步更新 ① changelog ② App 使用說明 ③ README,確保「程式、說明、版本」永遠對得上。</li>
+      <li><b>Git 工作流</b>:在功能分支開發 → 驗證 → 合併回 main(自動上線);每次 commit 都留清楚說明,<b>任何更動都查得到、能還原</b>。</li>
+    </ul>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>就算只有你一個人做,也<b>務必用 Git</b>。它是你的後悔藥:改壞了能回到前一版、想知道某段什麼時候改的也查得到。對醫療內容尤其重要。</div>
+</section>
+
+<!-- ===================== L13 ===================== -->
+<section class="lesson" id="L13">
+  <div class="lh"><div class="num"><small>Lesson</small><b>13</b></div>
+    <div><h2>進階:用 AI 大規模協作(2000 題怎麼審完)</h2><p class="sub">內容量大時,讓多個 AI 分工,但「人做最後判斷」。</p></div></div>
+
+  <div class="box goal"><div class="t">🎯 這一步要做什麼</div>當題量大到人工做不完時,用 AI 當產線,並設計「不會出錯」的協作流程。</div>
+
+  <h3>💡 觀念:AI 做粗活,人做判斷;而且要「雙重查證」</h3>
+  <p>AI 很會大量起草與比對,但會犯錯。關鍵設計是:<b>讓不同 AI 互相查核</b>,且重要事實(如 PMID)<b>每個環節都各自再查一次</b>,人保留最終決定權。</p>
+
+  <div class="box case"><div class="t">📚 教案:審稿產線</div>
+    <div class="pipe">
+      <div class="step"><span class="tag">派工</span><h5>9 個 AI 各審一科</h5><p>讀題、查證 PMID</p></div>
+      <div class="arrow">→</div>
+      <div class="step"><span class="tag">清單</span><h5>產出裁決檔</h5><p>題號|OK/FLAG|疑慮|建議</p></div>
+      <div class="arrow">→</div>
+      <div class="step"><span class="tag">修正</span><h5>另一批 AI 修</h5><p>各自再查證才寫入</p></div>
+      <div class="arrow">→</div>
+      <div class="step"><span class="tag">把關</span><h5>合併+驗證</h5><p>0 壞連結才提交</p></div>
+    </div>
+    <div class="box good" style="margin:8px 0 0"><div class="t">✅ 雙重查證的威力</div>「審稿 AI」給的 PMID,「修正 AI」會各自再查一次——所以連審稿 AI 給錯的編號都會被抓出來,維持「零杜撰引用」。圖片題查核也一樣:多個會看圖的 AI 逐張開圖,可疑的再由人親自確認。</div>
+  </div>
+
+  <div class="box youdo"><div class="t">🔁 換你思考</div>內容少的話用不到這套;但如果你有上千題要寫詳解或審核,「AI 分工 + 人定稿 + 自動驗證」會是你的省力關鍵。記住兩個底線:<b>AI 不可自行定稿</b>、<b>事實一律查證不杜撰</b>。</div>
+</section>
+
+<!-- ===================== 收尾 ===================== -->
+<section class="lesson" id="end">
+  <div class="lh"><div class="num" style="background:var(--purple)"><small>結語</small><b>✓</b></div>
+    <div><h2>整條路回顧 + 你的下一步</h2><p class="sub">把 14 課串起來,就是一個刷題網站的完整生命週期。</p></div></div>
+
+  <div class="pipe">
+    <div class="step"><span class="tag">L0-1</span><h5>定需求・選型</h5><p>純前端 + React/Vite/PWA</p></div>
+    <div class="arrow">→</div>
+    <div class="step"><span class="tag">L2-6</span><h5>內容工程</h5><p>數位化→結構→圖→分類→詳解</p></div>
+    <div class="arrow">→</div>
+    <div class="step"><span class="tag">L7-8</span><h5>做出產品</h5><p>畫面・模式・本機進度</p></div>
+    <div class="arrow">→</div>
+    <div class="step"><span class="tag">L9-11</span><h5>把關・上線</h5><p>驗證→PWA→部署</p></div>
+    <div class="arrow">→</div>
+    <div class="step"><span class="tag">L12-13</span><h5>維護・擴大</h5><p>版本・Git・AI 協作</p></div>
+  </div>
+
+  <div class="box case"><div class="t">📚 教案的整體檔案地圖</div>
+  <div class="map">
+Taiwan_IM_board/                <span class="cm"># 專案總資料夾(repo)</span>
+├─ <span class="d">src/</span>          <span class="cm"># 網站程式碼(前端)</span>
+│  ├─ App.jsx     <span class="cm"># 總機:切換首頁/練習/模擬考/搜尋</span>
+│  ├─ components/ <span class="cm"># 15 塊畫面積木(Home, Practice, Mock, QuestionView, Search…)</span>
+│  ├─ lib/        <span class="cm"># 共用邏輯(進度儲存、間隔複習、備份壓縮、匯出…)</span>
+│  ├─ styles.css  <span class="cm"># 全站樣式(含深色模式)</span>
+│  └─ <span class="d">data/</span>       <span class="cm"># ★醫療內容★ questions/explanations/index/changelog</span>
+├─ <span class="d">public/images/</span> <span class="cm"># 附圖</span>
+├─ <span class="d">tools/</span>        <span class="cm"># 13 個自動化工具(轉檔/裁圖/分類/驗證/審核)</span>
+├─ <span class="d">docs/</span>         <span class="cm"># 規範與教學(含本文件)</span>
+├─ <span class="d">source-pdfs/</span>  <span class="cm"># 原始 PDF</span>
+├─ CLAUDE.md      <span class="cm"># 給協作 AI 的總指南</span>
+└─ README.md      <span class="cm"># 專案說明</span>
+  </div>
+  <p style="margin:8px 0 0">真正的「醫療內容」只在 <code>src/data/</code> 與 <code>public/images/</code>;其餘是讓它變好用網站的工程。</p></div>
+
+  <div class="box goal"><div class="t">🚀 你的下一步(若想動手)</div>
+    <ol style="margin:4px 0">
+      <li>先做 <b>Lesson 0</b> 的五個問題,定義你的專案。</li>
+      <li>準備 <b>10–20 題</b>當樣本,設計「一題卡」欄位(L3)。</li>
+      <li>做一個<b>最小可行版</b>:能列題、點選項、看對錯與詳解(L7)。</li>
+      <li>掛上免費主機看看(L11),再逐步加模式、PWA、統計。</li>
+      <li>粗活(轉檔、分類、驗證、起草詳解)都可以交給工具或 AI——你專注在<b>內容正確</b>與<b>決策</b>。</li>
+    </ol>
+  </div>
+
+  <h3>❓ 常見問題</h3>
+  <details><summary>完全不會寫程式,真的能做出來嗎?</summary><p>能。理解「整件事怎麼運作、每步在決定什麼」最重要(這份教學的目的);實作層面現在可以大量交給 AI 協助,你負責內容與把關。</p></details>
+  <details><summary>純前端,題目放哪、會被亂改嗎?</summary><p>題目打包在網頁成品裡放在主機上。任何更動都要透過 Git 留紀錄再上線,可追溯可還原;一般使用者只能讀。</p></details>
+  <details><summary>為什麼不做帳號/雲端同步,不是比較方便?</summary><p>那需要後端+維運+成本+資安責任。對「自用/小團體、內容固定」的刷題庫,純前端+備份碼的性價比更高。等真的需要再升級。</p></details>
+  <details><summary>「草稿・未經審核」能信嗎?</summary><p>表示 AI 起草、尚未醫師定稿。已經過 AI 互審與 PMID 查證,但請以專業判斷為準、自行查證。醫師審核後會拿掉標記。</p></details>
+</section>
+
+</div>
+
+<footer>
+  從零打造刷題網頁・逐步教學(教案:內科專科考試刷題網站 v1.8.2)・製作人:dirtywolf1213<br>
+  教案網站為非官方、個人非營利學習工具,與醫學會等官方機構無關;題目/答案來自公開資料,不保證正確性,不構成醫療建議。
+</footer>
+
+<a class="back" href="#" title="回到頂端">↑</a>
+</body>
+</html>
