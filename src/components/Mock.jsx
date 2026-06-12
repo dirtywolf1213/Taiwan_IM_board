@@ -3,7 +3,7 @@ import QuestionView from './QuestionView.jsx'
 import SubjectStats from './SubjectStats.jsx'
 import { shuffle, fmtTime, preloadImage, isCorrect } from '../lib/util.js'
 
-export default function Mock({ questions, progress = {}, onAnswer, onToggleFav, onSetNote, onExit }) {
+export default function Mock({ questions, progress = {}, onAnswer, onToggleFav, onSetNote, onReport, onExit }) {
   const [phase, setPhase] = useState('setup') // setup | exam | result
   const [list, setList] = useState([])
   const [answers, setAnswers] = useState({})
@@ -169,7 +169,7 @@ export default function Mock({ questions, progress = {}, onAnswer, onToggleFav, 
         {list.map((q, idx) => (
           <QuestionView key={q.id} q={q} chosen={answers[q.id] ?? null} revealed index={idx} total={list.length}
             favorited={(progress.favorites || []).includes(q.id)} onToggleFav={onToggleFav}
-            note={(progress.notes || {})[q.id]} onSetNote={onSetNote} />
+            note={(progress.notes || {})[q.id]} onSetNote={onSetNote} onReport={onReport} />
         ))}
         <div className="nav">
           <button className="primary" onClick={onExit}>回首頁</button>
@@ -203,6 +203,7 @@ export default function Mock({ questions, progress = {}, onAnswer, onToggleFav, 
         total={list.length}
         favorited={(progress.favorites || []).includes(q.id)}
         onToggleFav={onToggleFav}
+        onReport={onReport}
       />
 
       <div className="grid-jump">

@@ -447,6 +447,25 @@ button { font-family: inherit; cursor: pointer; }
   color: #cbd5e1; padding: 0 2px;
 }
 .fav-btn.on { color: #f59e0b; }
+.report-btn { background: none; border: none; font-size: 1.02rem; line-height: 1; padding: 0 2px; cursor: pointer; opacity: .65; }
+.report-btn:hover { opacity: 1; }
+
+/* ---------- 許願池 / 意見反應 ---------- */
+.fb-tabs { display: flex; gap: 8px; margin-bottom: 14px; }
+.fb-tab {
+  flex: 1; border: 1.5px solid var(--line); background: var(--card); color: var(--muted);
+  border-radius: 10px; padding: 9px 8px; font-size: .92rem; font-weight: 600; cursor: pointer;
+}
+.fb-tab.on { border-color: var(--teal); background: var(--teal); color: #fff; }
+.fb-field { display: block; margin: 12px 0; }
+.fb-field > span { display: block; font-size: .85rem; color: var(--teal-dark); font-weight: 600; margin-bottom: 4px; }
+.fb-input {
+  width: 100%; padding: 9px 12px; border: 1.5px solid var(--line); border-radius: 10px;
+  background: var(--card); color: var(--text); font-size: .95rem;
+}
+.fb-input:focus, .fb-field .note-area:focus { outline: none; border-color: var(--teal); }
+.fb-field .note-area { min-height: 96px; }
+.fb-note { font-size: .8rem; color: var(--muted); line-height: 1.55; margin: 10px 0 0; }
 .note-block { margin-top: 12px; border-top: 1px dashed var(--line); padding-top: 10px; }
 .note-toggle {
   background: none; border: none; color: var(--teal-dark); font-weight: 600;

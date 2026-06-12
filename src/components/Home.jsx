@@ -4,7 +4,7 @@ import { APP_VERSION, hasUnseenUpdate } from '../lib/version.js'
 import { dueCount } from '../lib/srs.js'
 import { getTheme, toggleTheme } from '../lib/theme.js'
 
-export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual, onOpenStats, onOpenSearch }) {
+export default function Home({ index, progress, onStart, onReset, onOpenDisclaimer, onBackup, onOpenAbout, onOpenManual, onOpenStats, onOpenSearch, onOpenFeedback }) {
   const unseen = hasUnseenUpdate()
   const total = index.length
   const results = progress.results
@@ -107,6 +107,9 @@ export default function Home({ index, progress, onStart, onReset, onOpenDisclaim
         </p>
         <p>製作人:dirtywolf1213</p>
         <p>進度只存在這台裝置的瀏覽器</p>
+        <p>
+          <button className="link-inline" onClick={onOpenFeedback}>💡 許願池 / 意見反應</button>
+        </p>
         <p>
           <a
             className="link-inline"

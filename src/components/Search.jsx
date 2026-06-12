@@ -22,7 +22,7 @@ function highlight(text, query) {
 }
 
 // 全題庫搜尋:比對題幹/選項文字、題號、科目、考點。點結果即可檢視該題與詳解。
-export default function Search({ questions, progress, onToggleFav, onSetNote, onExit }) {
+export default function Search({ questions, progress, onToggleFav, onSetNote, onReport, onExit }) {
   const [qstr, setQstr] = useState('')
   const [sel, setSel] = useState(null)
 
@@ -57,6 +57,7 @@ export default function Search({ questions, progress, onToggleFav, onSetNote, on
           onToggleFav={onToggleFav}
           note={(progress.notes || {})[sel.id]}
           onSetNote={onSetNote}
+          onReport={onReport}
         />
         <div className="nav">
           <button onClick={() => setSel(null)}>← 回搜尋結果</button>

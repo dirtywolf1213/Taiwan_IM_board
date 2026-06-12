@@ -6,7 +6,7 @@ import { dueIds } from '../lib/srs.js'
 
 const TITLES = { sequential: '順序練習', random: '隨機練習', wrong: '錯題複習', fav: '我的收藏', due: '到期複習' }
 
-export default function Practice({ mode, subject, year, questions, progress, onAnswer, onToggleFav, onSetNote, onExit }) {
+export default function Practice({ mode, subject, year, questions, progress, onAnswer, onToggleFav, onSetNote, onReport, onExit }) {
   // 依模式決定題目順序(只在進入時計算一次)
   const list = useMemo(() => {
     if (mode === 'random') return shuffle(questions)
@@ -176,6 +176,7 @@ export default function Practice({ mode, subject, year, questions, progress, onA
         onToggleFav={onToggleFav}
         note={(progress.notes || {})[q.id]}
         onSetNote={onSetNote}
+        onReport={onReport}
       />
 
       <div className="nav">

@@ -14,6 +14,7 @@ import UserManual from './components/UserManual.jsx'
 import StatsModal from './components/StatsModal.jsx'
 import Search from './components/Search.jsx'
 import QuestionView from './components/QuestionView.jsx'
+import FeedbackModal from './components/FeedbackModal.jsx'
 
 const DISCLAIMER_KEY = 'tim_disclaimer_v1'
 
@@ -33,6 +34,10 @@ export default function App() {
   const [showAbout, setShowAbout] = useState(false)
   const [showManual, setShowManual] = useState(false)
   const [showStats, setShowStats] = useState(false)
+  const [feedback, setFeedback] = useState(null) // null | { type:'wish'|'report', qid }
+
+  // 開啟許願/意見視窗;帶 qid 表示「回報這題」
+  const openFeedback = (qid) => setFeedback({ type: qid ? 'report' : 'wish', qid: qid || '' })
 
   useEffect(() => saveProgress(progress), [progress])
 
@@ -163,6 +168,7 @@ export default function App() {
         onAnswer={recordAnswer}
         onToggleFav={toggleFavorite}
         onSetNote={setNote}
+        onReport={openFeedback}
         onExit={() => setView('home')}
       />
     )
@@ -188,6 +194,7 @@ export default function App() {
             onToggleFav={toggleFavorite}
             note={(progress.notes || {})[q.id]}
             onSetNote={setNote}
+            onReport={openFeedback}
           />
         ) : <p className="empty">找不到這題。</p>}
       </div>
@@ -201,6 +208,7 @@ export default function App() {
         progress={progress}
         onToggleFav={toggleFavorite}
         onSetNote={setNote}
+        onReport={openFeedback}
         onExit={() => setView('home')}
       />
     )
@@ -214,6 +222,7 @@ export default function App() {
         onAnswer={recordAnswer}
         onToggleFav={toggleFavorite}
         onSetNote={setNote}
+        onReport={openFeedback}
         onExit={() => setView('home')}
       />
     )
@@ -232,11 +241,13 @@ export default function App() {
         onOpenManual={() => setShowManual(true)}
         onOpenStats={() => setShowStats(true)}
         onOpenSearch={openSearch}
+        onOpenFeedback={() => openFeedback()}
       />
       {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
       {showManual && <UserManual onClose={() => setShowManual(false)} />}
       {showStats && <StatsModal index={index} progress={progress} onClose={() => setShowStats(false)} />}
+      {feedback && <FeedbackModal init={feedback} onClose={() => setFeedback(null)} />}
       {backup && (
         <BackupModal
           mode={backup}

@@ -65,7 +65,7 @@ function NoteEditor({ id, note, onSetNote }) {
 //   note / onSetNote          個人筆記
 export default function QuestionView({
   q, chosen, revealed, onChoose, index, total,
-  favorited, onToggleFav, note, onSetNote,
+  favorited, onToggleFav, note, onSetNote, onReport,
 }) {
   const [copied, setCopied] = useState(false)
   const copyLink = () => {
@@ -91,6 +91,16 @@ export default function QuestionView({
           {q.topic && <span className="topic-chip" title="考點">{q.topic}</span>}
         </span>
         <span className="q-meta-right">
+          {onReport && (
+            <button
+              className="report-btn"
+              onClick={() => onReport(q.id)}
+              aria-label="回報這題有問題"
+              title="回報這題有問題"
+            >
+              ⚠️
+            </button>
+          )}
           {onToggleFav && (
             <button
               className={`fav-btn ${favorited ? 'on' : ''}`}
