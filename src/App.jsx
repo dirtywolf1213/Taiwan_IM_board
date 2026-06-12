@@ -159,18 +159,21 @@ export default function App() {
 
   if (view === 'practice') {
     return (
-      <Practice
-        mode={mode}
-        subject={subject}
-        year={year}
-        questions={session}
-        progress={progress}
-        onAnswer={recordAnswer}
-        onToggleFav={toggleFavorite}
-        onSetNote={setNote}
-        onReport={openFeedback}
-        onExit={() => setView('home')}
-      />
+      <>
+        <Practice
+          mode={mode}
+          subject={subject}
+          year={year}
+          questions={session}
+          progress={progress}
+          onAnswer={recordAnswer}
+          onToggleFav={toggleFavorite}
+          onSetNote={setNote}
+          onReport={openFeedback}
+          onExit={() => setView('home')}
+        />
+        {feedback && <FeedbackModal init={feedback} onClose={() => setFeedback(null)} />}
+      </>
     )
   }
 
@@ -181,50 +184,59 @@ export default function App() {
       setView('home')
     }
     return (
-      <div className="screen">
-        <div className="topbar">
-          <button className="back" onClick={goHome}>← 首頁</button>
-          <span className="topbar-title">分享的題目</span>
-          <span />
+      <>
+        <div className="screen">
+          <div className="topbar">
+            <button className="back" onClick={goHome}>← 首頁</button>
+            <span className="topbar-title">分享的題目</span>
+            <span />
+          </div>
+          {q ? (
+            <QuestionView
+              q={q} chosen={null} revealed onChoose={() => {}} index={0} total={1}
+              favorited={(progress.favorites || []).includes(q.id)}
+              onToggleFav={toggleFavorite}
+              note={(progress.notes || {})[q.id]}
+              onSetNote={setNote}
+              onReport={openFeedback}
+            />
+          ) : <p className="empty">找不到這題。</p>}
         </div>
-        {q ? (
-          <QuestionView
-            q={q} chosen={null} revealed onChoose={() => {}} index={0} total={1}
-            favorited={(progress.favorites || []).includes(q.id)}
-            onToggleFav={toggleFavorite}
-            note={(progress.notes || {})[q.id]}
-            onSetNote={setNote}
-            onReport={openFeedback}
-          />
-        ) : <p className="empty">找不到這題。</p>}
-      </div>
+        {feedback && <FeedbackModal init={feedback} onClose={() => setFeedback(null)} />}
+      </>
     )
   }
 
   if (view === 'search') {
     return (
-      <Search
-        questions={session}
-        progress={progress}
-        onToggleFav={toggleFavorite}
-        onSetNote={setNote}
-        onReport={openFeedback}
-        onExit={() => setView('home')}
-      />
+      <>
+        <Search
+          questions={session}
+          progress={progress}
+          onToggleFav={toggleFavorite}
+          onSetNote={setNote}
+          onReport={openFeedback}
+          onExit={() => setView('home')}
+        />
+        {feedback && <FeedbackModal init={feedback} onClose={() => setFeedback(null)} />}
+      </>
     )
   }
 
   if (view === 'mock') {
     return (
-      <Mock
-        questions={session}
-        progress={progress}
-        onAnswer={recordAnswer}
-        onToggleFav={toggleFavorite}
-        onSetNote={setNote}
-        onReport={openFeedback}
-        onExit={() => setView('home')}
-      />
+      <>
+        <Mock
+          questions={session}
+          progress={progress}
+          onAnswer={recordAnswer}
+          onToggleFav={toggleFavorite}
+          onSetNote={setNote}
+          onReport={openFeedback}
+          onExit={() => setView('home')}
+        />
+        {feedback && <FeedbackModal init={feedback} onClose={() => setFeedback(null)} />}
+      </>
     )
   }
 
